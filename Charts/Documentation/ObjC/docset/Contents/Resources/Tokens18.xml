@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRConstraint.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRConstraint</TokenIdentifier>
+			<Abstract type="html">Allows a constraint behaviour to be attached to a chart.</Abstract>
+			<DeclaredIn>Constraint.h</DeclaredIn>
+            
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRConstraint/behaviour</TokenIdentifier>
+			<Abstract type="html">The current behaviour.</Abstract>
+			<DeclaredIn>Constraint.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRConstraint/setBehaviour:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id&lt;TRConstraintBehaviour&gt;)behaviour</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current behaviour.</Abstract></ReturnValue>
+			<Anchor>//api/name/behaviour</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRConstraint/setBehaviour:</TokenIdentifier>
+			<Abstract type="html">The new behaviour.</Abstract>
+			<DeclaredIn>Constraint.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRConstraint/behaviour</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setBehaviour:(id&lt;TRConstraintBehaviour&gt;)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new behaviour.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setBehaviour:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,32 @@
+#!/bin/sh
+
+PROJECT_DIR=$1
+PROJECT_NAME=$2
+CONFIGURATION=$3
+PRODUCT_NAME=${PROJECT_NAME}
+PROJECT_FILE_PATH=${PROJECT_DIR}/${PROJECT_NAME}.xcodeproj
+SDK_VERSION=7.1
+SDK_1=iphoneos${SDK_VERSION}
+SDK_2=iphonesimulator${SDK_VERSION}
+BUILD_PATH=build/${PROJECT_NAME}
+SCHEME=${PROJECT_NAME}
+LIB_PATH=lib
+FRAMEWORK_PATH=${LIB_PATH}/${PRODUCT_NAME}.framework
+FRAMEWORK_VERSION=A
+BUILD_OUTPUT_PATH=${BUILD_PATH}/Build/Products
+BUILD_OUTPUT_PATH_1=${BUILD_OUTPUT_PATH}/${CONFIGURATION}-iphoneos
+BUILD_OUTPUT_PATH_2=${BUILD_OUTPUT_PATH}/${CONFIGURATION}-iphonesimulator
+BUILD_OUTPUT_LIBNAME=lib${PRODUCT_NAME}.a
+
+mkdir -p "${FRAMEWORK_PATH}/Versions/${FRAMEWORK_VERSION}/Headers"
+
+ln -sfh "${FRAMEWORK_VERSION}" "${FRAMEWORK_PATH}/Versions/Current"
+ln -sfh "Versions/Current/Headers" "${FRAMEWORK_PATH}/Headers"
+ln -sfh "Versions/Current/${PRODUCT_NAME}" "${FRAMEWORK_PATH}/${PRODUCT_NAME}"
+
+xcodebuild -project "${PROJECT_FILE_PATH}" -sdk "${SDK_1}" -scheme "${SCHEME}" -configuration "${CONFIGURATION}" -derivedDataPath "${BUILD_PATH}" build
+xcodebuild -project "${PROJECT_FILE_PATH}" -sdk "${SDK_2}" -scheme "${SCHEME}" -configuration "${CONFIGURATION}" -derivedDataPath "${BUILD_PATH}" build
+
+cp -a "${BUILD_OUTPUT_PATH_1}/usr/local/include/" "${FRAMEWORK_PATH}/Versions/${FRAMEWORK_VERSION}/Headers"
+
+lipo -create "${BUILD_OUTPUT_PATH_1}/${BUILD_OUTPUT_LIBNAME}" "${BUILD_OUTPUT_PATH_2}/${BUILD_OUTPUT_LIBNAME}" -output "${FRAMEWORK_PATH}/Versions/${FRAMEWORK_VERSION}/${PRODUCT_NAME}"

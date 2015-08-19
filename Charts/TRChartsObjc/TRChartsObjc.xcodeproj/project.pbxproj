@@ -1,0 +1,1931 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C17A9E31183E310B0074ABB5 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C17A9E36183E310B0074ABB5 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				C17A9E5E183E32AC0074ABB5 /* ShellScript */,
+			);
+			dependencies = (
+				C17A9E5B183E328E0074ABB5 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		C17A9E09183E27B10074ABB5 /* Charts.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8EDAB18218FE400F835F4 /* Charts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E0A183E2A440074ABB5 /* Chart.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8EDA918218FE400F835F4 /* Chart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E37183E32220074ABB5 /* Font.h in Headers */ = {isa = PBXBuildFile; fileRef = D95437A1182D49E70078F67C /* Font.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E3A183E32220074ABB5 /* Axis.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8ED9A18218FE400F835F4 /* Axis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E3C183E32220074ABB5 /* BandSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8ED9D18218FE400F835F4 /* BandSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E3E183E32220074ABB5 /* BasicNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C5FF4E182BB08900B63E09 /* BasicNumberFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E3F183E32220074ABB5 /* CandlestickSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8EDA518218FE400F835F4 /* CandlestickSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E40183E32220074ABB5 /* CategoryAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8EDA718218FE400F835F4 /* CategoryAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E41183E32220074ABB5 /* ChartElement.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C5FF52182BB08900B63E09 /* ChartElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E42183E32220074ABB5 /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C5FF54182BB08900B63E09 /* Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E43183E32220074ABB5 /* ContinuousAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8EDAC18218FE400F835F4 /* ContinuousAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E44183E32220074ABB5 /* ContinuousDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8EDD11821914F00F835F4 /* ContinuousDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E45183E32220074ABB5 /* ContinuousDatum.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8EDD21821914F00F835F4 /* ContinuousDatum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E47183E32220074ABB5 /* ContinuousSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8EDD31821914F00F835F4 /* ContinuousSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E4B183E32220074ABB5 /* FixedRangeCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C5FF62182BB08900B63E09 /* FixedRangeCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E4C183E32220074ABB5 /* IndexRange.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C5FF64182BB08900B63E09 /* IndexRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E4D183E32220074ABB5 /* LineSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8EDAF18218FE400F835F4 /* LineSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E4E183E32220074ABB5 /* Margin.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C5FF66182BB08900B63E09 /* Margin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E4F183E32220074ABB5 /* NumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C5FF68182BB08900B63E09 /* NumberFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E50183E32220074ABB5 /* OHLC.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E6279D1822DED300FCFB86 /* OHLC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E51183E32220074ABB5 /* OHLCDatum.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8EDD51821914F00F835F4 /* OHLCDatum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E52183E32220074ABB5 /* Point.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E6278F1822D9C600FCFB86 /* Point.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E53183E32220074ABB5 /* Range.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E627A11822DED300FCFB86 /* Range.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E54183E32220074ABB5 /* RangeDatum.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8EDD61821914F00F835F4 /* RangeDatum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E55183E32220074ABB5 /* ScalarDatum.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8EDD71821914F00F835F4 /* ScalarDatum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E56183E32220074ABB5 /* Series.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8EDB118218FE400F835F4 /* Series.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E57183E32220074ABB5 /* SteppedBandSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8EDB318218FE400F835F4 /* SteppedBandSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17A9E58183E32220074ABB5 /* SteppedLineSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8EDB518218FE400F835F4 /* SteppedLineSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91771641844CCA600DD2A15 /* PointSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = D91771621844CCA600DD2A15 /* PointSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91771651844CCA600DD2A15 /* PointSeries.mm in Sources */ = {isa = PBXBuildFile; fileRef = D91771631844CCA600DD2A15 /* PointSeries.mm */; };
+		D91B4E8F185F1EA000A81352 /* LogLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = D91B4E8C185F1EA000A81352 /* LogLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91B4F33185F7D6800A81352 /* libTRCharts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D91B4F2C185F7D0A00A81352 /* libTRCharts.a */; };
+		D9289FDA18573C92001E19E2 /* SuffixNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D9289FD818573C92001E19E2 /* SuffixNumberFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9289FDB18573C92001E19E2 /* SuffixNumberFormatter.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9289FD918573C92001E19E2 /* SuffixNumberFormatter.mm */; };
+		D93AEFAA1888C23B009346CE /* TestUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = D93AEFA91888C23B009346CE /* TestUtils.mm */; };
+		D93EA91F18880B6300EB403B /* FontStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D95437A6182D4CAF0078F67C /* FontStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA92018880B6300EB403B /* ColorStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9C5FF78182BB09500B63E09 /* ColorStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA92118880B6300EB403B /* IndexRangeStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9C5FF87182BB09600B63E09 /* IndexRangeStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA92218880B6300EB403B /* MarginStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9C5FF89182BB09600B63E09 /* MarginStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA92318880B6300EB403B /* NumberFormatterInterfaceMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9C5FF8B182BB09600B63E09 /* NumberFormatterInterfaceMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA92418880B6300EB403B /* OHLCStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9E627941822DEC300FCFB86 /* OHLCStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA92518880B6300EB403B /* PointStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9E627961822DEC300FCFB86 /* PointStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA92618880B6300EB403B /* RangeStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9E627981822DEC300FCFB86 /* RangeStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA92818880B6300EB403B /* Common.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9E6275A1822B38A00FCFB86 /* Common.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA92918880B6300EB403B /* ContinuousDataSourceInterfaceMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9E6275C1822B38A00FCFB86 /* ContinuousDataSourceInterfaceMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA92A18880B6300EB403B /* ContinuousDataSourceInterfaceMarshaller.impl.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9E6275D1822B38A00FCFB86 /* ContinuousDataSourceInterfaceMarshaller.impl.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA92B18880B6300EB403B /* ContinuousDatumStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9E6275F1822B38A00FCFB86 /* ContinuousDatumStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA93118880B6300EB403B /* Marshallers.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9E627671822B38A00FCFB86 /* Marshallers.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA93418880B6300EB403B /* OHLCDatumStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9E6276C1822B38A00FCFB86 /* OHLCDatumStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA93518880B6300EB403B /* RangeDatumStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9E6276E1822B38A00FCFB86 /* RangeDatumStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA93618880B6300EB403B /* ScalarDatumStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9E627701822B38A00FCFB86 /* ScalarDatumStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA94E18881DF700EB403B /* DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D93EA94918881DF700EB403B /* DateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D93EA94F18881DF700EB403B /* PerUnitDateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D93EA94A18881DF700EB403B /* PerUnitDateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D93EA95018881DF700EB403B /* PerUnitDateFormatter.mm in Sources */ = {isa = PBXBuildFile; fileRef = D93EA94B18881DF700EB403B /* PerUnitDateFormatter.mm */; };
+		D93EA95318881E0700EB403B /* DateFormatterInterfaceMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D93EA95118881E0700EB403B /* DateFormatterInterfaceMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA95418881E0700EB403B /* DateFormatterInterfaceMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D93EA95218881E0700EB403B /* DateFormatterInterfaceMarshaller.mm */; };
+		D93EA9641888329A00EB403B /* TickAligningRangeCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D93EA9621888329900EB403B /* TickAligningRangeCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D93EA9651888329A00EB403B /* TickAligningRangeCalculator.mm in Sources */ = {isa = PBXBuildFile; fileRef = D93EA9631888329A00EB403B /* TickAligningRangeCalculator.mm */; };
+		D93EA967188840FC00EB403B /* ResizeMode.h in Headers */ = {isa = PBXBuildFile; fileRef = D93EA966188840FC00EB403B /* ResizeMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D93EA96B1888465000EB403B /* DateIntervalStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D93EA9691888465000EB403B /* DateIntervalStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D93EA96C1888465000EB403B /* DateIntervalStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D93EA96A1888465000EB403B /* DateIntervalStructMarshaller.mm */; };
+		D93EA96F1888465D00EB403B /* DateInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = D93EA96D1888465D00EB403B /* DateInterval.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D93EA9701888465D00EB403B /* DateInterval.mm in Sources */ = {isa = PBXBuildFile; fileRef = D93EA96E1888465D00EB403B /* DateInterval.mm */; };
+		D9453773187C262B00B6AC7F /* ColorSourceInterfaceMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D945376D187C262B00B6AC7F /* ColorSourceInterfaceMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D9453774187C262B00B6AC7F /* ColorSourceInterfaceMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D945376E187C262B00B6AC7F /* ColorSourceInterfaceMarshaller.mm */; };
+		D9453775187C262B00B6AC7F /* LineStyleSourceInterfaceMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D945376F187C262B00B6AC7F /* LineStyleSourceInterfaceMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D9453776187C262B00B6AC7F /* LineStyleSourceInterfaceMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9453770187C262B00B6AC7F /* LineStyleSourceInterfaceMarshaller.mm */; };
+		D9453777187C262B00B6AC7F /* LineStyleStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9453771187C262B00B6AC7F /* LineStyleStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D9453778187C262B00B6AC7F /* LineStyleStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9453772187C262B00B6AC7F /* LineStyleStructMarshaller.mm */; };
+		D945377E187C264600B6AC7F /* ColorSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D9453779187C264600B6AC7F /* ColorSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D945377F187C264600B6AC7F /* LineMode.h in Headers */ = {isa = PBXBuildFile; fileRef = D945377A187C264600B6AC7F /* LineMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9453780187C264600B6AC7F /* LineStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = D945377B187C264600B6AC7F /* LineStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9453781187C264700B6AC7F /* LineStyle.mm in Sources */ = {isa = PBXBuildFile; fileRef = D945377C187C264600B6AC7F /* LineStyle.mm */; };
+		D9453782187C264700B6AC7F /* LineStyleSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D945377D187C264600B6AC7F /* LineStyleSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D945430C18A2FB0A00A77D11 /* libTRChartsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D91B4F2E185F7D0A00A81352 /* libTRChartsTests.a */; };
+		D945430F18A2FCCB00A77D11 /* GeneratedNativeTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D945430E18A2FCCB00A77D11 /* GeneratedNativeTests.mm */; };
+		D945D96218805ED600DBA754 /* Attachable.h in Headers */ = {isa = PBXBuildFile; fileRef = D945D95E18805ED600DBA754 /* Attachable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D945D96318805ED600DBA754 /* Attachable.mm in Sources */ = {isa = PBXBuildFile; fileRef = D945D95F18805ED600DBA754 /* Attachable.mm */; };
+		D94BE36D1888912100E5E399 /* AbstractNumberAxisGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3461888912100E5E399 /* AbstractNumberAxisGeneratedTests.mm */; };
+		D94BE36F1888912100E5E399 /* AreaSeriesGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3481888912100E5E399 /* AreaSeriesGeneratedTests.mm */; };
+		D94BE3701888912100E5E399 /* AttachableGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3491888912100E5E399 /* AttachableGeneratedTests.mm */; };
+		D94BE3711888912100E5E399 /* AutomaticDateTickCalculatorGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE34A1888912100E5E399 /* AutomaticDateTickCalculatorGeneratedTests.mm */; };
+		D94BE3721888912100E5E399 /* AutomaticNumberTickCalculatorGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE34B1888912100E5E399 /* AutomaticNumberTickCalculatorGeneratedTests.mm */; };
+		D94BE3741888912100E5E399 /* AxisGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE34D1888912100E5E399 /* AxisGeneratedTests.mm */; };
+		D94BE3751888912100E5E399 /* BandSeriesGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE34E1888912100E5E399 /* BandSeriesGeneratedTests.mm */; };
+		D94BE3771888912100E5E399 /* BasicNumberFormatterGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3501888912100E5E399 /* BasicNumberFormatterGeneratedTests.mm */; };
+		D94BE3781888912100E5E399 /* CandlestickSeriesGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3511888912100E5E399 /* CandlestickSeriesGeneratedTests.mm */; };
+		D94BE3791888912100E5E399 /* CategoryAxisGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3521888912100E5E399 /* CategoryAxisGeneratedTests.mm */; };
+		D94BE37A1888912100E5E399 /* ChartElementGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3531888912100E5E399 /* ChartElementGeneratedTests.mm */; };
+		D94BE37B1888912100E5E399 /* ChartGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3541888912100E5E399 /* ChartGeneratedTests.mm */; };
+		D94BE37D1888912100E5E399 /* ContinuousAxisGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3561888912100E5E399 /* ContinuousAxisGeneratedTests.mm */; };
+		D94BE37E1888912100E5E399 /* DateAxisGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3571888912100E5E399 /* DateAxisGeneratedTests.mm */; };
+		D94BE37F1888912100E5E399 /* DecorationGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3581888912100E5E399 /* DecorationGeneratedTests.mm */; };
+		D94BE3801888912100E5E399 /* DrawableGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3591888912100E5E399 /* DrawableGeneratedTests.mm */; };
+		D94BE3811888912100E5E399 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D94BE35A1888912100E5E399 /* en.lproj */; };
+		D94BE3821888912100E5E399 /* FixedDateTickCalculatorGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE35B1888912100E5E399 /* FixedDateTickCalculatorGeneratedTests.mm */; };
+		D94BE3831888912100E5E399 /* FixedNumberTickCalculatorGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE35C1888912100E5E399 /* FixedNumberTickCalculatorGeneratedTests.mm */; };
+		D94BE3841888912100E5E399 /* FixedRangeCalculatorGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE35D1888912100E5E399 /* FixedRangeCalculatorGeneratedTests.mm */; };
+		D94BE3851888912100E5E399 /* LabelGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE35E1888912100E5E399 /* LabelGeneratedTests.mm */; };
+		D94BE3861888912100E5E399 /* LineDecorationGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE35F1888912100E5E399 /* LineDecorationGeneratedTests.mm */; };
+		D94BE3871888912100E5E399 /* LineSeriesGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3601888912100E5E399 /* LineSeriesGeneratedTests.mm */; };
+		D94BE3891888912100E5E399 /* NumberAxisGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3621888912100E5E399 /* NumberAxisGeneratedTests.mm */; };
+		D94BE38A1888912100E5E399 /* PerUnitDateFormatterGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3631888912100E5E399 /* PerUnitDateFormatterGeneratedTests.mm */; };
+		D94BE38B1888912100E5E399 /* PointDecorationGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3641888912100E5E399 /* PointDecorationGeneratedTests.mm */; };
+		D94BE38C1888912100E5E399 /* PointSeriesGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3651888912100E5E399 /* PointSeriesGeneratedTests.mm */; };
+		D94BE38D1888912100E5E399 /* SeriesGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3661888912100E5E399 /* SeriesGeneratedTests.mm */; };
+		D94BE38E1888912100E5E399 /* SteppedAreaSeriesGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3671888912100E5E399 /* SteppedAreaSeriesGeneratedTests.mm */; };
+		D94BE38F1888912100E5E399 /* SteppedBandSeriesGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3681888912100E5E399 /* SteppedBandSeriesGeneratedTests.mm */; };
+		D94BE3901888912100E5E399 /* SteppedLineSeriesGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3691888912100E5E399 /* SteppedLineSeriesGeneratedTests.mm */; };
+		D94BE3911888912100E5E399 /* SuffixNumberFormatterGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE36A1888912100E5E399 /* SuffixNumberFormatterGeneratedTests.mm */; };
+		D94BE3921888912100E5E399 /* TickAligningRangeCalculatorGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE36B1888912100E5E399 /* TickAligningRangeCalculatorGeneratedTests.mm */; };
+		D94BE3BF1888985400E5E399 /* ContinuousSeriesGeneratedTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94BE3BD1888985400E5E399 /* ContinuousSeriesGeneratedTests.mm */; };
+		D94BE3C41888996A00E5E399 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94BE3C31888996A00E5E399 /* OpenGLES.framework */; };
+		D94BE3C51888998800E5E399 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17A9DF1183E1F880074ABB5 /* CoreGraphics.framework */; };
+		D94BE3C71888999900E5E399 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94BE3C61888999900E5E399 /* CoreText.framework */; };
+		D94DA9F51888D515003E1025 /* AbstractNumberAxisTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9A91888D515003E1025 /* AbstractNumberAxisTests.mm */; };
+		D94DA9F71888D515003E1025 /* AreaSeriesTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9AD1888D515003E1025 /* AreaSeriesTests.mm */; };
+		D94DA9F81888D515003E1025 /* AttachableTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9AF1888D515003E1025 /* AttachableTests.mm */; };
+		D94DA9F91888D515003E1025 /* AutomaticDateTickCalculatorTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9B11888D515003E1025 /* AutomaticDateTickCalculatorTests.mm */; };
+		D94DA9FA1888D515003E1025 /* AutomaticNumberTickCalculatorTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9B31888D515003E1025 /* AutomaticNumberTickCalculatorTests.mm */; };
+		D94DA9FC1888D515003E1025 /* AxisTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9B71888D515003E1025 /* AxisTests.mm */; };
+		D94DA9FD1888D515003E1025 /* BandSeriesTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9B91888D515003E1025 /* BandSeriesTests.mm */; };
+		D94DA9FF1888D515003E1025 /* BasicNumberFormatterTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9BD1888D515003E1025 /* BasicNumberFormatterTests.mm */; };
+		D94DAA001888D515003E1025 /* CandlestickSeriesTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9BF1888D515003E1025 /* CandlestickSeriesTests.mm */; };
+		D94DAA011888D515003E1025 /* CategoryAxisTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9C11888D515003E1025 /* CategoryAxisTests.mm */; };
+		D94DAA021888D515003E1025 /* ChartElementTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9C31888D515003E1025 /* ChartElementTests.mm */; };
+		D94DAA031888D515003E1025 /* ChartTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9C51888D515003E1025 /* ChartTests.mm */; };
+		D94DAA051888D515003E1025 /* ContinuousAxisTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9C91888D515003E1025 /* ContinuousAxisTests.mm */; };
+		D94DAA061888D515003E1025 /* ContinuousSeriesTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9CB1888D515003E1025 /* ContinuousSeriesTests.mm */; };
+		D94DAA071888D515003E1025 /* DateAxisTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9CD1888D515003E1025 /* DateAxisTests.mm */; };
+		D94DAA081888D515003E1025 /* DecorationTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9CF1888D515003E1025 /* DecorationTests.mm */; };
+		D94DAA091888D515003E1025 /* DrawableTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9D11888D515003E1025 /* DrawableTests.mm */; };
+		D94DAA0A1888D515003E1025 /* FixedDateTickCalculatorTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9D31888D515003E1025 /* FixedDateTickCalculatorTests.mm */; };
+		D94DAA0B1888D515003E1025 /* FixedNumberTickCalculatorTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9D51888D515003E1025 /* FixedNumberTickCalculatorTests.mm */; };
+		D94DAA0C1888D515003E1025 /* FixedRangeCalculatorTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9D71888D515003E1025 /* FixedRangeCalculatorTests.mm */; };
+		D94DAA0D1888D515003E1025 /* LabelTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9D91888D515003E1025 /* LabelTests.mm */; };
+		D94DAA0E1888D515003E1025 /* LineDecorationTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9DB1888D515003E1025 /* LineDecorationTests.mm */; };
+		D94DAA0F1888D515003E1025 /* LineSeriesTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9DD1888D515003E1025 /* LineSeriesTests.mm */; };
+		D94DAA111888D515003E1025 /* NumberAxisTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9E11888D515003E1025 /* NumberAxisTests.mm */; };
+		D94DAA121888D515003E1025 /* PerUnitDateFormatterTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9E31888D515003E1025 /* PerUnitDateFormatterTests.mm */; };
+		D94DAA131888D515003E1025 /* PointDecorationTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9E51888D515003E1025 /* PointDecorationTests.mm */; };
+		D94DAA141888D515003E1025 /* PointSeriesTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9E71888D515003E1025 /* PointSeriesTests.mm */; };
+		D94DAA151888D515003E1025 /* SeriesTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9E91888D515003E1025 /* SeriesTests.mm */; };
+		D94DAA161888D515003E1025 /* SteppedAreaSeriesTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9EB1888D515003E1025 /* SteppedAreaSeriesTests.mm */; };
+		D94DAA171888D515003E1025 /* SteppedBandSeriesTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9ED1888D515003E1025 /* SteppedBandSeriesTests.mm */; };
+		D94DAA181888D515003E1025 /* SteppedLineSeriesTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9EF1888D515003E1025 /* SteppedLineSeriesTests.mm */; };
+		D94DAA191888D515003E1025 /* SuffixNumberFormatterTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9F11888D515003E1025 /* SuffixNumberFormatterTests.mm */; };
+		D94DAA1A1888D515003E1025 /* TickAligningRangeCalculatorTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94DA9F31888D515003E1025 /* TickAligningRangeCalculatorTests.mm */; };
+		D95437A3182D49E70078F67C /* Font.mm in Sources */ = {isa = PBXBuildFile; fileRef = D95437A2182D49E70078F67C /* Font.mm */; };
+		D95437A8182D4CAF0078F67C /* FontStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D95437A7182D4CAF0078F67C /* FontStructMarshaller.mm */; };
+		D95731C518C9D4F300D98270 /* AbstractDateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D95731C018C9D4F300D98270 /* AbstractDateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D95731C618C9D4F300D98270 /* AbstractDateFormatter.mm in Sources */ = {isa = PBXBuildFile; fileRef = D95731C118C9D4F300D98270 /* AbstractDateFormatter.mm */; };
+		D95731C718C9D4F300D98270 /* BasicDateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D95731C218C9D4F300D98270 /* BasicDateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D95731C818C9D4F300D98270 /* BasicDateFormatter.mm in Sources */ = {isa = PBXBuildFile; fileRef = D95731C318C9D4F300D98270 /* BasicDateFormatter.mm */; };
+		D95731C918C9D4F300D98270 /* FormatSyntax.h in Headers */ = {isa = PBXBuildFile; fileRef = D95731C418C9D4F300D98270 /* FormatSyntax.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D95731EF18C9E45D00D98270 /* AnimationEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = D95731E718C9E45D00D98270 /* AnimationEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D95731F318C9E45D00D98270 /* FadeInEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = D95731EB18C9E45D00D98270 /* FadeInEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D95731F418C9E45D00D98270 /* FadeInEffect.mm in Sources */ = {isa = PBXBuildFile; fileRef = D95731EC18C9E45D00D98270 /* FadeInEffect.mm */; };
+		D95731F518C9E45D00D98270 /* FadeOutEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = D95731ED18C9E45D00D98270 /* FadeOutEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D95731F618C9E45D00D98270 /* FadeOutEffect.mm in Sources */ = {isa = PBXBuildFile; fileRef = D95731EE18C9E45D00D98270 /* FadeOutEffect.mm */; };
+		D95731F918C9E46900D98270 /* AnimationEffectInterfaceMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D95731F718C9E46900D98270 /* AnimationEffectInterfaceMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D95731FA18C9E46900D98270 /* AnimationEffectInterfaceMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D95731F818C9E46900D98270 /* AnimationEffectInterfaceMarshaller.mm */; };
+		D957320318CA10D200D98270 /* Edge.h in Headers */ = {isa = PBXBuildFile; fileRef = D957320218CA10D200D98270 /* Edge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D96D0D7F185A1D0000555656 /* Drawable.h in Headers */ = {isa = PBXBuildFile; fileRef = D96D0D79185A1D0000555656 /* Drawable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D96D0D80185A1D0000555656 /* Drawable.mm in Sources */ = {isa = PBXBuildFile; fileRef = D96D0D7A185A1D0000555656 /* Drawable.mm */; };
+		D96D0D81185A1D0000555656 /* Label.h in Headers */ = {isa = PBXBuildFile; fileRef = D96D0D7B185A1D0000555656 /* Label.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D96D0D82185A1D0000555656 /* Label.mm in Sources */ = {isa = PBXBuildFile; fileRef = D96D0D7C185A1D0000555656 /* Label.mm */; };
+		D96D0D83185A1D0000555656 /* Size.h in Headers */ = {isa = PBXBuildFile; fileRef = D96D0D7D185A1D0000555656 /* Size.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D96D0D84185A1D0000555656 /* Size.mm in Sources */ = {isa = PBXBuildFile; fileRef = D96D0D7E185A1D0000555656 /* Size.mm */; };
+		D96D0D88185A1D1C00555656 /* SizeStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D96D0D86185A1D1C00555656 /* SizeStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D96D0D89185A1D1C00555656 /* SizeStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D96D0D87185A1D1C00555656 /* SizeStructMarshaller.mm */; };
+		D973C3511898002A006426A5 /* LogHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D973C3501898002A006426A5 /* LogHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D973C35518980035006426A5 /* LogHandlerInterfaceMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D973C35318980035006426A5 /* LogHandlerInterfaceMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D973C35618980035006426A5 /* LogHandlerInterfaceMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D973C35418980035006426A5 /* LogHandlerInterfaceMarshaller.mm */; };
+		D97AE49C18D7433F007BAF6F /* Constraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D97AE49518D7433F007BAF6F /* Constraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D97AE49D18D7433F007BAF6F /* Constraint.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97AE49618D7433F007BAF6F /* Constraint.mm */; };
+		D97AE49E18D7433F007BAF6F /* ConstraintBehaviour.h in Headers */ = {isa = PBXBuildFile; fileRef = D97AE49718D7433F007BAF6F /* ConstraintBehaviour.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D97AE49F18D7433F007BAF6F /* Transform.h in Headers */ = {isa = PBXBuildFile; fileRef = D97AE49818D7433F007BAF6F /* Transform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D97AE4A018D7433F007BAF6F /* Transform.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97AE49918D7433F007BAF6F /* Transform.mm */; };
+		D97AE4A718D74350007BAF6F /* ConstraintBehaviourInterfaceMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D97AE4A118D74350007BAF6F /* ConstraintBehaviourInterfaceMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D97AE4A818D74350007BAF6F /* ConstraintBehaviourInterfaceMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97AE4A218D74350007BAF6F /* ConstraintBehaviourInterfaceMarshaller.mm */; };
+		D97AE4AB18D74350007BAF6F /* TransformStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D97AE4A518D74350007BAF6F /* TransformStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D97AE4AC18D74350007BAF6F /* TransformStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97AE4A618D74350007BAF6F /* TransformStructMarshaller.mm */; };
+		D97AE4BC18D750F5007BAF6F /* TouchStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D97AE4BA18D750F5007BAF6F /* TouchStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D97AE4BD18D750F5007BAF6F /* TouchStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97AE4BB18D750F5007BAF6F /* TouchStructMarshaller.mm */; };
+		D97AE4C018D75101007BAF6F /* Touch.h in Headers */ = {isa = PBXBuildFile; fileRef = D97AE4BE18D75101007BAF6F /* Touch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D97AE4C118D75101007BAF6F /* Touch.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97AE4BF18D75101007BAF6F /* Touch.mm */; };
+		D97C8B5718C625CA000C9128 /* AxisLayoutInterfaceMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D97C8B5118C625CA000C9128 /* AxisLayoutInterfaceMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D97C8B5818C625CA000C9128 /* AxisLayoutInterfaceMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97C8B5218C625CA000C9128 /* AxisLayoutInterfaceMarshaller.mm */; };
+		D97C8B5918C625CA000C9128 /* DataTransformStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D97C8B5318C625CA000C9128 /* DataTransformStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D97C8B5A18C625CA000C9128 /* DataTransformStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97C8B5418C625CA000C9128 /* DataTransformStructMarshaller.mm */; };
+		D97C8B5B18C625CA000C9128 /* RenderableInterfaceMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D97C8B5518C625CA000C9128 /* RenderableInterfaceMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D97C8B5C18C625CA000C9128 /* RenderableInterfaceMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97C8B5618C625CA000C9128 /* RenderableInterfaceMarshaller.mm */; };
+		D97C8B6218C625FC000C9128 /* AxisLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D97C8B5D18C625FC000C9128 /* AxisLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D97C8B6318C625FC000C9128 /* DataTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D97C8B5E18C625FC000C9128 /* DataTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D97C8B6418C625FC000C9128 /* DataTransform.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97C8B5F18C625FC000C9128 /* DataTransform.mm */; };
+		D98CC8AC1847703B000D7B0C /* Decoration.h in Headers */ = {isa = PBXBuildFile; fileRef = D98CC8A81847703B000D7B0C /* Decoration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D98CC8AD1847703B000D7B0C /* Decoration.mm in Sources */ = {isa = PBXBuildFile; fileRef = D98CC8A91847703B000D7B0C /* Decoration.mm */; };
+		D98CC8AE1847703B000D7B0C /* LineDecoration.h in Headers */ = {isa = PBXBuildFile; fileRef = D98CC8AA1847703B000D7B0C /* LineDecoration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D98CC8AF1847703B000D7B0C /* LineDecoration.mm in Sources */ = {isa = PBXBuildFile; fileRef = D98CC8AB1847703B000D7B0C /* LineDecoration.mm */; };
+		D99DC681189683310050337D /* FontHint.h in Headers */ = {isa = PBXBuildFile; fileRef = D99DC680189683310050337D /* FontHint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9A6A9EE18D9FEE3005C98CB /* DataOffsetConstraintBehaviour.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6A9EA18D9FEE3005C98CB /* DataOffsetConstraintBehaviour.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9A6A9EF18D9FEE3005C98CB /* DataOffsetConstraintBehaviour.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9A6A9EB18D9FEE3005C98CB /* DataOffsetConstraintBehaviour.mm */; };
+		D9A6A9F018D9FEE3005C98CB /* DataScaleConstraintBehaviour.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6A9EC18D9FEE3005C98CB /* DataScaleConstraintBehaviour.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9A6A9F118D9FEE3005C98CB /* DataScaleConstraintBehaviour.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9A6A9ED18D9FEE3005C98CB /* DataScaleConstraintBehaviour.mm */; };
+		D9C5FF6A182BB08900B63E09 /* BasicNumberFormatter.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FF4F182BB08900B63E09 /* BasicNumberFormatter.mm */; };
+		D9C5FF6C182BB08900B63E09 /* ChartElement.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FF53182BB08900B63E09 /* ChartElement.mm */; };
+		D9C5FF6D182BB08900B63E09 /* Color.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FF55182BB08900B63E09 /* Color.mm */; };
+		D9C5FF72182BB08900B63E09 /* FixedRangeCalculator.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FF63182BB08900B63E09 /* FixedRangeCalculator.mm */; };
+		D9C5FF73182BB08900B63E09 /* IndexRange.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FF65182BB08900B63E09 /* IndexRange.mm */; };
+		D9C5FF74182BB08900B63E09 /* Margin.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FF67182BB08900B63E09 /* Margin.mm */; };
+		D9C5FF8E182BB09600B63E09 /* ColorStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FF7A182BB09500B63E09 /* ColorStructMarshaller.mm */; };
+		D9C5FF95182BB09600B63E09 /* IndexRangeStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FF88182BB09600B63E09 /* IndexRangeStructMarshaller.mm */; };
+		D9C5FF96182BB09600B63E09 /* MarginStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FF8A182BB09600B63E09 /* MarginStructMarshaller.mm */; };
+		D9C5FF97182BB09600B63E09 /* NumberFormatterInterfaceMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FF8C182BB09600B63E09 /* NumberFormatterInterfaceMarshaller.mm */; };
+		D9C6C719189BD570000D12A7 /* Renderable.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C6C718189BD570000D12A7 /* Renderable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9E627731822B38A00FCFB86 /* ContinuousDatumStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E627601822B38A00FCFB86 /* ContinuousDatumStructMarshaller.mm */; };
+		D9E627751822B38A00FCFB86 /* Marshallers.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E627681822B38A00FCFB86 /* Marshallers.mm */; };
+		D9E627761822B38A00FCFB86 /* OHLCDatumStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E6276D1822B38A00FCFB86 /* OHLCDatumStructMarshaller.mm */; };
+		D9E627771822B38A00FCFB86 /* RangeDatumStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E6276F1822B38A00FCFB86 /* RangeDatumStructMarshaller.mm */; };
+		D9E627781822B38A00FCFB86 /* ScalarDatumStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E627711822B38A00FCFB86 /* ScalarDatumStructMarshaller.mm */; };
+		D9E6277F1822BB7D00FCFB86 /* ContinuousDatum.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E6277B1822BB7D00FCFB86 /* ContinuousDatum.mm */; };
+		D9E627801822BB7D00FCFB86 /* OHLCDatum.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E6277C1822BB7D00FCFB86 /* OHLCDatum.mm */; };
+		D9E627811822BB7D00FCFB86 /* RangeDatum.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E6277D1822BB7D00FCFB86 /* RangeDatum.mm */; };
+		D9E627821822BB7D00FCFB86 /* ScalarDatum.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E6277E1822BB7D00FCFB86 /* ScalarDatum.mm */; };
+		D9E627911822D9C600FCFB86 /* Point.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E627901822D9C600FCFB86 /* Point.mm */; };
+		D9E6279A1822DEC300FCFB86 /* OHLCStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E627951822DEC300FCFB86 /* OHLCStructMarshaller.mm */; };
+		D9E6279B1822DEC300FCFB86 /* PointStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E627971822DEC300FCFB86 /* PointStructMarshaller.mm */; };
+		D9E6279C1822DEC300FCFB86 /* RangeStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E627991822DEC300FCFB86 /* RangeStructMarshaller.mm */; };
+		D9E627A31822DED300FCFB86 /* OHLC.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E6279E1822DED300FCFB86 /* OHLC.mm */; };
+		D9E627A51822DED300FCFB86 /* Range.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E627A21822DED300FCFB86 /* Range.mm */; };
+		D9E8D7031816F13000FCD4BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E8D7021816F13000FCD4BF /* Foundation.framework */; };
+		D9E8D7111816F13000FCD4BF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E8D7101816F13000FCD4BF /* XCTest.framework */; };
+		D9E8D7121816F13100FCD4BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E8D7021816F13000FCD4BF /* Foundation.framework */; };
+		D9E8D7171816F13100FCD4BF /* libTRChartsObjc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E8D6FF1816F13000FCD4BF /* libTRChartsObjc.a */; };
+		D9E8D71D1816F13100FCD4BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9E8D71B1816F13100FCD4BF /* InfoPlist.strings */; };
+		D9E8EDB718218FE400F835F4 /* Axis.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E8ED9B18218FE400F835F4 /* Axis.mm */; };
+		D9E8EDB818218FE400F835F4 /* BandSeries.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E8ED9E18218FE400F835F4 /* BandSeries.mm */; };
+		D9E8EDBC18218FE400F835F4 /* CandlestickSeries.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E8EDA618218FE400F835F4 /* CandlestickSeries.mm */; };
+		D9E8EDBD18218FE400F835F4 /* CategoryAxis.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E8EDA818218FE400F835F4 /* CategoryAxis.mm */; };
+		D9E8EDBE18218FE400F835F4 /* Chart.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E8EDAA18218FE400F835F4 /* Chart.mm */; };
+		D9E8EDBF18218FE400F835F4 /* ContinuousAxis.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E8EDAD18218FE400F835F4 /* ContinuousAxis.mm */; };
+		D9E8EDC018218FE400F835F4 /* LineSeries.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E8EDB018218FE400F835F4 /* LineSeries.mm */; };
+		D9E8EDC118218FE400F835F4 /* Series.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E8EDB218218FE400F835F4 /* Series.mm */; };
+		D9E8EDC218218FE400F835F4 /* SteppedBandSeries.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E8EDB418218FE400F835F4 /* SteppedBandSeries.mm */; };
+		D9E8EDC318218FE400F835F4 /* SteppedLineSeries.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E8EDB618218FE400F835F4 /* SteppedLineSeries.mm */; };
+		D9E8EDD81821914F00F835F4 /* ContinuousSeries.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9E8EDD41821914F00F835F4 /* ContinuousSeries.mm */; };
+		D9EA845C18771AC800D85EBF /* Common.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9EA845B18771AC800D85EBF /* Common.mm */; };
+		D9EA917F184CE6B300D8666C /* PointDecoration.h in Headers */ = {isa = PBXBuildFile; fileRef = D9EA917D184CE6B300D8666C /* PointDecoration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9EA9180184CE6B300D8666C /* PointDecoration.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9EA917E184CE6B300D8666C /* PointDecoration.mm */; };
+		D9EEA79818870F1A00DC5AB9 /* AutomaticDateTickCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D9EEA79018870F1A00DC5AB9 /* AutomaticDateTickCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9EEA79918870F1A00DC5AB9 /* AutomaticDateTickCalculator.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9EEA79118870F1A00DC5AB9 /* AutomaticDateTickCalculator.mm */; };
+		D9EEA79A18870F1A00DC5AB9 /* DateAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = D9EEA79218870F1A00DC5AB9 /* DateAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9EEA79B18870F1A00DC5AB9 /* DateAxis.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9EEA79318870F1A00DC5AB9 /* DateAxis.mm */; };
+		D9EEA79C18870F1A00DC5AB9 /* DateTickCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D9EEA79418870F1A00DC5AB9 /* DateTickCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9EEA79F18870F1A00DC5AB9 /* DateUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = D9EEA79718870F1A00DC5AB9 /* DateUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9EEA7A418870F2800DC5AB9 /* DateTickCalculatorInterfaceMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9EEA7A018870F2800DC5AB9 /* DateTickCalculatorInterfaceMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D9EEA7A518870F2800DC5AB9 /* DateTickCalculatorInterfaceMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9EEA7A118870F2800DC5AB9 /* DateTickCalculatorInterfaceMarshaller.mm */; };
+		D9EEA7B31887129E00DC5AB9 /* FixedDateTickCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D9EEA7B11887129E00DC5AB9 /* FixedDateTickCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9EEA7B41887129E00DC5AB9 /* FixedDateTickCalculator.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9EEA7B21887129E00DC5AB9 /* FixedDateTickCalculator.mm */; };
+		D9EFEB7A188977E400F52866 /* Charts.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9EFEB79188977E400F52866 /* Charts.mm */; };
+		D9EFEB7E1889987700F52866 /* PointStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = D9EFEB7C1889987700F52866 /* PointStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9EFEB7F1889987700F52866 /* PointStyle.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9EFEB7D1889987700F52866 /* PointStyle.mm */; };
+		D9EFEB821889988200F52866 /* PointStyleStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9EFEB801889988200F52866 /* PointStyleStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D9EFEB831889988200F52866 /* PointStyleStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9EFEB811889988200F52866 /* PointStyleStructMarshaller.mm */; };
+		D9F8A78A187ED3B200883DBF /* CoordinatesStructMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9F8A788187ED3B200883DBF /* CoordinatesStructMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D9F8A78B187ED3B200883DBF /* CoordinatesStructMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A789187ED3B200883DBF /* CoordinatesStructMarshaller.mm */; };
+		D9F8A791187ED3E900883DBF /* Coordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F8A78D187ED3E900883DBF /* Coordinates.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F8A792187ED3E900883DBF /* Coordinates.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A78E187ED3E900883DBF /* Coordinates.mm */; };
+		D9F8A7BF187F0AE100883DBF /* AbstractNumberAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F8A7B4187F0AE100883DBF /* AbstractNumberAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F8A7C0187F0AE100883DBF /* AbstractNumberAxis.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7B5187F0AE100883DBF /* AbstractNumberAxis.mm */; };
+		D9F8A7C1187F0AE100883DBF /* AutomaticNumberTickCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F8A7B6187F0AE100883DBF /* AutomaticNumberTickCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F8A7C2187F0AE100883DBF /* AutomaticNumberTickCalculator.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7B7187F0AE100883DBF /* AutomaticNumberTickCalculator.mm */; };
+		D9F8A7C4187F0AE100883DBF /* FixedNumberTickCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F8A7B9187F0AE100883DBF /* FixedNumberTickCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F8A7C5187F0AE100883DBF /* FixedNumberTickCalculator.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7BA187F0AE100883DBF /* FixedNumberTickCalculator.mm */; };
+		D9F8A7C6187F0AE100883DBF /* NumberAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F8A7BB187F0AE100883DBF /* NumberAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F8A7C7187F0AE100883DBF /* NumberAxis.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7BC187F0AE100883DBF /* NumberAxis.mm */; };
+		D9F8A7C8187F0AE100883DBF /* NumberTickCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F8A7BD187F0AE100883DBF /* NumberTickCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F8A7C9187F0AE100883DBF /* RangeCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F8A7BE187F0AE100883DBF /* RangeCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F8A7CE187F0B9200883DBF /* NumberTickCalculatorInterfaceMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9F8A7CA187F0B9200883DBF /* NumberTickCalculatorInterfaceMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D9F8A7CF187F0B9200883DBF /* NumberTickCalculatorInterfaceMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7CB187F0B9200883DBF /* NumberTickCalculatorInterfaceMarshaller.mm */; };
+		D9F8A7D0187F0B9200883DBF /* RangeCalculatorInterfaceMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9F8A7CC187F0B9200883DBF /* RangeCalculatorInterfaceMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D9F8A7D1187F0B9200883DBF /* RangeCalculatorInterfaceMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7CD187F0B9200883DBF /* RangeCalculatorInterfaceMarshaller.mm */; };
+		D9F8A7DE187F1D4B00883DBF /* AreaSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F8A7DA187F1D4B00883DBF /* AreaSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F8A7DF187F1D4B00883DBF /* AreaSeries.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7DB187F1D4B00883DBF /* AreaSeries.mm */; };
+		D9F8A7E0187F1D4B00883DBF /* SteppedAreaSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F8A7DC187F1D4B00883DBF /* SteppedAreaSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F8A7E1187F1D4B00883DBF /* SteppedAreaSeries.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7DD187F1D4B00883DBF /* SteppedAreaSeries.mm */; };
+		D9F94F9118A7149D007A76D9 /* Animation.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F94F8A18A7149D007A76D9 /* Animation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F94F9218A7149D007A76D9 /* Animation.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9F94F8B18A7149D007A76D9 /* Animation.mm */; };
+		D9F94FB218A71CD0007A76D9 /* AnimationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F94FB118A71CD0007A76D9 /* AnimationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F94FB518A71CE1007A76D9 /* AnimationDelegateInterfaceMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D9F94FB318A71CE1007A76D9 /* AnimationDelegateInterfaceMarshaller.hh */; settings = {ATTRIBUTES = (Private, ); }; };
+		D9F94FB618A71CE1007A76D9 /* AnimationDelegateInterfaceMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9F94FB418A71CE1007A76D9 /* AnimationDelegateInterfaceMarshaller.mm */; };
+		D9FABFEE18D8C13900B3DBB7 /* DataFittingAxisLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D9FABFEC18D8C13900B3DBB7 /* DataFittingAxisLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9FABFEF18D8C13900B3DBB7 /* DataFittingAxisLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9FABFED18D8C13900B3DBB7 /* DataFittingAxisLayout.mm */; };
+		D9FDB48418DC8D83001C80B9 /* PaddingRangeCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D9FDB48218DC8D83001C80B9 /* PaddingRangeCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9FDB48518DC8D83001C80B9 /* PaddingRangeCalculator.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9FDB48318DC8D83001C80B9 /* PaddingRangeCalculator.mm */; };
+		D9FDB49118DC8F1F001C80B9 /* IncludeZeroRangeCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D9FDB48F18DC8F1F001C80B9 /* IncludeZeroRangeCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9FDB49218DC8F1F001C80B9 /* IncludeZeroRangeCalculator.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9FDB49018DC8F1F001C80B9 /* IncludeZeroRangeCalculator.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C17A9E5A183E328E0074ABB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9E8D6F71816F13000FCD4BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9E8D6FE1816F13000FCD4BF;
+			remoteInfo = TRChartsObjc;
+		};
+		D91B4F2B185F7D0A00A81352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D91B4F26185F7D0A00A81352 /* TRCharts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9E8D73A1816F13F00FCD4BF;
+			remoteInfo = TRCharts;
+		};
+		D91B4F2D185F7D0A00A81352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D91B4F26185F7D0A00A81352 /* TRCharts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9E8D74A1816F13F00FCD4BF;
+			remoteInfo = TRChartsTests;
+		};
+		D945430918A2FB0300A77D11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D91B4F26185F7D0A00A81352 /* TRCharts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D94542E418A2F99700A77D11;
+			remoteInfo = TRChartsTests;
+		};
+		D9471FEC1862170A0037737C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D91B4F26185F7D0A00A81352 /* TRCharts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D9E8D7391816F13F00FCD4BF;
+			remoteInfo = TRCharts;
+		};
+		D9E8D7151816F13100FCD4BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9E8D6F71816F13000FCD4BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9E8D6FE1816F13000FCD4BF;
+			remoteInfo = TRChartsObjc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C17A9DF1183E1F880074ABB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D91771621844CCA600DD2A15 /* PointSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointSeries.h; sourceTree = "<group>"; };
+		D91771631844CCA600DD2A15 /* PointSeries.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PointSeries.mm; sourceTree = "<group>"; };
+		D91B4E8C185F1EA000A81352 /* LogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogLevel.h; sourceTree = "<group>"; };
+		D91B4F26185F7D0A00A81352 /* TRCharts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TRCharts.xcodeproj; path = ../TRCharts/TRCharts.xcodeproj; sourceTree = "<group>"; };
+		D9289FD818573C92001E19E2 /* SuffixNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuffixNumberFormatter.h; sourceTree = "<group>"; };
+		D9289FD918573C92001E19E2 /* SuffixNumberFormatter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SuffixNumberFormatter.mm; sourceTree = "<group>"; };
+		D93AEFA61888BFD9009346CE /* TestUtils.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TestUtils.hh; path = Support/TestUtils.hh; sourceTree = "<group>"; };
+		D93AEFA91888C23B009346CE /* TestUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TestUtils.mm; path = Support/TestUtils.mm; sourceTree = "<group>"; };
+		D93EA94918881DF700EB403B /* DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateFormatter.h; sourceTree = "<group>"; };
+		D93EA94A18881DF700EB403B /* PerUnitDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerUnitDateFormatter.h; sourceTree = "<group>"; };
+		D93EA94B18881DF700EB403B /* PerUnitDateFormatter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PerUnitDateFormatter.mm; sourceTree = "<group>"; };
+		D93EA95118881E0700EB403B /* DateFormatterInterfaceMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DateFormatterInterfaceMarshaller.hh; path = Support/DateFormatterInterfaceMarshaller.hh; sourceTree = "<group>"; };
+		D93EA95218881E0700EB403B /* DateFormatterInterfaceMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DateFormatterInterfaceMarshaller.mm; path = Support/DateFormatterInterfaceMarshaller.mm; sourceTree = "<group>"; };
+		D93EA9621888329900EB403B /* TickAligningRangeCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickAligningRangeCalculator.h; sourceTree = "<group>"; };
+		D93EA9631888329A00EB403B /* TickAligningRangeCalculator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TickAligningRangeCalculator.mm; sourceTree = "<group>"; };
+		D93EA966188840FC00EB403B /* ResizeMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizeMode.h; sourceTree = "<group>"; };
+		D93EA9691888465000EB403B /* DateIntervalStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DateIntervalStructMarshaller.hh; path = Support/DateIntervalStructMarshaller.hh; sourceTree = "<group>"; };
+		D93EA96A1888465000EB403B /* DateIntervalStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DateIntervalStructMarshaller.mm; path = Support/DateIntervalStructMarshaller.mm; sourceTree = "<group>"; };
+		D93EA96D1888465D00EB403B /* DateInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateInterval.h; sourceTree = "<group>"; };
+		D93EA96E1888465D00EB403B /* DateInterval.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DateInterval.mm; sourceTree = "<group>"; };
+		D945376D187C262B00B6AC7F /* ColorSourceInterfaceMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ColorSourceInterfaceMarshaller.hh; path = Support/ColorSourceInterfaceMarshaller.hh; sourceTree = "<group>"; };
+		D945376E187C262B00B6AC7F /* ColorSourceInterfaceMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ColorSourceInterfaceMarshaller.mm; path = Support/ColorSourceInterfaceMarshaller.mm; sourceTree = "<group>"; };
+		D945376F187C262B00B6AC7F /* LineStyleSourceInterfaceMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LineStyleSourceInterfaceMarshaller.hh; path = Support/LineStyleSourceInterfaceMarshaller.hh; sourceTree = "<group>"; };
+		D9453770187C262B00B6AC7F /* LineStyleSourceInterfaceMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LineStyleSourceInterfaceMarshaller.mm; path = Support/LineStyleSourceInterfaceMarshaller.mm; sourceTree = "<group>"; };
+		D9453771187C262B00B6AC7F /* LineStyleStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LineStyleStructMarshaller.hh; path = Support/LineStyleStructMarshaller.hh; sourceTree = "<group>"; };
+		D9453772187C262B00B6AC7F /* LineStyleStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LineStyleStructMarshaller.mm; path = Support/LineStyleStructMarshaller.mm; sourceTree = "<group>"; };
+		D9453779187C264600B6AC7F /* ColorSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSource.h; sourceTree = "<group>"; };
+		D945377A187C264600B6AC7F /* LineMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineMode.h; sourceTree = "<group>"; };
+		D945377B187C264600B6AC7F /* LineStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineStyle.h; sourceTree = "<group>"; };
+		D945377C187C264600B6AC7F /* LineStyle.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LineStyle.mm; sourceTree = "<group>"; };
+		D945377D187C264600B6AC7F /* LineStyleSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineStyleSource.h; sourceTree = "<group>"; };
+		D945430D18A2FCCB00A77D11 /* GeneratedNativeTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedNativeTests.h; sourceTree = "<group>"; };
+		D945430E18A2FCCB00A77D11 /* GeneratedNativeTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GeneratedNativeTests.mm; sourceTree = "<group>"; };
+		D945D95E18805ED600DBA754 /* Attachable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attachable.h; sourceTree = "<group>"; };
+		D945D95F18805ED600DBA754 /* Attachable.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Attachable.mm; sourceTree = "<group>"; };
+		D94BE3461888912100E5E399 /* AbstractNumberAxisGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AbstractNumberAxisGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3481888912100E5E399 /* AreaSeriesGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AreaSeriesGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3491888912100E5E399 /* AttachableGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AttachableGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE34A1888912100E5E399 /* AutomaticDateTickCalculatorGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AutomaticDateTickCalculatorGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE34B1888912100E5E399 /* AutomaticNumberTickCalculatorGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AutomaticNumberTickCalculatorGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE34D1888912100E5E399 /* AxisGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AxisGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE34E1888912100E5E399 /* BandSeriesGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BandSeriesGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3501888912100E5E399 /* BasicNumberFormatterGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BasicNumberFormatterGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3511888912100E5E399 /* CandlestickSeriesGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CandlestickSeriesGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3521888912100E5E399 /* CategoryAxisGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CategoryAxisGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3531888912100E5E399 /* ChartElementGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ChartElementGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3541888912100E5E399 /* ChartGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ChartGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3561888912100E5E399 /* ContinuousAxisGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ContinuousAxisGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3571888912100E5E399 /* DateAxisGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DateAxisGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3581888912100E5E399 /* DecorationGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DecorationGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3591888912100E5E399 /* DrawableGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DrawableGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE35A1888912100E5E399 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		D94BE35B1888912100E5E399 /* FixedDateTickCalculatorGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FixedDateTickCalculatorGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE35C1888912100E5E399 /* FixedNumberTickCalculatorGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FixedNumberTickCalculatorGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE35D1888912100E5E399 /* FixedRangeCalculatorGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FixedRangeCalculatorGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE35E1888912100E5E399 /* LabelGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LabelGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE35F1888912100E5E399 /* LineDecorationGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LineDecorationGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3601888912100E5E399 /* LineSeriesGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LineSeriesGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3621888912100E5E399 /* NumberAxisGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NumberAxisGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3631888912100E5E399 /* PerUnitDateFormatterGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PerUnitDateFormatterGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3641888912100E5E399 /* PointDecorationGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PointDecorationGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3651888912100E5E399 /* PointSeriesGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PointSeriesGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3661888912100E5E399 /* SeriesGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SeriesGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3671888912100E5E399 /* SteppedAreaSeriesGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SteppedAreaSeriesGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3681888912100E5E399 /* SteppedBandSeriesGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SteppedBandSeriesGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3691888912100E5E399 /* SteppedLineSeriesGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SteppedLineSeriesGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE36A1888912100E5E399 /* SuffixNumberFormatterGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SuffixNumberFormatterGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE36B1888912100E5E399 /* TickAligningRangeCalculatorGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TickAligningRangeCalculatorGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3941888940E00E5E399 /* AbstractNumberAxisGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractNumberAxisGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3961888940E00E5E399 /* AreaSeriesGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaSeriesGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3971888940E00E5E399 /* AttachableGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachableGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3981888940E00E5E399 /* AutomaticDateTickCalculatorGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutomaticDateTickCalculatorGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3991888940E00E5E399 /* AutomaticNumberTickCalculatorGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutomaticNumberTickCalculatorGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE39B1888940E00E5E399 /* AxisGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxisGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE39C1888940E00E5E399 /* BandSeriesGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BandSeriesGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE39E1888940E00E5E399 /* BasicNumberFormatterGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicNumberFormatterGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE39F1888940E00E5E399 /* CandlestickSeriesGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandlestickSeriesGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3A01888940E00E5E399 /* CategoryAxisGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryAxisGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3A11888940E00E5E399 /* ChartElementGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartElementGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3A21888940E00E5E399 /* ChartGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3A41888940E00E5E399 /* ContinuousAxisGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContinuousAxisGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3A51888940E00E5E399 /* DateAxisGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateAxisGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3A61888940E00E5E399 /* DecorationGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecorationGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3A71888940E00E5E399 /* DrawableGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawableGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3A91888940E00E5E399 /* FixedDateTickCalculatorGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedDateTickCalculatorGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3AA1888940E00E5E399 /* FixedNumberTickCalculatorGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedNumberTickCalculatorGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3AB1888940E00E5E399 /* FixedRangeCalculatorGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedRangeCalculatorGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3AC1888940E00E5E399 /* LabelGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3AD1888940E00E5E399 /* LineDecorationGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineDecorationGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3AE1888940E00E5E399 /* LineSeriesGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineSeriesGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3B01888940E00E5E399 /* NumberAxisGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberAxisGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3B11888940E00E5E399 /* PerUnitDateFormatterGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerUnitDateFormatterGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3B21888940E00E5E399 /* PointDecorationGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointDecorationGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3B31888940E00E5E399 /* PointSeriesGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointSeriesGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3B41888940E00E5E399 /* SeriesGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeriesGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3B51888940E00E5E399 /* SteppedAreaSeriesGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SteppedAreaSeriesGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3B61888940E00E5E399 /* SteppedBandSeriesGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SteppedBandSeriesGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3B71888940E00E5E399 /* SteppedLineSeriesGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SteppedLineSeriesGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3B81888940E00E5E399 /* SuffixNumberFormatterGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuffixNumberFormatterGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3B91888940E00E5E399 /* TickAligningRangeCalculatorGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickAligningRangeCalculatorGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3BB1888985400E5E399 /* ContinuousSeriesGeneratedTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContinuousSeriesGeneratedTests.h; sourceTree = "<group>"; };
+		D94BE3BD1888985400E5E399 /* ContinuousSeriesGeneratedTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ContinuousSeriesGeneratedTests.mm; sourceTree = "<group>"; };
+		D94BE3C11888995D00E5E399 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D94BE3C31888996A00E5E399 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D94BE3C61888999900E5E399 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		D94DA9A81888D515003E1025 /* AbstractNumberAxisTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractNumberAxisTests.h; path = Impl/AbstractNumberAxisTests.h; sourceTree = "<group>"; };
+		D94DA9A91888D515003E1025 /* AbstractNumberAxisTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AbstractNumberAxisTests.mm; path = Impl/AbstractNumberAxisTests.mm; sourceTree = "<group>"; };
+		D94DA9AC1888D515003E1025 /* AreaSeriesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AreaSeriesTests.h; path = Impl/AreaSeriesTests.h; sourceTree = "<group>"; };
+		D94DA9AD1888D515003E1025 /* AreaSeriesTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AreaSeriesTests.mm; path = Impl/AreaSeriesTests.mm; sourceTree = "<group>"; };
+		D94DA9AE1888D515003E1025 /* AttachableTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AttachableTests.h; path = Impl/AttachableTests.h; sourceTree = "<group>"; };
+		D94DA9AF1888D515003E1025 /* AttachableTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AttachableTests.mm; path = Impl/AttachableTests.mm; sourceTree = "<group>"; };
+		D94DA9B01888D515003E1025 /* AutomaticDateTickCalculatorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutomaticDateTickCalculatorTests.h; path = Impl/AutomaticDateTickCalculatorTests.h; sourceTree = "<group>"; };
+		D94DA9B11888D515003E1025 /* AutomaticDateTickCalculatorTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AutomaticDateTickCalculatorTests.mm; path = Impl/AutomaticDateTickCalculatorTests.mm; sourceTree = "<group>"; };
+		D94DA9B21888D515003E1025 /* AutomaticNumberTickCalculatorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutomaticNumberTickCalculatorTests.h; path = Impl/AutomaticNumberTickCalculatorTests.h; sourceTree = "<group>"; };
+		D94DA9B31888D515003E1025 /* AutomaticNumberTickCalculatorTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AutomaticNumberTickCalculatorTests.mm; path = Impl/AutomaticNumberTickCalculatorTests.mm; sourceTree = "<group>"; };
+		D94DA9B61888D515003E1025 /* AxisTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AxisTests.h; path = Impl/AxisTests.h; sourceTree = "<group>"; };
+		D94DA9B71888D515003E1025 /* AxisTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AxisTests.mm; path = Impl/AxisTests.mm; sourceTree = "<group>"; };
+		D94DA9B81888D515003E1025 /* BandSeriesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BandSeriesTests.h; path = Impl/BandSeriesTests.h; sourceTree = "<group>"; };
+		D94DA9B91888D515003E1025 /* BandSeriesTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = BandSeriesTests.mm; path = Impl/BandSeriesTests.mm; sourceTree = "<group>"; };
+		D94DA9BC1888D515003E1025 /* BasicNumberFormatterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicNumberFormatterTests.h; path = Impl/BasicNumberFormatterTests.h; sourceTree = "<group>"; };
+		D94DA9BD1888D515003E1025 /* BasicNumberFormatterTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = BasicNumberFormatterTests.mm; path = Impl/BasicNumberFormatterTests.mm; sourceTree = "<group>"; };
+		D94DA9BE1888D515003E1025 /* CandlestickSeriesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CandlestickSeriesTests.h; path = Impl/CandlestickSeriesTests.h; sourceTree = "<group>"; };
+		D94DA9BF1888D515003E1025 /* CandlestickSeriesTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CandlestickSeriesTests.mm; path = Impl/CandlestickSeriesTests.mm; sourceTree = "<group>"; };
+		D94DA9C01888D515003E1025 /* CategoryAxisTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoryAxisTests.h; path = Impl/CategoryAxisTests.h; sourceTree = "<group>"; };
+		D94DA9C11888D515003E1025 /* CategoryAxisTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CategoryAxisTests.mm; path = Impl/CategoryAxisTests.mm; sourceTree = "<group>"; };
+		D94DA9C21888D515003E1025 /* ChartElementTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChartElementTests.h; path = Impl/ChartElementTests.h; sourceTree = "<group>"; };
+		D94DA9C31888D515003E1025 /* ChartElementTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ChartElementTests.mm; path = Impl/ChartElementTests.mm; sourceTree = "<group>"; };
+		D94DA9C41888D515003E1025 /* ChartTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChartTests.h; path = Impl/ChartTests.h; sourceTree = "<group>"; };
+		D94DA9C51888D515003E1025 /* ChartTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ChartTests.mm; path = Impl/ChartTests.mm; sourceTree = "<group>"; };
+		D94DA9C81888D515003E1025 /* ContinuousAxisTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContinuousAxisTests.h; path = Impl/ContinuousAxisTests.h; sourceTree = "<group>"; };
+		D94DA9C91888D515003E1025 /* ContinuousAxisTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ContinuousAxisTests.mm; path = Impl/ContinuousAxisTests.mm; sourceTree = "<group>"; };
+		D94DA9CA1888D515003E1025 /* ContinuousSeriesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContinuousSeriesTests.h; path = Impl/ContinuousSeriesTests.h; sourceTree = "<group>"; };
+		D94DA9CB1888D515003E1025 /* ContinuousSeriesTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ContinuousSeriesTests.mm; path = Impl/ContinuousSeriesTests.mm; sourceTree = "<group>"; };
+		D94DA9CC1888D515003E1025 /* DateAxisTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateAxisTests.h; path = Impl/DateAxisTests.h; sourceTree = "<group>"; };
+		D94DA9CD1888D515003E1025 /* DateAxisTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DateAxisTests.mm; path = Impl/DateAxisTests.mm; sourceTree = "<group>"; };
+		D94DA9CE1888D515003E1025 /* DecorationTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DecorationTests.h; path = Impl/DecorationTests.h; sourceTree = "<group>"; };
+		D94DA9CF1888D515003E1025 /* DecorationTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DecorationTests.mm; path = Impl/DecorationTests.mm; sourceTree = "<group>"; };
+		D94DA9D01888D515003E1025 /* DrawableTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawableTests.h; path = Impl/DrawableTests.h; sourceTree = "<group>"; };
+		D94DA9D11888D515003E1025 /* DrawableTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DrawableTests.mm; path = Impl/DrawableTests.mm; sourceTree = "<group>"; };
+		D94DA9D21888D515003E1025 /* FixedDateTickCalculatorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FixedDateTickCalculatorTests.h; path = Impl/FixedDateTickCalculatorTests.h; sourceTree = "<group>"; };
+		D94DA9D31888D515003E1025 /* FixedDateTickCalculatorTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FixedDateTickCalculatorTests.mm; path = Impl/FixedDateTickCalculatorTests.mm; sourceTree = "<group>"; };
+		D94DA9D41888D515003E1025 /* FixedNumberTickCalculatorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FixedNumberTickCalculatorTests.h; path = Impl/FixedNumberTickCalculatorTests.h; sourceTree = "<group>"; };
+		D94DA9D51888D515003E1025 /* FixedNumberTickCalculatorTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FixedNumberTickCalculatorTests.mm; path = Impl/FixedNumberTickCalculatorTests.mm; sourceTree = "<group>"; };
+		D94DA9D61888D515003E1025 /* FixedRangeCalculatorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FixedRangeCalculatorTests.h; path = Impl/FixedRangeCalculatorTests.h; sourceTree = "<group>"; };
+		D94DA9D71888D515003E1025 /* FixedRangeCalculatorTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FixedRangeCalculatorTests.mm; path = Impl/FixedRangeCalculatorTests.mm; sourceTree = "<group>"; };
+		D94DA9D81888D515003E1025 /* LabelTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LabelTests.h; path = Impl/LabelTests.h; sourceTree = "<group>"; };
+		D94DA9D91888D515003E1025 /* LabelTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LabelTests.mm; path = Impl/LabelTests.mm; sourceTree = "<group>"; };
+		D94DA9DA1888D515003E1025 /* LineDecorationTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LineDecorationTests.h; path = Impl/LineDecorationTests.h; sourceTree = "<group>"; };
+		D94DA9DB1888D515003E1025 /* LineDecorationTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LineDecorationTests.mm; path = Impl/LineDecorationTests.mm; sourceTree = "<group>"; };
+		D94DA9DC1888D515003E1025 /* LineSeriesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LineSeriesTests.h; path = Impl/LineSeriesTests.h; sourceTree = "<group>"; };
+		D94DA9DD1888D515003E1025 /* LineSeriesTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LineSeriesTests.mm; path = Impl/LineSeriesTests.mm; sourceTree = "<group>"; };
+		D94DA9E01888D515003E1025 /* NumberAxisTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NumberAxisTests.h; path = Impl/NumberAxisTests.h; sourceTree = "<group>"; };
+		D94DA9E11888D515003E1025 /* NumberAxisTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NumberAxisTests.mm; path = Impl/NumberAxisTests.mm; sourceTree = "<group>"; };
+		D94DA9E21888D515003E1025 /* PerUnitDateFormatterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PerUnitDateFormatterTests.h; path = Impl/PerUnitDateFormatterTests.h; sourceTree = "<group>"; };
+		D94DA9E31888D515003E1025 /* PerUnitDateFormatterTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PerUnitDateFormatterTests.mm; path = Impl/PerUnitDateFormatterTests.mm; sourceTree = "<group>"; };
+		D94DA9E41888D515003E1025 /* PointDecorationTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PointDecorationTests.h; path = Impl/PointDecorationTests.h; sourceTree = "<group>"; };
+		D94DA9E51888D515003E1025 /* PointDecorationTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PointDecorationTests.mm; path = Impl/PointDecorationTests.mm; sourceTree = "<group>"; };
+		D94DA9E61888D515003E1025 /* PointSeriesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PointSeriesTests.h; path = Impl/PointSeriesTests.h; sourceTree = "<group>"; };
+		D94DA9E71888D515003E1025 /* PointSeriesTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PointSeriesTests.mm; path = Impl/PointSeriesTests.mm; sourceTree = "<group>"; };
+		D94DA9E81888D515003E1025 /* SeriesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeriesTests.h; path = Impl/SeriesTests.h; sourceTree = "<group>"; };
+		D94DA9E91888D515003E1025 /* SeriesTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SeriesTests.mm; path = Impl/SeriesTests.mm; sourceTree = "<group>"; };
+		D94DA9EA1888D515003E1025 /* SteppedAreaSeriesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SteppedAreaSeriesTests.h; path = Impl/SteppedAreaSeriesTests.h; sourceTree = "<group>"; };
+		D94DA9EB1888D515003E1025 /* SteppedAreaSeriesTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SteppedAreaSeriesTests.mm; path = Impl/SteppedAreaSeriesTests.mm; sourceTree = "<group>"; };
+		D94DA9EC1888D515003E1025 /* SteppedBandSeriesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SteppedBandSeriesTests.h; path = Impl/SteppedBandSeriesTests.h; sourceTree = "<group>"; };
+		D94DA9ED1888D515003E1025 /* SteppedBandSeriesTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SteppedBandSeriesTests.mm; path = Impl/SteppedBandSeriesTests.mm; sourceTree = "<group>"; };
+		D94DA9EE1888D515003E1025 /* SteppedLineSeriesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SteppedLineSeriesTests.h; path = Impl/SteppedLineSeriesTests.h; sourceTree = "<group>"; };
+		D94DA9EF1888D515003E1025 /* SteppedLineSeriesTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SteppedLineSeriesTests.mm; path = Impl/SteppedLineSeriesTests.mm; sourceTree = "<group>"; };
+		D94DA9F01888D515003E1025 /* SuffixNumberFormatterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuffixNumberFormatterTests.h; path = Impl/SuffixNumberFormatterTests.h; sourceTree = "<group>"; };
+		D94DA9F11888D515003E1025 /* SuffixNumberFormatterTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SuffixNumberFormatterTests.mm; path = Impl/SuffixNumberFormatterTests.mm; sourceTree = "<group>"; };
+		D94DA9F21888D515003E1025 /* TickAligningRangeCalculatorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TickAligningRangeCalculatorTests.h; path = Impl/TickAligningRangeCalculatorTests.h; sourceTree = "<group>"; };
+		D94DA9F31888D515003E1025 /* TickAligningRangeCalculatorTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TickAligningRangeCalculatorTests.mm; path = Impl/TickAligningRangeCalculatorTests.mm; sourceTree = "<group>"; };
+		D95437A1182D49E70078F67C /* Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Font.h; sourceTree = "<group>"; };
+		D95437A2182D49E70078F67C /* Font.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Font.mm; sourceTree = "<group>"; };
+		D95437A6182D4CAF0078F67C /* FontStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FontStructMarshaller.hh; path = Support/FontStructMarshaller.hh; sourceTree = "<group>"; };
+		D95437A7182D4CAF0078F67C /* FontStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FontStructMarshaller.mm; path = Support/FontStructMarshaller.mm; sourceTree = "<group>"; };
+		D95731C018C9D4F300D98270 /* AbstractDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractDateFormatter.h; sourceTree = "<group>"; };
+		D95731C118C9D4F300D98270 /* AbstractDateFormatter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AbstractDateFormatter.mm; sourceTree = "<group>"; };
+		D95731C218C9D4F300D98270 /* BasicDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicDateFormatter.h; sourceTree = "<group>"; };
+		D95731C318C9D4F300D98270 /* BasicDateFormatter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BasicDateFormatter.mm; sourceTree = "<group>"; };
+		D95731C418C9D4F300D98270 /* FormatSyntax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormatSyntax.h; sourceTree = "<group>"; };
+		D95731E718C9E45D00D98270 /* AnimationEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationEffect.h; sourceTree = "<group>"; };
+		D95731EB18C9E45D00D98270 /* FadeInEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeInEffect.h; sourceTree = "<group>"; };
+		D95731EC18C9E45D00D98270 /* FadeInEffect.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FadeInEffect.mm; sourceTree = "<group>"; };
+		D95731ED18C9E45D00D98270 /* FadeOutEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeOutEffect.h; sourceTree = "<group>"; };
+		D95731EE18C9E45D00D98270 /* FadeOutEffect.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FadeOutEffect.mm; sourceTree = "<group>"; };
+		D95731F718C9E46900D98270 /* AnimationEffectInterfaceMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AnimationEffectInterfaceMarshaller.hh; path = Support/AnimationEffectInterfaceMarshaller.hh; sourceTree = "<group>"; };
+		D95731F818C9E46900D98270 /* AnimationEffectInterfaceMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AnimationEffectInterfaceMarshaller.mm; path = Support/AnimationEffectInterfaceMarshaller.mm; sourceTree = "<group>"; };
+		D957320218CA10D200D98270 /* Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = "<group>"; };
+		D96D0D79185A1D0000555656 /* Drawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawable.h; sourceTree = "<group>"; };
+		D96D0D7A185A1D0000555656 /* Drawable.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Drawable.mm; sourceTree = "<group>"; };
+		D96D0D7B185A1D0000555656 /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
+		D96D0D7C185A1D0000555656 /* Label.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Label.mm; sourceTree = "<group>"; };
+		D96D0D7D185A1D0000555656 /* Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Size.h; sourceTree = "<group>"; };
+		D96D0D7E185A1D0000555656 /* Size.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Size.mm; sourceTree = "<group>"; };
+		D96D0D86185A1D1C00555656 /* SizeStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SizeStructMarshaller.hh; path = Support/SizeStructMarshaller.hh; sourceTree = "<group>"; };
+		D96D0D87185A1D1C00555656 /* SizeStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SizeStructMarshaller.mm; path = Support/SizeStructMarshaller.mm; sourceTree = "<group>"; };
+		D973C3501898002A006426A5 /* LogHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogHandler.h; sourceTree = "<group>"; };
+		D973C35318980035006426A5 /* LogHandlerInterfaceMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LogHandlerInterfaceMarshaller.hh; path = Support/LogHandlerInterfaceMarshaller.hh; sourceTree = "<group>"; };
+		D973C35418980035006426A5 /* LogHandlerInterfaceMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LogHandlerInterfaceMarshaller.mm; path = Support/LogHandlerInterfaceMarshaller.mm; sourceTree = "<group>"; };
+		D97AE49518D7433F007BAF6F /* Constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constraint.h; sourceTree = "<group>"; };
+		D97AE49618D7433F007BAF6F /* Constraint.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Constraint.mm; sourceTree = "<group>"; };
+		D97AE49718D7433F007BAF6F /* ConstraintBehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintBehaviour.h; sourceTree = "<group>"; };
+		D97AE49818D7433F007BAF6F /* Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transform.h; sourceTree = "<group>"; };
+		D97AE49918D7433F007BAF6F /* Transform.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Transform.mm; sourceTree = "<group>"; };
+		D97AE4A118D74350007BAF6F /* ConstraintBehaviourInterfaceMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ConstraintBehaviourInterfaceMarshaller.hh; path = Support/ConstraintBehaviourInterfaceMarshaller.hh; sourceTree = "<group>"; };
+		D97AE4A218D74350007BAF6F /* ConstraintBehaviourInterfaceMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ConstraintBehaviourInterfaceMarshaller.mm; path = Support/ConstraintBehaviourInterfaceMarshaller.mm; sourceTree = "<group>"; };
+		D97AE4A518D74350007BAF6F /* TransformStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TransformStructMarshaller.hh; path = Support/TransformStructMarshaller.hh; sourceTree = "<group>"; };
+		D97AE4A618D74350007BAF6F /* TransformStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TransformStructMarshaller.mm; path = Support/TransformStructMarshaller.mm; sourceTree = "<group>"; };
+		D97AE4BA18D750F5007BAF6F /* TouchStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TouchStructMarshaller.hh; path = Support/TouchStructMarshaller.hh; sourceTree = "<group>"; };
+		D97AE4BB18D750F5007BAF6F /* TouchStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TouchStructMarshaller.mm; path = Support/TouchStructMarshaller.mm; sourceTree = "<group>"; };
+		D97AE4BE18D75101007BAF6F /* Touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Touch.h; sourceTree = "<group>"; };
+		D97AE4BF18D75101007BAF6F /* Touch.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Touch.mm; sourceTree = "<group>"; };
+		D97C8B5118C625CA000C9128 /* AxisLayoutInterfaceMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AxisLayoutInterfaceMarshaller.hh; path = Support/AxisLayoutInterfaceMarshaller.hh; sourceTree = "<group>"; };
+		D97C8B5218C625CA000C9128 /* AxisLayoutInterfaceMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AxisLayoutInterfaceMarshaller.mm; path = Support/AxisLayoutInterfaceMarshaller.mm; sourceTree = "<group>"; };
+		D97C8B5318C625CA000C9128 /* DataTransformStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DataTransformStructMarshaller.hh; path = Support/DataTransformStructMarshaller.hh; sourceTree = "<group>"; };
+		D97C8B5418C625CA000C9128 /* DataTransformStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DataTransformStructMarshaller.mm; path = Support/DataTransformStructMarshaller.mm; sourceTree = "<group>"; };
+		D97C8B5518C625CA000C9128 /* RenderableInterfaceMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RenderableInterfaceMarshaller.hh; path = Support/RenderableInterfaceMarshaller.hh; sourceTree = "<group>"; };
+		D97C8B5618C625CA000C9128 /* RenderableInterfaceMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RenderableInterfaceMarshaller.mm; path = Support/RenderableInterfaceMarshaller.mm; sourceTree = "<group>"; };
+		D97C8B5D18C625FC000C9128 /* AxisLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxisLayout.h; sourceTree = "<group>"; };
+		D97C8B5E18C625FC000C9128 /* DataTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTransform.h; sourceTree = "<group>"; };
+		D97C8B5F18C625FC000C9128 /* DataTransform.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DataTransform.mm; sourceTree = "<group>"; };
+		D98CC8A81847703B000D7B0C /* Decoration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoration.h; sourceTree = "<group>"; };
+		D98CC8A91847703B000D7B0C /* Decoration.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Decoration.mm; sourceTree = "<group>"; };
+		D98CC8AA1847703B000D7B0C /* LineDecoration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineDecoration.h; sourceTree = "<group>"; };
+		D98CC8AB1847703B000D7B0C /* LineDecoration.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LineDecoration.mm; sourceTree = "<group>"; };
+		D99DC680189683310050337D /* FontHint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontHint.h; sourceTree = "<group>"; };
+		D9A6A9EA18D9FEE3005C98CB /* DataOffsetConstraintBehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataOffsetConstraintBehaviour.h; sourceTree = "<group>"; };
+		D9A6A9EB18D9FEE3005C98CB /* DataOffsetConstraintBehaviour.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DataOffsetConstraintBehaviour.mm; sourceTree = "<group>"; };
+		D9A6A9EC18D9FEE3005C98CB /* DataScaleConstraintBehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataScaleConstraintBehaviour.h; sourceTree = "<group>"; };
+		D9A6A9ED18D9FEE3005C98CB /* DataScaleConstraintBehaviour.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DataScaleConstraintBehaviour.mm; sourceTree = "<group>"; };
+		D9C5FF4E182BB08900B63E09 /* BasicNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicNumberFormatter.h; sourceTree = "<group>"; };
+		D9C5FF4F182BB08900B63E09 /* BasicNumberFormatter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BasicNumberFormatter.mm; sourceTree = "<group>"; };
+		D9C5FF52182BB08900B63E09 /* ChartElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartElement.h; sourceTree = "<group>"; };
+		D9C5FF53182BB08900B63E09 /* ChartElement.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ChartElement.mm; sourceTree = "<group>"; };
+		D9C5FF54182BB08900B63E09 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		D9C5FF55182BB08900B63E09 /* Color.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Color.mm; sourceTree = "<group>"; };
+		D9C5FF62182BB08900B63E09 /* FixedRangeCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedRangeCalculator.h; sourceTree = "<group>"; };
+		D9C5FF63182BB08900B63E09 /* FixedRangeCalculator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FixedRangeCalculator.mm; sourceTree = "<group>"; };
+		D9C5FF64182BB08900B63E09 /* IndexRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexRange.h; sourceTree = "<group>"; };
+		D9C5FF65182BB08900B63E09 /* IndexRange.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IndexRange.mm; sourceTree = "<group>"; };
+		D9C5FF66182BB08900B63E09 /* Margin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Margin.h; sourceTree = "<group>"; };
+		D9C5FF67182BB08900B63E09 /* Margin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Margin.mm; sourceTree = "<group>"; };
+		D9C5FF68182BB08900B63E09 /* NumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberFormatter.h; sourceTree = "<group>"; };
+		D9C5FF78182BB09500B63E09 /* ColorStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ColorStructMarshaller.hh; path = Support/ColorStructMarshaller.hh; sourceTree = "<group>"; };
+		D9C5FF7A182BB09500B63E09 /* ColorStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ColorStructMarshaller.mm; path = Support/ColorStructMarshaller.mm; sourceTree = "<group>"; };
+		D9C5FF87182BB09600B63E09 /* IndexRangeStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = IndexRangeStructMarshaller.hh; path = Support/IndexRangeStructMarshaller.hh; sourceTree = "<group>"; };
+		D9C5FF88182BB09600B63E09 /* IndexRangeStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = IndexRangeStructMarshaller.mm; path = Support/IndexRangeStructMarshaller.mm; sourceTree = "<group>"; };
+		D9C5FF89182BB09600B63E09 /* MarginStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MarginStructMarshaller.hh; path = Support/MarginStructMarshaller.hh; sourceTree = "<group>"; };
+		D9C5FF8A182BB09600B63E09 /* MarginStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MarginStructMarshaller.mm; path = Support/MarginStructMarshaller.mm; sourceTree = "<group>"; };
+		D9C5FF8B182BB09600B63E09 /* NumberFormatterInterfaceMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = NumberFormatterInterfaceMarshaller.hh; path = Support/NumberFormatterInterfaceMarshaller.hh; sourceTree = "<group>"; };
+		D9C5FF8C182BB09600B63E09 /* NumberFormatterInterfaceMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NumberFormatterInterfaceMarshaller.mm; path = Support/NumberFormatterInterfaceMarshaller.mm; sourceTree = "<group>"; };
+		D9C6C718189BD570000D12A7 /* Renderable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderable.h; sourceTree = "<group>"; };
+		D9E6275A1822B38A00FCFB86 /* Common.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Common.hh; path = Support/Common.hh; sourceTree = "<group>"; };
+		D9E6275C1822B38A00FCFB86 /* ContinuousDataSourceInterfaceMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ContinuousDataSourceInterfaceMarshaller.hh; path = Support/ContinuousDataSourceInterfaceMarshaller.hh; sourceTree = "<group>"; };
+		D9E6275D1822B38A00FCFB86 /* ContinuousDataSourceInterfaceMarshaller.impl.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ContinuousDataSourceInterfaceMarshaller.impl.hh; path = Support/ContinuousDataSourceInterfaceMarshaller.impl.hh; sourceTree = "<group>"; };
+		D9E6275F1822B38A00FCFB86 /* ContinuousDatumStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ContinuousDatumStructMarshaller.hh; path = Support/ContinuousDatumStructMarshaller.hh; sourceTree = "<group>"; };
+		D9E627601822B38A00FCFB86 /* ContinuousDatumStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ContinuousDatumStructMarshaller.mm; path = Support/ContinuousDatumStructMarshaller.mm; sourceTree = "<group>"; };
+		D9E627671822B38A00FCFB86 /* Marshallers.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Marshallers.hh; path = Support/Marshallers.hh; sourceTree = "<group>"; };
+		D9E627681822B38A00FCFB86 /* Marshallers.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Marshallers.mm; path = Support/Marshallers.mm; sourceTree = "<group>"; };
+		D9E6276C1822B38A00FCFB86 /* OHLCDatumStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = OHLCDatumStructMarshaller.hh; path = Support/OHLCDatumStructMarshaller.hh; sourceTree = "<group>"; };
+		D9E6276D1822B38A00FCFB86 /* OHLCDatumStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OHLCDatumStructMarshaller.mm; path = Support/OHLCDatumStructMarshaller.mm; sourceTree = "<group>"; };
+		D9E6276E1822B38A00FCFB86 /* RangeDatumStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RangeDatumStructMarshaller.hh; path = Support/RangeDatumStructMarshaller.hh; sourceTree = "<group>"; };
+		D9E6276F1822B38A00FCFB86 /* RangeDatumStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RangeDatumStructMarshaller.mm; path = Support/RangeDatumStructMarshaller.mm; sourceTree = "<group>"; };
+		D9E627701822B38A00FCFB86 /* ScalarDatumStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ScalarDatumStructMarshaller.hh; path = Support/ScalarDatumStructMarshaller.hh; sourceTree = "<group>"; };
+		D9E627711822B38A00FCFB86 /* ScalarDatumStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ScalarDatumStructMarshaller.mm; path = Support/ScalarDatumStructMarshaller.mm; sourceTree = "<group>"; };
+		D9E6277B1822BB7D00FCFB86 /* ContinuousDatum.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ContinuousDatum.mm; sourceTree = "<group>"; };
+		D9E6277C1822BB7D00FCFB86 /* OHLCDatum.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OHLCDatum.mm; sourceTree = "<group>"; };
+		D9E6277D1822BB7D00FCFB86 /* RangeDatum.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RangeDatum.mm; sourceTree = "<group>"; };
+		D9E6277E1822BB7D00FCFB86 /* ScalarDatum.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ScalarDatum.mm; sourceTree = "<group>"; };
+		D9E6278F1822D9C600FCFB86 /* Point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		D9E627901822D9C600FCFB86 /* Point.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Point.mm; sourceTree = "<group>"; };
+		D9E627941822DEC300FCFB86 /* OHLCStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = OHLCStructMarshaller.hh; path = Support/OHLCStructMarshaller.hh; sourceTree = "<group>"; };
+		D9E627951822DEC300FCFB86 /* OHLCStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OHLCStructMarshaller.mm; path = Support/OHLCStructMarshaller.mm; sourceTree = "<group>"; };
+		D9E627961822DEC300FCFB86 /* PointStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PointStructMarshaller.hh; path = Support/PointStructMarshaller.hh; sourceTree = "<group>"; };
+		D9E627971822DEC300FCFB86 /* PointStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PointStructMarshaller.mm; path = Support/PointStructMarshaller.mm; sourceTree = "<group>"; };
+		D9E627981822DEC300FCFB86 /* RangeStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RangeStructMarshaller.hh; path = Support/RangeStructMarshaller.hh; sourceTree = "<group>"; };
+		D9E627991822DEC300FCFB86 /* RangeStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RangeStructMarshaller.mm; path = Support/RangeStructMarshaller.mm; sourceTree = "<group>"; };
+		D9E6279D1822DED300FCFB86 /* OHLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHLC.h; sourceTree = "<group>"; };
+		D9E6279E1822DED300FCFB86 /* OHLC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OHLC.mm; sourceTree = "<group>"; };
+		D9E627A11822DED300FCFB86 /* Range.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Range.h; sourceTree = "<group>"; };
+		D9E627A21822DED300FCFB86 /* Range.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Range.mm; sourceTree = "<group>"; };
+		D9E8D6FF1816F13000FCD4BF /* libTRChartsObjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTRChartsObjc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E8D7021816F13000FCD4BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9E8D7061816F13000FCD4BF /* TRChartsObjc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TRChartsObjc-Prefix.pch"; sourceTree = "<group>"; };
+		D9E8D70F1816F13000FCD4BF /* TRChartsObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRChartsObjcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E8D7101816F13000FCD4BF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D9E8D7131816F13100FCD4BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D9E8D71A1816F13100FCD4BF /* TRChartsObjcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TRChartsObjcTests-Info.plist"; sourceTree = "<group>"; };
+		D9E8D71C1816F13100FCD4BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9E8ED9A18218FE400F835F4 /* Axis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Axis.h; sourceTree = "<group>"; };
+		D9E8ED9B18218FE400F835F4 /* Axis.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Axis.mm; sourceTree = "<group>"; };
+		D9E8ED9D18218FE400F835F4 /* BandSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BandSeries.h; sourceTree = "<group>"; };
+		D9E8ED9E18218FE400F835F4 /* BandSeries.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BandSeries.mm; sourceTree = "<group>"; };
+		D9E8EDA518218FE400F835F4 /* CandlestickSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandlestickSeries.h; sourceTree = "<group>"; };
+		D9E8EDA618218FE400F835F4 /* CandlestickSeries.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CandlestickSeries.mm; sourceTree = "<group>"; };
+		D9E8EDA718218FE400F835F4 /* CategoryAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryAxis.h; sourceTree = "<group>"; };
+		D9E8EDA818218FE400F835F4 /* CategoryAxis.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CategoryAxis.mm; sourceTree = "<group>"; };
+		D9E8EDA918218FE400F835F4 /* Chart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chart.h; sourceTree = "<group>"; };
+		D9E8EDAA18218FE400F835F4 /* Chart.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Chart.mm; sourceTree = "<group>"; };
+		D9E8EDAB18218FE400F835F4 /* Charts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Charts.h; sourceTree = "<group>"; };
+		D9E8EDAC18218FE400F835F4 /* ContinuousAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContinuousAxis.h; sourceTree = "<group>"; };
+		D9E8EDAD18218FE400F835F4 /* ContinuousAxis.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ContinuousAxis.mm; sourceTree = "<group>"; };
+		D9E8EDAF18218FE400F835F4 /* LineSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineSeries.h; sourceTree = "<group>"; };
+		D9E8EDB018218FE400F835F4 /* LineSeries.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LineSeries.mm; sourceTree = "<group>"; };
+		D9E8EDB118218FE400F835F4 /* Series.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Series.h; sourceTree = "<group>"; };
+		D9E8EDB218218FE400F835F4 /* Series.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Series.mm; sourceTree = "<group>"; };
+		D9E8EDB318218FE400F835F4 /* SteppedBandSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SteppedBandSeries.h; sourceTree = "<group>"; };
+		D9E8EDB418218FE400F835F4 /* SteppedBandSeries.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SteppedBandSeries.mm; sourceTree = "<group>"; };
+		D9E8EDB518218FE400F835F4 /* SteppedLineSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SteppedLineSeries.h; sourceTree = "<group>"; };
+		D9E8EDB618218FE400F835F4 /* SteppedLineSeries.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SteppedLineSeries.mm; sourceTree = "<group>"; };
+		D9E8EDD11821914F00F835F4 /* ContinuousDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContinuousDataSource.h; sourceTree = "<group>"; };
+		D9E8EDD21821914F00F835F4 /* ContinuousDatum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContinuousDatum.h; sourceTree = "<group>"; };
+		D9E8EDD31821914F00F835F4 /* ContinuousSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContinuousSeries.h; sourceTree = "<group>"; };
+		D9E8EDD41821914F00F835F4 /* ContinuousSeries.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ContinuousSeries.mm; sourceTree = "<group>"; };
+		D9E8EDD51821914F00F835F4 /* OHLCDatum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHLCDatum.h; sourceTree = "<group>"; };
+		D9E8EDD61821914F00F835F4 /* RangeDatum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RangeDatum.h; sourceTree = "<group>"; };
+		D9E8EDD71821914F00F835F4 /* ScalarDatum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScalarDatum.h; sourceTree = "<group>"; };
+		D9EA845B18771AC800D85EBF /* Common.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Common.mm; path = Support/Common.mm; sourceTree = "<group>"; };
+		D9EA917D184CE6B300D8666C /* PointDecoration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointDecoration.h; sourceTree = "<group>"; };
+		D9EA917E184CE6B300D8666C /* PointDecoration.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PointDecoration.mm; sourceTree = "<group>"; };
+		D9EEA79018870F1A00DC5AB9 /* AutomaticDateTickCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutomaticDateTickCalculator.h; sourceTree = "<group>"; };
+		D9EEA79118870F1A00DC5AB9 /* AutomaticDateTickCalculator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AutomaticDateTickCalculator.mm; sourceTree = "<group>"; };
+		D9EEA79218870F1A00DC5AB9 /* DateAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateAxis.h; sourceTree = "<group>"; };
+		D9EEA79318870F1A00DC5AB9 /* DateAxis.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DateAxis.mm; sourceTree = "<group>"; };
+		D9EEA79418870F1A00DC5AB9 /* DateTickCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTickCalculator.h; sourceTree = "<group>"; };
+		D9EEA79718870F1A00DC5AB9 /* DateUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUnit.h; sourceTree = "<group>"; };
+		D9EEA7A018870F2800DC5AB9 /* DateTickCalculatorInterfaceMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DateTickCalculatorInterfaceMarshaller.hh; path = Support/DateTickCalculatorInterfaceMarshaller.hh; sourceTree = "<group>"; };
+		D9EEA7A118870F2800DC5AB9 /* DateTickCalculatorInterfaceMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DateTickCalculatorInterfaceMarshaller.mm; path = Support/DateTickCalculatorInterfaceMarshaller.mm; sourceTree = "<group>"; };
+		D9EEA7B11887129E00DC5AB9 /* FixedDateTickCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedDateTickCalculator.h; sourceTree = "<group>"; };
+		D9EEA7B21887129E00DC5AB9 /* FixedDateTickCalculator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FixedDateTickCalculator.mm; sourceTree = "<group>"; };
+		D9EFEB79188977E400F52866 /* Charts.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Charts.mm; sourceTree = "<group>"; };
+		D9EFEB7C1889987700F52866 /* PointStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointStyle.h; sourceTree = "<group>"; };
+		D9EFEB7D1889987700F52866 /* PointStyle.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PointStyle.mm; sourceTree = "<group>"; };
+		D9EFEB801889988200F52866 /* PointStyleStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PointStyleStructMarshaller.hh; path = Support/PointStyleStructMarshaller.hh; sourceTree = "<group>"; };
+		D9EFEB811889988200F52866 /* PointStyleStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PointStyleStructMarshaller.mm; path = Support/PointStyleStructMarshaller.mm; sourceTree = "<group>"; };
+		D9F8A788187ED3B200883DBF /* CoordinatesStructMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CoordinatesStructMarshaller.hh; path = Support/CoordinatesStructMarshaller.hh; sourceTree = "<group>"; };
+		D9F8A789187ED3B200883DBF /* CoordinatesStructMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CoordinatesStructMarshaller.mm; path = Support/CoordinatesStructMarshaller.mm; sourceTree = "<group>"; };
+		D9F8A78D187ED3E900883DBF /* Coordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coordinates.h; sourceTree = "<group>"; };
+		D9F8A78E187ED3E900883DBF /* Coordinates.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Coordinates.mm; sourceTree = "<group>"; };
+		D9F8A7B4187F0AE100883DBF /* AbstractNumberAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractNumberAxis.h; sourceTree = "<group>"; };
+		D9F8A7B5187F0AE100883DBF /* AbstractNumberAxis.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AbstractNumberAxis.mm; sourceTree = "<group>"; };
+		D9F8A7B6187F0AE100883DBF /* AutomaticNumberTickCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutomaticNumberTickCalculator.h; sourceTree = "<group>"; };
+		D9F8A7B7187F0AE100883DBF /* AutomaticNumberTickCalculator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AutomaticNumberTickCalculator.mm; sourceTree = "<group>"; };
+		D9F8A7B9187F0AE100883DBF /* FixedNumberTickCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedNumberTickCalculator.h; sourceTree = "<group>"; };
+		D9F8A7BA187F0AE100883DBF /* FixedNumberTickCalculator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FixedNumberTickCalculator.mm; sourceTree = "<group>"; };
+		D9F8A7BB187F0AE100883DBF /* NumberAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberAxis.h; sourceTree = "<group>"; };
+		D9F8A7BC187F0AE100883DBF /* NumberAxis.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NumberAxis.mm; sourceTree = "<group>"; };
+		D9F8A7BD187F0AE100883DBF /* NumberTickCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberTickCalculator.h; sourceTree = "<group>"; };
+		D9F8A7BE187F0AE100883DBF /* RangeCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RangeCalculator.h; sourceTree = "<group>"; };
+		D9F8A7CA187F0B9200883DBF /* NumberTickCalculatorInterfaceMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = NumberTickCalculatorInterfaceMarshaller.hh; path = Support/NumberTickCalculatorInterfaceMarshaller.hh; sourceTree = "<group>"; };
+		D9F8A7CB187F0B9200883DBF /* NumberTickCalculatorInterfaceMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NumberTickCalculatorInterfaceMarshaller.mm; path = Support/NumberTickCalculatorInterfaceMarshaller.mm; sourceTree = "<group>"; };
+		D9F8A7CC187F0B9200883DBF /* RangeCalculatorInterfaceMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RangeCalculatorInterfaceMarshaller.hh; path = Support/RangeCalculatorInterfaceMarshaller.hh; sourceTree = "<group>"; };
+		D9F8A7CD187F0B9200883DBF /* RangeCalculatorInterfaceMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RangeCalculatorInterfaceMarshaller.mm; path = Support/RangeCalculatorInterfaceMarshaller.mm; sourceTree = "<group>"; };
+		D9F8A7DA187F1D4B00883DBF /* AreaSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaSeries.h; sourceTree = "<group>"; };
+		D9F8A7DB187F1D4B00883DBF /* AreaSeries.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AreaSeries.mm; sourceTree = "<group>"; };
+		D9F8A7DC187F1D4B00883DBF /* SteppedAreaSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SteppedAreaSeries.h; sourceTree = "<group>"; };
+		D9F8A7DD187F1D4B00883DBF /* SteppedAreaSeries.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SteppedAreaSeries.mm; sourceTree = "<group>"; };
+		D9F94F8A18A7149D007A76D9 /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		D9F94F8B18A7149D007A76D9 /* Animation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Animation.mm; sourceTree = "<group>"; };
+		D9F94FB118A71CD0007A76D9 /* AnimationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationDelegate.h; sourceTree = "<group>"; };
+		D9F94FB318A71CE1007A76D9 /* AnimationDelegateInterfaceMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AnimationDelegateInterfaceMarshaller.hh; path = Support/AnimationDelegateInterfaceMarshaller.hh; sourceTree = "<group>"; };
+		D9F94FB418A71CE1007A76D9 /* AnimationDelegateInterfaceMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AnimationDelegateInterfaceMarshaller.mm; path = Support/AnimationDelegateInterfaceMarshaller.mm; sourceTree = "<group>"; };
+		D9FABFEC18D8C13900B3DBB7 /* DataFittingAxisLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFittingAxisLayout.h; sourceTree = "<group>"; };
+		D9FABFED18D8C13900B3DBB7 /* DataFittingAxisLayout.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DataFittingAxisLayout.mm; sourceTree = "<group>"; };
+		D9FDB48218DC8D83001C80B9 /* PaddingRangeCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaddingRangeCalculator.h; sourceTree = "<group>"; };
+		D9FDB48318DC8D83001C80B9 /* PaddingRangeCalculator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PaddingRangeCalculator.mm; sourceTree = "<group>"; };
+		D9FDB48F18DC8F1F001C80B9 /* IncludeZeroRangeCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncludeZeroRangeCalculator.h; sourceTree = "<group>"; };
+		D9FDB49018DC8F1F001C80B9 /* IncludeZeroRangeCalculator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IncludeZeroRangeCalculator.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9E8D6FC1816F13000FCD4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91B4F33185F7D6800A81352 /* libTRCharts.a in Frameworks */,
+				D9E8D7031816F13000FCD4BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E8D70C1816F13000FCD4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D945430C18A2FB0A00A77D11 /* libTRChartsTests.a in Frameworks */,
+				D94BE3C71888999900E5E399 /* CoreText.framework in Frameworks */,
+				D94BE3C51888998800E5E399 /* CoreGraphics.framework in Frameworks */,
+				D94BE3C41888996A00E5E399 /* OpenGLES.framework in Frameworks */,
+				D9E8D7171816F13100FCD4BF /* libTRChartsObjc.a in Frameworks */,
+				D9E8D7111816F13000FCD4BF /* XCTest.framework in Frameworks */,
+				D9E8D7121816F13100FCD4BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D91B4F27185F7D0A00A81352 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D91B4F2C185F7D0A00A81352 /* libTRCharts.a */,
+				D91B4F2E185F7D0A00A81352 /* libTRChartsTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D93AEFA81888BFDE009346CE /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D93AEFA91888C23B009346CE /* TestUtils.mm */,
+				D93AEFA61888BFD9009346CE /* TestUtils.hh */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		D94DA9A41888D3E1003E1025 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				D94DA9A81888D515003E1025 /* AbstractNumberAxisTests.h */,
+				D94DA9A91888D515003E1025 /* AbstractNumberAxisTests.mm */,
+				D94DA9AC1888D515003E1025 /* AreaSeriesTests.h */,
+				D94DA9AD1888D515003E1025 /* AreaSeriesTests.mm */,
+				D94DA9AE1888D515003E1025 /* AttachableTests.h */,
+				D94DA9AF1888D515003E1025 /* AttachableTests.mm */,
+				D94DA9B01888D515003E1025 /* AutomaticDateTickCalculatorTests.h */,
+				D94DA9B11888D515003E1025 /* AutomaticDateTickCalculatorTests.mm */,
+				D94DA9B21888D515003E1025 /* AutomaticNumberTickCalculatorTests.h */,
+				D94DA9B31888D515003E1025 /* AutomaticNumberTickCalculatorTests.mm */,
+				D94DA9B61888D515003E1025 /* AxisTests.h */,
+				D94DA9B71888D515003E1025 /* AxisTests.mm */,
+				D94DA9B81888D515003E1025 /* BandSeriesTests.h */,
+				D94DA9B91888D515003E1025 /* BandSeriesTests.mm */,
+				D94DA9BC1888D515003E1025 /* BasicNumberFormatterTests.h */,
+				D94DA9BD1888D515003E1025 /* BasicNumberFormatterTests.mm */,
+				D94DA9BE1888D515003E1025 /* CandlestickSeriesTests.h */,
+				D94DA9BF1888D515003E1025 /* CandlestickSeriesTests.mm */,
+				D94DA9C01888D515003E1025 /* CategoryAxisTests.h */,
+				D94DA9C11888D515003E1025 /* CategoryAxisTests.mm */,
+				D94DA9C21888D515003E1025 /* ChartElementTests.h */,
+				D94DA9C31888D515003E1025 /* ChartElementTests.mm */,
+				D94DA9C41888D515003E1025 /* ChartTests.h */,
+				D94DA9C51888D515003E1025 /* ChartTests.mm */,
+				D94DA9C81888D515003E1025 /* ContinuousAxisTests.h */,
+				D94DA9C91888D515003E1025 /* ContinuousAxisTests.mm */,
+				D94DA9CA1888D515003E1025 /* ContinuousSeriesTests.h */,
+				D94DA9CB1888D515003E1025 /* ContinuousSeriesTests.mm */,
+				D94DA9CC1888D515003E1025 /* DateAxisTests.h */,
+				D94DA9CD1888D515003E1025 /* DateAxisTests.mm */,
+				D94DA9CE1888D515003E1025 /* DecorationTests.h */,
+				D94DA9CF1888D515003E1025 /* DecorationTests.mm */,
+				D94DA9D01888D515003E1025 /* DrawableTests.h */,
+				D94DA9D11888D515003E1025 /* DrawableTests.mm */,
+				D94DA9D21888D515003E1025 /* FixedDateTickCalculatorTests.h */,
+				D94DA9D31888D515003E1025 /* FixedDateTickCalculatorTests.mm */,
+				D94DA9D41888D515003E1025 /* FixedNumberTickCalculatorTests.h */,
+				D94DA9D51888D515003E1025 /* FixedNumberTickCalculatorTests.mm */,
+				D94DA9D61888D515003E1025 /* FixedRangeCalculatorTests.h */,
+				D94DA9D71888D515003E1025 /* FixedRangeCalculatorTests.mm */,
+				D94DA9D81888D515003E1025 /* LabelTests.h */,
+				D94DA9D91888D515003E1025 /* LabelTests.mm */,
+				D94DA9DA1888D515003E1025 /* LineDecorationTests.h */,
+				D94DA9DB1888D515003E1025 /* LineDecorationTests.mm */,
+				D94DA9DC1888D515003E1025 /* LineSeriesTests.h */,
+				D94DA9DD1888D515003E1025 /* LineSeriesTests.mm */,
+				D94DA9E01888D515003E1025 /* NumberAxisTests.h */,
+				D94DA9E11888D515003E1025 /* NumberAxisTests.mm */,
+				D94DA9E21888D515003E1025 /* PerUnitDateFormatterTests.h */,
+				D94DA9E31888D515003E1025 /* PerUnitDateFormatterTests.mm */,
+				D94DA9E41888D515003E1025 /* PointDecorationTests.h */,
+				D94DA9E51888D515003E1025 /* PointDecorationTests.mm */,
+				D94DA9E61888D515003E1025 /* PointSeriesTests.h */,
+				D94DA9E71888D515003E1025 /* PointSeriesTests.mm */,
+				D94DA9E81888D515003E1025 /* SeriesTests.h */,
+				D94DA9E91888D515003E1025 /* SeriesTests.mm */,
+				D94DA9EA1888D515003E1025 /* SteppedAreaSeriesTests.h */,
+				D94DA9EB1888D515003E1025 /* SteppedAreaSeriesTests.mm */,
+				D94DA9EC1888D515003E1025 /* SteppedBandSeriesTests.h */,
+				D94DA9ED1888D515003E1025 /* SteppedBandSeriesTests.mm */,
+				D94DA9EE1888D515003E1025 /* SteppedLineSeriesTests.h */,
+				D94DA9EF1888D515003E1025 /* SteppedLineSeriesTests.mm */,
+				D94DA9F01888D515003E1025 /* SuffixNumberFormatterTests.h */,
+				D94DA9F11888D515003E1025 /* SuffixNumberFormatterTests.mm */,
+				D94DA9F21888D515003E1025 /* TickAligningRangeCalculatorTests.h */,
+				D94DA9F31888D515003E1025 /* TickAligningRangeCalculatorTests.mm */,
+			);
+			name = Impl;
+			sourceTree = "<group>";
+		};
+		D9E8D6F61816F13000FCD4BF = {
+			isa = PBXGroup;
+			children = (
+				D9E8D7011816F13000FCD4BF /* Frameworks */,
+				D9E8D7001816F13000FCD4BF /* Products */,
+				D9E8D7041816F13000FCD4BF /* TRChartsObjc */,
+				D9E8D7181816F13100FCD4BF /* TRChartsObjcTests */,
+			);
+			sourceTree = "<group>";
+		};
+		D9E8D7001816F13000FCD4BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9E8D6FF1816F13000FCD4BF /* libTRChartsObjc.a */,
+				D9E8D70F1816F13000FCD4BF /* TRChartsObjcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9E8D7011816F13000FCD4BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D94BE3C61888999900E5E399 /* CoreText.framework */,
+				D94BE3C31888996A00E5E399 /* OpenGLES.framework */,
+				D94BE3C11888995D00E5E399 /* UIKit.framework */,
+				D91B4F26185F7D0A00A81352 /* TRCharts.xcodeproj */,
+				C17A9DF1183E1F880074ABB5 /* CoreGraphics.framework */,
+				D9E8D7021816F13000FCD4BF /* Foundation.framework */,
+				D9E8D7101816F13000FCD4BF /* XCTest.framework */,
+				D9E8D7131816F13100FCD4BF /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9E8D7041816F13000FCD4BF /* TRChartsObjc */ = {
+			isa = PBXGroup;
+			children = (
+				D95731C018C9D4F300D98270 /* AbstractDateFormatter.h */,
+				D95731C118C9D4F300D98270 /* AbstractDateFormatter.mm */,
+				D9F8A7B4187F0AE100883DBF /* AbstractNumberAxis.h */,
+				D9F8A7B5187F0AE100883DBF /* AbstractNumberAxis.mm */,
+				D9F94F8A18A7149D007A76D9 /* Animation.h */,
+				D9F94F8B18A7149D007A76D9 /* Animation.mm */,
+				D9F94FB118A71CD0007A76D9 /* AnimationDelegate.h */,
+				D95731E718C9E45D00D98270 /* AnimationEffect.h */,
+				D9F8A7DA187F1D4B00883DBF /* AreaSeries.h */,
+				D9F8A7DB187F1D4B00883DBF /* AreaSeries.mm */,
+				D945D95E18805ED600DBA754 /* Attachable.h */,
+				D945D95F18805ED600DBA754 /* Attachable.mm */,
+				D9EEA79018870F1A00DC5AB9 /* AutomaticDateTickCalculator.h */,
+				D9EEA79118870F1A00DC5AB9 /* AutomaticDateTickCalculator.mm */,
+				D9F8A7B6187F0AE100883DBF /* AutomaticNumberTickCalculator.h */,
+				D9F8A7B7187F0AE100883DBF /* AutomaticNumberTickCalculator.mm */,
+				D9E8ED9A18218FE400F835F4 /* Axis.h */,
+				D9E8ED9B18218FE400F835F4 /* Axis.mm */,
+				D97C8B5D18C625FC000C9128 /* AxisLayout.h */,
+				D9E8ED9D18218FE400F835F4 /* BandSeries.h */,
+				D9E8ED9E18218FE400F835F4 /* BandSeries.mm */,
+				D95731C218C9D4F300D98270 /* BasicDateFormatter.h */,
+				D95731C318C9D4F300D98270 /* BasicDateFormatter.mm */,
+				D9C5FF4E182BB08900B63E09 /* BasicNumberFormatter.h */,
+				D9C5FF4F182BB08900B63E09 /* BasicNumberFormatter.mm */,
+				D9E8EDA518218FE400F835F4 /* CandlestickSeries.h */,
+				D9E8EDA618218FE400F835F4 /* CandlestickSeries.mm */,
+				D9E8EDA718218FE400F835F4 /* CategoryAxis.h */,
+				D9E8EDA818218FE400F835F4 /* CategoryAxis.mm */,
+				D9E8EDA918218FE400F835F4 /* Chart.h */,
+				D9E8EDAA18218FE400F835F4 /* Chart.mm */,
+				D9C5FF52182BB08900B63E09 /* ChartElement.h */,
+				D9C5FF53182BB08900B63E09 /* ChartElement.mm */,
+				D9E8EDAB18218FE400F835F4 /* Charts.h */,
+				D9EFEB79188977E400F52866 /* Charts.mm */,
+				D9C5FF54182BB08900B63E09 /* Color.h */,
+				D9C5FF55182BB08900B63E09 /* Color.mm */,
+				D9453779187C264600B6AC7F /* ColorSource.h */,
+				D97AE49518D7433F007BAF6F /* Constraint.h */,
+				D97AE49618D7433F007BAF6F /* Constraint.mm */,
+				D97AE49718D7433F007BAF6F /* ConstraintBehaviour.h */,
+				D9E8EDAC18218FE400F835F4 /* ContinuousAxis.h */,
+				D9E8EDAD18218FE400F835F4 /* ContinuousAxis.mm */,
+				D9E8EDD11821914F00F835F4 /* ContinuousDataSource.h */,
+				D9E8EDD21821914F00F835F4 /* ContinuousDatum.h */,
+				D9E6277B1822BB7D00FCFB86 /* ContinuousDatum.mm */,
+				D9E8EDD31821914F00F835F4 /* ContinuousSeries.h */,
+				D9E8EDD41821914F00F835F4 /* ContinuousSeries.mm */,
+				D9F8A78D187ED3E900883DBF /* Coordinates.h */,
+				D9F8A78E187ED3E900883DBF /* Coordinates.mm */,
+				D9FABFEC18D8C13900B3DBB7 /* DataFittingAxisLayout.h */,
+				D9FABFED18D8C13900B3DBB7 /* DataFittingAxisLayout.mm */,
+				D9A6A9EA18D9FEE3005C98CB /* DataOffsetConstraintBehaviour.h */,
+				D9A6A9EB18D9FEE3005C98CB /* DataOffsetConstraintBehaviour.mm */,
+				D9A6A9EC18D9FEE3005C98CB /* DataScaleConstraintBehaviour.h */,
+				D9A6A9ED18D9FEE3005C98CB /* DataScaleConstraintBehaviour.mm */,
+				D97C8B5E18C625FC000C9128 /* DataTransform.h */,
+				D97C8B5F18C625FC000C9128 /* DataTransform.mm */,
+				D9EEA79218870F1A00DC5AB9 /* DateAxis.h */,
+				D9EEA79318870F1A00DC5AB9 /* DateAxis.mm */,
+				D93EA94918881DF700EB403B /* DateFormatter.h */,
+				D93EA96D1888465D00EB403B /* DateInterval.h */,
+				D93EA96E1888465D00EB403B /* DateInterval.mm */,
+				D9EEA79418870F1A00DC5AB9 /* DateTickCalculator.h */,
+				D9EEA79718870F1A00DC5AB9 /* DateUnit.h */,
+				D98CC8A81847703B000D7B0C /* Decoration.h */,
+				D98CC8A91847703B000D7B0C /* Decoration.mm */,
+				D96D0D79185A1D0000555656 /* Drawable.h */,
+				D96D0D7A185A1D0000555656 /* Drawable.mm */,
+				D957320218CA10D200D98270 /* Edge.h */,
+				D95731EB18C9E45D00D98270 /* FadeInEffect.h */,
+				D95731EC18C9E45D00D98270 /* FadeInEffect.mm */,
+				D95731ED18C9E45D00D98270 /* FadeOutEffect.h */,
+				D95731EE18C9E45D00D98270 /* FadeOutEffect.mm */,
+				D9EEA7B11887129E00DC5AB9 /* FixedDateTickCalculator.h */,
+				D9EEA7B21887129E00DC5AB9 /* FixedDateTickCalculator.mm */,
+				D9F8A7B9187F0AE100883DBF /* FixedNumberTickCalculator.h */,
+				D9F8A7BA187F0AE100883DBF /* FixedNumberTickCalculator.mm */,
+				D9C5FF62182BB08900B63E09 /* FixedRangeCalculator.h */,
+				D9C5FF63182BB08900B63E09 /* FixedRangeCalculator.mm */,
+				D95437A1182D49E70078F67C /* Font.h */,
+				D95437A2182D49E70078F67C /* Font.mm */,
+				D99DC680189683310050337D /* FontHint.h */,
+				D95731C418C9D4F300D98270 /* FormatSyntax.h */,
+				D9FDB48F18DC8F1F001C80B9 /* IncludeZeroRangeCalculator.h */,
+				D9FDB49018DC8F1F001C80B9 /* IncludeZeroRangeCalculator.mm */,
+				D9C5FF64182BB08900B63E09 /* IndexRange.h */,
+				D9C5FF65182BB08900B63E09 /* IndexRange.mm */,
+				D96D0D7B185A1D0000555656 /* Label.h */,
+				D96D0D7C185A1D0000555656 /* Label.mm */,
+				D98CC8AA1847703B000D7B0C /* LineDecoration.h */,
+				D98CC8AB1847703B000D7B0C /* LineDecoration.mm */,
+				D945377A187C264600B6AC7F /* LineMode.h */,
+				D9E8EDAF18218FE400F835F4 /* LineSeries.h */,
+				D9E8EDB018218FE400F835F4 /* LineSeries.mm */,
+				D945377B187C264600B6AC7F /* LineStyle.h */,
+				D945377C187C264600B6AC7F /* LineStyle.mm */,
+				D945377D187C264600B6AC7F /* LineStyleSource.h */,
+				D973C3501898002A006426A5 /* LogHandler.h */,
+				D91B4E8C185F1EA000A81352 /* LogLevel.h */,
+				D9C5FF66182BB08900B63E09 /* Margin.h */,
+				D9C5FF67182BB08900B63E09 /* Margin.mm */,
+				D9F8A7BB187F0AE100883DBF /* NumberAxis.h */,
+				D9F8A7BC187F0AE100883DBF /* NumberAxis.mm */,
+				D9C5FF68182BB08900B63E09 /* NumberFormatter.h */,
+				D9F8A7BD187F0AE100883DBF /* NumberTickCalculator.h */,
+				D9E6279D1822DED300FCFB86 /* OHLC.h */,
+				D9E6279E1822DED300FCFB86 /* OHLC.mm */,
+				D9E8EDD51821914F00F835F4 /* OHLCDatum.h */,
+				D9E6277C1822BB7D00FCFB86 /* OHLCDatum.mm */,
+				D9FDB48218DC8D83001C80B9 /* PaddingRangeCalculator.h */,
+				D9FDB48318DC8D83001C80B9 /* PaddingRangeCalculator.mm */,
+				D93EA94A18881DF700EB403B /* PerUnitDateFormatter.h */,
+				D93EA94B18881DF700EB403B /* PerUnitDateFormatter.mm */,
+				D9E6278F1822D9C600FCFB86 /* Point.h */,
+				D9E627901822D9C600FCFB86 /* Point.mm */,
+				D9EA917D184CE6B300D8666C /* PointDecoration.h */,
+				D9EA917E184CE6B300D8666C /* PointDecoration.mm */,
+				D91771621844CCA600DD2A15 /* PointSeries.h */,
+				D91771631844CCA600DD2A15 /* PointSeries.mm */,
+				D9EFEB7C1889987700F52866 /* PointStyle.h */,
+				D9EFEB7D1889987700F52866 /* PointStyle.mm */,
+				D9E627A11822DED300FCFB86 /* Range.h */,
+				D9E627A21822DED300FCFB86 /* Range.mm */,
+				D9F8A7BE187F0AE100883DBF /* RangeCalculator.h */,
+				D9E8EDD61821914F00F835F4 /* RangeDatum.h */,
+				D9E6277D1822BB7D00FCFB86 /* RangeDatum.mm */,
+				D9C6C718189BD570000D12A7 /* Renderable.h */,
+				D93EA966188840FC00EB403B /* ResizeMode.h */,
+				D9E8EDD71821914F00F835F4 /* ScalarDatum.h */,
+				D9E6277E1822BB7D00FCFB86 /* ScalarDatum.mm */,
+				D9E8EDB118218FE400F835F4 /* Series.h */,
+				D9E8EDB218218FE400F835F4 /* Series.mm */,
+				D96D0D7D185A1D0000555656 /* Size.h */,
+				D96D0D7E185A1D0000555656 /* Size.mm */,
+				D9F8A7DC187F1D4B00883DBF /* SteppedAreaSeries.h */,
+				D9F8A7DD187F1D4B00883DBF /* SteppedAreaSeries.mm */,
+				D9E8EDB318218FE400F835F4 /* SteppedBandSeries.h */,
+				D9E8EDB418218FE400F835F4 /* SteppedBandSeries.mm */,
+				D9E8EDB518218FE400F835F4 /* SteppedLineSeries.h */,
+				D9E8EDB618218FE400F835F4 /* SteppedLineSeries.mm */,
+				D9289FD818573C92001E19E2 /* SuffixNumberFormatter.h */,
+				D9289FD918573C92001E19E2 /* SuffixNumberFormatter.mm */,
+				D9E8D7B71816F1FB00FCD4BF /* Support */,
+				D9E8D7051816F13000FCD4BF /* Supporting Files */,
+				D93EA9621888329900EB403B /* TickAligningRangeCalculator.h */,
+				D93EA9631888329A00EB403B /* TickAligningRangeCalculator.mm */,
+				D97AE4BE18D75101007BAF6F /* Touch.h */,
+				D97AE4BF18D75101007BAF6F /* Touch.mm */,
+				D97AE49818D7433F007BAF6F /* Transform.h */,
+				D97AE49918D7433F007BAF6F /* Transform.mm */,
+			);
+			path = TRChartsObjc;
+			sourceTree = "<group>";
+		};
+		D9E8D7051816F13000FCD4BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9E8D7061816F13000FCD4BF /* TRChartsObjc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9E8D7181816F13100FCD4BF /* TRChartsObjcTests */ = {
+			isa = PBXGroup;
+			children = (
+				D94DA9A41888D3E1003E1025 /* Impl */,
+				D93AEFA81888BFDE009346CE /* Support */,
+				D94BE3941888940E00E5E399 /* AbstractNumberAxisGeneratedTests.h */,
+				D94BE3461888912100E5E399 /* AbstractNumberAxisGeneratedTests.mm */,
+				D94BE3961888940E00E5E399 /* AreaSeriesGeneratedTests.h */,
+				D94BE3481888912100E5E399 /* AreaSeriesGeneratedTests.mm */,
+				D94BE3971888940E00E5E399 /* AttachableGeneratedTests.h */,
+				D94BE3491888912100E5E399 /* AttachableGeneratedTests.mm */,
+				D94BE3981888940E00E5E399 /* AutomaticDateTickCalculatorGeneratedTests.h */,
+				D94BE34A1888912100E5E399 /* AutomaticDateTickCalculatorGeneratedTests.mm */,
+				D94BE3991888940E00E5E399 /* AutomaticNumberTickCalculatorGeneratedTests.h */,
+				D94BE34B1888912100E5E399 /* AutomaticNumberTickCalculatorGeneratedTests.mm */,
+				D94BE39B1888940E00E5E399 /* AxisGeneratedTests.h */,
+				D94BE34D1888912100E5E399 /* AxisGeneratedTests.mm */,
+				D94BE39C1888940E00E5E399 /* BandSeriesGeneratedTests.h */,
+				D94BE34E1888912100E5E399 /* BandSeriesGeneratedTests.mm */,
+				D94BE39E1888940E00E5E399 /* BasicNumberFormatterGeneratedTests.h */,
+				D94BE3501888912100E5E399 /* BasicNumberFormatterGeneratedTests.mm */,
+				D94BE39F1888940E00E5E399 /* CandlestickSeriesGeneratedTests.h */,
+				D94BE3511888912100E5E399 /* CandlestickSeriesGeneratedTests.mm */,
+				D94BE3A01888940E00E5E399 /* CategoryAxisGeneratedTests.h */,
+				D94BE3521888912100E5E399 /* CategoryAxisGeneratedTests.mm */,
+				D94BE3A11888940E00E5E399 /* ChartElementGeneratedTests.h */,
+				D94BE3531888912100E5E399 /* ChartElementGeneratedTests.mm */,
+				D94BE3A21888940E00E5E399 /* ChartGeneratedTests.h */,
+				D94BE3541888912100E5E399 /* ChartGeneratedTests.mm */,
+				D94BE3A41888940E00E5E399 /* ContinuousAxisGeneratedTests.h */,
+				D94BE3561888912100E5E399 /* ContinuousAxisGeneratedTests.mm */,
+				D94BE3BB1888985400E5E399 /* ContinuousSeriesGeneratedTests.h */,
+				D94BE3BD1888985400E5E399 /* ContinuousSeriesGeneratedTests.mm */,
+				D94BE3A51888940E00E5E399 /* DateAxisGeneratedTests.h */,
+				D94BE3571888912100E5E399 /* DateAxisGeneratedTests.mm */,
+				D94BE3A61888940E00E5E399 /* DecorationGeneratedTests.h */,
+				D94BE3581888912100E5E399 /* DecorationGeneratedTests.mm */,
+				D94BE3A71888940E00E5E399 /* DrawableGeneratedTests.h */,
+				D94BE3591888912100E5E399 /* DrawableGeneratedTests.mm */,
+				D94BE3A91888940E00E5E399 /* FixedDateTickCalculatorGeneratedTests.h */,
+				D94BE35B1888912100E5E399 /* FixedDateTickCalculatorGeneratedTests.mm */,
+				D94BE3AA1888940E00E5E399 /* FixedNumberTickCalculatorGeneratedTests.h */,
+				D94BE35C1888912100E5E399 /* FixedNumberTickCalculatorGeneratedTests.mm */,
+				D94BE3AB1888940E00E5E399 /* FixedRangeCalculatorGeneratedTests.h */,
+				D94BE35D1888912100E5E399 /* FixedRangeCalculatorGeneratedTests.mm */,
+				D94BE3AC1888940E00E5E399 /* LabelGeneratedTests.h */,
+				D94BE35E1888912100E5E399 /* LabelGeneratedTests.mm */,
+				D94BE3AD1888940E00E5E399 /* LineDecorationGeneratedTests.h */,
+				D94BE35F1888912100E5E399 /* LineDecorationGeneratedTests.mm */,
+				D94BE3AE1888940E00E5E399 /* LineSeriesGeneratedTests.h */,
+				D94BE3601888912100E5E399 /* LineSeriesGeneratedTests.mm */,
+				D94BE3B01888940E00E5E399 /* NumberAxisGeneratedTests.h */,
+				D94BE3621888912100E5E399 /* NumberAxisGeneratedTests.mm */,
+				D94BE3B11888940E00E5E399 /* PerUnitDateFormatterGeneratedTests.h */,
+				D94BE3631888912100E5E399 /* PerUnitDateFormatterGeneratedTests.mm */,
+				D94BE3B21888940E00E5E399 /* PointDecorationGeneratedTests.h */,
+				D94BE3641888912100E5E399 /* PointDecorationGeneratedTests.mm */,
+				D94BE3B31888940E00E5E399 /* PointSeriesGeneratedTests.h */,
+				D94BE3651888912100E5E399 /* PointSeriesGeneratedTests.mm */,
+				D94BE3B41888940E00E5E399 /* SeriesGeneratedTests.h */,
+				D94BE3661888912100E5E399 /* SeriesGeneratedTests.mm */,
+				D94BE3B51888940E00E5E399 /* SteppedAreaSeriesGeneratedTests.h */,
+				D94BE3671888912100E5E399 /* SteppedAreaSeriesGeneratedTests.mm */,
+				D94BE3B61888940E00E5E399 /* SteppedBandSeriesGeneratedTests.h */,
+				D94BE3681888912100E5E399 /* SteppedBandSeriesGeneratedTests.mm */,
+				D94BE3B71888940E00E5E399 /* SteppedLineSeriesGeneratedTests.h */,
+				D94BE3691888912100E5E399 /* SteppedLineSeriesGeneratedTests.mm */,
+				D94BE3B81888940E00E5E399 /* SuffixNumberFormatterGeneratedTests.h */,
+				D94BE36A1888912100E5E399 /* SuffixNumberFormatterGeneratedTests.mm */,
+				D9E8D7191816F13100FCD4BF /* Supporting Files */,
+				D94BE3B91888940E00E5E399 /* TickAligningRangeCalculatorGeneratedTests.h */,
+				D94BE36B1888912100E5E399 /* TickAligningRangeCalculatorGeneratedTests.mm */,
+				D94BE35A1888912100E5E399 /* en.lproj */,
+				D945430D18A2FCCB00A77D11 /* GeneratedNativeTests.h */,
+				D945430E18A2FCCB00A77D11 /* GeneratedNativeTests.mm */,
+			);
+			path = TRChartsObjcTests;
+			sourceTree = "<group>";
+		};
+		D9E8D7191816F13100FCD4BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9E8D71A1816F13100FCD4BF /* TRChartsObjcTests-Info.plist */,
+				D9E8D71B1816F13100FCD4BF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9E8D7B71816F1FB00FCD4BF /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D97AE4BA18D750F5007BAF6F /* TouchStructMarshaller.hh */,
+				D97AE4BB18D750F5007BAF6F /* TouchStructMarshaller.mm */,
+				D97AE4A118D74350007BAF6F /* ConstraintBehaviourInterfaceMarshaller.hh */,
+				D97AE4A218D74350007BAF6F /* ConstraintBehaviourInterfaceMarshaller.mm */,
+				D97AE4A518D74350007BAF6F /* TransformStructMarshaller.hh */,
+				D97AE4A618D74350007BAF6F /* TransformStructMarshaller.mm */,
+				D95731F718C9E46900D98270 /* AnimationEffectInterfaceMarshaller.hh */,
+				D95731F818C9E46900D98270 /* AnimationEffectInterfaceMarshaller.mm */,
+				D97C8B5118C625CA000C9128 /* AxisLayoutInterfaceMarshaller.hh */,
+				D97C8B5218C625CA000C9128 /* AxisLayoutInterfaceMarshaller.mm */,
+				D97C8B5318C625CA000C9128 /* DataTransformStructMarshaller.hh */,
+				D97C8B5418C625CA000C9128 /* DataTransformStructMarshaller.mm */,
+				D97C8B5518C625CA000C9128 /* RenderableInterfaceMarshaller.hh */,
+				D97C8B5618C625CA000C9128 /* RenderableInterfaceMarshaller.mm */,
+				D9F94FB318A71CE1007A76D9 /* AnimationDelegateInterfaceMarshaller.hh */,
+				D9F94FB418A71CE1007A76D9 /* AnimationDelegateInterfaceMarshaller.mm */,
+				D973C35318980035006426A5 /* LogHandlerInterfaceMarshaller.hh */,
+				D973C35418980035006426A5 /* LogHandlerInterfaceMarshaller.mm */,
+				D9EFEB801889988200F52866 /* PointStyleStructMarshaller.hh */,
+				D9EFEB811889988200F52866 /* PointStyleStructMarshaller.mm */,
+				D93EA9691888465000EB403B /* DateIntervalStructMarshaller.hh */,
+				D93EA96A1888465000EB403B /* DateIntervalStructMarshaller.mm */,
+				D93EA95118881E0700EB403B /* DateFormatterInterfaceMarshaller.hh */,
+				D93EA95218881E0700EB403B /* DateFormatterInterfaceMarshaller.mm */,
+				D9EEA7A018870F2800DC5AB9 /* DateTickCalculatorInterfaceMarshaller.hh */,
+				D9EEA7A118870F2800DC5AB9 /* DateTickCalculatorInterfaceMarshaller.mm */,
+				D9F8A7CA187F0B9200883DBF /* NumberTickCalculatorInterfaceMarshaller.hh */,
+				D9F8A7CB187F0B9200883DBF /* NumberTickCalculatorInterfaceMarshaller.mm */,
+				D9F8A7CC187F0B9200883DBF /* RangeCalculatorInterfaceMarshaller.hh */,
+				D9F8A7CD187F0B9200883DBF /* RangeCalculatorInterfaceMarshaller.mm */,
+				D9F8A788187ED3B200883DBF /* CoordinatesStructMarshaller.hh */,
+				D9F8A789187ED3B200883DBF /* CoordinatesStructMarshaller.mm */,
+				D945376D187C262B00B6AC7F /* ColorSourceInterfaceMarshaller.hh */,
+				D945376E187C262B00B6AC7F /* ColorSourceInterfaceMarshaller.mm */,
+				D945376F187C262B00B6AC7F /* LineStyleSourceInterfaceMarshaller.hh */,
+				D9453770187C262B00B6AC7F /* LineStyleSourceInterfaceMarshaller.mm */,
+				D9453771187C262B00B6AC7F /* LineStyleStructMarshaller.hh */,
+				D9453772187C262B00B6AC7F /* LineStyleStructMarshaller.mm */,
+				D96D0D86185A1D1C00555656 /* SizeStructMarshaller.hh */,
+				D96D0D87185A1D1C00555656 /* SizeStructMarshaller.mm */,
+				D95437A6182D4CAF0078F67C /* FontStructMarshaller.hh */,
+				D95437A7182D4CAF0078F67C /* FontStructMarshaller.mm */,
+				D9C5FF78182BB09500B63E09 /* ColorStructMarshaller.hh */,
+				D9C5FF7A182BB09500B63E09 /* ColorStructMarshaller.mm */,
+				D9C5FF87182BB09600B63E09 /* IndexRangeStructMarshaller.hh */,
+				D9C5FF88182BB09600B63E09 /* IndexRangeStructMarshaller.mm */,
+				D9C5FF89182BB09600B63E09 /* MarginStructMarshaller.hh */,
+				D9C5FF8A182BB09600B63E09 /* MarginStructMarshaller.mm */,
+				D9C5FF8B182BB09600B63E09 /* NumberFormatterInterfaceMarshaller.hh */,
+				D9C5FF8C182BB09600B63E09 /* NumberFormatterInterfaceMarshaller.mm */,
+				D9E627941822DEC300FCFB86 /* OHLCStructMarshaller.hh */,
+				D9E627951822DEC300FCFB86 /* OHLCStructMarshaller.mm */,
+				D9E627961822DEC300FCFB86 /* PointStructMarshaller.hh */,
+				D9E627971822DEC300FCFB86 /* PointStructMarshaller.mm */,
+				D9E627981822DEC300FCFB86 /* RangeStructMarshaller.hh */,
+				D9E627991822DEC300FCFB86 /* RangeStructMarshaller.mm */,
+				D9E6275A1822B38A00FCFB86 /* Common.hh */,
+				D9EA845B18771AC800D85EBF /* Common.mm */,
+				D9E6275C1822B38A00FCFB86 /* ContinuousDataSourceInterfaceMarshaller.hh */,
+				D9E6275D1822B38A00FCFB86 /* ContinuousDataSourceInterfaceMarshaller.impl.hh */,
+				D9E6275F1822B38A00FCFB86 /* ContinuousDatumStructMarshaller.hh */,
+				D9E627601822B38A00FCFB86 /* ContinuousDatumStructMarshaller.mm */,
+				D9E627671822B38A00FCFB86 /* Marshallers.hh */,
+				D9E627681822B38A00FCFB86 /* Marshallers.mm */,
+				D9E6276C1822B38A00FCFB86 /* OHLCDatumStructMarshaller.hh */,
+				D9E6276D1822B38A00FCFB86 /* OHLCDatumStructMarshaller.mm */,
+				D9E6276E1822B38A00FCFB86 /* RangeDatumStructMarshaller.hh */,
+				D9E6276F1822B38A00FCFB86 /* RangeDatumStructMarshaller.mm */,
+				D9E627701822B38A00FCFB86 /* ScalarDatumStructMarshaller.hh */,
+				D9E627711822B38A00FCFB86 /* ScalarDatumStructMarshaller.mm */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C17A9E06183E27970074ABB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17A9E09183E27B10074ABB5 /* Charts.h in Headers */,
+				C17A9E0A183E2A440074ABB5 /* Chart.h in Headers */,
+				C17A9E37183E32220074ABB5 /* Font.h in Headers */,
+				C17A9E3A183E32220074ABB5 /* Axis.h in Headers */,
+				C17A9E3C183E32220074ABB5 /* BandSeries.h in Headers */,
+				C17A9E3E183E32220074ABB5 /* BasicNumberFormatter.h in Headers */,
+				C17A9E3F183E32220074ABB5 /* CandlestickSeries.h in Headers */,
+				C17A9E40183E32220074ABB5 /* CategoryAxis.h in Headers */,
+				C17A9E41183E32220074ABB5 /* ChartElement.h in Headers */,
+				C17A9E42183E32220074ABB5 /* Color.h in Headers */,
+				C17A9E43183E32220074ABB5 /* ContinuousAxis.h in Headers */,
+				C17A9E44183E32220074ABB5 /* ContinuousDataSource.h in Headers */,
+				C17A9E45183E32220074ABB5 /* ContinuousDatum.h in Headers */,
+				C17A9E47183E32220074ABB5 /* ContinuousSeries.h in Headers */,
+				C17A9E4B183E32220074ABB5 /* FixedRangeCalculator.h in Headers */,
+				C17A9E4C183E32220074ABB5 /* IndexRange.h in Headers */,
+				C17A9E4D183E32220074ABB5 /* LineSeries.h in Headers */,
+				C17A9E4E183E32220074ABB5 /* Margin.h in Headers */,
+				D91771641844CCA600DD2A15 /* PointSeries.h in Headers */,
+				C17A9E4F183E32220074ABB5 /* NumberFormatter.h in Headers */,
+				C17A9E50183E32220074ABB5 /* OHLC.h in Headers */,
+				C17A9E51183E32220074ABB5 /* OHLCDatum.h in Headers */,
+				C17A9E52183E32220074ABB5 /* Point.h in Headers */,
+				C17A9E53183E32220074ABB5 /* Range.h in Headers */,
+				C17A9E54183E32220074ABB5 /* RangeDatum.h in Headers */,
+				D98CC8AE1847703B000D7B0C /* LineDecoration.h in Headers */,
+				D98CC8AC1847703B000D7B0C /* Decoration.h in Headers */,
+				C17A9E55183E32220074ABB5 /* ScalarDatum.h in Headers */,
+				C17A9E56183E32220074ABB5 /* Series.h in Headers */,
+				D96D0D7F185A1D0000555656 /* Drawable.h in Headers */,
+				D96D0D83185A1D0000555656 /* Size.h in Headers */,
+				D96D0D81185A1D0000555656 /* Label.h in Headers */,
+				D945377E187C264600B6AC7F /* ColorSource.h in Headers */,
+				D9289FDA18573C92001E19E2 /* SuffixNumberFormatter.h in Headers */,
+				D945377F187C264600B6AC7F /* LineMode.h in Headers */,
+				D91B4E8F185F1EA000A81352 /* LogLevel.h in Headers */,
+				D9F8A7BF187F0AE100883DBF /* AbstractNumberAxis.h in Headers */,
+				D9F8A7C4187F0AE100883DBF /* FixedNumberTickCalculator.h in Headers */,
+				D9F8A7C6187F0AE100883DBF /* NumberAxis.h in Headers */,
+				D9F8A7C9187F0AE100883DBF /* RangeCalculator.h in Headers */,
+				D9F8A7C8187F0AE100883DBF /* NumberTickCalculator.h in Headers */,
+				D9453782187C264700B6AC7F /* LineStyleSource.h in Headers */,
+				D9453780187C264600B6AC7F /* LineStyle.h in Headers */,
+				D9F8A7D0187F0B9200883DBF /* RangeCalculatorInterfaceMarshaller.hh in Headers */,
+				D9F8A7C1187F0AE100883DBF /* AutomaticNumberTickCalculator.h in Headers */,
+				D9F8A7CE187F0B9200883DBF /* NumberTickCalculatorInterfaceMarshaller.hh in Headers */,
+				D9F8A791187ED3E900883DBF /* Coordinates.h in Headers */,
+				D9EEA79C18870F1A00DC5AB9 /* DateTickCalculator.h in Headers */,
+				D9EEA79A18870F1A00DC5AB9 /* DateAxis.h in Headers */,
+				D9EEA79F18870F1A00DC5AB9 /* DateUnit.h in Headers */,
+				D9EEA7B31887129E00DC5AB9 /* FixedDateTickCalculator.h in Headers */,
+				D9EEA79818870F1A00DC5AB9 /* AutomaticDateTickCalculator.h in Headers */,
+				D945D96218805ED600DBA754 /* Attachable.h in Headers */,
+				D9EA917F184CE6B300D8666C /* PointDecoration.h in Headers */,
+				D93EA9641888329A00EB403B /* TickAligningRangeCalculator.h in Headers */,
+				D93EA967188840FC00EB403B /* ResizeMode.h in Headers */,
+				D93EA96F1888465D00EB403B /* DateInterval.h in Headers */,
+				D9F8A7DE187F1D4B00883DBF /* AreaSeries.h in Headers */,
+				D9C6C719189BD570000D12A7 /* Renderable.h in Headers */,
+				D973C3511898002A006426A5 /* LogHandler.h in Headers */,
+				D9F94F9118A7149D007A76D9 /* Animation.h in Headers */,
+				D97C8B6318C625FC000C9128 /* DataTransform.h in Headers */,
+				D97C8B6218C625FC000C9128 /* AxisLayout.h in Headers */,
+				D9F94FB218A71CD0007A76D9 /* AnimationDelegate.h in Headers */,
+				D9F8A7E0187F1D4B00883DBF /* SteppedAreaSeries.h in Headers */,
+				D93EA94E18881DF700EB403B /* DateFormatter.h in Headers */,
+				D93EA94F18881DF700EB403B /* PerUnitDateFormatter.h in Headers */,
+				D95731F518C9E45D00D98270 /* FadeOutEffect.h in Headers */,
+				D95731F318C9E45D00D98270 /* FadeInEffect.h in Headers */,
+				D95731C918C9D4F300D98270 /* FormatSyntax.h in Headers */,
+				D95731C718C9D4F300D98270 /* BasicDateFormatter.h in Headers */,
+				D95731C518C9D4F300D98270 /* AbstractDateFormatter.h in Headers */,
+				D95731EF18C9E45D00D98270 /* AnimationEffect.h in Headers */,
+				D957320318CA10D200D98270 /* Edge.h in Headers */,
+				D97AE4C018D75101007BAF6F /* Touch.h in Headers */,
+				D97AE49E18D7433F007BAF6F /* ConstraintBehaviour.h in Headers */,
+				D97AE49C18D7433F007BAF6F /* Constraint.h in Headers */,
+				D97AE49F18D7433F007BAF6F /* Transform.h in Headers */,
+				D9A6A9F018D9FEE3005C98CB /* DataScaleConstraintBehaviour.h in Headers */,
+				D9A6A9EE18D9FEE3005C98CB /* DataOffsetConstraintBehaviour.h in Headers */,
+				D9FABFEE18D8C13900B3DBB7 /* DataFittingAxisLayout.h in Headers */,
+				D9EFEB7E1889987700F52866 /* PointStyle.h in Headers */,
+				D9FDB49118DC8F1F001C80B9 /* IncludeZeroRangeCalculator.h in Headers */,
+				D9FDB48418DC8D83001C80B9 /* PaddingRangeCalculator.h in Headers */,
+				D99DC681189683310050337D /* FontHint.h in Headers */,
+				C17A9E57183E32220074ABB5 /* SteppedBandSeries.h in Headers */,
+				C17A9E58183E32220074ABB5 /* SteppedLineSeries.h in Headers */,
+				D9453773187C262B00B6AC7F /* ColorSourceInterfaceMarshaller.hh in Headers */,
+				D9F8A78A187ED3B200883DBF /* CoordinatesStructMarshaller.hh in Headers */,
+				D9453777187C262B00B6AC7F /* LineStyleStructMarshaller.hh in Headers */,
+				D9EEA7A418870F2800DC5AB9 /* DateTickCalculatorInterfaceMarshaller.hh in Headers */,
+				D9453775187C262B00B6AC7F /* LineStyleSourceInterfaceMarshaller.hh in Headers */,
+				D96D0D88185A1D1C00555656 /* SizeStructMarshaller.hh in Headers */,
+				D93EA91F18880B6300EB403B /* FontStructMarshaller.hh in Headers */,
+				D93EA92018880B6300EB403B /* ColorStructMarshaller.hh in Headers */,
+				D93EA92118880B6300EB403B /* IndexRangeStructMarshaller.hh in Headers */,
+				D93EA92218880B6300EB403B /* MarginStructMarshaller.hh in Headers */,
+				D93EA92318880B6300EB403B /* NumberFormatterInterfaceMarshaller.hh in Headers */,
+				D93EA92418880B6300EB403B /* OHLCStructMarshaller.hh in Headers */,
+				D93EA92518880B6300EB403B /* PointStructMarshaller.hh in Headers */,
+				D93EA92618880B6300EB403B /* RangeStructMarshaller.hh in Headers */,
+				D93EA92818880B6300EB403B /* Common.hh in Headers */,
+				D93EA92918880B6300EB403B /* ContinuousDataSourceInterfaceMarshaller.hh in Headers */,
+				D93EA92A18880B6300EB403B /* ContinuousDataSourceInterfaceMarshaller.impl.hh in Headers */,
+				D93EA92B18880B6300EB403B /* ContinuousDatumStructMarshaller.hh in Headers */,
+				D97AE4BC18D750F5007BAF6F /* TouchStructMarshaller.hh in Headers */,
+				D97AE4AB18D74350007BAF6F /* TransformStructMarshaller.hh in Headers */,
+				D97AE4A718D74350007BAF6F /* ConstraintBehaviourInterfaceMarshaller.hh in Headers */,
+				D93EA95318881E0700EB403B /* DateFormatterInterfaceMarshaller.hh in Headers */,
+				D93EA93118880B6300EB403B /* Marshallers.hh in Headers */,
+				D9EFEB821889988200F52866 /* PointStyleStructMarshaller.hh in Headers */,
+				D93EA96B1888465000EB403B /* DateIntervalStructMarshaller.hh in Headers */,
+				D9F94FB518A71CE1007A76D9 /* AnimationDelegateInterfaceMarshaller.hh in Headers */,
+				D95731F918C9E46900D98270 /* AnimationEffectInterfaceMarshaller.hh in Headers */,
+				D93EA93418880B6300EB403B /* OHLCDatumStructMarshaller.hh in Headers */,
+				D973C35518980035006426A5 /* LogHandlerInterfaceMarshaller.hh in Headers */,
+				D97C8B5718C625CA000C9128 /* AxisLayoutInterfaceMarshaller.hh in Headers */,
+				D97C8B5918C625CA000C9128 /* DataTransformStructMarshaller.hh in Headers */,
+				D97C8B5B18C625CA000C9128 /* RenderableInterfaceMarshaller.hh in Headers */,
+				D93EA93518880B6300EB403B /* RangeDatumStructMarshaller.hh in Headers */,
+				D93EA93618880B6300EB403B /* ScalarDatumStructMarshaller.hh in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D9E8D6FE1816F13000FCD4BF /* TRChartsObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E8D7221816F13100FCD4BF /* Build configuration list for PBXNativeTarget "TRChartsObjc" */;
+			buildPhases = (
+				D9E8D6FB1816F13000FCD4BF /* Sources */,
+				D9E8D6FC1816F13000FCD4BF /* Frameworks */,
+				C17A9E06183E27970074ABB5 /* Headers */,
+				C17A9E59183E326D0074ABB5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9471FED1862170A0037737C /* PBXTargetDependency */,
+			);
+			name = TRChartsObjc;
+			productName = TRChartsObjc;
+			productReference = D9E8D6FF1816F13000FCD4BF /* libTRChartsObjc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D9E8D70E1816F13000FCD4BF /* TRChartsObjcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E8D7251816F13100FCD4BF /* Build configuration list for PBXNativeTarget "TRChartsObjcTests" */;
+			buildPhases = (
+				D9E8D70B1816F13000FCD4BF /* Sources */,
+				D9E8D70C1816F13000FCD4BF /* Frameworks */,
+				D9E8D70D1816F13000FCD4BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D945430A18A2FB0300A77D11 /* PBXTargetDependency */,
+				D9E8D7161816F13100FCD4BF /* PBXTargetDependency */,
+			);
+			name = TRChartsObjcTests;
+			productName = TRChartsObjcTests;
+			productReference = D9E8D70F1816F13000FCD4BF /* TRChartsObjcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9E8D6F71816F13000FCD4BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Thomson Reuters";
+			};
+			buildConfigurationList = D9E8D6FA1816F13000FCD4BF /* Build configuration list for PBXProject "TRChartsObjc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9E8D6F61816F13000FCD4BF;
+			productRefGroup = D9E8D7001816F13000FCD4BF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D91B4F27185F7D0A00A81352 /* Products */;
+					ProjectRef = D91B4F26185F7D0A00A81352 /* TRCharts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D9E8D6FE1816F13000FCD4BF /* TRChartsObjc */,
+				D9E8D70E1816F13000FCD4BF /* TRChartsObjcTests */,
+				C17A9E31183E310B0074ABB5 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D91B4F2C185F7D0A00A81352 /* libTRCharts.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTRCharts.a;
+			remoteRef = D91B4F2B185F7D0A00A81352 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D91B4F2E185F7D0A00A81352 /* libTRChartsTests.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTRChartsTests.a;
+			remoteRef = D91B4F2D185F7D0A00A81352 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9E8D70D1816F13000FCD4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94BE3811888912100E5E399 /* en.lproj in Resources */,
+				D9E8D71D1816F13100FCD4BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C17A9E59183E326D0074ABB5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"";
+		};
+		C17A9E5E183E32AC0074ABB5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nlipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9E8D6FB1816F13000FCD4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F8A7D1187F0B9200883DBF /* RangeCalculatorInterfaceMarshaller.mm in Sources */,
+				D9E627751822B38A00FCFB86 /* Marshallers.mm in Sources */,
+				D97AE4A018D7433F007BAF6F /* Transform.mm in Sources */,
+				D9453778187C262B00B6AC7F /* LineStyleStructMarshaller.mm in Sources */,
+				D9C5FF73182BB08900B63E09 /* IndexRange.mm in Sources */,
+				D9F8A78B187ED3B200883DBF /* CoordinatesStructMarshaller.mm in Sources */,
+				D9C5FF74182BB08900B63E09 /* Margin.mm in Sources */,
+				D97AE4C118D75101007BAF6F /* Touch.mm in Sources */,
+				D945D96318805ED600DBA754 /* Attachable.mm in Sources */,
+				D9E8EDC118218FE400F835F4 /* Series.mm in Sources */,
+				D9C5FF97182BB09600B63E09 /* NumberFormatterInterfaceMarshaller.mm in Sources */,
+				D9E6277F1822BB7D00FCFB86 /* ContinuousDatum.mm in Sources */,
+				D9E8EDD81821914F00F835F4 /* ContinuousSeries.mm in Sources */,
+				D9E627761822B38A00FCFB86 /* OHLCDatumStructMarshaller.mm in Sources */,
+				D9E627911822D9C600FCFB86 /* Point.mm in Sources */,
+				D9E8EDC018218FE400F835F4 /* LineSeries.mm in Sources */,
+				D9E8EDBC18218FE400F835F4 /* CandlestickSeries.mm in Sources */,
+				D95731C818C9D4F300D98270 /* BasicDateFormatter.mm in Sources */,
+				D9E627801822BB7D00FCFB86 /* OHLCDatum.mm in Sources */,
+				D93EA96C1888465000EB403B /* DateIntervalStructMarshaller.mm in Sources */,
+				D9E8EDBF18218FE400F835F4 /* ContinuousAxis.mm in Sources */,
+				D9C5FF96182BB09600B63E09 /* MarginStructMarshaller.mm in Sources */,
+				D9C5FF95182BB09600B63E09 /* IndexRangeStructMarshaller.mm in Sources */,
+				D98CC8AD1847703B000D7B0C /* Decoration.mm in Sources */,
+				D9F94FB618A71CE1007A76D9 /* AnimationDelegateInterfaceMarshaller.mm in Sources */,
+				D9EA845C18771AC800D85EBF /* Common.mm in Sources */,
+				D9453776187C262B00B6AC7F /* LineStyleSourceInterfaceMarshaller.mm in Sources */,
+				D9F8A7C0187F0AE100883DBF /* AbstractNumberAxis.mm in Sources */,
+				D95731F418C9E45D00D98270 /* FadeInEffect.mm in Sources */,
+				D9FABFEF18D8C13900B3DBB7 /* DataFittingAxisLayout.mm in Sources */,
+				D9F94F9218A7149D007A76D9 /* Animation.mm in Sources */,
+				D9EEA79B18870F1A00DC5AB9 /* DateAxis.mm in Sources */,
+				D9A6A9EF18D9FEE3005C98CB /* DataOffsetConstraintBehaviour.mm in Sources */,
+				D9EFEB7A188977E400F52866 /* Charts.mm in Sources */,
+				D97C8B5A18C625CA000C9128 /* DataTransformStructMarshaller.mm in Sources */,
+				D9FDB49218DC8F1F001C80B9 /* IncludeZeroRangeCalculator.mm in Sources */,
+				D9C5FF8E182BB09600B63E09 /* ColorStructMarshaller.mm in Sources */,
+				D9453774187C262B00B6AC7F /* ColorSourceInterfaceMarshaller.mm in Sources */,
+				D9F8A7CF187F0B9200883DBF /* NumberTickCalculatorInterfaceMarshaller.mm in Sources */,
+				D96D0D80185A1D0000555656 /* Drawable.mm in Sources */,
+				D9F8A792187ED3E900883DBF /* Coordinates.mm in Sources */,
+				D9E627781822B38A00FCFB86 /* ScalarDatumStructMarshaller.mm in Sources */,
+				D97AE49D18D7433F007BAF6F /* Constraint.mm in Sources */,
+				D9F8A7C5187F0AE100883DBF /* FixedNumberTickCalculator.mm in Sources */,
+				D9E6279A1822DEC300FCFB86 /* OHLCStructMarshaller.mm in Sources */,
+				D96D0D89185A1D1C00555656 /* SizeStructMarshaller.mm in Sources */,
+				D9EEA7B41887129E00DC5AB9 /* FixedDateTickCalculator.mm in Sources */,
+				D97C8B6418C625FC000C9128 /* DataTransform.mm in Sources */,
+				D9EFEB831889988200F52866 /* PointStyleStructMarshaller.mm in Sources */,
+				D9FDB48518DC8D83001C80B9 /* PaddingRangeCalculator.mm in Sources */,
+				D97AE4AC18D74350007BAF6F /* TransformStructMarshaller.mm in Sources */,
+				D9E627771822B38A00FCFB86 /* RangeDatumStructMarshaller.mm in Sources */,
+				D9E8EDC318218FE400F835F4 /* SteppedLineSeries.mm in Sources */,
+				D97AE4BD18D750F5007BAF6F /* TouchStructMarshaller.mm in Sources */,
+				D9453781187C264700B6AC7F /* LineStyle.mm in Sources */,
+				D9E627811822BB7D00FCFB86 /* RangeDatum.mm in Sources */,
+				D9E8EDBD18218FE400F835F4 /* CategoryAxis.mm in Sources */,
+				D93EA9651888329A00EB403B /* TickAligningRangeCalculator.mm in Sources */,
+				D9289FDB18573C92001E19E2 /* SuffixNumberFormatter.mm in Sources */,
+				D9EA9180184CE6B300D8666C /* PointDecoration.mm in Sources */,
+				D9EEA79918870F1A00DC5AB9 /* AutomaticDateTickCalculator.mm in Sources */,
+				D95731C618C9D4F300D98270 /* AbstractDateFormatter.mm in Sources */,
+				D95731FA18C9E46900D98270 /* AnimationEffectInterfaceMarshaller.mm in Sources */,
+				D9C5FF6D182BB08900B63E09 /* Color.mm in Sources */,
+				D9F8A7DF187F1D4B00883DBF /* AreaSeries.mm in Sources */,
+				D9C5FF6C182BB08900B63E09 /* ChartElement.mm in Sources */,
+				D9C5FF6A182BB08900B63E09 /* BasicNumberFormatter.mm in Sources */,
+				D973C35618980035006426A5 /* LogHandlerInterfaceMarshaller.mm in Sources */,
+				D9E8EDC218218FE400F835F4 /* SteppedBandSeries.mm in Sources */,
+				D9A6A9F118D9FEE3005C98CB /* DataScaleConstraintBehaviour.mm in Sources */,
+				D96D0D84185A1D0000555656 /* Size.mm in Sources */,
+				D97C8B5818C625CA000C9128 /* AxisLayoutInterfaceMarshaller.mm in Sources */,
+				D9E6279B1822DEC300FCFB86 /* PointStructMarshaller.mm in Sources */,
+				D93EA9701888465D00EB403B /* DateInterval.mm in Sources */,
+				D9E627731822B38A00FCFB86 /* ContinuousDatumStructMarshaller.mm in Sources */,
+				D9E6279C1822DEC300FCFB86 /* RangeStructMarshaller.mm in Sources */,
+				D95731F618C9E45D00D98270 /* FadeOutEffect.mm in Sources */,
+				D97C8B5C18C625CA000C9128 /* RenderableInterfaceMarshaller.mm in Sources */,
+				D93EA95418881E0700EB403B /* DateFormatterInterfaceMarshaller.mm in Sources */,
+				D9EEA7A518870F2800DC5AB9 /* DateTickCalculatorInterfaceMarshaller.mm in Sources */,
+				D9F8A7C2187F0AE100883DBF /* AutomaticNumberTickCalculator.mm in Sources */,
+				D9E8EDBE18218FE400F835F4 /* Chart.mm in Sources */,
+				D9E8EDB718218FE400F835F4 /* Axis.mm in Sources */,
+				D9EFEB7F1889987700F52866 /* PointStyle.mm in Sources */,
+				D9F8A7C7187F0AE100883DBF /* NumberAxis.mm in Sources */,
+				D97AE4A818D74350007BAF6F /* ConstraintBehaviourInterfaceMarshaller.mm in Sources */,
+				D9E8EDB818218FE400F835F4 /* BandSeries.mm in Sources */,
+				D96D0D82185A1D0000555656 /* Label.mm in Sources */,
+				D93EA95018881DF700EB403B /* PerUnitDateFormatter.mm in Sources */,
+				D9F8A7E1187F1D4B00883DBF /* SteppedAreaSeries.mm in Sources */,
+				D9C5FF72182BB08900B63E09 /* FixedRangeCalculator.mm in Sources */,
+				D95437A3182D49E70078F67C /* Font.mm in Sources */,
+				D95437A8182D4CAF0078F67C /* FontStructMarshaller.mm in Sources */,
+				D98CC8AF1847703B000D7B0C /* LineDecoration.mm in Sources */,
+				D91771651844CCA600DD2A15 /* PointSeries.mm in Sources */,
+				D9E627A31822DED300FCFB86 /* OHLC.mm in Sources */,
+				D9E627A51822DED300FCFB86 /* Range.mm in Sources */,
+				D9E627821822BB7D00FCFB86 /* ScalarDatum.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E8D70B1816F13000FCD4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94BE3791888912100E5E399 /* CategoryAxisGeneratedTests.mm in Sources */,
+				D94DAA001888D515003E1025 /* CandlestickSeriesTests.mm in Sources */,
+				D94DA9FF1888D515003E1025 /* BasicNumberFormatterTests.mm in Sources */,
+				D94BE3921888912100E5E399 /* TickAligningRangeCalculatorGeneratedTests.mm in Sources */,
+				D94DAA071888D515003E1025 /* DateAxisTests.mm in Sources */,
+				D94BE3831888912100E5E399 /* FixedNumberTickCalculatorGeneratedTests.mm in Sources */,
+				D94DAA171888D515003E1025 /* SteppedBandSeriesTests.mm in Sources */,
+				D94BE3851888912100E5E399 /* LabelGeneratedTests.mm in Sources */,
+				D94DAA081888D515003E1025 /* DecorationTests.mm in Sources */,
+				D94DAA051888D515003E1025 /* ContinuousAxisTests.mm in Sources */,
+				D94BE38F1888912100E5E399 /* SteppedBandSeriesGeneratedTests.mm in Sources */,
+				D94DA9FC1888D515003E1025 /* AxisTests.mm in Sources */,
+				D94DA9F51888D515003E1025 /* AbstractNumberAxisTests.mm in Sources */,
+				D94DAA121888D515003E1025 /* PerUnitDateFormatterTests.mm in Sources */,
+				D94BE3741888912100E5E399 /* AxisGeneratedTests.mm in Sources */,
+				D94DAA1A1888D515003E1025 /* TickAligningRangeCalculatorTests.mm in Sources */,
+				D94BE3871888912100E5E399 /* LineSeriesGeneratedTests.mm in Sources */,
+				D945430F18A2FCCB00A77D11 /* GeneratedNativeTests.mm in Sources */,
+				D94BE3861888912100E5E399 /* LineDecorationGeneratedTests.mm in Sources */,
+				D94BE37B1888912100E5E399 /* ChartGeneratedTests.mm in Sources */,
+				D94DA9F71888D515003E1025 /* AreaSeriesTests.mm in Sources */,
+				D94DAA141888D515003E1025 /* PointSeriesTests.mm in Sources */,
+				D94DAA011888D515003E1025 /* CategoryAxisTests.mm in Sources */,
+				D94BE3751888912100E5E399 /* BandSeriesGeneratedTests.mm in Sources */,
+				D94DAA061888D515003E1025 /* ContinuousSeriesTests.mm in Sources */,
+				D94DAA0D1888D515003E1025 /* LabelTests.mm in Sources */,
+				D94BE37D1888912100E5E399 /* ContinuousAxisGeneratedTests.mm in Sources */,
+				D93AEFAA1888C23B009346CE /* TestUtils.mm in Sources */,
+				D94DA9F91888D515003E1025 /* AutomaticDateTickCalculatorTests.mm in Sources */,
+				D94BE37E1888912100E5E399 /* DateAxisGeneratedTests.mm in Sources */,
+				D94BE36F1888912100E5E399 /* AreaSeriesGeneratedTests.mm in Sources */,
+				D94DAA191888D515003E1025 /* SuffixNumberFormatterTests.mm in Sources */,
+				D94DAA0A1888D515003E1025 /* FixedDateTickCalculatorTests.mm in Sources */,
+				D94DAA0E1888D515003E1025 /* LineDecorationTests.mm in Sources */,
+				D94DAA111888D515003E1025 /* NumberAxisTests.mm in Sources */,
+				D94BE38A1888912100E5E399 /* PerUnitDateFormatterGeneratedTests.mm in Sources */,
+				D94DAA151888D515003E1025 /* SeriesTests.mm in Sources */,
+				D94DAA181888D515003E1025 /* SteppedLineSeriesTests.mm in Sources */,
+				D94BE38B1888912100E5E399 /* PointDecorationGeneratedTests.mm in Sources */,
+				D94BE37A1888912100E5E399 /* ChartElementGeneratedTests.mm in Sources */,
+				D94DAA0C1888D515003E1025 /* FixedRangeCalculatorTests.mm in Sources */,
+				D94BE3721888912100E5E399 /* AutomaticNumberTickCalculatorGeneratedTests.mm in Sources */,
+				D94DA9FA1888D515003E1025 /* AutomaticNumberTickCalculatorTests.mm in Sources */,
+				D94DAA131888D515003E1025 /* PointDecorationTests.mm in Sources */,
+				D94DAA091888D515003E1025 /* DrawableTests.mm in Sources */,
+				D94BE37F1888912100E5E399 /* DecorationGeneratedTests.mm in Sources */,
+				D94BE38E1888912100E5E399 /* SteppedAreaSeriesGeneratedTests.mm in Sources */,
+				D94DAA021888D515003E1025 /* ChartElementTests.mm in Sources */,
+				D94BE3911888912100E5E399 /* SuffixNumberFormatterGeneratedTests.mm in Sources */,
+				D94BE3711888912100E5E399 /* AutomaticDateTickCalculatorGeneratedTests.mm in Sources */,
+				D94BE3901888912100E5E399 /* SteppedLineSeriesGeneratedTests.mm in Sources */,
+				D94DAA0F1888D515003E1025 /* LineSeriesTests.mm in Sources */,
+				D94BE36D1888912100E5E399 /* AbstractNumberAxisGeneratedTests.mm in Sources */,
+				D94BE3771888912100E5E399 /* BasicNumberFormatterGeneratedTests.mm in Sources */,
+				D94BE38D1888912100E5E399 /* SeriesGeneratedTests.mm in Sources */,
+				D94BE3891888912100E5E399 /* NumberAxisGeneratedTests.mm in Sources */,
+				D94DA9F81888D515003E1025 /* AttachableTests.mm in Sources */,
+				D94BE3781888912100E5E399 /* CandlestickSeriesGeneratedTests.mm in Sources */,
+				D94BE38C1888912100E5E399 /* PointSeriesGeneratedTests.mm in Sources */,
+				D94BE3801888912100E5E399 /* DrawableGeneratedTests.mm in Sources */,
+				D94BE3701888912100E5E399 /* AttachableGeneratedTests.mm in Sources */,
+				D94BE3841888912100E5E399 /* FixedRangeCalculatorGeneratedTests.mm in Sources */,
+				D94DAA031888D515003E1025 /* ChartTests.mm in Sources */,
+				D94DAA161888D515003E1025 /* SteppedAreaSeriesTests.mm in Sources */,
+				D94BE3821888912100E5E399 /* FixedDateTickCalculatorGeneratedTests.mm in Sources */,
+				D94BE3BF1888985400E5E399 /* ContinuousSeriesGeneratedTests.mm in Sources */,
+				D94DAA0B1888D515003E1025 /* FixedNumberTickCalculatorTests.mm in Sources */,
+				D94DA9FD1888D515003E1025 /* BandSeriesTests.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C17A9E5B183E328E0074ABB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9E8D6FE1816F13000FCD4BF /* TRChartsObjc */;
+			targetProxy = C17A9E5A183E328E0074ABB5 /* PBXContainerItemProxy */;
+		};
+		D945430A18A2FB0300A77D11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRChartsTests;
+			targetProxy = D945430918A2FB0300A77D11 /* PBXContainerItemProxy */;
+		};
+		D9471FED1862170A0037737C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRCharts;
+			targetProxy = D9471FEC1862170A0037737C /* PBXContainerItemProxy */;
+		};
+		D9E8D7161816F13100FCD4BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9E8D6FE1816F13000FCD4BF /* TRChartsObjc */;
+			targetProxy = D9E8D7151816F13100FCD4BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9E8D71B1816F13100FCD4BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E8D71C1816F13100FCD4BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C17A9E32183E310B0074ABB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C17A9E33183E310B0074ABB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9E8D7201816F13100FCD4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9E8D7211816F13100FCD4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9E8D7231816F13100FCD4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/TRChartsObjc.dst;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRChartsObjc/TRChartsObjc-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					.,
+					../TRCharts,
+					../../TR3DUtils,
+					../../CodegenSupport/TRCodegenSupport,
+					../../CodegenSupport/TRCodegenSupportObjc,
+					../../include,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		D9E8D7241816F13100FCD4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/TRChartsObjc.dst;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRChartsObjc/TRChartsObjc-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					.,
+					../TRCharts,
+					../../TR3DUtils,
+					../../CodegenSupport/TRCodegenSupport,
+					../../CodegenSupport/TRCodegenSupportObjc,
+					../../include,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		D9E8D7261816F13100FCD4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRChartsObjc/TRChartsObjc-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../TRCharts,
+				);
+				INFOPLIST_FILE = "TRChartsObjcTests/TRChartsObjcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D9E8D7271816F13100FCD4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRChartsObjc/TRChartsObjc-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../TRCharts,
+				);
+				INFOPLIST_FILE = "TRChartsObjcTests/TRChartsObjcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C17A9E36183E310B0074ABB5 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17A9E32183E310B0074ABB5 /* Debug */,
+				C17A9E33183E310B0074ABB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E8D6FA1816F13000FCD4BF /* Build configuration list for PBXProject "TRChartsObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E8D7201816F13100FCD4BF /* Debug */,
+				D9E8D7211816F13100FCD4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E8D7221816F13100FCD4BF /* Build configuration list for PBXNativeTarget "TRChartsObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E8D7231816F13100FCD4BF /* Debug */,
+				D9E8D7241816F13100FCD4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E8D7251816F13100FCD4BF /* Build configuration list for PBXNativeTarget "TRChartsObjcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E8D7261816F13100FCD4BF /* Debug */,
+				D9E8D7271816F13100FCD4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9E8D6F71816F13000FCD4BF /* Project object */;
+}

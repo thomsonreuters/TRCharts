@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRDecoration.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRDecoration</TokenIdentifier>
+			<Abstract type="html">Base class for a chart decoration</Abstract>
+			<DeclaredIn>Decoration.h</DeclaredIn>
+            
+			
+			<NodeRef refid="29"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDecoration/color</TokenIdentifier>
+			<Abstract type="html">Base color (assumed to be applicable to all decorations)</Abstract>
+			<DeclaredIn>Decoration.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDecoration/setColor:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRColor *)color</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current color.</Abstract></ReturnValue>
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDecoration/setColor:</TokenIdentifier>
+			<Abstract type="html">Base color (assumed to be applicable to all decorations)</Abstract>
+			<DeclaredIn>Decoration.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDecoration/color</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setColor:(TRColor *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setColor:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRAutomaticNumberTickCalculator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRAutomaticNumberTickCalculator</TokenIdentifier>
+			<Abstract type="html">Calculates a number tick interval based on a target screen-space interval.</Abstract>
+			<DeclaredIn>AutomaticNumberTickCalculator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAutomaticNumberTickCalculator/targetScreenInterval</TokenIdentifier>
+			<Abstract type="html">The current target screen-space interval (hint).</Abstract>
+			<DeclaredIn>AutomaticNumberTickCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAutomaticNumberTickCalculator/setTargetScreenInterval:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (double)targetScreenInterval</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current target screen-space interval (hint).</Abstract></ReturnValue>
+			<Anchor>//api/name/targetScreenInterval</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAutomaticNumberTickCalculator/setTargetScreenInterval:</TokenIdentifier>
+			<Abstract type="html">The new target screen-space interval (hint).</Abstract>
+			<DeclaredIn>AutomaticNumberTickCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAutomaticNumberTickCalculator/targetScreenInterval</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTargetScreenInterval:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new target screen-space interval (hint).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTargetScreenInterval:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAutomaticNumberTickCalculator/minInterval</TokenIdentifier>
+			<Abstract type="html">The current minimum interval.</Abstract>
+			<DeclaredIn>AutomaticNumberTickCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAutomaticNumberTickCalculator/setMinInterval:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (double)minInterval</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current minimum interval.</Abstract></ReturnValue>
+			<Anchor>//api/name/minInterval</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAutomaticNumberTickCalculator/setMinInterval:</TokenIdentifier>
+			<Abstract type="html">The new minimum interval.</Abstract>
+			<DeclaredIn>AutomaticNumberTickCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAutomaticNumberTickCalculator/minInterval</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setMinInterval:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new minimum interval.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setMinInterval:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAutomaticNumberTickCalculator/base</TokenIdentifier>
+			<Abstract type="html">The current base.</Abstract>
+			<DeclaredIn>AutomaticNumberTickCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAutomaticNumberTickCalculator/setBase:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (double)base</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current base.</Abstract></ReturnValue>
+			<Anchor>//api/name/base</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAutomaticNumberTickCalculator/setBase:</TokenIdentifier>
+			<Abstract type="html">The new base.</Abstract>
+			<DeclaredIn>AutomaticNumberTickCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAutomaticNumberTickCalculator/base</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setBase:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new base.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setBase:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAutomaticNumberTickCalculator/multipliers</TokenIdentifier>
+			<Abstract type="html">Use [5, 2] for static automatic multi-axis tick alignment (more docs needed)</Abstract>
+			<DeclaredIn>AutomaticNumberTickCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAutomaticNumberTickCalculator/setMultipliers:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSArray *)multipliers</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current multipliers.</Abstract></ReturnValue>
+			<Anchor>//api/name/multipliers</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAutomaticNumberTickCalculator/setMultipliers:</TokenIdentifier>
+			<Abstract type="html">Use [5, 2] for static automatic multi-axis tick alignment (more docs needed)</Abstract>
+			<DeclaredIn>AutomaticNumberTickCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAutomaticNumberTickCalculator/multipliers</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setMultipliers:(NSArray *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new multipliers.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setMultipliers:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAutomaticNumberTickCalculator/calculateTickInterval:visibleDataRange:screenLength:</TokenIdentifier>
+			<Abstract type="html">Returns the calculated number tick interval</Abstract>
+			<DeclaredIn>AutomaticNumberTickCalculator.h</DeclaredIn>
+			
+			<Declaration>- (double)calculateTickInterval:(TRRange *)dataRange visibleDataRange:(TRRange *)visibleDataRange screenLength:(double)screenLength</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataRange</Name>
+					<Abstract type="html">Total data range for the axis</Abstract>
+				</Parameter><Parameter>
+					<Name>visibleDataRange</Name>
+					<Abstract type="html">Data range that is visible under the current data transform</Abstract>
+				</Parameter><Parameter>
+					<Name>screenLength</Name>
+					<Abstract type="html">Visual length of the axis on the screen (in points)</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/calculateTickInterval:visibleDataRange:screenLength:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

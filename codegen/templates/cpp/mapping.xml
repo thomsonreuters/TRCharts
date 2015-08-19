@@ -1,0 +1,33 @@
+<mapping>
+
+	<defMapping>
+		<applyTemplate template="CommonHeader.ftl" output="Common.hpp"/>
+	</defMapping>
+
+	<defMapping def="project">
+		<applyTemplate template="ProjectHeader.ftl" output="${def.name}.hpp"/>
+		<applyTemplate template="ProjectImplementation.ftl" output="${def.name}.cpp"/>
+	</defMapping>
+
+	<defMapping def="class">
+		<applyTemplate template="ClassHeader.ftl" output="${def.name}.hpp"/>
+		<applyTemplate template="ClassImplementation.ftl" output="${def.name}.cpp" condition="!${def.templateParameters??}"/>
+		<applyTemplate template="ClassImplementation.ftl" output="${def.name}.impl.hpp" condition="${def.templateParameters??}"/>
+	</defMapping>
+
+	<defMapping def="enum">
+		<applyTemplate template="EnumHeader.ftl" output="${def.name}.hpp"/>
+	</defMapping>
+
+	<defMapping def="interface">
+		<applyTemplate template="InterfaceHeader.ftl" output="${def.name}.hpp"/>
+		<applyTemplate template="InterfaceImplementation.ftl" output="${def.name}.cpp" condition="${def.templateParameters??}"/>
+		<applyTemplate template="InterfaceImplementation.ftl" output="${def.name}.impl.hpp" condition="!${def.templateParameters??}"/>
+	</defMapping>
+
+	<defMapping def="struct">
+		<applyTemplate template="StructHeader.ftl" output="${def.name}.hpp"/>
+		<applyTemplate template="StructImplementation.ftl" output="${def.name}.cpp"/>
+	</defMapping>
+
+</mapping>

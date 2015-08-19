@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRChartElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRChartElement</TokenIdentifier>
+			<Abstract type="html">Base class for all objects that can be attached to a chart</Abstract>
+			<DeclaredIn>ChartElement.h</DeclaredIn>
+            
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChartElement/drawOrder</TokenIdentifier>
+			<Abstract type="html">Can be used to control z-ordering (higher values are drawn on top of lower
+values).</Abstract>
+			<DeclaredIn>ChartElement.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRChartElement/setDrawOrder:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (long)drawOrder</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current draw order.</Abstract></ReturnValue>
+			<Anchor>//api/name/drawOrder</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChartElement/setDrawOrder:</TokenIdentifier>
+			<Abstract type="html">Can be used to control z-ordering (higher values are drawn on top of lower
+values).</Abstract>
+			<DeclaredIn>ChartElement.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRChartElement/drawOrder</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setDrawOrder:(long)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new draw order.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setDrawOrder:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

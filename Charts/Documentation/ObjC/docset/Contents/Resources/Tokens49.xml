@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRPoint.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRPoint</TokenIdentifier>
+			<Abstract type="html">Represents a 2D point. (Used as a conceptual point and vector).</Abstract>
+			<DeclaredIn>Point.h</DeclaredIn>
+            
+			
+			<NodeRef refid="49"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPoint/setX:</TokenIdentifier>
+			<Abstract type="html">The X value.</Abstract>
+			<DeclaredIn>Point.h</DeclaredIn>
+			
+			<Declaration>@property double x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPoint/x</TokenIdentifier>
+			<Abstract type="html">The X value.</Abstract>
+			<DeclaredIn>Point.h</DeclaredIn>
+			
+			<Declaration>@property double x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRPoint/x</TokenIdentifier>
+			<Abstract type="html">The X value.</Abstract>
+			<DeclaredIn>Point.h</DeclaredIn>
+			
+			<Declaration>@property double x</Declaration>
+			
+			
+			<Anchor>//api/name/x</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPoint/setY:</TokenIdentifier>
+			<Abstract type="html">The Y value.</Abstract>
+			<DeclaredIn>Point.h</DeclaredIn>
+			
+			<Declaration>@property double y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPoint/y</TokenIdentifier>
+			<Abstract type="html">The Y value.</Abstract>
+			<DeclaredIn>Point.h</DeclaredIn>
+			
+			<Declaration>@property double y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRPoint/y</TokenIdentifier>
+			<Abstract type="html">The Y value.</Abstract>
+			<DeclaredIn>Point.h</DeclaredIn>
+			
+			<Declaration>@property double y</Declaration>
+			
+			
+			<Anchor>//api/name/y</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPoint/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>Point.h</DeclaredIn>
+			
+			<Declaration>- (TRPoint *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRPoint/x:y:</TokenIdentifier>
+			<Abstract type="html">Create a Point instance with provided values.</Abstract>
+			<DeclaredIn>Point.h</DeclaredIn>
+			
+			<Declaration>+ (TRPoint *)x:(double)x y:(double)y</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>x</Name>
+					<Abstract type="html">The X value.</Abstract>
+				</Parameter><Parameter>
+					<Name>y</Name>
+					<Abstract type="html">The Y value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/x:y:</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRPoint/add:otherPoint:</TokenIdentifier>
+			<Abstract type="html">Utility method to add two points (componentwise)</Abstract>
+			<DeclaredIn>Point.h</DeclaredIn>
+			
+			<Declaration>+ (TRPoint *)add:(TRPoint *)point otherPoint:(TRPoint *)otherPoint</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">First point</Abstract>
+				</Parameter><Parameter>
+					<Name>otherPoint</Name>
+					<Abstract type="html">Second point</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/add:otherPoint:</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRPoint/subtract:otherPoint:</TokenIdentifier>
+			<Abstract type="html">Utility method to subtract two points (componentwise)</Abstract>
+			<DeclaredIn>Point.h</DeclaredIn>
+			
+			<Declaration>+ (TRPoint *)subtract:(TRPoint *)point otherPoint:(TRPoint *)otherPoint</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">First point</Abstract>
+				</Parameter><Parameter>
+					<Name>otherPoint</Name>
+					<Abstract type="html">Second point</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/subtract:otherPoint:</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRPoint/multiply:otherPoint:</TokenIdentifier>
+			<Abstract type="html">Utility method to multiply two points (componentwise)</Abstract>
+			<DeclaredIn>Point.h</DeclaredIn>
+			
+			<Declaration>+ (TRPoint *)multiply:(TRPoint *)point otherPoint:(TRPoint *)otherPoint</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">First point</Abstract>
+				</Parameter><Parameter>
+					<Name>otherPoint</Name>
+					<Abstract type="html">Second point</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/multiply:otherPoint:</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRPoint/divide:otherPoint:</TokenIdentifier>
+			<Abstract type="html">Utility method to divide two points (componentwise)</Abstract>
+			<DeclaredIn>Point.h</DeclaredIn>
+			
+			<Declaration>+ (TRPoint *)divide:(TRPoint *)point otherPoint:(TRPoint *)otherPoint</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>point</Name>
+					<Abstract type="html">First point</Abstract>
+				</Parameter><Parameter>
+					<Name>otherPoint</Name>
+					<Abstract type="html">Second point</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/divide:otherPoint:</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPoint/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>Point.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPoint/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>Point.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPoint/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>Point.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPoint/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>Point.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

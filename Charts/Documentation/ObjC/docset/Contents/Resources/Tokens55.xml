@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRScalarDatum.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRScalarDatum</TokenIdentifier>
+			<Abstract type="html">A continuous datum holding scalar (number) values</Abstract>
+			<DeclaredIn>ScalarDatum.h</DeclaredIn>
+            
+			
+			<NodeRef refid="55"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRScalarDatum/setOrdinate:</TokenIdentifier>
+			<Abstract type="html">The ordinate value.</Abstract>
+			<DeclaredIn>ScalarDatum.h</DeclaredIn>
+			
+			<Declaration>@property double ordinate</Declaration>
+			
+			
+			<Anchor>//api/name/ordinate</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRScalarDatum/ordinate</TokenIdentifier>
+			<Abstract type="html">The ordinate value.</Abstract>
+			<DeclaredIn>ScalarDatum.h</DeclaredIn>
+			
+			<Declaration>@property double ordinate</Declaration>
+			
+			
+			<Anchor>//api/name/ordinate</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRScalarDatum/ordinate</TokenIdentifier>
+			<Abstract type="html">The ordinate value.</Abstract>
+			<DeclaredIn>ScalarDatum.h</DeclaredIn>
+			
+			<Declaration>@property double ordinate</Declaration>
+			
+			
+			<Anchor>//api/name/ordinate</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRScalarDatum/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>ScalarDatum.h</DeclaredIn>
+			
+			<Declaration>- (TRScalarDatum *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRScalarDatum/abscissa:ordinate:</TokenIdentifier>
+			<Abstract type="html">Create a ScalarDatum instance with provided values.</Abstract>
+			<DeclaredIn>ScalarDatum.h</DeclaredIn>
+			
+			<Declaration>+ (TRScalarDatum *)abscissa:(double)abscissa ordinate:(double)ordinate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>abscissa</Name>
+					<Abstract type="html">The abscissa value.</Abstract>
+				</Parameter><Parameter>
+					<Name>ordinate</Name>
+					<Abstract type="html">The ordinate value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/abscissa:ordinate:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRScalarDatum/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>ScalarDatum.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRScalarDatum/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>ScalarDatum.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRScalarDatum/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>ScalarDatum.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRScalarDatum/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>ScalarDatum.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRCategoryAxis.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRCategoryAxis</TokenIdentifier>
+			<Abstract type="html">An axis for displaying categories, eg for bar charts (not currently
+implemented/used)</Abstract>
+			<DeclaredIn>CategoryAxis.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

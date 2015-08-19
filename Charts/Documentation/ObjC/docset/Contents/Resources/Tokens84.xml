@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TRLogLevel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TRLogLevel</TokenIdentifier>
+			<Abstract type="html">Log level, each log level implies that level, and all more severe levels</Abstract>
+			<DeclaredIn>LogLevel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="84"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_LOGLEVEL_TRACE</TokenIdentifier>
+            <Abstract type="html">Log everything
+	 </Abstract>
+            <Declaration>TR_LOGLEVEL_TRACE</Declaration>
+            
+            <DeclaredIn>LogLevel.h</DeclaredIn>
+            
+            <NodeRef refid="84"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_LOGLEVEL_DEBUG</TokenIdentifier>
+            <Abstract type="html">Log internal developer information
+	 </Abstract>
+            <Declaration>TR_LOGLEVEL_DEBUG</Declaration>
+            
+            <DeclaredIn>LogLevel.h</DeclaredIn>
+            
+            <NodeRef refid="84"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_LOGLEVEL_INFO</TokenIdentifier>
+            <Abstract type="html">Log general information
+	 </Abstract>
+            <Declaration>TR_LOGLEVEL_INFO</Declaration>
+            
+            <DeclaredIn>LogLevel.h</DeclaredIn>
+            
+            <NodeRef refid="84"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_LOGLEVEL_WARN</TokenIdentifier>
+            <Abstract type="html">Log minor/recoverable errors and incorrect usage
+	 </Abstract>
+            <Declaration>TR_LOGLEVEL_WARN</Declaration>
+            
+            <DeclaredIn>LogLevel.h</DeclaredIn>
+            
+            <NodeRef refid="84"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_LOGLEVEL_ERROR</TokenIdentifier>
+            <Abstract type="html">Log serious errors
+	 </Abstract>
+            <Declaration>TR_LOGLEVEL_ERROR</Declaration>
+            
+            <DeclaredIn>LogLevel.h</DeclaredIn>
+            
+            <NodeRef refid="84"/>
+        </Token>
+        
+	</File>
+</Tokens>

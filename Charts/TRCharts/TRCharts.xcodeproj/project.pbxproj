@@ -1,0 +1,1368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D917716B1844CCCB00DD2A15 /* PointSeriesImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D91771691844CCCB00DD2A15 /* PointSeriesImpl.cpp */; };
+		D917716E1844CCD400DD2A15 /* PointSeries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D917716C1844CCD400DD2A15 /* PointSeries.cpp */; };
+		D91B4EAF185F4A1500A81352 /* Versionable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D91B4EAD185F4A1500A81352 /* Versionable.cpp */; };
+		D9289FD718573B53001E19E2 /* SuffixNumberFormatterImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9289FD518573B53001E19E2 /* SuffixNumberFormatterImpl.cpp */; };
+		D9289FDF18573C9F001E19E2 /* SuffixNumberFormatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9289FDD18573C9E001E19E2 /* SuffixNumberFormatter.cpp */; };
+		D93EA94518881DE600EB403B /* DateFormatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D93EA94018881DE600EB403B /* DateFormatter.cpp */; };
+		D93EA95718881E3F00EB403B /* PerUnitDateFormatterImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D93EA95518881E3F00EB403B /* PerUnitDateFormatterImpl.cpp */; };
+		D93EA95A18881E4A00EB403B /* PerUnitDateFormatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D93EA95818881E4A00EB403B /* PerUnitDateFormatter.cpp */; };
+		D93EA95E1888328400EB403B /* TickAligningRangeCalculatorImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D93EA95C1888328400EB403B /* TickAligningRangeCalculatorImpl.cpp */; };
+		D93EA9611888328C00EB403B /* TickAligningRangeCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D93EA95F1888328C00EB403B /* TickAligningRangeCalculator.cpp */; };
+		D9453766187C1EAE00B6AC7F /* ColorSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9453764187C1EAE00B6AC7F /* ColorSource.cpp */; };
+		D945376B187C1ECE00B6AC7F /* LineStyleSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9453769187C1ECE00B6AC7F /* LineStyleSource.cpp */; };
+		D94542E618A2F99700A77D11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E8D73D1816F13F00FCD4BF /* Foundation.framework */; };
+		D94542EB18A2F99700A77D11 /* GeneratedTestRunner.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = D94542EA18A2F99700A77D11 /* GeneratedTestRunner.hpp */; };
+		D94542ED18A2F99700A77D11 /* GeneratedTestRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D94542EC18A2F99700A77D11 /* GeneratedTestRunner.cpp */; };
+		D945431318A3008000A77D11 /* UtilsTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D945431118A3008000A77D11 /* UtilsTests.cpp */; };
+		D945437C18A30DC400A77D11 /* CXXRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D945437B18A30DC400A77D11 /* CXXRunner.cpp */; };
+		D945D95A18804D9D00DBA754 /* AttachableImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D945D95618804D9D00DBA754 /* AttachableImpl.cpp */; };
+		D945D96A18805FB500DBA754 /* Attachable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D945D96618805FB500DBA754 /* Attachable.cpp */; };
+		D9471FEA1861F56A0037737C /* ChartsImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9471FE81861F56A0037737C /* ChartsImpl.cpp */; };
+		D95731B918C9D24900D98270 /* PlatformUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95731B718C9D24900D98270 /* PlatformUtils.cpp */; };
+		D95731BE18C9D40D00D98270 /* AbstractDateFormatterImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95731BA18C9D40D00D98270 /* AbstractDateFormatterImpl.cpp */; };
+		D95731BF18C9D40D00D98270 /* BasicDateFormatterImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95731BC18C9D40D00D98270 /* BasicDateFormatterImpl.cpp */; };
+		D95731CF18C9D52000D98270 /* AbstractDateFormatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95731CA18C9D52000D98270 /* AbstractDateFormatter.cpp */; };
+		D95731D018C9D52000D98270 /* BasicDateFormatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95731CC18C9D52000D98270 /* BasicDateFormatter.cpp */; };
+		D95731D518C9E38B00D98270 /* FadeInEffectImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95731D118C9E38A00D98270 /* FadeInEffectImpl.cpp */; };
+		D95731D618C9E38B00D98270 /* FadeOutEffectImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95731D318C9E38B00D98270 /* FadeOutEffectImpl.cpp */; };
+		D95731E018C9E43900D98270 /* AnimationEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95731D718C9E43900D98270 /* AnimationEffect.cpp */; };
+		D95731E218C9E43900D98270 /* FadeInEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95731DC18C9E43900D98270 /* FadeInEffect.cpp */; };
+		D95731E318C9E43900D98270 /* FadeOutEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95731DE18C9E43900D98270 /* FadeOutEffect.cpp */; };
+		D957320018C9E5B200D98270 /* AnimationImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95731FE18C9E5B200D98270 /* AnimationImpl.cpp */; };
+		D96D0D6B185A160900555656 /* Drawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D96D0D66185A160900555656 /* Drawable.cpp */; };
+		D96D0D6C185A160900555656 /* Label.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D96D0D68185A160900555656 /* Label.cpp */; };
+		D96D0D71185A161C00555656 /* DrawableImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D96D0D6D185A161C00555656 /* DrawableImpl.cpp */; };
+		D96D0D78185A185000555656 /* LabelImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D96D0D76185A185000555656 /* LabelImpl.cpp */; };
+		D973C34F1898001C006426A5 /* LogHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D973C34D1898001C006426A5 /* LogHandler.cpp */; };
+		D97AE48718D74179007BAF6F /* Constraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D97AE48018D74179007BAF6F /* Constraint.cpp */; };
+		D97AE48818D74179007BAF6F /* ConstraintBehaviour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D97AE48218D74179007BAF6F /* ConstraintBehaviour.cpp */; };
+		D97AE48918D74179007BAF6F /* Transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D97AE48418D74179007BAF6F /* Transform.cpp */; };
+		D97AE48F18D741DD007BAF6F /* ConstraintImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D97AE48C18D741DD007BAF6F /* ConstraintImpl.cpp */; };
+		D97AE49218D7431B007BAF6F /* TransformImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D97AE49018D7431B007BAF6F /* TransformImpl.cpp */; };
+		D97AE4C418D7510B007BAF6F /* Touch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D97AE4C218D7510B007BAF6F /* Touch.cpp */; };
+		D97AE4C718D7511A007BAF6F /* TouchImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D97AE4C518D7511A007BAF6F /* TouchImpl.cpp */; };
+		D97C8B4C18C622EC000C9128 /* AxisLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D97C8B4718C622EC000C9128 /* AxisLayout.cpp */; };
+		D98CC8A01847701D000D7B0C /* Decoration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D98CC89C1847701D000D7B0C /* Decoration.cpp */; };
+		D98CC8A11847701D000D7B0C /* LineDecoration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D98CC89E1847701D000D7B0C /* LineDecoration.cpp */; };
+		D98CC8A61847702A000D7B0C /* DecorationImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D98CC8A21847702A000D7B0C /* DecorationImpl.cpp */; };
+		D98CC8A71847702A000D7B0C /* LineDecorationImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D98CC8A41847702A000D7B0C /* LineDecorationImpl.cpp */; };
+		D9A6A9E218D9FC8F005C98CB /* DataOffsetConstraintBehaviour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9A6A9DE18D9FC8F005C98CB /* DataOffsetConstraintBehaviour.cpp */; };
+		D9A6A9E318D9FC8F005C98CB /* DataScaleConstraintBehaviour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9A6A9E018D9FC8F005C98CB /* DataScaleConstraintBehaviour.cpp */; };
+		D9A6A9E818D9FCB8005C98CB /* DataOffsetConstraintBehaviourImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9A6A9E418D9FCB8005C98CB /* DataOffsetConstraintBehaviourImpl.cpp */; };
+		D9A6A9E918D9FCB8005C98CB /* DataScaleConstraintBehaviourImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9A6A9E618D9FCB8005C98CB /* DataScaleConstraintBehaviourImpl.cpp */; };
+		D9AB9D3F18C73B6200DA5406 /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9D2E18C73B6200DA5406 /* Color.cpp */; };
+		D9AB9D4018C73B6200DA5406 /* ContinuousDatum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9D2F18C73B6200DA5406 /* ContinuousDatum.cpp */; };
+		D9AB9D4118C73B6200DA5406 /* Coordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9D3018C73B6200DA5406 /* Coordinates.cpp */; };
+		D9AB9D4218C73B6200DA5406 /* DataTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9D3118C73B6200DA5406 /* DataTransform.cpp */; };
+		D9AB9D4318C73B6200DA5406 /* DateInterval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9D3218C73B6200DA5406 /* DateInterval.cpp */; };
+		D9AB9D4418C73B6200DA5406 /* Font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9D3318C73B6200DA5406 /* Font.cpp */; };
+		D9AB9D4518C73B6200DA5406 /* IndexRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9D3418C73B6200DA5406 /* IndexRange.cpp */; };
+		D9AB9D4618C73B6200DA5406 /* LineStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9D3518C73B6200DA5406 /* LineStyle.cpp */; };
+		D9AB9D4718C73B6200DA5406 /* Margin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9D3618C73B6200DA5406 /* Margin.cpp */; };
+		D9AB9D4818C73B6200DA5406 /* OHLC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9D3718C73B6200DA5406 /* OHLC.cpp */; };
+		D9AB9D4918C73B6200DA5406 /* OHLCDatum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9D3818C73B6200DA5406 /* OHLCDatum.cpp */; };
+		D9AB9D4A18C73B6200DA5406 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9D3918C73B6200DA5406 /* Point.cpp */; };
+		D9AB9D4B18C73B6200DA5406 /* PointStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9D3A18C73B6200DA5406 /* PointStyle.cpp */; };
+		D9AB9D4C18C73B6200DA5406 /* Range.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9D3B18C73B6200DA5406 /* Range.cpp */; };
+		D9AB9D4D18C73B6200DA5406 /* RangeDatum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9D3C18C73B6200DA5406 /* RangeDatum.cpp */; };
+		D9AB9D4E18C73B6200DA5406 /* ScalarDatum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9D3D18C73B6200DA5406 /* ScalarDatum.cpp */; };
+		D9AB9D4F18C73B6200DA5406 /* Size.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9D3E18C73B6200DA5406 /* Size.cpp */; };
+		D9AB9E1118C74F2D00DA5406 /* ColorImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9DEF18C74F2D00DA5406 /* ColorImpl.cpp */; };
+		D9AB9E1218C74F2D00DA5406 /* ContinuousDatumImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9DF118C74F2D00DA5406 /* ContinuousDatumImpl.cpp */; };
+		D9AB9E1318C74F2D00DA5406 /* CoordinatesImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9DF318C74F2D00DA5406 /* CoordinatesImpl.cpp */; };
+		D9AB9E1418C74F2D00DA5406 /* DataTransformImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9DF518C74F2D00DA5406 /* DataTransformImpl.cpp */; };
+		D9AB9E1518C74F2D00DA5406 /* DateIntervalImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9DF718C74F2D00DA5406 /* DateIntervalImpl.cpp */; };
+		D9AB9E1618C74F2D00DA5406 /* FontImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9DF918C74F2D00DA5406 /* FontImpl.cpp */; };
+		D9AB9E1718C74F2D00DA5406 /* IndexRangeImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9DFB18C74F2D00DA5406 /* IndexRangeImpl.cpp */; };
+		D9AB9E1818C74F2D00DA5406 /* LineStyleImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9DFD18C74F2D00DA5406 /* LineStyleImpl.cpp */; };
+		D9AB9E1918C74F2D00DA5406 /* MarginImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9DFF18C74F2D00DA5406 /* MarginImpl.cpp */; };
+		D9AB9E1A18C74F2D00DA5406 /* OHLCDatumImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9E0118C74F2D00DA5406 /* OHLCDatumImpl.cpp */; };
+		D9AB9E1B18C74F2D00DA5406 /* OHLCImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9E0318C74F2D00DA5406 /* OHLCImpl.cpp */; };
+		D9AB9E1C18C74F2D00DA5406 /* PointImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9E0518C74F2D00DA5406 /* PointImpl.cpp */; };
+		D9AB9E1D18C74F2D00DA5406 /* PointStyleImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9E0718C74F2D00DA5406 /* PointStyleImpl.cpp */; };
+		D9AB9E1E18C74F2D00DA5406 /* RangeDatumImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9E0918C74F2D00DA5406 /* RangeDatumImpl.cpp */; };
+		D9AB9E1F18C74F2D00DA5406 /* RangeImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9E0B18C74F2D00DA5406 /* RangeImpl.cpp */; };
+		D9AB9E2018C74F2D00DA5406 /* ScalarDatumImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9E0D18C74F2D00DA5406 /* ScalarDatumImpl.cpp */; };
+		D9AB9E2118C74F2D00DA5406 /* SizeImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9AB9E0F18C74F2D00DA5406 /* SizeImpl.cpp */; };
+		D9C5FF35182BB06900B63E09 /* BasicNumberFormatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FF23182BB06900B63E09 /* BasicNumberFormatter.cpp */; };
+		D9C5FF36182BB06900B63E09 /* ChartElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FF25182BB06900B63E09 /* ChartElement.cpp */; };
+		D9C5FF3A182BB06900B63E09 /* FixedRangeCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FF2F182BB06900B63E09 /* FixedRangeCalculator.cpp */; };
+		D9C5FF3B182BB06900B63E09 /* NumberFormatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FF33182BB06900B63E09 /* NumberFormatter.cpp */; };
+		D9C5FFE6182BBDC900B63E09 /* AxisImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FFC6182BBDC900B63E09 /* AxisImpl.cpp */; };
+		D9C5FFE7182BBDC900B63E09 /* BandSeriesImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FFC8182BBDC900B63E09 /* BandSeriesImpl.cpp */; };
+		D9C5FFE8182BBDC900B63E09 /* BasicNumberFormatterImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FFCA182BBDC900B63E09 /* BasicNumberFormatterImpl.cpp */; };
+		D9C5FFE9182BBDC900B63E09 /* CandlestickSeriesImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FFCC182BBDC900B63E09 /* CandlestickSeriesImpl.cpp */; };
+		D9C5FFEA182BBDC900B63E09 /* CategoryAxisImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FFCE182BBDC900B63E09 /* CategoryAxisImpl.cpp */; };
+		D9C5FFEB182BBDC900B63E09 /* ChartElementImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FFD0182BBDC900B63E09 /* ChartElementImpl.cpp */; };
+		D9C5FFEC182BBDC900B63E09 /* ChartImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FFD2182BBDC900B63E09 /* ChartImpl.cpp */; };
+		D9C5FFED182BBDC900B63E09 /* ContinuousAxisImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FFD5182BBDC900B63E09 /* ContinuousAxisImpl.cpp */; };
+		D9C5FFEF182BBDC900B63E09 /* FixedRangeCalculatorImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FFDB182BBDC900B63E09 /* FixedRangeCalculatorImpl.cpp */; };
+		D9C5FFF0182BBDC900B63E09 /* LineSeriesImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FFDD182BBDC900B63E09 /* LineSeriesImpl.cpp */; };
+		D9C5FFF1182BBDC900B63E09 /* SeriesImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FFE0182BBDC900B63E09 /* SeriesImpl.cpp */; };
+		D9C5FFF2182BBDC900B63E09 /* SteppedBandSeriesImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FFE2182BBDC900B63E09 /* SteppedBandSeriesImpl.cpp */; };
+		D9C5FFF3182BBDC900B63E09 /* SteppedLineSeriesImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C5FFE4182BBDC900B63E09 /* SteppedLineSeriesImpl.cpp */; };
+		D9C6C716189BD1E1000D12A7 /* Renderable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9C6C714189BD1E1000D12A7 /* Renderable.cpp */; };
+		D9D41178183BC00B007C9F8D /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9D41176183BC00B007C9F8D /* Utils.cpp */; };
+		D9E64B561860C87C00EBF08F /* Charts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9E64B551860C87C00EBF08F /* Charts.cpp */; };
+		D9E8D73E1816F13F00FCD4BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E8D73D1816F13F00FCD4BF /* Foundation.framework */; };
+		D9E8ED6118218F1700F835F4 /* Axis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9E8ED3A18218F1700F835F4 /* Axis.cpp */; };
+		D9E8ED6218218F1700F835F4 /* BandSeries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9E8ED3D18218F1700F835F4 /* BandSeries.cpp */; };
+		D9E8ED6618218F1700F835F4 /* CandlestickSeries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9E8ED4518218F1700F835F4 /* CandlestickSeries.cpp */; };
+		D9E8ED6718218F1700F835F4 /* CategoryAxis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9E8ED4718218F1700F835F4 /* CategoryAxis.cpp */; };
+		D9E8ED6818218F1700F835F4 /* Chart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9E8ED4918218F1700F835F4 /* Chart.cpp */; };
+		D9E8ED6918218F1700F835F4 /* ContinuousAxis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9E8ED4D18218F1700F835F4 /* ContinuousAxis.cpp */; };
+		D9E8ED6B18218F1700F835F4 /* LineSeries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9E8ED5618218F1700F835F4 /* LineSeries.cpp */; };
+		D9E8ED6C18218F1700F835F4 /* Series.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9E8ED5B18218F1700F835F4 /* Series.cpp */; };
+		D9E8ED6D18218F1700F835F4 /* SteppedBandSeries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9E8ED5D18218F1700F835F4 /* SteppedBandSeries.cpp */; };
+		D9E8ED6E18218F1700F835F4 /* SteppedLineSeries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9E8ED5F18218F1700F835F4 /* SteppedLineSeries.cpp */; };
+		D9EA917C184CE6A500D8666C /* PointDecoration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9EA917A184CE6A500D8666C /* PointDecoration.cpp */; };
+		D9EA9184184CE6C000D8666C /* PointDecorationImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9EA9182184CE6C000D8666C /* PointDecorationImpl.cpp */; };
+		D9EEA78718870ED900DC5AB9 /* AutomaticDateTickCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9EEA77F18870ED800DC5AB9 /* AutomaticDateTickCalculator.cpp */; };
+		D9EEA78818870ED900DC5AB9 /* DateAxis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9EEA78118870ED800DC5AB9 /* DateAxis.cpp */; };
+		D9EEA78918870ED900DC5AB9 /* DateTickCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9EEA78318870ED800DC5AB9 /* DateTickCalculator.cpp */; };
+		D9EEA78E18870F0600DC5AB9 /* AutomaticDateTickCalculatorImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9EEA78A18870F0600DC5AB9 /* AutomaticDateTickCalculatorImpl.cpp */; };
+		D9EEA78F18870F0600DC5AB9 /* DateAxisImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9EEA78C18870F0600DC5AB9 /* DateAxisImpl.cpp */; };
+		D9EEA7B7188712A800DC5AB9 /* FixedDateTickCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9EEA7B5188712A800DC5AB9 /* FixedDateTickCalculator.cpp */; };
+		D9EEA7BA188712B300DC5AB9 /* FixedDateTickCalculatorImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9EEA7B8188712B300DC5AB9 /* FixedDateTickCalculatorImpl.cpp */; };
+		D9F8A79D187F07BB00883DBF /* AbstractNumberAxisImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A795187F07BB00883DBF /* AbstractNumberAxisImpl.cpp */; };
+		D9F8A79E187F07BB00883DBF /* AutomaticNumberTickCalculatorImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A797187F07BB00883DBF /* AutomaticNumberTickCalculatorImpl.cpp */; };
+		D9F8A79F187F07BB00883DBF /* FixedNumberTickCalculatorImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A799187F07BB00883DBF /* FixedNumberTickCalculatorImpl.cpp */; };
+		D9F8A7A0187F07BB00883DBF /* NumberAxisImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A79B187F07BB00883DBF /* NumberAxisImpl.cpp */; };
+		D9F8A7AE187F09D800883DBF /* AbstractNumberAxis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7A1187F09D800883DBF /* AbstractNumberAxis.cpp */; };
+		D9F8A7AF187F09D800883DBF /* AutomaticNumberTickCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7A3187F09D800883DBF /* AutomaticNumberTickCalculator.cpp */; };
+		D9F8A7B0187F09D800883DBF /* FixedNumberTickCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7A6187F09D800883DBF /* FixedNumberTickCalculator.cpp */; };
+		D9F8A7B1187F09D800883DBF /* NumberAxis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7A8187F09D800883DBF /* NumberAxis.cpp */; };
+		D9F8A7B2187F09D800883DBF /* NumberTickCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7AA187F09D800883DBF /* NumberTickCalculator.cpp */; };
+		D9F8A7B3187F09D800883DBF /* RangeCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7AC187F09D800883DBF /* RangeCalculator.cpp */; };
+		D9F8A7D8187F1D3200883DBF /* AreaSeriesImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7D4187F1D3200883DBF /* AreaSeriesImpl.cpp */; };
+		D9F8A7D9187F1D3200883DBF /* SteppedAreaSeriesImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7D6187F1D3200883DBF /* SteppedAreaSeriesImpl.cpp */; };
+		D9F8A7E6187F1D5700883DBF /* AreaSeries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7E2187F1D5700883DBF /* AreaSeries.cpp */; };
+		D9F8A7E7187F1D5700883DBF /* SteppedAreaSeries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F8A7E4187F1D5700883DBF /* SteppedAreaSeries.cpp */; };
+		D9F94F7D18A71472007A76D9 /* Animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F94F7518A71472007A76D9 /* Animation.cpp */; };
+		D9F94FB018A71CC5007A76D9 /* AnimationDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F94FAE18A71CC5007A76D9 /* AnimationDelegate.cpp */; };
+		D9FABFE718D8C0C600B3DBB7 /* DataFittingAxisLayoutImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9FABFE618D8C0C600B3DBB7 /* DataFittingAxisLayoutImpl.cpp */; };
+		D9FABFEB18D8C13000B3DBB7 /* DataFittingAxisLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9FABFE918D8C13000B3DBB7 /* DataFittingAxisLayout.cpp */; };
+		D9FDB47E18DC8D67001C80B9 /* PaddingRangeCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9FDB47C18DC8D67001C80B9 /* PaddingRangeCalculator.cpp */; };
+		D9FDB48118DC8D75001C80B9 /* PaddingRangeCalculatorImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9FDB47F18DC8D75001C80B9 /* PaddingRangeCalculatorImpl.cpp */; };
+		D9FDB48B18DC8E92001C80B9 /* IncludeZeroRangeCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9FDB48918DC8E92001C80B9 /* IncludeZeroRangeCalculator.cpp */; };
+		D9FDB48E18DC8EA0001C80B9 /* IncludeZeroRangeCalculatorImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9FDB48C18DC8EA0001C80B9 /* IncludeZeroRangeCalculatorImpl.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D945430718A2FAB100A77D11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9E8D7321816F13F00FCD4BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9E8D7391816F13F00FCD4BF;
+			remoteInfo = TRCharts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D94542E318A2F99700A77D11 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D94542EB18A2F99700A77D11 /* GeneratedTestRunner.hpp in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E8D7381816F13F00FCD4BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D91771691844CCCB00DD2A15 /* PointSeriesImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PointSeriesImpl.cpp; path = Impl/PointSeriesImpl.cpp; sourceTree = "<group>"; };
+		D917716A1844CCCB00DD2A15 /* PointSeriesImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PointSeriesImpl.hpp; path = Impl/PointSeriesImpl.hpp; sourceTree = "<group>"; };
+		D917716C1844CCD400DD2A15 /* PointSeries.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointSeries.cpp; sourceTree = "<group>"; };
+		D917716D1844CCD400DD2A15 /* PointSeries.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PointSeries.hpp; sourceTree = "<group>"; };
+		D91B4E93185F1ECC00A81352 /* LogLevel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LogLevel.hpp; sourceTree = "<group>"; };
+		D91B4EAD185F4A1500A81352 /* Versionable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Versionable.cpp; path = Impl/Versionable.cpp; sourceTree = "<group>"; };
+		D91B4EAE185F4A1500A81352 /* Versionable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Versionable.hpp; path = Impl/Versionable.hpp; sourceTree = "<group>"; };
+		D9289FD518573B53001E19E2 /* SuffixNumberFormatterImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SuffixNumberFormatterImpl.cpp; path = Impl/SuffixNumberFormatterImpl.cpp; sourceTree = "<group>"; };
+		D9289FD618573B53001E19E2 /* SuffixNumberFormatterImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SuffixNumberFormatterImpl.hpp; path = Impl/SuffixNumberFormatterImpl.hpp; sourceTree = "<group>"; };
+		D9289FDD18573C9E001E19E2 /* SuffixNumberFormatter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SuffixNumberFormatter.cpp; sourceTree = "<group>"; };
+		D9289FDE18573C9E001E19E2 /* SuffixNumberFormatter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SuffixNumberFormatter.hpp; sourceTree = "<group>"; };
+		D93EA94018881DE600EB403B /* DateFormatter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DateFormatter.cpp; sourceTree = "<group>"; };
+		D93EA94118881DE600EB403B /* DateFormatter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DateFormatter.hpp; sourceTree = "<group>"; };
+		D93EA95518881E3F00EB403B /* PerUnitDateFormatterImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PerUnitDateFormatterImpl.cpp; path = Impl/PerUnitDateFormatterImpl.cpp; sourceTree = "<group>"; };
+		D93EA95618881E3F00EB403B /* PerUnitDateFormatterImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PerUnitDateFormatterImpl.hpp; path = Impl/PerUnitDateFormatterImpl.hpp; sourceTree = "<group>"; };
+		D93EA95818881E4A00EB403B /* PerUnitDateFormatter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PerUnitDateFormatter.cpp; sourceTree = "<group>"; };
+		D93EA95918881E4A00EB403B /* PerUnitDateFormatter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PerUnitDateFormatter.hpp; sourceTree = "<group>"; };
+		D93EA95C1888328400EB403B /* TickAligningRangeCalculatorImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TickAligningRangeCalculatorImpl.cpp; path = Impl/TickAligningRangeCalculatorImpl.cpp; sourceTree = "<group>"; };
+		D93EA95D1888328400EB403B /* TickAligningRangeCalculatorImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TickAligningRangeCalculatorImpl.hpp; path = Impl/TickAligningRangeCalculatorImpl.hpp; sourceTree = "<group>"; };
+		D93EA95F1888328C00EB403B /* TickAligningRangeCalculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TickAligningRangeCalculator.cpp; sourceTree = "<group>"; };
+		D93EA9601888328C00EB403B /* TickAligningRangeCalculator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TickAligningRangeCalculator.hpp; sourceTree = "<group>"; };
+		D93EA9681888410600EB403B /* ResizeMode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ResizeMode.hpp; sourceTree = "<group>"; };
+		D93EA9711888466C00EB403B /* DateInterval.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DateInterval.hpp; sourceTree = "<group>"; };
+		D9453764187C1EAE00B6AC7F /* ColorSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ColorSource.cpp; sourceTree = "<group>"; };
+		D9453765187C1EAE00B6AC7F /* ColorSource.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ColorSource.hpp; sourceTree = "<group>"; };
+		D9453767187C1ECE00B6AC7F /* LineMode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LineMode.hpp; sourceTree = "<group>"; };
+		D9453768187C1ECE00B6AC7F /* LineStyle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LineStyle.hpp; sourceTree = "<group>"; };
+		D9453769187C1ECE00B6AC7F /* LineStyleSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LineStyleSource.cpp; sourceTree = "<group>"; };
+		D945376A187C1ECE00B6AC7F /* LineStyleSource.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LineStyleSource.hpp; sourceTree = "<group>"; };
+		D94542E518A2F99700A77D11 /* libTRChartsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTRChartsTests.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D94542E918A2F99700A77D11 /* TRChartsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TRChartsTests-Prefix.pch"; sourceTree = "<group>"; };
+		D94542EA18A2F99700A77D11 /* GeneratedTestRunner.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GeneratedTestRunner.hpp; sourceTree = "<group>"; };
+		D94542EC18A2F99700A77D11 /* GeneratedTestRunner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GeneratedTestRunner.cpp; sourceTree = "<group>"; };
+		D945431118A3008000A77D11 /* UtilsTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UtilsTests.cpp; path = Impl/UtilsTests.cpp; sourceTree = "<group>"; };
+		D945431218A3008000A77D11 /* UtilsTests.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = UtilsTests.hpp; path = Impl/UtilsTests.hpp; sourceTree = "<group>"; };
+		D945437B18A30DC400A77D11 /* CXXRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CXXRunner.cpp; sourceTree = "<group>"; };
+		D945437D18A3127200A77D11 /* CXXRunner.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CXXRunner.hpp; sourceTree = "<group>"; };
+		D945D95618804D9D00DBA754 /* AttachableImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AttachableImpl.cpp; path = Impl/AttachableImpl.cpp; sourceTree = "<group>"; };
+		D945D95718804D9D00DBA754 /* AttachableImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AttachableImpl.hpp; path = Impl/AttachableImpl.hpp; sourceTree = "<group>"; };
+		D945D96618805FB500DBA754 /* Attachable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Attachable.cpp; sourceTree = "<group>"; };
+		D945D96718805FB500DBA754 /* Attachable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Attachable.hpp; sourceTree = "<group>"; };
+		D9471FE81861F56A0037737C /* ChartsImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChartsImpl.cpp; path = Impl/ChartsImpl.cpp; sourceTree = "<group>"; };
+		D9471FE91861F56A0037737C /* ChartsImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ChartsImpl.hpp; path = Impl/ChartsImpl.hpp; sourceTree = "<group>"; };
+		D95437A0182D49CC0078F67C /* Font.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Font.hpp; sourceTree = "<group>"; };
+		D95731B718C9D24900D98270 /* PlatformUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PlatformUtils.cpp; path = Impl/PlatformUtils.cpp; sourceTree = "<group>"; };
+		D95731B818C9D24900D98270 /* PlatformUtils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PlatformUtils.hpp; path = Impl/PlatformUtils.hpp; sourceTree = "<group>"; };
+		D95731BA18C9D40D00D98270 /* AbstractDateFormatterImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AbstractDateFormatterImpl.cpp; path = Impl/AbstractDateFormatterImpl.cpp; sourceTree = "<group>"; };
+		D95731BB18C9D40D00D98270 /* AbstractDateFormatterImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AbstractDateFormatterImpl.hpp; path = Impl/AbstractDateFormatterImpl.hpp; sourceTree = "<group>"; };
+		D95731BC18C9D40D00D98270 /* BasicDateFormatterImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BasicDateFormatterImpl.cpp; path = Impl/BasicDateFormatterImpl.cpp; sourceTree = "<group>"; };
+		D95731BD18C9D40D00D98270 /* BasicDateFormatterImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BasicDateFormatterImpl.hpp; path = Impl/BasicDateFormatterImpl.hpp; sourceTree = "<group>"; };
+		D95731CA18C9D52000D98270 /* AbstractDateFormatter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractDateFormatter.cpp; sourceTree = "<group>"; };
+		D95731CB18C9D52000D98270 /* AbstractDateFormatter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AbstractDateFormatter.hpp; sourceTree = "<group>"; };
+		D95731CC18C9D52000D98270 /* BasicDateFormatter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicDateFormatter.cpp; sourceTree = "<group>"; };
+		D95731CD18C9D52000D98270 /* BasicDateFormatter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BasicDateFormatter.hpp; sourceTree = "<group>"; };
+		D95731CE18C9D52000D98270 /* FormatSyntax.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FormatSyntax.hpp; sourceTree = "<group>"; };
+		D95731D118C9E38A00D98270 /* FadeInEffectImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FadeInEffectImpl.cpp; path = Impl/FadeInEffectImpl.cpp; sourceTree = "<group>"; };
+		D95731D218C9E38A00D98270 /* FadeInEffectImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FadeInEffectImpl.hpp; path = Impl/FadeInEffectImpl.hpp; sourceTree = "<group>"; };
+		D95731D318C9E38B00D98270 /* FadeOutEffectImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FadeOutEffectImpl.cpp; path = Impl/FadeOutEffectImpl.cpp; sourceTree = "<group>"; };
+		D95731D418C9E38B00D98270 /* FadeOutEffectImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FadeOutEffectImpl.hpp; path = Impl/FadeOutEffectImpl.hpp; sourceTree = "<group>"; };
+		D95731D718C9E43900D98270 /* AnimationEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnimationEffect.cpp; sourceTree = "<group>"; };
+		D95731D818C9E43900D98270 /* AnimationEffect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AnimationEffect.hpp; sourceTree = "<group>"; };
+		D95731DC18C9E43900D98270 /* FadeInEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FadeInEffect.cpp; sourceTree = "<group>"; };
+		D95731DD18C9E43900D98270 /* FadeInEffect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FadeInEffect.hpp; sourceTree = "<group>"; };
+		D95731DE18C9E43900D98270 /* FadeOutEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FadeOutEffect.cpp; sourceTree = "<group>"; };
+		D95731DF18C9E43900D98270 /* FadeOutEffect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FadeOutEffect.hpp; sourceTree = "<group>"; };
+		D95731FE18C9E5B200D98270 /* AnimationImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationImpl.cpp; path = Impl/AnimationImpl.cpp; sourceTree = "<group>"; };
+		D95731FF18C9E5B200D98270 /* AnimationImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AnimationImpl.hpp; path = Impl/AnimationImpl.hpp; sourceTree = "<group>"; };
+		D957320118CA10C300D98270 /* Edge.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Edge.hpp; sourceTree = "<group>"; };
+		D95A295F1891905600BB4343 /* ContinuousSeriesImpl.impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ContinuousSeriesImpl.impl.hpp; path = Impl/ContinuousSeriesImpl.impl.hpp; sourceTree = "<group>"; };
+		D95A29601891905600BB4343 /* ContinuousSeriesImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ContinuousSeriesImpl.hpp; path = Impl/ContinuousSeriesImpl.hpp; sourceTree = "<group>"; };
+		D96D0D66185A160900555656 /* Drawable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Drawable.cpp; sourceTree = "<group>"; };
+		D96D0D67185A160900555656 /* Drawable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Drawable.hpp; sourceTree = "<group>"; };
+		D96D0D68185A160900555656 /* Label.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Label.cpp; sourceTree = "<group>"; };
+		D96D0D69185A160900555656 /* Label.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Label.hpp; sourceTree = "<group>"; };
+		D96D0D6A185A160900555656 /* Size.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Size.hpp; sourceTree = "<group>"; };
+		D96D0D6D185A161C00555656 /* DrawableImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DrawableImpl.cpp; path = Impl/DrawableImpl.cpp; sourceTree = "<group>"; };
+		D96D0D6E185A161C00555656 /* DrawableImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DrawableImpl.hpp; path = Impl/DrawableImpl.hpp; sourceTree = "<group>"; };
+		D96D0D76185A185000555656 /* LabelImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LabelImpl.cpp; path = Impl/LabelImpl.cpp; sourceTree = "<group>"; };
+		D96D0D77185A185000555656 /* LabelImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LabelImpl.hpp; path = Impl/LabelImpl.hpp; sourceTree = "<group>"; };
+		D973C34D1898001C006426A5 /* LogHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LogHandler.cpp; sourceTree = "<group>"; };
+		D973C34E1898001C006426A5 /* LogHandler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LogHandler.hpp; sourceTree = "<group>"; };
+		D97AE48018D74179007BAF6F /* Constraint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Constraint.cpp; sourceTree = "<group>"; };
+		D97AE48118D74179007BAF6F /* Constraint.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Constraint.hpp; sourceTree = "<group>"; };
+		D97AE48218D74179007BAF6F /* ConstraintBehaviour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConstraintBehaviour.cpp; sourceTree = "<group>"; };
+		D97AE48318D74179007BAF6F /* ConstraintBehaviour.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConstraintBehaviour.hpp; sourceTree = "<group>"; };
+		D97AE48418D74179007BAF6F /* Transform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transform.cpp; sourceTree = "<group>"; };
+		D97AE48518D74179007BAF6F /* Transform.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Transform.hpp; sourceTree = "<group>"; };
+		D97AE48C18D741DD007BAF6F /* ConstraintImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConstraintImpl.cpp; path = Impl/ConstraintImpl.cpp; sourceTree = "<group>"; };
+		D97AE48D18D741DD007BAF6F /* ConstraintImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ConstraintImpl.hpp; path = Impl/ConstraintImpl.hpp; sourceTree = "<group>"; };
+		D97AE49018D7431B007BAF6F /* TransformImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TransformImpl.cpp; path = Impl/TransformImpl.cpp; sourceTree = "<group>"; };
+		D97AE49118D7431B007BAF6F /* TransformImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TransformImpl.hpp; path = Impl/TransformImpl.hpp; sourceTree = "<group>"; };
+		D97AE4C218D7510B007BAF6F /* Touch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Touch.cpp; sourceTree = "<group>"; };
+		D97AE4C318D7510B007BAF6F /* Touch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Touch.hpp; sourceTree = "<group>"; };
+		D97AE4C518D7511A007BAF6F /* TouchImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TouchImpl.cpp; path = Impl/TouchImpl.cpp; sourceTree = "<group>"; };
+		D97AE4C618D7511A007BAF6F /* TouchImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TouchImpl.hpp; path = Impl/TouchImpl.hpp; sourceTree = "<group>"; };
+		D97C8B4718C622EC000C9128 /* AxisLayout.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AxisLayout.cpp; sourceTree = "<group>"; };
+		D97C8B4818C622EC000C9128 /* AxisLayout.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AxisLayout.hpp; sourceTree = "<group>"; };
+		D97C8B4918C622EC000C9128 /* DataTransform.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DataTransform.hpp; sourceTree = "<group>"; };
+		D98C666B18A1BB1400BEC5E4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		D98C666D18A1BB1A00BEC5E4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D98C666F18A1BB2900BEC5E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D98CC89C1847701D000D7B0C /* Decoration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Decoration.cpp; sourceTree = "<group>"; };
+		D98CC89D1847701D000D7B0C /* Decoration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Decoration.hpp; sourceTree = "<group>"; };
+		D98CC89E1847701D000D7B0C /* LineDecoration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LineDecoration.cpp; sourceTree = "<group>"; };
+		D98CC89F1847701D000D7B0C /* LineDecoration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LineDecoration.hpp; sourceTree = "<group>"; };
+		D98CC8A21847702A000D7B0C /* DecorationImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DecorationImpl.cpp; path = Impl/DecorationImpl.cpp; sourceTree = "<group>"; };
+		D98CC8A31847702A000D7B0C /* DecorationImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DecorationImpl.hpp; path = Impl/DecorationImpl.hpp; sourceTree = "<group>"; };
+		D98CC8A41847702A000D7B0C /* LineDecorationImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LineDecorationImpl.cpp; path = Impl/LineDecorationImpl.cpp; sourceTree = "<group>"; };
+		D98CC8A51847702A000D7B0C /* LineDecorationImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LineDecorationImpl.hpp; path = Impl/LineDecorationImpl.hpp; sourceTree = "<group>"; };
+		D993B8D4184E612000E72539 /* RelayoutMode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RelayoutMode.hpp; sourceTree = "<group>"; };
+		D9A6A9DE18D9FC8F005C98CB /* DataOffsetConstraintBehaviour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataOffsetConstraintBehaviour.cpp; sourceTree = "<group>"; };
+		D9A6A9DF18D9FC8F005C98CB /* DataOffsetConstraintBehaviour.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DataOffsetConstraintBehaviour.hpp; sourceTree = "<group>"; };
+		D9A6A9E018D9FC8F005C98CB /* DataScaleConstraintBehaviour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataScaleConstraintBehaviour.cpp; sourceTree = "<group>"; };
+		D9A6A9E118D9FC8F005C98CB /* DataScaleConstraintBehaviour.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DataScaleConstraintBehaviour.hpp; sourceTree = "<group>"; };
+		D9A6A9E418D9FCB8005C98CB /* DataOffsetConstraintBehaviourImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DataOffsetConstraintBehaviourImpl.cpp; path = Impl/DataOffsetConstraintBehaviourImpl.cpp; sourceTree = "<group>"; };
+		D9A6A9E518D9FCB8005C98CB /* DataOffsetConstraintBehaviourImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DataOffsetConstraintBehaviourImpl.hpp; path = Impl/DataOffsetConstraintBehaviourImpl.hpp; sourceTree = "<group>"; };
+		D9A6A9E618D9FCB8005C98CB /* DataScaleConstraintBehaviourImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DataScaleConstraintBehaviourImpl.cpp; path = Impl/DataScaleConstraintBehaviourImpl.cpp; sourceTree = "<group>"; };
+		D9A6A9E718D9FCB8005C98CB /* DataScaleConstraintBehaviourImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DataScaleConstraintBehaviourImpl.hpp; path = Impl/DataScaleConstraintBehaviourImpl.hpp; sourceTree = "<group>"; };
+		D9AB9D2E18C73B6200DA5406 /* Color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Color.cpp; sourceTree = "<group>"; };
+		D9AB9D2F18C73B6200DA5406 /* ContinuousDatum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ContinuousDatum.cpp; sourceTree = "<group>"; };
+		D9AB9D3018C73B6200DA5406 /* Coordinates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Coordinates.cpp; sourceTree = "<group>"; };
+		D9AB9D3118C73B6200DA5406 /* DataTransform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataTransform.cpp; sourceTree = "<group>"; };
+		D9AB9D3218C73B6200DA5406 /* DateInterval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DateInterval.cpp; sourceTree = "<group>"; };
+		D9AB9D3318C73B6200DA5406 /* Font.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Font.cpp; sourceTree = "<group>"; };
+		D9AB9D3418C73B6200DA5406 /* IndexRange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IndexRange.cpp; sourceTree = "<group>"; };
+		D9AB9D3518C73B6200DA5406 /* LineStyle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LineStyle.cpp; sourceTree = "<group>"; };
+		D9AB9D3618C73B6200DA5406 /* Margin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Margin.cpp; sourceTree = "<group>"; };
+		D9AB9D3718C73B6200DA5406 /* OHLC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OHLC.cpp; sourceTree = "<group>"; };
+		D9AB9D3818C73B6200DA5406 /* OHLCDatum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OHLCDatum.cpp; sourceTree = "<group>"; };
+		D9AB9D3918C73B6200DA5406 /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		D9AB9D3A18C73B6200DA5406 /* PointStyle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointStyle.cpp; sourceTree = "<group>"; };
+		D9AB9D3B18C73B6200DA5406 /* Range.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Range.cpp; sourceTree = "<group>"; };
+		D9AB9D3C18C73B6200DA5406 /* RangeDatum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RangeDatum.cpp; sourceTree = "<group>"; };
+		D9AB9D3D18C73B6200DA5406 /* ScalarDatum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScalarDatum.cpp; sourceTree = "<group>"; };
+		D9AB9D3E18C73B6200DA5406 /* Size.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Size.cpp; sourceTree = "<group>"; };
+		D9AB9DEF18C74F2D00DA5406 /* ColorImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ColorImpl.cpp; path = Impl/ColorImpl.cpp; sourceTree = "<group>"; };
+		D9AB9DF018C74F2D00DA5406 /* ColorImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ColorImpl.hpp; path = Impl/ColorImpl.hpp; sourceTree = "<group>"; };
+		D9AB9DF118C74F2D00DA5406 /* ContinuousDatumImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ContinuousDatumImpl.cpp; path = Impl/ContinuousDatumImpl.cpp; sourceTree = "<group>"; };
+		D9AB9DF218C74F2D00DA5406 /* ContinuousDatumImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ContinuousDatumImpl.hpp; path = Impl/ContinuousDatumImpl.hpp; sourceTree = "<group>"; };
+		D9AB9DF318C74F2D00DA5406 /* CoordinatesImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CoordinatesImpl.cpp; path = Impl/CoordinatesImpl.cpp; sourceTree = "<group>"; };
+		D9AB9DF418C74F2D00DA5406 /* CoordinatesImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CoordinatesImpl.hpp; path = Impl/CoordinatesImpl.hpp; sourceTree = "<group>"; };
+		D9AB9DF518C74F2D00DA5406 /* DataTransformImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DataTransformImpl.cpp; path = Impl/DataTransformImpl.cpp; sourceTree = "<group>"; };
+		D9AB9DF618C74F2D00DA5406 /* DataTransformImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DataTransformImpl.hpp; path = Impl/DataTransformImpl.hpp; sourceTree = "<group>"; };
+		D9AB9DF718C74F2D00DA5406 /* DateIntervalImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DateIntervalImpl.cpp; path = Impl/DateIntervalImpl.cpp; sourceTree = "<group>"; };
+		D9AB9DF818C74F2D00DA5406 /* DateIntervalImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DateIntervalImpl.hpp; path = Impl/DateIntervalImpl.hpp; sourceTree = "<group>"; };
+		D9AB9DF918C74F2D00DA5406 /* FontImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FontImpl.cpp; path = Impl/FontImpl.cpp; sourceTree = "<group>"; };
+		D9AB9DFA18C74F2D00DA5406 /* FontImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FontImpl.hpp; path = Impl/FontImpl.hpp; sourceTree = "<group>"; };
+		D9AB9DFB18C74F2D00DA5406 /* IndexRangeImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IndexRangeImpl.cpp; path = Impl/IndexRangeImpl.cpp; sourceTree = "<group>"; };
+		D9AB9DFC18C74F2D00DA5406 /* IndexRangeImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = IndexRangeImpl.hpp; path = Impl/IndexRangeImpl.hpp; sourceTree = "<group>"; };
+		D9AB9DFD18C74F2D00DA5406 /* LineStyleImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LineStyleImpl.cpp; path = Impl/LineStyleImpl.cpp; sourceTree = "<group>"; };
+		D9AB9DFE18C74F2D00DA5406 /* LineStyleImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LineStyleImpl.hpp; path = Impl/LineStyleImpl.hpp; sourceTree = "<group>"; };
+		D9AB9DFF18C74F2D00DA5406 /* MarginImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MarginImpl.cpp; path = Impl/MarginImpl.cpp; sourceTree = "<group>"; };
+		D9AB9E0018C74F2D00DA5406 /* MarginImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MarginImpl.hpp; path = Impl/MarginImpl.hpp; sourceTree = "<group>"; };
+		D9AB9E0118C74F2D00DA5406 /* OHLCDatumImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OHLCDatumImpl.cpp; path = Impl/OHLCDatumImpl.cpp; sourceTree = "<group>"; };
+		D9AB9E0218C74F2D00DA5406 /* OHLCDatumImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = OHLCDatumImpl.hpp; path = Impl/OHLCDatumImpl.hpp; sourceTree = "<group>"; };
+		D9AB9E0318C74F2D00DA5406 /* OHLCImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OHLCImpl.cpp; path = Impl/OHLCImpl.cpp; sourceTree = "<group>"; };
+		D9AB9E0418C74F2D00DA5406 /* OHLCImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = OHLCImpl.hpp; path = Impl/OHLCImpl.hpp; sourceTree = "<group>"; };
+		D9AB9E0518C74F2D00DA5406 /* PointImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PointImpl.cpp; path = Impl/PointImpl.cpp; sourceTree = "<group>"; };
+		D9AB9E0618C74F2D00DA5406 /* PointImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PointImpl.hpp; path = Impl/PointImpl.hpp; sourceTree = "<group>"; };
+		D9AB9E0718C74F2D00DA5406 /* PointStyleImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PointStyleImpl.cpp; path = Impl/PointStyleImpl.cpp; sourceTree = "<group>"; };
+		D9AB9E0818C74F2D00DA5406 /* PointStyleImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PointStyleImpl.hpp; path = Impl/PointStyleImpl.hpp; sourceTree = "<group>"; };
+		D9AB9E0918C74F2D00DA5406 /* RangeDatumImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RangeDatumImpl.cpp; path = Impl/RangeDatumImpl.cpp; sourceTree = "<group>"; };
+		D9AB9E0A18C74F2D00DA5406 /* RangeDatumImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RangeDatumImpl.hpp; path = Impl/RangeDatumImpl.hpp; sourceTree = "<group>"; };
+		D9AB9E0B18C74F2D00DA5406 /* RangeImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RangeImpl.cpp; path = Impl/RangeImpl.cpp; sourceTree = "<group>"; };
+		D9AB9E0C18C74F2D00DA5406 /* RangeImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RangeImpl.hpp; path = Impl/RangeImpl.hpp; sourceTree = "<group>"; };
+		D9AB9E0D18C74F2D00DA5406 /* ScalarDatumImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScalarDatumImpl.cpp; path = Impl/ScalarDatumImpl.cpp; sourceTree = "<group>"; };
+		D9AB9E0E18C74F2D00DA5406 /* ScalarDatumImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ScalarDatumImpl.hpp; path = Impl/ScalarDatumImpl.hpp; sourceTree = "<group>"; };
+		D9AB9E0F18C74F2D00DA5406 /* SizeImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SizeImpl.cpp; path = Impl/SizeImpl.cpp; sourceTree = "<group>"; };
+		D9AB9E1018C74F2D00DA5406 /* SizeImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SizeImpl.hpp; path = Impl/SizeImpl.hpp; sourceTree = "<group>"; };
+		D9C5FF23182BB06900B63E09 /* BasicNumberFormatter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicNumberFormatter.cpp; sourceTree = "<group>"; };
+		D9C5FF24182BB06900B63E09 /* BasicNumberFormatter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BasicNumberFormatter.hpp; sourceTree = "<group>"; };
+		D9C5FF25182BB06900B63E09 /* ChartElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChartElement.cpp; sourceTree = "<group>"; };
+		D9C5FF26182BB06900B63E09 /* ChartElement.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ChartElement.hpp; sourceTree = "<group>"; };
+		D9C5FF27182BB06900B63E09 /* Color.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Color.hpp; sourceTree = "<group>"; };
+		D9C5FF2F182BB06900B63E09 /* FixedRangeCalculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FixedRangeCalculator.cpp; sourceTree = "<group>"; };
+		D9C5FF30182BB06900B63E09 /* FixedRangeCalculator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FixedRangeCalculator.hpp; sourceTree = "<group>"; };
+		D9C5FF31182BB06900B63E09 /* IndexRange.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IndexRange.hpp; sourceTree = "<group>"; };
+		D9C5FF32182BB06900B63E09 /* Margin.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Margin.hpp; sourceTree = "<group>"; };
+		D9C5FF33182BB06900B63E09 /* NumberFormatter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumberFormatter.cpp; sourceTree = "<group>"; };
+		D9C5FF34182BB06900B63E09 /* NumberFormatter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NumberFormatter.hpp; sourceTree = "<group>"; };
+		D9C5FFC6182BBDC900B63E09 /* AxisImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AxisImpl.cpp; path = Impl/AxisImpl.cpp; sourceTree = "<group>"; };
+		D9C5FFC7182BBDC900B63E09 /* AxisImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AxisImpl.hpp; path = Impl/AxisImpl.hpp; sourceTree = "<group>"; };
+		D9C5FFC8182BBDC900B63E09 /* BandSeriesImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BandSeriesImpl.cpp; path = Impl/BandSeriesImpl.cpp; sourceTree = "<group>"; };
+		D9C5FFC9182BBDC900B63E09 /* BandSeriesImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BandSeriesImpl.hpp; path = Impl/BandSeriesImpl.hpp; sourceTree = "<group>"; };
+		D9C5FFCA182BBDC900B63E09 /* BasicNumberFormatterImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BasicNumberFormatterImpl.cpp; path = Impl/BasicNumberFormatterImpl.cpp; sourceTree = "<group>"; };
+		D9C5FFCB182BBDC900B63E09 /* BasicNumberFormatterImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BasicNumberFormatterImpl.hpp; path = Impl/BasicNumberFormatterImpl.hpp; sourceTree = "<group>"; };
+		D9C5FFCC182BBDC900B63E09 /* CandlestickSeriesImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CandlestickSeriesImpl.cpp; path = Impl/CandlestickSeriesImpl.cpp; sourceTree = "<group>"; };
+		D9C5FFCD182BBDC900B63E09 /* CandlestickSeriesImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CandlestickSeriesImpl.hpp; path = Impl/CandlestickSeriesImpl.hpp; sourceTree = "<group>"; };
+		D9C5FFCE182BBDC900B63E09 /* CategoryAxisImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CategoryAxisImpl.cpp; path = Impl/CategoryAxisImpl.cpp; sourceTree = "<group>"; };
+		D9C5FFCF182BBDC900B63E09 /* CategoryAxisImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CategoryAxisImpl.hpp; path = Impl/CategoryAxisImpl.hpp; sourceTree = "<group>"; };
+		D9C5FFD0182BBDC900B63E09 /* ChartElementImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChartElementImpl.cpp; path = Impl/ChartElementImpl.cpp; sourceTree = "<group>"; };
+		D9C5FFD1182BBDC900B63E09 /* ChartElementImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ChartElementImpl.hpp; path = Impl/ChartElementImpl.hpp; sourceTree = "<group>"; };
+		D9C5FFD2182BBDC900B63E09 /* ChartImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChartImpl.cpp; path = Impl/ChartImpl.cpp; sourceTree = "<group>"; };
+		D9C5FFD3182BBDC900B63E09 /* ChartImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ChartImpl.hpp; path = Impl/ChartImpl.hpp; sourceTree = "<group>"; };
+		D9C5FFD4182BBDC900B63E09 /* Common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Common.hpp; path = Impl/Common.hpp; sourceTree = "<group>"; };
+		D9C5FFD5182BBDC900B63E09 /* ContinuousAxisImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ContinuousAxisImpl.cpp; path = Impl/ContinuousAxisImpl.cpp; sourceTree = "<group>"; };
+		D9C5FFD6182BBDC900B63E09 /* ContinuousAxisImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ContinuousAxisImpl.hpp; path = Impl/ContinuousAxisImpl.hpp; sourceTree = "<group>"; };
+		D9C5FFDB182BBDC900B63E09 /* FixedRangeCalculatorImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FixedRangeCalculatorImpl.cpp; path = Impl/FixedRangeCalculatorImpl.cpp; sourceTree = "<group>"; };
+		D9C5FFDC182BBDC900B63E09 /* FixedRangeCalculatorImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FixedRangeCalculatorImpl.hpp; path = Impl/FixedRangeCalculatorImpl.hpp; sourceTree = "<group>"; };
+		D9C5FFDD182BBDC900B63E09 /* LineSeriesImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LineSeriesImpl.cpp; path = Impl/LineSeriesImpl.cpp; sourceTree = "<group>"; };
+		D9C5FFDE182BBDC900B63E09 /* LineSeriesImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LineSeriesImpl.hpp; path = Impl/LineSeriesImpl.hpp; sourceTree = "<group>"; };
+		D9C5FFDF182BBDC900B63E09 /* RenderArgs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RenderArgs.hpp; path = Impl/RenderArgs.hpp; sourceTree = "<group>"; };
+		D9C5FFE0182BBDC900B63E09 /* SeriesImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SeriesImpl.cpp; path = Impl/SeriesImpl.cpp; sourceTree = "<group>"; };
+		D9C5FFE1182BBDC900B63E09 /* SeriesImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SeriesImpl.hpp; path = Impl/SeriesImpl.hpp; sourceTree = "<group>"; };
+		D9C5FFE2182BBDC900B63E09 /* SteppedBandSeriesImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SteppedBandSeriesImpl.cpp; path = Impl/SteppedBandSeriesImpl.cpp; sourceTree = "<group>"; };
+		D9C5FFE3182BBDC900B63E09 /* SteppedBandSeriesImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SteppedBandSeriesImpl.hpp; path = Impl/SteppedBandSeriesImpl.hpp; sourceTree = "<group>"; };
+		D9C5FFE4182BBDC900B63E09 /* SteppedLineSeriesImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SteppedLineSeriesImpl.cpp; path = Impl/SteppedLineSeriesImpl.cpp; sourceTree = "<group>"; };
+		D9C5FFE5182BBDC900B63E09 /* SteppedLineSeriesImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SteppedLineSeriesImpl.hpp; path = Impl/SteppedLineSeriesImpl.hpp; sourceTree = "<group>"; };
+		D9C6C713189BD1E1000D12A7 /* FontHint.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FontHint.hpp; sourceTree = "<group>"; };
+		D9C6C714189BD1E1000D12A7 /* Renderable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Renderable.cpp; sourceTree = "<group>"; };
+		D9C6C715189BD1E1000D12A7 /* Renderable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Renderable.hpp; sourceTree = "<group>"; };
+		D9D41176183BC00B007C9F8D /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Utils.cpp; path = Impl/Utils.cpp; sourceTree = "<group>"; };
+		D9D41177183BC00B007C9F8D /* Utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Utils.hpp; path = Impl/Utils.hpp; sourceTree = "<group>"; };
+		D9D7825F183F800600028B07 /* GestureState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GestureState.hpp; sourceTree = "<group>"; };
+		D9E627A81822DEEF00FCFB86 /* OHLC.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OHLC.hpp; sourceTree = "<group>"; };
+		D9E627A91822DEEF00FCFB86 /* Point.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Point.hpp; sourceTree = "<group>"; };
+		D9E627AA1822DEEF00FCFB86 /* Range.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Range.hpp; sourceTree = "<group>"; };
+		D9E64B551860C87C00EBF08F /* Charts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Charts.cpp; sourceTree = "<group>"; };
+		D9E8D73A1816F13F00FCD4BF /* libTRCharts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTRCharts.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E8D73D1816F13F00FCD4BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9E8D7411816F13F00FCD4BF /* TRCharts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TRCharts-Prefix.pch"; sourceTree = "<group>"; };
+		D9E8D74B1816F13F00FCD4BF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D9E8D74E1816F13F00FCD4BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D9E8ED3A18218F1700F835F4 /* Axis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Axis.cpp; sourceTree = "<group>"; };
+		D9E8ED3B18218F1700F835F4 /* Axis.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Axis.hpp; sourceTree = "<group>"; };
+		D9E8ED3D18218F1700F835F4 /* BandSeries.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BandSeries.cpp; sourceTree = "<group>"; };
+		D9E8ED3E18218F1700F835F4 /* BandSeries.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BandSeries.hpp; sourceTree = "<group>"; };
+		D9E8ED4518218F1700F835F4 /* CandlestickSeries.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CandlestickSeries.cpp; sourceTree = "<group>"; };
+		D9E8ED4618218F1700F835F4 /* CandlestickSeries.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CandlestickSeries.hpp; sourceTree = "<group>"; };
+		D9E8ED4718218F1700F835F4 /* CategoryAxis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CategoryAxis.cpp; sourceTree = "<group>"; };
+		D9E8ED4818218F1700F835F4 /* CategoryAxis.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CategoryAxis.hpp; sourceTree = "<group>"; };
+		D9E8ED4918218F1700F835F4 /* Chart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chart.cpp; sourceTree = "<group>"; };
+		D9E8ED4A18218F1700F835F4 /* Chart.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Chart.hpp; sourceTree = "<group>"; };
+		D9E8ED4B18218F1700F835F4 /* Charts.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Charts.hpp; sourceTree = "<group>"; };
+		D9E8ED4C18218F1700F835F4 /* Common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Common.hpp; sourceTree = "<group>"; };
+		D9E8ED4D18218F1700F835F4 /* ContinuousAxis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ContinuousAxis.cpp; sourceTree = "<group>"; };
+		D9E8ED4E18218F1700F835F4 /* ContinuousAxis.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ContinuousAxis.hpp; sourceTree = "<group>"; };
+		D9E8ED5118218F1700F835F4 /* ContinuousDataSource.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ContinuousDataSource.hpp; sourceTree = "<group>"; };
+		D9E8ED5218218F1700F835F4 /* ContinuousDataSource.impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ContinuousDataSource.impl.hpp; sourceTree = "<group>"; };
+		D9E8ED5318218F1700F835F4 /* ContinuousDatum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ContinuousDatum.hpp; sourceTree = "<group>"; };
+		D9E8ED5418218F1700F835F4 /* ContinuousSeries.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ContinuousSeries.hpp; sourceTree = "<group>"; };
+		D9E8ED5518218F1700F835F4 /* ContinuousSeries.impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ContinuousSeries.impl.hpp; sourceTree = "<group>"; };
+		D9E8ED5618218F1700F835F4 /* LineSeries.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LineSeries.cpp; sourceTree = "<group>"; };
+		D9E8ED5718218F1700F835F4 /* LineSeries.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LineSeries.hpp; sourceTree = "<group>"; };
+		D9E8ED5818218F1700F835F4 /* OHLCDatum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OHLCDatum.hpp; sourceTree = "<group>"; };
+		D9E8ED5918218F1700F835F4 /* RangeDatum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RangeDatum.hpp; sourceTree = "<group>"; };
+		D9E8ED5A18218F1700F835F4 /* ScalarDatum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ScalarDatum.hpp; sourceTree = "<group>"; };
+		D9E8ED5B18218F1700F835F4 /* Series.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Series.cpp; sourceTree = "<group>"; };
+		D9E8ED5C18218F1700F835F4 /* Series.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Series.hpp; sourceTree = "<group>"; };
+		D9E8ED5D18218F1700F835F4 /* SteppedBandSeries.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SteppedBandSeries.cpp; sourceTree = "<group>"; };
+		D9E8ED5E18218F1700F835F4 /* SteppedBandSeries.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SteppedBandSeries.hpp; sourceTree = "<group>"; };
+		D9E8ED5F18218F1700F835F4 /* SteppedLineSeries.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SteppedLineSeries.cpp; sourceTree = "<group>"; };
+		D9E8ED6018218F1700F835F4 /* SteppedLineSeries.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SteppedLineSeries.hpp; sourceTree = "<group>"; };
+		D9EA917A184CE6A500D8666C /* PointDecoration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointDecoration.cpp; sourceTree = "<group>"; };
+		D9EA917B184CE6A500D8666C /* PointDecoration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PointDecoration.hpp; sourceTree = "<group>"; };
+		D9EA9182184CE6C000D8666C /* PointDecorationImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PointDecorationImpl.cpp; path = Impl/PointDecorationImpl.cpp; sourceTree = "<group>"; };
+		D9EA9183184CE6C000D8666C /* PointDecorationImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PointDecorationImpl.hpp; path = Impl/PointDecorationImpl.hpp; sourceTree = "<group>"; };
+		D9EEA77F18870ED800DC5AB9 /* AutomaticDateTickCalculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AutomaticDateTickCalculator.cpp; sourceTree = "<group>"; };
+		D9EEA78018870ED800DC5AB9 /* AutomaticDateTickCalculator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AutomaticDateTickCalculator.hpp; sourceTree = "<group>"; };
+		D9EEA78118870ED800DC5AB9 /* DateAxis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DateAxis.cpp; sourceTree = "<group>"; };
+		D9EEA78218870ED800DC5AB9 /* DateAxis.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DateAxis.hpp; sourceTree = "<group>"; };
+		D9EEA78318870ED800DC5AB9 /* DateTickCalculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DateTickCalculator.cpp; sourceTree = "<group>"; };
+		D9EEA78418870ED900DC5AB9 /* DateTickCalculator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DateTickCalculator.hpp; sourceTree = "<group>"; };
+		D9EEA78618870ED900DC5AB9 /* DateUnit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DateUnit.hpp; sourceTree = "<group>"; };
+		D9EEA78A18870F0600DC5AB9 /* AutomaticDateTickCalculatorImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AutomaticDateTickCalculatorImpl.cpp; path = Impl/AutomaticDateTickCalculatorImpl.cpp; sourceTree = "<group>"; };
+		D9EEA78B18870F0600DC5AB9 /* AutomaticDateTickCalculatorImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AutomaticDateTickCalculatorImpl.hpp; path = Impl/AutomaticDateTickCalculatorImpl.hpp; sourceTree = "<group>"; };
+		D9EEA78C18870F0600DC5AB9 /* DateAxisImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DateAxisImpl.cpp; path = Impl/DateAxisImpl.cpp; sourceTree = "<group>"; };
+		D9EEA78D18870F0600DC5AB9 /* DateAxisImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DateAxisImpl.hpp; path = Impl/DateAxisImpl.hpp; sourceTree = "<group>"; };
+		D9EEA7B5188712A800DC5AB9 /* FixedDateTickCalculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FixedDateTickCalculator.cpp; sourceTree = "<group>"; };
+		D9EEA7B6188712A800DC5AB9 /* FixedDateTickCalculator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FixedDateTickCalculator.hpp; sourceTree = "<group>"; };
+		D9EEA7B8188712B300DC5AB9 /* FixedDateTickCalculatorImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FixedDateTickCalculatorImpl.cpp; path = Impl/FixedDateTickCalculatorImpl.cpp; sourceTree = "<group>"; };
+		D9EEA7B9188712B300DC5AB9 /* FixedDateTickCalculatorImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FixedDateTickCalculatorImpl.hpp; path = Impl/FixedDateTickCalculatorImpl.hpp; sourceTree = "<group>"; };
+		D9EFEB841889989700F52866 /* PointStyle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PointStyle.hpp; sourceTree = "<group>"; };
+		D9F8A795187F07BB00883DBF /* AbstractNumberAxisImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AbstractNumberAxisImpl.cpp; path = Impl/AbstractNumberAxisImpl.cpp; sourceTree = "<group>"; };
+		D9F8A796187F07BB00883DBF /* AbstractNumberAxisImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AbstractNumberAxisImpl.hpp; path = Impl/AbstractNumberAxisImpl.hpp; sourceTree = "<group>"; };
+		D9F8A797187F07BB00883DBF /* AutomaticNumberTickCalculatorImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AutomaticNumberTickCalculatorImpl.cpp; path = Impl/AutomaticNumberTickCalculatorImpl.cpp; sourceTree = "<group>"; };
+		D9F8A798187F07BB00883DBF /* AutomaticNumberTickCalculatorImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AutomaticNumberTickCalculatorImpl.hpp; path = Impl/AutomaticNumberTickCalculatorImpl.hpp; sourceTree = "<group>"; };
+		D9F8A799187F07BB00883DBF /* FixedNumberTickCalculatorImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FixedNumberTickCalculatorImpl.cpp; path = Impl/FixedNumberTickCalculatorImpl.cpp; sourceTree = "<group>"; };
+		D9F8A79A187F07BB00883DBF /* FixedNumberTickCalculatorImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FixedNumberTickCalculatorImpl.hpp; path = Impl/FixedNumberTickCalculatorImpl.hpp; sourceTree = "<group>"; };
+		D9F8A79B187F07BB00883DBF /* NumberAxisImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NumberAxisImpl.cpp; path = Impl/NumberAxisImpl.cpp; sourceTree = "<group>"; };
+		D9F8A79C187F07BB00883DBF /* NumberAxisImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = NumberAxisImpl.hpp; path = Impl/NumberAxisImpl.hpp; sourceTree = "<group>"; };
+		D9F8A7A1187F09D800883DBF /* AbstractNumberAxis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractNumberAxis.cpp; sourceTree = "<group>"; };
+		D9F8A7A2187F09D800883DBF /* AbstractNumberAxis.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AbstractNumberAxis.hpp; sourceTree = "<group>"; };
+		D9F8A7A3187F09D800883DBF /* AutomaticNumberTickCalculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AutomaticNumberTickCalculator.cpp; sourceTree = "<group>"; };
+		D9F8A7A4187F09D800883DBF /* AutomaticNumberTickCalculator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AutomaticNumberTickCalculator.hpp; sourceTree = "<group>"; };
+		D9F8A7A5187F09D800883DBF /* Coordinates.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Coordinates.hpp; sourceTree = "<group>"; };
+		D9F8A7A6187F09D800883DBF /* FixedNumberTickCalculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FixedNumberTickCalculator.cpp; sourceTree = "<group>"; };
+		D9F8A7A7187F09D800883DBF /* FixedNumberTickCalculator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FixedNumberTickCalculator.hpp; sourceTree = "<group>"; };
+		D9F8A7A8187F09D800883DBF /* NumberAxis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumberAxis.cpp; sourceTree = "<group>"; };
+		D9F8A7A9187F09D800883DBF /* NumberAxis.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NumberAxis.hpp; sourceTree = "<group>"; };
+		D9F8A7AA187F09D800883DBF /* NumberTickCalculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumberTickCalculator.cpp; sourceTree = "<group>"; };
+		D9F8A7AB187F09D800883DBF /* NumberTickCalculator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NumberTickCalculator.hpp; sourceTree = "<group>"; };
+		D9F8A7AC187F09D800883DBF /* RangeCalculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RangeCalculator.cpp; sourceTree = "<group>"; };
+		D9F8A7AD187F09D800883DBF /* RangeCalculator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RangeCalculator.hpp; sourceTree = "<group>"; };
+		D9F8A7D4187F1D3200883DBF /* AreaSeriesImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AreaSeriesImpl.cpp; path = Impl/AreaSeriesImpl.cpp; sourceTree = "<group>"; };
+		D9F8A7D5187F1D3200883DBF /* AreaSeriesImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = AreaSeriesImpl.hpp; path = Impl/AreaSeriesImpl.hpp; sourceTree = "<group>"; };
+		D9F8A7D6187F1D3200883DBF /* SteppedAreaSeriesImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SteppedAreaSeriesImpl.cpp; path = Impl/SteppedAreaSeriesImpl.cpp; sourceTree = "<group>"; };
+		D9F8A7D7187F1D3200883DBF /* SteppedAreaSeriesImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SteppedAreaSeriesImpl.hpp; path = Impl/SteppedAreaSeriesImpl.hpp; sourceTree = "<group>"; };
+		D9F8A7E2187F1D5700883DBF /* AreaSeries.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AreaSeries.cpp; sourceTree = "<group>"; };
+		D9F8A7E3187F1D5700883DBF /* AreaSeries.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AreaSeries.hpp; sourceTree = "<group>"; };
+		D9F8A7E4187F1D5700883DBF /* SteppedAreaSeries.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SteppedAreaSeries.cpp; sourceTree = "<group>"; };
+		D9F8A7E5187F1D5700883DBF /* SteppedAreaSeries.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SteppedAreaSeries.hpp; sourceTree = "<group>"; };
+		D9F94F7518A71472007A76D9 /* Animation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animation.cpp; sourceTree = "<group>"; };
+		D9F94F7618A71472007A76D9 /* Animation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Animation.hpp; sourceTree = "<group>"; };
+		D9F94FAE18A71CC5007A76D9 /* AnimationDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnimationDelegate.cpp; sourceTree = "<group>"; };
+		D9F94FAF18A71CC5007A76D9 /* AnimationDelegate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AnimationDelegate.hpp; sourceTree = "<group>"; };
+		D9FABFE618D8C0C600B3DBB7 /* DataFittingAxisLayoutImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DataFittingAxisLayoutImpl.cpp; path = Impl/DataFittingAxisLayoutImpl.cpp; sourceTree = "<group>"; };
+		D9FABFE818D8C0D700B3DBB7 /* DataFittingAxisLayoutImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DataFittingAxisLayoutImpl.hpp; path = Impl/DataFittingAxisLayoutImpl.hpp; sourceTree = "<group>"; };
+		D9FABFE918D8C13000B3DBB7 /* DataFittingAxisLayout.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataFittingAxisLayout.cpp; sourceTree = "<group>"; };
+		D9FABFEA18D8C13000B3DBB7 /* DataFittingAxisLayout.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DataFittingAxisLayout.hpp; sourceTree = "<group>"; };
+		D9FDB47C18DC8D67001C80B9 /* PaddingRangeCalculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PaddingRangeCalculator.cpp; sourceTree = "<group>"; };
+		D9FDB47D18DC8D67001C80B9 /* PaddingRangeCalculator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PaddingRangeCalculator.hpp; sourceTree = "<group>"; };
+		D9FDB47F18DC8D75001C80B9 /* PaddingRangeCalculatorImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PaddingRangeCalculatorImpl.cpp; path = Impl/PaddingRangeCalculatorImpl.cpp; sourceTree = "<group>"; };
+		D9FDB48018DC8D75001C80B9 /* PaddingRangeCalculatorImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PaddingRangeCalculatorImpl.hpp; path = Impl/PaddingRangeCalculatorImpl.hpp; sourceTree = "<group>"; };
+		D9FDB48918DC8E92001C80B9 /* IncludeZeroRangeCalculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IncludeZeroRangeCalculator.cpp; sourceTree = "<group>"; };
+		D9FDB48A18DC8E92001C80B9 /* IncludeZeroRangeCalculator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IncludeZeroRangeCalculator.hpp; sourceTree = "<group>"; };
+		D9FDB48C18DC8EA0001C80B9 /* IncludeZeroRangeCalculatorImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IncludeZeroRangeCalculatorImpl.cpp; path = Impl/IncludeZeroRangeCalculatorImpl.cpp; sourceTree = "<group>"; };
+		D9FDB48D18DC8EA0001C80B9 /* IncludeZeroRangeCalculatorImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = IncludeZeroRangeCalculatorImpl.hpp; path = Impl/IncludeZeroRangeCalculatorImpl.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D94542E218A2F99700A77D11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94542E618A2F99700A77D11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E8D7371816F13F00FCD4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E8D73E1816F13F00FCD4BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D94542E718A2F99700A77D11 /* TRChartsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D945437D18A3127200A77D11 /* CXXRunner.hpp */,
+				D945437B18A30DC400A77D11 /* CXXRunner.cpp */,
+				D945431018A3005900A77D11 /* Impl */,
+				D94542EA18A2F99700A77D11 /* GeneratedTestRunner.hpp */,
+				D94542EC18A2F99700A77D11 /* GeneratedTestRunner.cpp */,
+				D94542E818A2F99700A77D11 /* Supporting Files */,
+			);
+			path = TRChartsTests;
+			sourceTree = "<group>";
+		};
+		D94542E818A2F99700A77D11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D94542E918A2F99700A77D11 /* TRChartsTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D945431018A3005900A77D11 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				D945431118A3008000A77D11 /* UtilsTests.cpp */,
+				D945431218A3008000A77D11 /* UtilsTests.hpp */,
+			);
+			name = Impl;
+			sourceTree = "<group>";
+		};
+		D9E8D7311816F13F00FCD4BF = {
+			isa = PBXGroup;
+			children = (
+				D9E8D73F1816F13F00FCD4BF /* TRCharts */,
+				D94542E718A2F99700A77D11 /* TRChartsTests */,
+				D9E8D73C1816F13F00FCD4BF /* Frameworks */,
+				D9E8D73B1816F13F00FCD4BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9E8D73B1816F13F00FCD4BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9E8D73A1816F13F00FCD4BF /* libTRCharts.a */,
+				D94542E518A2F99700A77D11 /* libTRChartsTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9E8D73C1816F13F00FCD4BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D98C666F18A1BB2900BEC5E4 /* CoreGraphics.framework */,
+				D98C666D18A1BB1A00BEC5E4 /* OpenGLES.framework */,
+				D98C666B18A1BB1400BEC5E4 /* CoreText.framework */,
+				D9E8D73D1816F13F00FCD4BF /* Foundation.framework */,
+				D9E8D74B1816F13F00FCD4BF /* XCTest.framework */,
+				D9E8D74E1816F13F00FCD4BF /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9E8D73F1816F13F00FCD4BF /* TRCharts */ = {
+			isa = PBXGroup;
+			children = (
+				D9FDB48918DC8E92001C80B9 /* IncludeZeroRangeCalculator.cpp */,
+				D9FDB48A18DC8E92001C80B9 /* IncludeZeroRangeCalculator.hpp */,
+				D9FDB47C18DC8D67001C80B9 /* PaddingRangeCalculator.cpp */,
+				D9FDB47D18DC8D67001C80B9 /* PaddingRangeCalculator.hpp */,
+				D9A6A9DE18D9FC8F005C98CB /* DataOffsetConstraintBehaviour.cpp */,
+				D9A6A9DF18D9FC8F005C98CB /* DataOffsetConstraintBehaviour.hpp */,
+				D9A6A9E018D9FC8F005C98CB /* DataScaleConstraintBehaviour.cpp */,
+				D9A6A9E118D9FC8F005C98CB /* DataScaleConstraintBehaviour.hpp */,
+				D9FABFE918D8C13000B3DBB7 /* DataFittingAxisLayout.cpp */,
+				D9FABFEA18D8C13000B3DBB7 /* DataFittingAxisLayout.hpp */,
+				D97AE4C218D7510B007BAF6F /* Touch.cpp */,
+				D97AE4C318D7510B007BAF6F /* Touch.hpp */,
+				D97AE48018D74179007BAF6F /* Constraint.cpp */,
+				D97AE48118D74179007BAF6F /* Constraint.hpp */,
+				D97AE48218D74179007BAF6F /* ConstraintBehaviour.cpp */,
+				D97AE48318D74179007BAF6F /* ConstraintBehaviour.hpp */,
+				D97AE48418D74179007BAF6F /* Transform.cpp */,
+				D97AE48518D74179007BAF6F /* Transform.hpp */,
+				D957320118CA10C300D98270 /* Edge.hpp */,
+				D95731D718C9E43900D98270 /* AnimationEffect.cpp */,
+				D95731D818C9E43900D98270 /* AnimationEffect.hpp */,
+				D95731DC18C9E43900D98270 /* FadeInEffect.cpp */,
+				D95731DD18C9E43900D98270 /* FadeInEffect.hpp */,
+				D95731DE18C9E43900D98270 /* FadeOutEffect.cpp */,
+				D95731DF18C9E43900D98270 /* FadeOutEffect.hpp */,
+				D95731CA18C9D52000D98270 /* AbstractDateFormatter.cpp */,
+				D95731CB18C9D52000D98270 /* AbstractDateFormatter.hpp */,
+				D95731CC18C9D52000D98270 /* BasicDateFormatter.cpp */,
+				D95731CD18C9D52000D98270 /* BasicDateFormatter.hpp */,
+				D95731CE18C9D52000D98270 /* FormatSyntax.hpp */,
+				D9F8A7A1187F09D800883DBF /* AbstractNumberAxis.cpp */,
+				D9F8A7A2187F09D800883DBF /* AbstractNumberAxis.hpp */,
+				D9F94F7518A71472007A76D9 /* Animation.cpp */,
+				D9F94F7618A71472007A76D9 /* Animation.hpp */,
+				D9F94FAE18A71CC5007A76D9 /* AnimationDelegate.cpp */,
+				D9F94FAF18A71CC5007A76D9 /* AnimationDelegate.hpp */,
+				D9F8A7E2187F1D5700883DBF /* AreaSeries.cpp */,
+				D9F8A7E3187F1D5700883DBF /* AreaSeries.hpp */,
+				D945D96618805FB500DBA754 /* Attachable.cpp */,
+				D945D96718805FB500DBA754 /* Attachable.hpp */,
+				D9EEA77F18870ED800DC5AB9 /* AutomaticDateTickCalculator.cpp */,
+				D9EEA78018870ED800DC5AB9 /* AutomaticDateTickCalculator.hpp */,
+				D9F8A7A3187F09D800883DBF /* AutomaticNumberTickCalculator.cpp */,
+				D9F8A7A4187F09D800883DBF /* AutomaticNumberTickCalculator.hpp */,
+				D9E8ED3A18218F1700F835F4 /* Axis.cpp */,
+				D9E8ED3B18218F1700F835F4 /* Axis.hpp */,
+				D97C8B4718C622EC000C9128 /* AxisLayout.cpp */,
+				D97C8B4818C622EC000C9128 /* AxisLayout.hpp */,
+				D9E8ED3D18218F1700F835F4 /* BandSeries.cpp */,
+				D9E8ED3E18218F1700F835F4 /* BandSeries.hpp */,
+				D9C5FF23182BB06900B63E09 /* BasicNumberFormatter.cpp */,
+				D9C5FF24182BB06900B63E09 /* BasicNumberFormatter.hpp */,
+				D9E8ED4518218F1700F835F4 /* CandlestickSeries.cpp */,
+				D9E8ED4618218F1700F835F4 /* CandlestickSeries.hpp */,
+				D9E8ED4718218F1700F835F4 /* CategoryAxis.cpp */,
+				D9E8ED4818218F1700F835F4 /* CategoryAxis.hpp */,
+				D9E8ED4918218F1700F835F4 /* Chart.cpp */,
+				D9E8ED4A18218F1700F835F4 /* Chart.hpp */,
+				D9C5FF25182BB06900B63E09 /* ChartElement.cpp */,
+				D9C5FF26182BB06900B63E09 /* ChartElement.hpp */,
+				D9E64B551860C87C00EBF08F /* Charts.cpp */,
+				D9E8ED4B18218F1700F835F4 /* Charts.hpp */,
+				D9AB9D2E18C73B6200DA5406 /* Color.cpp */,
+				D9C5FF27182BB06900B63E09 /* Color.hpp */,
+				D9453764187C1EAE00B6AC7F /* ColorSource.cpp */,
+				D9453765187C1EAE00B6AC7F /* ColorSource.hpp */,
+				D9E8ED4C18218F1700F835F4 /* Common.hpp */,
+				D9E8ED4D18218F1700F835F4 /* ContinuousAxis.cpp */,
+				D9E8ED4E18218F1700F835F4 /* ContinuousAxis.hpp */,
+				D9E8ED5118218F1700F835F4 /* ContinuousDataSource.hpp */,
+				D9E8ED5218218F1700F835F4 /* ContinuousDataSource.impl.hpp */,
+				D9AB9D2F18C73B6200DA5406 /* ContinuousDatum.cpp */,
+				D9E8ED5318218F1700F835F4 /* ContinuousDatum.hpp */,
+				D9E8ED5418218F1700F835F4 /* ContinuousSeries.hpp */,
+				D9E8ED5518218F1700F835F4 /* ContinuousSeries.impl.hpp */,
+				D9AB9D3018C73B6200DA5406 /* Coordinates.cpp */,
+				D9F8A7A5187F09D800883DBF /* Coordinates.hpp */,
+				D9AB9D3118C73B6200DA5406 /* DataTransform.cpp */,
+				D97C8B4918C622EC000C9128 /* DataTransform.hpp */,
+				D9EEA78118870ED800DC5AB9 /* DateAxis.cpp */,
+				D9EEA78218870ED800DC5AB9 /* DateAxis.hpp */,
+				D93EA94018881DE600EB403B /* DateFormatter.cpp */,
+				D93EA94118881DE600EB403B /* DateFormatter.hpp */,
+				D9AB9D3218C73B6200DA5406 /* DateInterval.cpp */,
+				D93EA9711888466C00EB403B /* DateInterval.hpp */,
+				D9EEA78318870ED800DC5AB9 /* DateTickCalculator.cpp */,
+				D9EEA78418870ED900DC5AB9 /* DateTickCalculator.hpp */,
+				D9EEA78618870ED900DC5AB9 /* DateUnit.hpp */,
+				D98CC89C1847701D000D7B0C /* Decoration.cpp */,
+				D98CC89D1847701D000D7B0C /* Decoration.hpp */,
+				D96D0D66185A160900555656 /* Drawable.cpp */,
+				D96D0D67185A160900555656 /* Drawable.hpp */,
+				D9EEA7B5188712A800DC5AB9 /* FixedDateTickCalculator.cpp */,
+				D9EEA7B6188712A800DC5AB9 /* FixedDateTickCalculator.hpp */,
+				D9F8A7A6187F09D800883DBF /* FixedNumberTickCalculator.cpp */,
+				D9F8A7A7187F09D800883DBF /* FixedNumberTickCalculator.hpp */,
+				D9C5FF2F182BB06900B63E09 /* FixedRangeCalculator.cpp */,
+				D9C5FF30182BB06900B63E09 /* FixedRangeCalculator.hpp */,
+				D9AB9D3318C73B6200DA5406 /* Font.cpp */,
+				D95437A0182D49CC0078F67C /* Font.hpp */,
+				D9C6C713189BD1E1000D12A7 /* FontHint.hpp */,
+				D9D7825F183F800600028B07 /* GestureState.hpp */,
+				D9E8ED6F18218F1D00F835F4 /* Impl */,
+				D9AB9D3418C73B6200DA5406 /* IndexRange.cpp */,
+				D9C5FF31182BB06900B63E09 /* IndexRange.hpp */,
+				D96D0D68185A160900555656 /* Label.cpp */,
+				D96D0D69185A160900555656 /* Label.hpp */,
+				D98CC89E1847701D000D7B0C /* LineDecoration.cpp */,
+				D98CC89F1847701D000D7B0C /* LineDecoration.hpp */,
+				D9453767187C1ECE00B6AC7F /* LineMode.hpp */,
+				D9E8ED5618218F1700F835F4 /* LineSeries.cpp */,
+				D9E8ED5718218F1700F835F4 /* LineSeries.hpp */,
+				D9AB9D3518C73B6200DA5406 /* LineStyle.cpp */,
+				D9453768187C1ECE00B6AC7F /* LineStyle.hpp */,
+				D9453769187C1ECE00B6AC7F /* LineStyleSource.cpp */,
+				D945376A187C1ECE00B6AC7F /* LineStyleSource.hpp */,
+				D973C34D1898001C006426A5 /* LogHandler.cpp */,
+				D973C34E1898001C006426A5 /* LogHandler.hpp */,
+				D91B4E93185F1ECC00A81352 /* LogLevel.hpp */,
+				D9AB9D3618C73B6200DA5406 /* Margin.cpp */,
+				D9C5FF32182BB06900B63E09 /* Margin.hpp */,
+				D9F8A7A8187F09D800883DBF /* NumberAxis.cpp */,
+				D9F8A7A9187F09D800883DBF /* NumberAxis.hpp */,
+				D9C5FF33182BB06900B63E09 /* NumberFormatter.cpp */,
+				D9C5FF34182BB06900B63E09 /* NumberFormatter.hpp */,
+				D9F8A7AA187F09D800883DBF /* NumberTickCalculator.cpp */,
+				D9F8A7AB187F09D800883DBF /* NumberTickCalculator.hpp */,
+				D9AB9D3718C73B6200DA5406 /* OHLC.cpp */,
+				D9E627A81822DEEF00FCFB86 /* OHLC.hpp */,
+				D9AB9D3818C73B6200DA5406 /* OHLCDatum.cpp */,
+				D9E8ED5818218F1700F835F4 /* OHLCDatum.hpp */,
+				D93EA95818881E4A00EB403B /* PerUnitDateFormatter.cpp */,
+				D93EA95918881E4A00EB403B /* PerUnitDateFormatter.hpp */,
+				D9AB9D3918C73B6200DA5406 /* Point.cpp */,
+				D9E627A91822DEEF00FCFB86 /* Point.hpp */,
+				D9EA917A184CE6A500D8666C /* PointDecoration.cpp */,
+				D9EA917B184CE6A500D8666C /* PointDecoration.hpp */,
+				D917716C1844CCD400DD2A15 /* PointSeries.cpp */,
+				D917716D1844CCD400DD2A15 /* PointSeries.hpp */,
+				D9AB9D3A18C73B6200DA5406 /* PointStyle.cpp */,
+				D9EFEB841889989700F52866 /* PointStyle.hpp */,
+				D9AB9D3B18C73B6200DA5406 /* Range.cpp */,
+				D9E627AA1822DEEF00FCFB86 /* Range.hpp */,
+				D9F8A7AC187F09D800883DBF /* RangeCalculator.cpp */,
+				D9F8A7AD187F09D800883DBF /* RangeCalculator.hpp */,
+				D9AB9D3C18C73B6200DA5406 /* RangeDatum.cpp */,
+				D9E8ED5918218F1700F835F4 /* RangeDatum.hpp */,
+				D993B8D4184E612000E72539 /* RelayoutMode.hpp */,
+				D9C6C714189BD1E1000D12A7 /* Renderable.cpp */,
+				D9C6C715189BD1E1000D12A7 /* Renderable.hpp */,
+				D93EA9681888410600EB403B /* ResizeMode.hpp */,
+				D9AB9D3D18C73B6200DA5406 /* ScalarDatum.cpp */,
+				D9E8ED5A18218F1700F835F4 /* ScalarDatum.hpp */,
+				D9E8ED5B18218F1700F835F4 /* Series.cpp */,
+				D9E8ED5C18218F1700F835F4 /* Series.hpp */,
+				D9AB9D3E18C73B6200DA5406 /* Size.cpp */,
+				D96D0D6A185A160900555656 /* Size.hpp */,
+				D9F8A7E4187F1D5700883DBF /* SteppedAreaSeries.cpp */,
+				D9F8A7E5187F1D5700883DBF /* SteppedAreaSeries.hpp */,
+				D9E8ED5D18218F1700F835F4 /* SteppedBandSeries.cpp */,
+				D9E8ED5E18218F1700F835F4 /* SteppedBandSeries.hpp */,
+				D9E8ED5F18218F1700F835F4 /* SteppedLineSeries.cpp */,
+				D9E8ED6018218F1700F835F4 /* SteppedLineSeries.hpp */,
+				D9289FDD18573C9E001E19E2 /* SuffixNumberFormatter.cpp */,
+				D9289FDE18573C9E001E19E2 /* SuffixNumberFormatter.hpp */,
+				D9E8D7401816F13F00FCD4BF /* Supporting Files */,
+				D93EA95F1888328C00EB403B /* TickAligningRangeCalculator.cpp */,
+				D93EA9601888328C00EB403B /* TickAligningRangeCalculator.hpp */,
+			);
+			path = TRCharts;
+			sourceTree = "<group>";
+		};
+		D9E8D7401816F13F00FCD4BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9E8D7411816F13F00FCD4BF /* TRCharts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9E8ED6F18218F1D00F835F4 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				D9FDB48C18DC8EA0001C80B9 /* IncludeZeroRangeCalculatorImpl.cpp */,
+				D9FDB48D18DC8EA0001C80B9 /* IncludeZeroRangeCalculatorImpl.hpp */,
+				D9FDB47F18DC8D75001C80B9 /* PaddingRangeCalculatorImpl.cpp */,
+				D9FDB48018DC8D75001C80B9 /* PaddingRangeCalculatorImpl.hpp */,
+				D9A6A9E418D9FCB8005C98CB /* DataOffsetConstraintBehaviourImpl.cpp */,
+				D9A6A9E518D9FCB8005C98CB /* DataOffsetConstraintBehaviourImpl.hpp */,
+				D9A6A9E618D9FCB8005C98CB /* DataScaleConstraintBehaviourImpl.cpp */,
+				D9A6A9E718D9FCB8005C98CB /* DataScaleConstraintBehaviourImpl.hpp */,
+				D9FABFE818D8C0D700B3DBB7 /* DataFittingAxisLayoutImpl.hpp */,
+				D9FABFE618D8C0C600B3DBB7 /* DataFittingAxisLayoutImpl.cpp */,
+				D97AE4C518D7511A007BAF6F /* TouchImpl.cpp */,
+				D97AE4C618D7511A007BAF6F /* TouchImpl.hpp */,
+				D97AE49018D7431B007BAF6F /* TransformImpl.cpp */,
+				D97AE49118D7431B007BAF6F /* TransformImpl.hpp */,
+				D97AE48C18D741DD007BAF6F /* ConstraintImpl.cpp */,
+				D97AE48D18D741DD007BAF6F /* ConstraintImpl.hpp */,
+				D95731FE18C9E5B200D98270 /* AnimationImpl.cpp */,
+				D95731FF18C9E5B200D98270 /* AnimationImpl.hpp */,
+				D95731D118C9E38A00D98270 /* FadeInEffectImpl.cpp */,
+				D95731D218C9E38A00D98270 /* FadeInEffectImpl.hpp */,
+				D95731D318C9E38B00D98270 /* FadeOutEffectImpl.cpp */,
+				D95731D418C9E38B00D98270 /* FadeOutEffectImpl.hpp */,
+				D95731B718C9D24900D98270 /* PlatformUtils.cpp */,
+				D95731B818C9D24900D98270 /* PlatformUtils.hpp */,
+				D9AB9DEF18C74F2D00DA5406 /* ColorImpl.cpp */,
+				D9AB9DF018C74F2D00DA5406 /* ColorImpl.hpp */,
+				D9AB9DF118C74F2D00DA5406 /* ContinuousDatumImpl.cpp */,
+				D9AB9DF218C74F2D00DA5406 /* ContinuousDatumImpl.hpp */,
+				D9AB9DF318C74F2D00DA5406 /* CoordinatesImpl.cpp */,
+				D9AB9DF418C74F2D00DA5406 /* CoordinatesImpl.hpp */,
+				D9AB9DF518C74F2D00DA5406 /* DataTransformImpl.cpp */,
+				D9AB9DF618C74F2D00DA5406 /* DataTransformImpl.hpp */,
+				D9AB9DF718C74F2D00DA5406 /* DateIntervalImpl.cpp */,
+				D9AB9DF818C74F2D00DA5406 /* DateIntervalImpl.hpp */,
+				D9AB9DF918C74F2D00DA5406 /* FontImpl.cpp */,
+				D9AB9DFA18C74F2D00DA5406 /* FontImpl.hpp */,
+				D9AB9DFB18C74F2D00DA5406 /* IndexRangeImpl.cpp */,
+				D9AB9DFC18C74F2D00DA5406 /* IndexRangeImpl.hpp */,
+				D9AB9DFD18C74F2D00DA5406 /* LineStyleImpl.cpp */,
+				D9AB9DFE18C74F2D00DA5406 /* LineStyleImpl.hpp */,
+				D9AB9DFF18C74F2D00DA5406 /* MarginImpl.cpp */,
+				D9AB9E0018C74F2D00DA5406 /* MarginImpl.hpp */,
+				D9AB9E0118C74F2D00DA5406 /* OHLCDatumImpl.cpp */,
+				D9AB9E0218C74F2D00DA5406 /* OHLCDatumImpl.hpp */,
+				D9AB9E0318C74F2D00DA5406 /* OHLCImpl.cpp */,
+				D9AB9E0418C74F2D00DA5406 /* OHLCImpl.hpp */,
+				D9AB9E0518C74F2D00DA5406 /* PointImpl.cpp */,
+				D9AB9E0618C74F2D00DA5406 /* PointImpl.hpp */,
+				D9AB9E0718C74F2D00DA5406 /* PointStyleImpl.cpp */,
+				D9AB9E0818C74F2D00DA5406 /* PointStyleImpl.hpp */,
+				D9AB9E0918C74F2D00DA5406 /* RangeDatumImpl.cpp */,
+				D9AB9E0A18C74F2D00DA5406 /* RangeDatumImpl.hpp */,
+				D9AB9E0B18C74F2D00DA5406 /* RangeImpl.cpp */,
+				D9AB9E0C18C74F2D00DA5406 /* RangeImpl.hpp */,
+				D9AB9E0D18C74F2D00DA5406 /* ScalarDatumImpl.cpp */,
+				D9AB9E0E18C74F2D00DA5406 /* ScalarDatumImpl.hpp */,
+				D9AB9E0F18C74F2D00DA5406 /* SizeImpl.cpp */,
+				D9AB9E1018C74F2D00DA5406 /* SizeImpl.hpp */,
+				D9471FE81861F56A0037737C /* ChartsImpl.cpp */,
+				D9471FE91861F56A0037737C /* ChartsImpl.hpp */,
+				D96D0D76185A185000555656 /* LabelImpl.cpp */,
+				D96D0D77185A185000555656 /* LabelImpl.hpp */,
+				D91B4EAD185F4A1500A81352 /* Versionable.cpp */,
+				D91B4EAE185F4A1500A81352 /* Versionable.hpp */,
+				D945D95618804D9D00DBA754 /* AttachableImpl.cpp */,
+				D945D95718804D9D00DBA754 /* AttachableImpl.hpp */,
+				D96D0D6D185A161C00555656 /* DrawableImpl.cpp */,
+				D96D0D6E185A161C00555656 /* DrawableImpl.hpp */,
+				D9C5FFD0182BBDC900B63E09 /* ChartElementImpl.cpp */,
+				D9C5FFD1182BBDC900B63E09 /* ChartElementImpl.hpp */,
+				D9289FD518573B53001E19E2 /* SuffixNumberFormatterImpl.cpp */,
+				D9289FD618573B53001E19E2 /* SuffixNumberFormatterImpl.hpp */,
+				D9C5FFE0182BBDC900B63E09 /* SeriesImpl.cpp */,
+				D9C5FFE1182BBDC900B63E09 /* SeriesImpl.hpp */,
+				D95A295F1891905600BB4343 /* ContinuousSeriesImpl.impl.hpp */,
+				D95A29601891905600BB4343 /* ContinuousSeriesImpl.hpp */,
+				D91771691844CCCB00DD2A15 /* PointSeriesImpl.cpp */,
+				D917716A1844CCCB00DD2A15 /* PointSeriesImpl.hpp */,
+				D9C5FFDD182BBDC900B63E09 /* LineSeriesImpl.cpp */,
+				D9C5FFDE182BBDC900B63E09 /* LineSeriesImpl.hpp */,
+				D9C5FFE4182BBDC900B63E09 /* SteppedLineSeriesImpl.cpp */,
+				D9C5FFE5182BBDC900B63E09 /* SteppedLineSeriesImpl.hpp */,
+				D9C5FFC8182BBDC900B63E09 /* BandSeriesImpl.cpp */,
+				D9C5FFC9182BBDC900B63E09 /* BandSeriesImpl.hpp */,
+				D9C5FFE2182BBDC900B63E09 /* SteppedBandSeriesImpl.cpp */,
+				D9C5FFE3182BBDC900B63E09 /* SteppedBandSeriesImpl.hpp */,
+				D9F8A7D4187F1D3200883DBF /* AreaSeriesImpl.cpp */,
+				D9F8A7D5187F1D3200883DBF /* AreaSeriesImpl.hpp */,
+				D9F8A7D6187F1D3200883DBF /* SteppedAreaSeriesImpl.cpp */,
+				D9F8A7D7187F1D3200883DBF /* SteppedAreaSeriesImpl.hpp */,
+				D9C5FFCC182BBDC900B63E09 /* CandlestickSeriesImpl.cpp */,
+				D9C5FFCD182BBDC900B63E09 /* CandlestickSeriesImpl.hpp */,
+				D98CC8A21847702A000D7B0C /* DecorationImpl.cpp */,
+				D98CC8A31847702A000D7B0C /* DecorationImpl.hpp */,
+				D98CC8A41847702A000D7B0C /* LineDecorationImpl.cpp */,
+				D98CC8A51847702A000D7B0C /* LineDecorationImpl.hpp */,
+				D9EA9182184CE6C000D8666C /* PointDecorationImpl.cpp */,
+				D9EA9183184CE6C000D8666C /* PointDecorationImpl.hpp */,
+				D9C5FFCA182BBDC900B63E09 /* BasicNumberFormatterImpl.cpp */,
+				D9C5FFCB182BBDC900B63E09 /* BasicNumberFormatterImpl.hpp */,
+				D95731BA18C9D40D00D98270 /* AbstractDateFormatterImpl.cpp */,
+				D95731BB18C9D40D00D98270 /* AbstractDateFormatterImpl.hpp */,
+				D95731BC18C9D40D00D98270 /* BasicDateFormatterImpl.cpp */,
+				D95731BD18C9D40D00D98270 /* BasicDateFormatterImpl.hpp */,
+				D93EA95518881E3F00EB403B /* PerUnitDateFormatterImpl.cpp */,
+				D93EA95618881E3F00EB403B /* PerUnitDateFormatterImpl.hpp */,
+				D9C5FFC6182BBDC900B63E09 /* AxisImpl.cpp */,
+				D9C5FFC7182BBDC900B63E09 /* AxisImpl.hpp */,
+				D9C5FFD5182BBDC900B63E09 /* ContinuousAxisImpl.cpp */,
+				D9C5FFD6182BBDC900B63E09 /* ContinuousAxisImpl.hpp */,
+				D9F8A795187F07BB00883DBF /* AbstractNumberAxisImpl.cpp */,
+				D9F8A796187F07BB00883DBF /* AbstractNumberAxisImpl.hpp */,
+				D9F8A79B187F07BB00883DBF /* NumberAxisImpl.cpp */,
+				D9F8A79C187F07BB00883DBF /* NumberAxisImpl.hpp */,
+				D9EEA78C18870F0600DC5AB9 /* DateAxisImpl.cpp */,
+				D9EEA78D18870F0600DC5AB9 /* DateAxisImpl.hpp */,
+				D9C5FFCE182BBDC900B63E09 /* CategoryAxisImpl.cpp */,
+				D9C5FFCF182BBDC900B63E09 /* CategoryAxisImpl.hpp */,
+				D9C5FFD2182BBDC900B63E09 /* ChartImpl.cpp */,
+				D9C5FFD3182BBDC900B63E09 /* ChartImpl.hpp */,
+				D9C5FFD4182BBDC900B63E09 /* Common.hpp */,
+				D9C5FFDB182BBDC900B63E09 /* FixedRangeCalculatorImpl.cpp */,
+				D9C5FFDC182BBDC900B63E09 /* FixedRangeCalculatorImpl.hpp */,
+				D93EA95C1888328400EB403B /* TickAligningRangeCalculatorImpl.cpp */,
+				D93EA95D1888328400EB403B /* TickAligningRangeCalculatorImpl.hpp */,
+				D9F8A799187F07BB00883DBF /* FixedNumberTickCalculatorImpl.cpp */,
+				D9F8A79A187F07BB00883DBF /* FixedNumberTickCalculatorImpl.hpp */,
+				D9F8A797187F07BB00883DBF /* AutomaticNumberTickCalculatorImpl.cpp */,
+				D9F8A798187F07BB00883DBF /* AutomaticNumberTickCalculatorImpl.hpp */,
+				D9EEA7B8188712B300DC5AB9 /* FixedDateTickCalculatorImpl.cpp */,
+				D9EEA7B9188712B300DC5AB9 /* FixedDateTickCalculatorImpl.hpp */,
+				D9EEA78A18870F0600DC5AB9 /* AutomaticDateTickCalculatorImpl.cpp */,
+				D9EEA78B18870F0600DC5AB9 /* AutomaticDateTickCalculatorImpl.hpp */,
+				D9C5FFDF182BBDC900B63E09 /* RenderArgs.hpp */,
+				D9D41176183BC00B007C9F8D /* Utils.cpp */,
+				D9D41177183BC00B007C9F8D /* Utils.hpp */,
+			);
+			name = Impl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D94542E418A2F99700A77D11 /* TRChartsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D945430118A2F99700A77D11 /* Build configuration list for PBXNativeTarget "TRChartsTests" */;
+			buildPhases = (
+				D94542E118A2F99700A77D11 /* Sources */,
+				D94542E218A2F99700A77D11 /* Frameworks */,
+				D94542E318A2F99700A77D11 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D945430818A2FAB100A77D11 /* PBXTargetDependency */,
+			);
+			name = TRChartsTests;
+			productName = TRChartsTests;
+			productReference = D94542E518A2F99700A77D11 /* libTRChartsTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D9E8D7391816F13F00FCD4BF /* TRCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E8D75D1816F13F00FCD4BF /* Build configuration list for PBXNativeTarget "TRCharts" */;
+			buildPhases = (
+				D9E8D7361816F13F00FCD4BF /* Sources */,
+				D9E8D7371816F13F00FCD4BF /* Frameworks */,
+				D9E8D7381816F13F00FCD4BF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRCharts;
+			productName = TRCharts;
+			productReference = D9E8D73A1816F13F00FCD4BF /* libTRCharts.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9E8D7321816F13F00FCD4BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Thomson Reuters";
+			};
+			buildConfigurationList = D9E8D7351816F13F00FCD4BF /* Build configuration list for PBXProject "TRCharts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9E8D7311816F13F00FCD4BF;
+			productRefGroup = D9E8D73B1816F13F00FCD4BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9E8D7391816F13F00FCD4BF /* TRCharts */,
+				D94542E418A2F99700A77D11 /* TRChartsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D94542E118A2F99700A77D11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D945437C18A30DC400A77D11 /* CXXRunner.cpp in Sources */,
+				D945431318A3008000A77D11 /* UtilsTests.cpp in Sources */,
+				D94542ED18A2F99700A77D11 /* GeneratedTestRunner.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E8D7361816F13F00FCD4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9453766187C1EAE00B6AC7F /* ColorSource.cpp in Sources */,
+				D9AB9D4218C73B6200DA5406 /* DataTransform.cpp in Sources */,
+				D9EEA78718870ED900DC5AB9 /* AutomaticDateTickCalculator.cpp in Sources */,
+				D9AB9D4318C73B6200DA5406 /* DateInterval.cpp in Sources */,
+				D9EEA7BA188712B300DC5AB9 /* FixedDateTickCalculatorImpl.cpp in Sources */,
+				D97AE4C418D7510B007BAF6F /* Touch.cpp in Sources */,
+				D93EA9611888328C00EB403B /* TickAligningRangeCalculator.cpp in Sources */,
+				D9FDB47E18DC8D67001C80B9 /* PaddingRangeCalculator.cpp in Sources */,
+				D9F8A79F187F07BB00883DBF /* FixedNumberTickCalculatorImpl.cpp in Sources */,
+				D9C5FFF3182BBDC900B63E09 /* SteppedLineSeriesImpl.cpp in Sources */,
+				D9E8ED6618218F1700F835F4 /* CandlestickSeries.cpp in Sources */,
+				D9AB9E1C18C74F2D00DA5406 /* PointImpl.cpp in Sources */,
+				D9F8A7B3187F09D800883DBF /* RangeCalculator.cpp in Sources */,
+				D9E8ED6718218F1700F835F4 /* CategoryAxis.cpp in Sources */,
+				D9C5FF3B182BB06900B63E09 /* NumberFormatter.cpp in Sources */,
+				D9EA9184184CE6C000D8666C /* PointDecorationImpl.cpp in Sources */,
+				D9AB9D4D18C73B6200DA5406 /* RangeDatum.cpp in Sources */,
+				D9F8A7A0187F07BB00883DBF /* NumberAxisImpl.cpp in Sources */,
+				D97C8B4C18C622EC000C9128 /* AxisLayout.cpp in Sources */,
+				D9AB9D4918C73B6200DA5406 /* OHLCDatum.cpp in Sources */,
+				D93EA95E1888328400EB403B /* TickAligningRangeCalculatorImpl.cpp in Sources */,
+				D9FABFE718D8C0C600B3DBB7 /* DataFittingAxisLayoutImpl.cpp in Sources */,
+				D98CC8A61847702A000D7B0C /* DecorationImpl.cpp in Sources */,
+				D9F8A7E6187F1D5700883DBF /* AreaSeries.cpp in Sources */,
+				D95731D518C9E38B00D98270 /* FadeInEffectImpl.cpp in Sources */,
+				D9AB9D4718C73B6200DA5406 /* Margin.cpp in Sources */,
+				D9AB9D4418C73B6200DA5406 /* Font.cpp in Sources */,
+				D9F8A7AF187F09D800883DBF /* AutomaticNumberTickCalculator.cpp in Sources */,
+				D9C6C716189BD1E1000D12A7 /* Renderable.cpp in Sources */,
+				D9AB9D4118C73B6200DA5406 /* Coordinates.cpp in Sources */,
+				D9C5FF36182BB06900B63E09 /* ChartElement.cpp in Sources */,
+				D9C5FFEA182BBDC900B63E09 /* CategoryAxisImpl.cpp in Sources */,
+				D95731E318C9E43900D98270 /* FadeOutEffect.cpp in Sources */,
+				D9C5FFE6182BBDC900B63E09 /* AxisImpl.cpp in Sources */,
+				D9F94F7D18A71472007A76D9 /* Animation.cpp in Sources */,
+				D93EA95A18881E4A00EB403B /* PerUnitDateFormatter.cpp in Sources */,
+				D97AE48718D74179007BAF6F /* Constraint.cpp in Sources */,
+				D9AB9D4B18C73B6200DA5406 /* PointStyle.cpp in Sources */,
+				D9F8A7B0187F09D800883DBF /* FixedNumberTickCalculator.cpp in Sources */,
+				D95731CF18C9D52000D98270 /* AbstractDateFormatter.cpp in Sources */,
+				D96D0D6C185A160900555656 /* Label.cpp in Sources */,
+				D9289FDF18573C9F001E19E2 /* SuffixNumberFormatter.cpp in Sources */,
+				D9C5FFEF182BBDC900B63E09 /* FixedRangeCalculatorImpl.cpp in Sources */,
+				D9AB9D4A18C73B6200DA5406 /* Point.cpp in Sources */,
+				D93EA94518881DE600EB403B /* DateFormatter.cpp in Sources */,
+				D9AB9D4F18C73B6200DA5406 /* Size.cpp in Sources */,
+				D98CC8A11847701D000D7B0C /* LineDecoration.cpp in Sources */,
+				D9AB9E2018C74F2D00DA5406 /* ScalarDatumImpl.cpp in Sources */,
+				D95731BF18C9D40D00D98270 /* BasicDateFormatterImpl.cpp in Sources */,
+				D9A6A9E318D9FC8F005C98CB /* DataScaleConstraintBehaviour.cpp in Sources */,
+				D9AB9D4018C73B6200DA5406 /* ContinuousDatum.cpp in Sources */,
+				D9EEA7B7188712A800DC5AB9 /* FixedDateTickCalculator.cpp in Sources */,
+				D957320018C9E5B200D98270 /* AnimationImpl.cpp in Sources */,
+				D9AB9D4618C73B6200DA5406 /* LineStyle.cpp in Sources */,
+				D9AB9E1D18C74F2D00DA5406 /* PointStyleImpl.cpp in Sources */,
+				D9AB9E1718C74F2D00DA5406 /* IndexRangeImpl.cpp in Sources */,
+				D98CC8A71847702A000D7B0C /* LineDecorationImpl.cpp in Sources */,
+				D9AB9E1318C74F2D00DA5406 /* CoordinatesImpl.cpp in Sources */,
+				D97AE4C718D7511A007BAF6F /* TouchImpl.cpp in Sources */,
+				D9F8A7B2187F09D800883DBF /* NumberTickCalculator.cpp in Sources */,
+				D91B4EAF185F4A1500A81352 /* Versionable.cpp in Sources */,
+				D9289FD718573B53001E19E2 /* SuffixNumberFormatterImpl.cpp in Sources */,
+				D9C5FF3A182BB06900B63E09 /* FixedRangeCalculator.cpp in Sources */,
+				D9471FEA1861F56A0037737C /* ChartsImpl.cpp in Sources */,
+				D9E8ED6E18218F1700F835F4 /* SteppedLineSeries.cpp in Sources */,
+				D917716B1844CCCB00DD2A15 /* PointSeriesImpl.cpp in Sources */,
+				D9AB9E1518C74F2D00DA5406 /* DateIntervalImpl.cpp in Sources */,
+				D9AB9E1918C74F2D00DA5406 /* MarginImpl.cpp in Sources */,
+				D9F8A79D187F07BB00883DBF /* AbstractNumberAxisImpl.cpp in Sources */,
+				D9F8A7D8187F1D3200883DBF /* AreaSeriesImpl.cpp in Sources */,
+				D9F8A7AE187F09D800883DBF /* AbstractNumberAxis.cpp in Sources */,
+				D9EA917C184CE6A500D8666C /* PointDecoration.cpp in Sources */,
+				D95731D018C9D52000D98270 /* BasicDateFormatter.cpp in Sources */,
+				D96D0D6B185A160900555656 /* Drawable.cpp in Sources */,
+				D9AB9D4E18C73B6200DA5406 /* ScalarDatum.cpp in Sources */,
+				D945D95A18804D9D00DBA754 /* AttachableImpl.cpp in Sources */,
+				D9C5FFE9182BBDC900B63E09 /* CandlestickSeriesImpl.cpp in Sources */,
+				D9C5FFF1182BBDC900B63E09 /* SeriesImpl.cpp in Sources */,
+				D9FDB48118DC8D75001C80B9 /* PaddingRangeCalculatorImpl.cpp in Sources */,
+				D95731E218C9E43900D98270 /* FadeInEffect.cpp in Sources */,
+				D9AB9E1F18C74F2D00DA5406 /* RangeImpl.cpp in Sources */,
+				D9F8A7B1187F09D800883DBF /* NumberAxis.cpp in Sources */,
+				D9F8A7D9187F1D3200883DBF /* SteppedAreaSeriesImpl.cpp in Sources */,
+				D9D41178183BC00B007C9F8D /* Utils.cpp in Sources */,
+				D97AE48F18D741DD007BAF6F /* ConstraintImpl.cpp in Sources */,
+				D9E8ED6918218F1700F835F4 /* ContinuousAxis.cpp in Sources */,
+				D917716E1844CCD400DD2A15 /* PointSeries.cpp in Sources */,
+				D9AB9E1418C74F2D00DA5406 /* DataTransformImpl.cpp in Sources */,
+				D9FDB48B18DC8E92001C80B9 /* IncludeZeroRangeCalculator.cpp in Sources */,
+				D9AB9E1118C74F2D00DA5406 /* ColorImpl.cpp in Sources */,
+				D97AE48918D74179007BAF6F /* Transform.cpp in Sources */,
+				D9AB9D4C18C73B6200DA5406 /* Range.cpp in Sources */,
+				D9C5FFEB182BBDC900B63E09 /* ChartElementImpl.cpp in Sources */,
+				D9E8ED6818218F1700F835F4 /* Chart.cpp in Sources */,
+				D9EEA78818870ED900DC5AB9 /* DateAxis.cpp in Sources */,
+				D9E8ED6C18218F1700F835F4 /* Series.cpp in Sources */,
+				D95731D618C9E38B00D98270 /* FadeOutEffectImpl.cpp in Sources */,
+				D9F8A7E7187F1D5700883DBF /* SteppedAreaSeries.cpp in Sources */,
+				D9AB9E1A18C74F2D00DA5406 /* OHLCDatumImpl.cpp in Sources */,
+				D9EEA78E18870F0600DC5AB9 /* AutomaticDateTickCalculatorImpl.cpp in Sources */,
+				D97AE48818D74179007BAF6F /* ConstraintBehaviour.cpp in Sources */,
+				D9A6A9E918D9FCB8005C98CB /* DataScaleConstraintBehaviourImpl.cpp in Sources */,
+				D9EEA78918870ED900DC5AB9 /* DateTickCalculator.cpp in Sources */,
+				D95731BE18C9D40D00D98270 /* AbstractDateFormatterImpl.cpp in Sources */,
+				D9EEA78F18870F0600DC5AB9 /* DateAxisImpl.cpp in Sources */,
+				D9C5FFF0182BBDC900B63E09 /* LineSeriesImpl.cpp in Sources */,
+				D96D0D71185A161C00555656 /* DrawableImpl.cpp in Sources */,
+				D93EA95718881E3F00EB403B /* PerUnitDateFormatterImpl.cpp in Sources */,
+				D97AE49218D7431B007BAF6F /* TransformImpl.cpp in Sources */,
+				D9C5FFEC182BBDC900B63E09 /* ChartImpl.cpp in Sources */,
+				D9C5FFF2182BBDC900B63E09 /* SteppedBandSeriesImpl.cpp in Sources */,
+				D9AB9D4818C73B6200DA5406 /* OHLC.cpp in Sources */,
+				D9F94FB018A71CC5007A76D9 /* AnimationDelegate.cpp in Sources */,
+				D9F8A79E187F07BB00883DBF /* AutomaticNumberTickCalculatorImpl.cpp in Sources */,
+				D95731B918C9D24900D98270 /* PlatformUtils.cpp in Sources */,
+				D95731E018C9E43900D98270 /* AnimationEffect.cpp in Sources */,
+				D973C34F1898001C006426A5 /* LogHandler.cpp in Sources */,
+				D9A6A9E218D9FC8F005C98CB /* DataOffsetConstraintBehaviour.cpp in Sources */,
+				D9E8ED6D18218F1700F835F4 /* SteppedBandSeries.cpp in Sources */,
+				D9E64B561860C87C00EBF08F /* Charts.cpp in Sources */,
+				D9AB9E1618C74F2D00DA5406 /* FontImpl.cpp in Sources */,
+				D9AB9E1818C74F2D00DA5406 /* LineStyleImpl.cpp in Sources */,
+				D9C5FFE7182BBDC900B63E09 /* BandSeriesImpl.cpp in Sources */,
+				D9C5FFED182BBDC900B63E09 /* ContinuousAxisImpl.cpp in Sources */,
+				D9A6A9E818D9FCB8005C98CB /* DataOffsetConstraintBehaviourImpl.cpp in Sources */,
+				D9AB9D4518C73B6200DA5406 /* IndexRange.cpp in Sources */,
+				D9FDB48E18DC8EA0001C80B9 /* IncludeZeroRangeCalculatorImpl.cpp in Sources */,
+				D9E8ED6118218F1700F835F4 /* Axis.cpp in Sources */,
+				D9AB9D3F18C73B6200DA5406 /* Color.cpp in Sources */,
+				D9AB9E2118C74F2D00DA5406 /* SizeImpl.cpp in Sources */,
+				D945D96A18805FB500DBA754 /* Attachable.cpp in Sources */,
+				D9E8ED6B18218F1700F835F4 /* LineSeries.cpp in Sources */,
+				D9AB9E1218C74F2D00DA5406 /* ContinuousDatumImpl.cpp in Sources */,
+				D9C5FF35182BB06900B63E09 /* BasicNumberFormatter.cpp in Sources */,
+				D9FABFEB18D8C13000B3DBB7 /* DataFittingAxisLayout.cpp in Sources */,
+				D9C5FFE8182BBDC900B63E09 /* BasicNumberFormatterImpl.cpp in Sources */,
+				D9E8ED6218218F1700F835F4 /* BandSeries.cpp in Sources */,
+				D96D0D78185A185000555656 /* LabelImpl.cpp in Sources */,
+				D945376B187C1ECE00B6AC7F /* LineStyleSource.cpp in Sources */,
+				D98CC8A01847701D000D7B0C /* Decoration.cpp in Sources */,
+				D9AB9E1B18C74F2D00DA5406 /* OHLCImpl.cpp in Sources */,
+				D9AB9E1E18C74F2D00DA5406 /* RangeDatumImpl.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D945430818A2FAB100A77D11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9E8D7391816F13F00FCD4BF /* TRCharts */;
+			targetProxy = D945430718A2FAB100A77D11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D945430218A2F99700A77D11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				DSTROOT = /tmp/TRChartsTests.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRChartsTests/TRChartsTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					.,
+					../local/include,
+				);
+				KEEP_PRIVATE_EXTERNS = NO;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D945430318A2F99700A77D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				DSTROOT = /tmp/TRChartsTests.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRChartsTests/TRChartsTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					.,
+					../local/include,
+				);
+				KEEP_PRIVATE_EXTERNS = NO;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D9E8D75B1816F13F00FCD4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9E8D75C1816F13F00FCD4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9E8D75E1816F13F00FCD4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TRCharts.dst;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRCharts/TRCharts-Prefix.pch";
+				GCC_WARN_PEDANTIC = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					.,
+					../../TR3DUtils,
+					../../include,
+					../../CodegenSupport/TRCodegenSupport,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-nested-anon-types",
+					"-Wno-unused-private-field",
+					"-Wno-unused-parameter",
+					"-Wno-reorder",
+				);
+			};
+			name = Debug;
+		};
+		D9E8D75F1816F13F00FCD4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TRCharts.dst;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRCharts/TRCharts-Prefix.pch";
+				GCC_WARN_PEDANTIC = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					.,
+					../../TR3DUtils,
+					../../include,
+					../../CodegenSupport/TRCodegenSupport,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wno-nested-anon-types",
+					"-Wno-unused-private-field",
+					"-Wno-unused-parameter",
+					"-Wno-reorder",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D945430118A2F99700A77D11 /* Build configuration list for PBXNativeTarget "TRChartsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D945430218A2F99700A77D11 /* Debug */,
+				D945430318A2F99700A77D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E8D7351816F13F00FCD4BF /* Build configuration list for PBXProject "TRCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E8D75B1816F13F00FCD4BF /* Debug */,
+				D9E8D75C1816F13F00FCD4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E8D75D1816F13F00FCD4BF /* Build configuration list for PBXNativeTarget "TRCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E8D75E1816F13F00FCD4BF /* Debug */,
+				D9E8D75F1816F13F00FCD4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9E8D7321816F13F00FCD4BF /* Project object */;
+}

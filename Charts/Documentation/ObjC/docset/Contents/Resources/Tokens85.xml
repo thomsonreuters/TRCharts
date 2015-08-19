@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TRResizeMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TRResizeMode</TokenIdentifier>
+			<Abstract type="html">Controls what happens when the chart area is resized.</Abstract>
+			<DeclaredIn>ResizeMode.h</DeclaredIn>
+            
+			
+			<NodeRef refid="85"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_RESIZEMODE_RESCALE</TokenIdentifier>
+            <Abstract type="html">Increase the scale, so that the same data is displayed.
+	 </Abstract>
+            <Declaration>TR_RESIZEMODE_RESCALE</Declaration>
+            
+            <DeclaredIn>ResizeMode.h</DeclaredIn>
+            
+            <NodeRef refid="85"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_RESIZEMODE_RELAYOUT</TokenIdentifier>
+            <Abstract type="html">Layout the data again.
+	 </Abstract>
+            <Declaration>TR_RESIZEMODE_RELAYOUT</Declaration>
+            
+            <DeclaredIn>ResizeMode.h</DeclaredIn>
+            
+            <NodeRef refid="85"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_RESIZEMODE_PRESERVE</TokenIdentifier>
+            <Abstract type="html">Do not affect the scale or layout.
+	 </Abstract>
+            <Declaration>TR_RESIZEMODE_PRESERVE</Declaration>
+            
+            <DeclaredIn>ResizeMode.h</DeclaredIn>
+            
+            <NodeRef refid="85"/>
+        </Token>
+        
+	</File>
+</Tokens>

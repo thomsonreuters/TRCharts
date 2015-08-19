@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRDateInterval.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRDateInterval</TokenIdentifier>
+			<Abstract type="html">Combines a date unit and magnitude</Abstract>
+			<DeclaredIn>DateInterval.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDateInterval/setUnit:</TokenIdentifier>
+			<Abstract type="html">The date unit.</Abstract>
+			<DeclaredIn>DateInterval.h</DeclaredIn>
+			
+			<Declaration>@property TRDateUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDateInterval/unit</TokenIdentifier>
+			<Abstract type="html">The date unit.</Abstract>
+			<DeclaredIn>DateInterval.h</DeclaredIn>
+			
+			<Declaration>@property TRDateUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRDateInterval/unit</TokenIdentifier>
+			<Abstract type="html">The date unit.</Abstract>
+			<DeclaredIn>DateInterval.h</DeclaredIn>
+			
+			<Declaration>@property TRDateUnit unit</Declaration>
+			
+			
+			<Anchor>//api/name/unit</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDateInterval/setMagnitude:</TokenIdentifier>
+			<Abstract type="html">The unit magnitude.</Abstract>
+			<DeclaredIn>DateInterval.h</DeclaredIn>
+			
+			<Declaration>@property double magnitude</Declaration>
+			
+			
+			<Anchor>//api/name/magnitude</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDateInterval/magnitude</TokenIdentifier>
+			<Abstract type="html">The unit magnitude.</Abstract>
+			<DeclaredIn>DateInterval.h</DeclaredIn>
+			
+			<Declaration>@property double magnitude</Declaration>
+			
+			
+			<Anchor>//api/name/magnitude</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRDateInterval/magnitude</TokenIdentifier>
+			<Abstract type="html">The unit magnitude.</Abstract>
+			<DeclaredIn>DateInterval.h</DeclaredIn>
+			
+			<Declaration>@property double magnitude</Declaration>
+			
+			
+			<Anchor>//api/name/magnitude</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDateInterval/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>DateInterval.h</DeclaredIn>
+			
+			<Declaration>- (TRDateInterval *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRDateInterval/unit:magnitude:</TokenIdentifier>
+			<Abstract type="html">Create a DateInterval instance with provided values.</Abstract>
+			<DeclaredIn>DateInterval.h</DeclaredIn>
+			
+			<Declaration>+ (TRDateInterval *)unit:(TRDateUnit)unit magnitude:(double)magnitude</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>unit</Name>
+					<Abstract type="html">The date unit.</Abstract>
+				</Parameter><Parameter>
+					<Name>magnitude</Name>
+					<Abstract type="html">The unit magnitude.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/unit:magnitude:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDateInterval/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>DateInterval.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDateInterval/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>DateInterval.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDateInterval/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>DateInterval.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDateInterval/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>DateInterval.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

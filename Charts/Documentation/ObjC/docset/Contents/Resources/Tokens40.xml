@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRLineDecoration.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRLineDecoration</TokenIdentifier>
+			<Abstract type="html">Draws a line at a fixed data position on a given axis</Abstract>
+			<DeclaredIn>LineDecoration.h</DeclaredIn>
+            
+			
+			<NodeRef refid="40"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineDecoration/axis</TokenIdentifier>
+			<Abstract type="html">Axis to associate the decoration with. The decoration will intersect the axis
+at the specified value</Abstract>
+			<DeclaredIn>LineDecoration.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLineDecoration/setAxis:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRContinuousAxis *)axis</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current axis.</Abstract></ReturnValue>
+			<Anchor>//api/name/axis</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineDecoration/setAxis:</TokenIdentifier>
+			<Abstract type="html">Axis to associate the decoration with. The decoration will intersect the axis
+at the specified value</Abstract>
+			<DeclaredIn>LineDecoration.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLineDecoration/axis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setAxis:(TRContinuousAxis *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new axis.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAxis:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineDecoration/value</TokenIdentifier>
+			<Abstract type="html">Position in data co-ordinates (relative to the axis</Abstract>
+			<DeclaredIn>LineDecoration.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLineDecoration/setValue:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (double)value</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current value.</Abstract></ReturnValue>
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineDecoration/setValue:</TokenIdentifier>
+			<Abstract type="html">Position in data co-ordinates (relative to the axis</Abstract>
+			<DeclaredIn>LineDecoration.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLineDecoration/value</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setValue:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setValue:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineDecoration/lineStyle</TokenIdentifier>
+			<Abstract type="html">Drawing style for the line</Abstract>
+			<DeclaredIn>LineDecoration.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLineDecoration/setLineStyle:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRLineStyle *)lineStyle</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current lineStyle.</Abstract></ReturnValue>
+			<Anchor>//api/name/lineStyle</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineDecoration/setLineStyle:</TokenIdentifier>
+			<Abstract type="html">Drawing style for the line</Abstract>
+			<DeclaredIn>LineDecoration.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLineDecoration/lineStyle</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setLineStyle:(TRLineStyle *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new lineStyle.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLineStyle:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

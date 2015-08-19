@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRAbstractDateFormatter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRAbstractDateFormatter</TokenIdentifier>
+			<Abstract type="html">Format a date using either the platform formatting mechanism or c-standard
+library mechanism (dependent on syntax property)</Abstract>
+			<DeclaredIn>AbstractDateFormatter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAbstractDateFormatter/syntax</TokenIdentifier>
+			<Abstract type="html">Specifies whether the platform data formatting mechanism or c-standard
+library mechanism should be used.</Abstract>
+			<DeclaredIn>AbstractDateFormatter.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAbstractDateFormatter/setSyntax:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRFormatSyntax)syntax</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current formatting mode.</Abstract></ReturnValue>
+			<Anchor>//api/name/syntax</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAbstractDateFormatter/setSyntax:</TokenIdentifier>
+			<Abstract type="html">Specifies whether the platform data formatting mechanism or c-standard
+library mechanism should be used.</Abstract>
+			<DeclaredIn>AbstractDateFormatter.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAbstractDateFormatter/syntax</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setSyntax:(TRFormatSyntax)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new formatting mode.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setSyntax:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAbstractDateFormatter/formatDate:unit:</TokenIdentifier>
+			<Abstract type="html">Format a date</Abstract>
+			<DeclaredIn>AbstractDateFormatter.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)formatDate:(double)seconds unit:(TRDateUnit)unit</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>seconds</Name>
+					<Abstract type="html">Date value (in seconds)</Abstract>
+				</Parameter><Parameter>
+					<Name>unit</Name>
+					<Abstract type="html">Unit hint.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/formatDate:unit:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

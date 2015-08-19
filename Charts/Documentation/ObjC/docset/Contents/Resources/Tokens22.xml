@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRCoordinates.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRCoordinates</TokenIdentifier>
+			<Abstract type="html">Represents a data point (independent of datum type).</Abstract>
+			<DeclaredIn>Coordinates.h</DeclaredIn>
+            
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRCoordinates/setAbscissa:</TokenIdentifier>
+			<Abstract type="html">The abscsissa value.</Abstract>
+			<DeclaredIn>Coordinates.h</DeclaredIn>
+			
+			<Declaration>@property double abscissa</Declaration>
+			
+			
+			<Anchor>//api/name/abscissa</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRCoordinates/abscissa</TokenIdentifier>
+			<Abstract type="html">The abscsissa value.</Abstract>
+			<DeclaredIn>Coordinates.h</DeclaredIn>
+			
+			<Declaration>@property double abscissa</Declaration>
+			
+			
+			<Anchor>//api/name/abscissa</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRCoordinates/abscissa</TokenIdentifier>
+			<Abstract type="html">The abscsissa value.</Abstract>
+			<DeclaredIn>Coordinates.h</DeclaredIn>
+			
+			<Declaration>@property double abscissa</Declaration>
+			
+			
+			<Anchor>//api/name/abscissa</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRCoordinates/setOrdinate:</TokenIdentifier>
+			<Abstract type="html">The ordinate value.</Abstract>
+			<DeclaredIn>Coordinates.h</DeclaredIn>
+			
+			<Declaration>@property double ordinate</Declaration>
+			
+			
+			<Anchor>//api/name/ordinate</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRCoordinates/ordinate</TokenIdentifier>
+			<Abstract type="html">The ordinate value.</Abstract>
+			<DeclaredIn>Coordinates.h</DeclaredIn>
+			
+			<Declaration>@property double ordinate</Declaration>
+			
+			
+			<Anchor>//api/name/ordinate</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRCoordinates/ordinate</TokenIdentifier>
+			<Abstract type="html">The ordinate value.</Abstract>
+			<DeclaredIn>Coordinates.h</DeclaredIn>
+			
+			<Declaration>@property double ordinate</Declaration>
+			
+			
+			<Anchor>//api/name/ordinate</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRCoordinates/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>Coordinates.h</DeclaredIn>
+			
+			<Declaration>- (TRCoordinates *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRCoordinates/abscissa:ordinate:</TokenIdentifier>
+			<Abstract type="html">Create a Coordinates instance with provided values.</Abstract>
+			<DeclaredIn>Coordinates.h</DeclaredIn>
+			
+			<Declaration>+ (TRCoordinates *)abscissa:(double)abscissa ordinate:(double)ordinate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>abscissa</Name>
+					<Abstract type="html">The abscsissa value.</Abstract>
+				</Parameter><Parameter>
+					<Name>ordinate</Name>
+					<Abstract type="html">The ordinate value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/abscissa:ordinate:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRCoordinates/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>Coordinates.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRCoordinates/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>Coordinates.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRCoordinates/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>Coordinates.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRCoordinates/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>Coordinates.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

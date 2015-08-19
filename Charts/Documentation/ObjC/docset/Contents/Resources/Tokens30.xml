@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRDrawable.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRDrawable</TokenIdentifier>
+			<Abstract type="html">Base class for all objects that can be drawn</Abstract>
+			<DeclaredIn>Drawable.h</DeclaredIn>
+            
+			
+			<NodeRef refid="30"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDrawable/visible</TokenIdentifier>
+			<Abstract type="html">If false, the object will not be drawn (but it may have a visual or
+interactive effect on surrounding objects)</Abstract>
+			<DeclaredIn>Drawable.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDrawable/setVisible:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BOOL)visible</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current visibility flag.</Abstract></ReturnValue>
+			<Anchor>//api/name/visible</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDrawable/setVisible:</TokenIdentifier>
+			<Abstract type="html">If false, the object will not be drawn (but it may have a visual or
+interactive effect on surrounding objects)</Abstract>
+			<DeclaredIn>Drawable.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDrawable/visible</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setVisible:(BOOL)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new visibility flag.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setVisible:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDrawable/opacity</TokenIdentifier>
+			<Abstract type="html">Overall opacity of this object. This is mixed (multiplied) with the alpha of
+any relevant colour value within the drawable object.</Abstract>
+			<DeclaredIn>Drawable.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDrawable/setOpacity:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (double)opacity</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current opacity (0-255).</Abstract></ReturnValue>
+			<Anchor>//api/name/opacity</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDrawable/setOpacity:</TokenIdentifier>
+			<Abstract type="html">Overall opacity of this object. This is mixed (multiplied) with the alpha of
+any relevant colour value within the drawable object.</Abstract>
+			<DeclaredIn>Drawable.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDrawable/opacity</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setOpacity:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new opacity (0-255).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setOpacity:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

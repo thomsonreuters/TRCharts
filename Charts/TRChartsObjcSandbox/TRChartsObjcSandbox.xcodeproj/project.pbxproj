@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D91B4F08185F79D100A81352 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D91B4F05185F79D100A81352 /* AppDelegate.m */; };
+		D91B4F09185F79D200A81352 /* ChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91B4F07185F79D100A81352 /* ChartController.m */; };
+		D91B4F0D185F79DF00A81352 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D91B4F0A185F79DF00A81352 /* main.m */; };
+		D91B4F17185F7ACD00A81352 /* TRChartsObjcSandboxTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D91B4F16185F7ACD00A81352 /* TRChartsObjcSandboxTests-Info.plist */; };
+		D91B4F1E185F7BC500A81352 /* TRChartsObjcSandboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D91B4F1D185F7BC500A81352 /* TRChartsObjcSandboxTests.m */; };
+		D91B4F1F185F7C0900A81352 /* libTRChartsObjc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D91B4EC1185F789200A81352 /* libTRChartsObjc.a */; };
+		D91B4F24185F7C5400A81352 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91B4F20185F7C5400A81352 /* Main_iPad.storyboard */; };
+		D91B4F25185F7C5400A81352 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91B4F22185F7C5400A81352 /* Main_iPhone.storyboard */; };
+		D94F11D118CF85B500F7D267 /* libTRCodegenSupportObjc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D94F11C218CF857900F7D267 /* libTRCodegenSupportObjc.a */; };
+		D94F11ED18CF860500F7D267 /* libTR3DUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D94F11E818CF85FA00F7D267 /* libTR3DUtils.a */; };
+		D97C8B6D18C62FD2000C9128 /* DependentRightAxisLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D97C8B6C18C62FD2000C9128 /* DependentRightAxisLayout.m */; };
+		D9C5FF9F182BB65700B63E09 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C5FF9E182BB65700B63E09 /* GLKit.framework */; };
+		D9CBA2CF1A6834F4003B4EEB /* Example.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CBA2CE1A6834F4003B4EEB /* Example.m */; };
+		D9E8D6BF1816F10800FCD4BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E8D6BE1816F10800FCD4BF /* Foundation.framework */; };
+		D9E8D6C11816F10800FCD4BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E8D6C01816F10800FCD4BF /* CoreGraphics.framework */; };
+		D9E8D6C31816F10800FCD4BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E8D6C21816F10800FCD4BF /* UIKit.framework */; };
+		D9E8D6E11816F10800FCD4BF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E8D6E01816F10800FCD4BF /* XCTest.framework */; };
+		D9E8D6E21816F10800FCD4BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E8D6BE1816F10800FCD4BF /* Foundation.framework */; };
+		D9E8D6E31816F10800FCD4BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E8D6C21816F10800FCD4BF /* UIKit.framework */; };
+		D9E8D7D41816F6AC00FCD4BF /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E8D7D31816F6AC00FCD4BF /* libc++.dylib */; };
+		D9E90752187D991B0091C4C3 /* Loupe.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E90751187D991B0091C4C3 /* Loupe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D91B4EC0185F789200A81352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D91B4EBA185F789100A81352 /* TRChartsObjc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9E8D6FF1816F13000FCD4BF;
+			remoteInfo = TRChartsObjc;
+		};
+		D91B4EC2185F789200A81352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D91B4EBA185F789100A81352 /* TRChartsObjc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9E8D70F1816F13000FCD4BF;
+			remoteInfo = TRChartsObjcTests;
+		};
+		D94F11C118CF857900F7D267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D94F11B918CF857900F7D267 /* TRCodegenSupportObjc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D95F771318CE14A40048CF22;
+			remoteInfo = TRCodegenSupportObjc;
+		};
+		D94F11C318CF857900F7D267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D94F11B918CF857900F7D267 /* TRCodegenSupportObjc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D95F772318CE14A40048CF22;
+			remoteInfo = TRCodegenSupportObjcTests;
+		};
+		D94F11DE18CF85E400F7D267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D94F11B918CF857900F7D267 /* TRCodegenSupportObjc.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D95F771218CE14A40048CF22;
+			remoteInfo = TRCodegenSupportObjc;
+		};
+		D94F11E018CF85E400F7D267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D91B4EBA185F789100A81352 /* TRChartsObjc.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D9E8D6FE1816F13000FCD4BF;
+			remoteInfo = TRChartsObjc;
+		};
+		D94F11E718CF85FA00F7D267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D94F11E218CF85FA00F7D267 /* TR3DUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D95F778A18CE249C0048CF22;
+			remoteInfo = TR3DUtils;
+		};
+		D94F11E918CF85FA00F7D267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D94F11E218CF85FA00F7D267 /* TR3DUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D95F779A18CE249C0048CF22;
+			remoteInfo = TR3DUtilsTests;
+		};
+		D94F11EB18CF860100F7D267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D94F11E218CF85FA00F7D267 /* TR3DUtils.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D95F778918CE249C0048CF22;
+			remoteInfo = TR3DUtils;
+		};
+		D9E8D6E41816F10800FCD4BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9E8D6B31816F10800FCD4BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9E8D6BA1816F10800FCD4BF;
+			remoteInfo = TRChartsObjcSandbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D91B4EBA185F789100A81352 /* TRChartsObjc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TRChartsObjc.xcodeproj; path = ../TRChartsObjc/TRChartsObjc.xcodeproj; sourceTree = "<group>"; };
+		D91B4F04185F79D100A81352 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TRChartsObjcSandbox/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D91B4F05185F79D100A81352 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TRChartsObjcSandbox/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D91B4F06185F79D100A81352 /* ChartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChartController.h; path = TRChartsObjcSandbox/ChartController.h; sourceTree = SOURCE_ROOT; };
+		D91B4F07185F79D100A81352 /* ChartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChartController.m; path = TRChartsObjcSandbox/ChartController.m; sourceTree = SOURCE_ROOT; };
+		D91B4F0A185F79DF00A81352 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TRChartsObjcSandbox/main.m; sourceTree = SOURCE_ROOT; };
+		D91B4F0B185F79DF00A81352 /* TRChartsObjcSandbox-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TRChartsObjcSandbox-Info.plist"; path = "TRChartsObjcSandbox/TRChartsObjcSandbox-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D91B4F0C185F79DF00A81352 /* TRChartsObjcSandbox-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TRChartsObjcSandbox-Prefix.pch"; path = "TRChartsObjcSandbox/TRChartsObjcSandbox-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		D91B4F16185F7ACD00A81352 /* TRChartsObjcSandboxTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TRChartsObjcSandboxTests-Info.plist"; path = "TRChartsObjcSandboxTests/TRChartsObjcSandboxTests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D91B4F1D185F7BC500A81352 /* TRChartsObjcSandboxTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRChartsObjcSandboxTests.m; sourceTree = "<group>"; };
+		D91B4F21185F7C5400A81352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D91B4F23185F7C5400A81352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D94F11B918CF857900F7D267 /* TRCodegenSupportObjc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TRCodegenSupportObjc.xcodeproj; path = ../../CodegenSupport/TRCodegenSupportObjc/TRCodegenSupportObjc.xcodeproj; sourceTree = "<group>"; };
+		D94F11E218CF85FA00F7D267 /* TR3DUtils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TR3DUtils.xcodeproj; path = ../../TR3DUtils/TR3DUtils.xcodeproj; sourceTree = "<group>"; };
+		D97C8B6B18C62FD2000C9128 /* DependentRightAxisLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DependentRightAxisLayout.h; sourceTree = "<group>"; };
+		D97C8B6C18C62FD2000C9128 /* DependentRightAxisLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DependentRightAxisLayout.m; sourceTree = "<group>"; };
+		D9C5FF9E182BB65700B63E09 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		D9CBA2CD1A6834F4003B4EEB /* Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example.h; sourceTree = "<group>"; };
+		D9CBA2CE1A6834F4003B4EEB /* Example.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example.m; sourceTree = "<group>"; };
+		D9E8D6BB1816F10800FCD4BF /* TRChartsObjcSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRChartsObjcSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E8D6BE1816F10800FCD4BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9E8D6C01816F10800FCD4BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9E8D6C21816F10800FCD4BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D9E8D6DF1816F10800FCD4BF /* TRChartsObjcSandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRChartsObjcSandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E8D6E01816F10800FCD4BF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D9E8D7D31816F6AC00FCD4BF /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		D9E90750187D991B0091C4C3 /* Loupe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loupe.h; sourceTree = "<group>"; };
+		D9E90751187D991B0091C4C3 /* Loupe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loupe.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9E8D6B81816F10800FCD4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94F11ED18CF860500F7D267 /* libTR3DUtils.a in Frameworks */,
+				D94F11D118CF85B500F7D267 /* libTRCodegenSupportObjc.a in Frameworks */,
+				D91B4F1F185F7C0900A81352 /* libTRChartsObjc.a in Frameworks */,
+				D9C5FF9F182BB65700B63E09 /* GLKit.framework in Frameworks */,
+				D9E8D7D41816F6AC00FCD4BF /* libc++.dylib in Frameworks */,
+				D9E8D6C11816F10800FCD4BF /* CoreGraphics.framework in Frameworks */,
+				D9E8D6C31816F10800FCD4BF /* UIKit.framework in Frameworks */,
+				D9E8D6BF1816F10800FCD4BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E8D6DC1816F10800FCD4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E8D6E11816F10800FCD4BF /* XCTest.framework in Frameworks */,
+				D9E8D6E31816F10800FCD4BF /* UIKit.framework in Frameworks */,
+				D9E8D6E21816F10800FCD4BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D91B4EBB185F789100A81352 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D91B4EC1185F789200A81352 /* libTRChartsObjc.a */,
+				D91B4EC3185F789200A81352 /* TRChartsObjcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D94F11BA18CF857900F7D267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D94F11C218CF857900F7D267 /* libTRCodegenSupportObjc.a */,
+				D94F11C418CF857900F7D267 /* TRCodegenSupportObjcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D94F11E318CF85FA00F7D267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D94F11E818CF85FA00F7D267 /* libTR3DUtils.a */,
+				D94F11EA18CF85FA00F7D267 /* TR3DUtilsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9E8D6B21816F10800FCD4BF = {
+			isa = PBXGroup;
+			children = (
+				D9E8D6BD1816F10800FCD4BF /* Frameworks */,
+				D9E8D6BC1816F10800FCD4BF /* Products */,
+				D9E8D6C41816F10800FCD4BF /* TRChartsObjcSandbox */,
+				D9E8D6E61816F10800FCD4BF /* TRChartsObjcSandboxTests */,
+			);
+			sourceTree = "<group>";
+		};
+		D9E8D6BC1816F10800FCD4BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9E8D6BB1816F10800FCD4BF /* TRChartsObjcSandbox.app */,
+				D9E8D6DF1816F10800FCD4BF /* TRChartsObjcSandboxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9E8D6BD1816F10800FCD4BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D94F11E218CF85FA00F7D267 /* TR3DUtils.xcodeproj */,
+				D94F11B918CF857900F7D267 /* TRCodegenSupportObjc.xcodeproj */,
+				D91B4EBA185F789100A81352 /* TRChartsObjc.xcodeproj */,
+				D9C5FF9E182BB65700B63E09 /* GLKit.framework */,
+				D9E8D7D31816F6AC00FCD4BF /* libc++.dylib */,
+				D9E8D6BE1816F10800FCD4BF /* Foundation.framework */,
+				D9E8D6C01816F10800FCD4BF /* CoreGraphics.framework */,
+				D9E8D6C21816F10800FCD4BF /* UIKit.framework */,
+				D9E8D6E01816F10800FCD4BF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9E8D6C41816F10800FCD4BF /* TRChartsObjcSandbox */ = {
+			isa = PBXGroup;
+			children = (
+				D91B4F20185F7C5400A81352 /* Main_iPad.storyboard */,
+				D91B4F22185F7C5400A81352 /* Main_iPhone.storyboard */,
+				D91B4F04185F79D100A81352 /* AppDelegate.h */,
+				D91B4F05185F79D100A81352 /* AppDelegate.m */,
+				D91B4F06185F79D100A81352 /* ChartController.h */,
+				D91B4F07185F79D100A81352 /* ChartController.m */,
+				D9E8D6C51816F10800FCD4BF /* Supporting Files */,
+				D9E90750187D991B0091C4C3 /* Loupe.h */,
+				D9E90751187D991B0091C4C3 /* Loupe.m */,
+				D97C8B6B18C62FD2000C9128 /* DependentRightAxisLayout.h */,
+				D97C8B6C18C62FD2000C9128 /* DependentRightAxisLayout.m */,
+				D9CBA2CD1A6834F4003B4EEB /* Example.h */,
+				D9CBA2CE1A6834F4003B4EEB /* Example.m */,
+			);
+			path = TRChartsObjcSandbox;
+			sourceTree = "<group>";
+		};
+		D9E8D6C51816F10800FCD4BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D91B4F0A185F79DF00A81352 /* main.m */,
+				D91B4F0B185F79DF00A81352 /* TRChartsObjcSandbox-Info.plist */,
+				D91B4F0C185F79DF00A81352 /* TRChartsObjcSandbox-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9E8D6E61816F10800FCD4BF /* TRChartsObjcSandboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				D91B4F1D185F7BC500A81352 /* TRChartsObjcSandboxTests.m */,
+				D9E8D6E71816F10800FCD4BF /* Supporting Files */,
+			);
+			path = TRChartsObjcSandboxTests;
+			sourceTree = "<group>";
+		};
+		D9E8D6E71816F10800FCD4BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D91B4F16185F7ACD00A81352 /* TRChartsObjcSandboxTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9E8D6BA1816F10800FCD4BF /* TRChartsObjcSandbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E8D6F01816F10800FCD4BF /* Build configuration list for PBXNativeTarget "TRChartsObjcSandbox" */;
+			buildPhases = (
+				D9E8D6B71816F10800FCD4BF /* Sources */,
+				D9E8D6B81816F10800FCD4BF /* Frameworks */,
+				D9E8D6B91816F10800FCD4BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D94F11EC18CF860100F7D267 /* PBXTargetDependency */,
+				D94F11DF18CF85E400F7D267 /* PBXTargetDependency */,
+				D94F11E118CF85E400F7D267 /* PBXTargetDependency */,
+			);
+			name = TRChartsObjcSandbox;
+			productName = TRChartsObjcSandbox;
+			productReference = D9E8D6BB1816F10800FCD4BF /* TRChartsObjcSandbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9E8D6DE1816F10800FCD4BF /* TRChartsObjcSandboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E8D6F31816F10800FCD4BF /* Build configuration list for PBXNativeTarget "TRChartsObjcSandboxTests" */;
+			buildPhases = (
+				D9E8D6DB1816F10800FCD4BF /* Sources */,
+				D9E8D6DC1816F10800FCD4BF /* Frameworks */,
+				D9E8D6DD1816F10800FCD4BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9E8D6E51816F10800FCD4BF /* PBXTargetDependency */,
+			);
+			name = TRChartsObjcSandboxTests;
+			productName = TRChartsObjcSandboxTests;
+			productReference = D9E8D6DF1816F10800FCD4BF /* TRChartsObjcSandboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9E8D6B31816F10800FCD4BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Thomson Reuters";
+				TargetAttributes = {
+					D9E8D6BA1816F10800FCD4BF = {
+						DevelopmentTeam = K3L4BSND25;
+					};
+					D9E8D6DE1816F10800FCD4BF = {
+						TestTargetID = D9E8D6BA1816F10800FCD4BF;
+					};
+				};
+			};
+			buildConfigurationList = D9E8D6B61816F10800FCD4BF /* Build configuration list for PBXProject "TRChartsObjcSandbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9E8D6B21816F10800FCD4BF;
+			productRefGroup = D9E8D6BC1816F10800FCD4BF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D94F11E318CF85FA00F7D267 /* Products */;
+					ProjectRef = D94F11E218CF85FA00F7D267 /* TR3DUtils.xcodeproj */;
+				},
+				{
+					ProductGroup = D91B4EBB185F789100A81352 /* Products */;
+					ProjectRef = D91B4EBA185F789100A81352 /* TRChartsObjc.xcodeproj */;
+				},
+				{
+					ProductGroup = D94F11BA18CF857900F7D267 /* Products */;
+					ProjectRef = D94F11B918CF857900F7D267 /* TRCodegenSupportObjc.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D9E8D6BA1816F10800FCD4BF /* TRChartsObjcSandbox */,
+				D9E8D6DE1816F10800FCD4BF /* TRChartsObjcSandboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D91B4EC1185F789200A81352 /* libTRChartsObjc.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTRChartsObjc.a;
+			remoteRef = D91B4EC0185F789200A81352 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D91B4EC3185F789200A81352 /* TRChartsObjcTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TRChartsObjcTests.xctest;
+			remoteRef = D91B4EC2185F789200A81352 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D94F11C218CF857900F7D267 /* libTRCodegenSupportObjc.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTRCodegenSupportObjc.a;
+			remoteRef = D94F11C118CF857900F7D267 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D94F11C418CF857900F7D267 /* TRCodegenSupportObjcTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TRCodegenSupportObjcTests.xctest;
+			remoteRef = D94F11C318CF857900F7D267 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D94F11E818CF85FA00F7D267 /* libTR3DUtils.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTR3DUtils.a;
+			remoteRef = D94F11E718CF85FA00F7D267 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D94F11EA18CF85FA00F7D267 /* TR3DUtilsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TR3DUtilsTests.xctest;
+			remoteRef = D94F11E918CF85FA00F7D267 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9E8D6B91816F10800FCD4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91B4F25185F7C5400A81352 /* Main_iPhone.storyboard in Resources */,
+				D91B4F24185F7C5400A81352 /* Main_iPad.storyboard in Resources */,
+				D91B4F17185F7ACD00A81352 /* TRChartsObjcSandboxTests-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E8D6DD1816F10800FCD4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9E8D6B71816F10800FCD4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91B4F09185F79D200A81352 /* ChartController.m in Sources */,
+				D91B4F0D185F79DF00A81352 /* main.m in Sources */,
+				D9CBA2CF1A6834F4003B4EEB /* Example.m in Sources */,
+				D97C8B6D18C62FD2000C9128 /* DependentRightAxisLayout.m in Sources */,
+				D91B4F08185F79D100A81352 /* AppDelegate.m in Sources */,
+				D9E90752187D991B0091C4C3 /* Loupe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E8D6DB1816F10800FCD4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91B4F1E185F7BC500A81352 /* TRChartsObjcSandboxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D94F11DF18CF85E400F7D267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRCodegenSupportObjc;
+			targetProxy = D94F11DE18CF85E400F7D267 /* PBXContainerItemProxy */;
+		};
+		D94F11E118CF85E400F7D267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRChartsObjc;
+			targetProxy = D94F11E018CF85E400F7D267 /* PBXContainerItemProxy */;
+		};
+		D94F11EC18CF860100F7D267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TR3DUtils;
+			targetProxy = D94F11EB18CF860100F7D267 /* PBXContainerItemProxy */;
+		};
+		D9E8D6E51816F10800FCD4BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9E8D6BA1816F10800FCD4BF /* TRChartsObjcSandbox */;
+			targetProxy = D9E8D6E41816F10800FCD4BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D91B4F20185F7C5400A81352 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D91B4F21185F7C5400A81352 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D91B4F22185F7C5400A81352 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D91B4F23185F7C5400A81352 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9E8D6EE1816F10800FCD4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../TRChartsObjc,
+					../../CodegenSupport/TRCodegenSupportObjc,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9E8D6EF1816F10800FCD4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../TRChartsObjc,
+					../../CodegenSupport/TRCodegenSupportObjc,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9E8D6F11816F10800FCD4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../../lib,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRChartsObjcSandbox/TRChartsObjcSandbox-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TRChartsObjcSandbox/TRChartsObjcSandbox-Info.plist";
+				PRODUCT_NAME = TRChartsObjcSandbox;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9E8D6F21816F10800FCD4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../../lib,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRChartsObjcSandbox/TRChartsObjcSandbox-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TRChartsObjcSandbox/TRChartsObjcSandbox-Info.plist";
+				PRODUCT_NAME = TRChartsObjcSandbox;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D9E8D6F41816F10800FCD4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TRChartsObjcSandbox.app/TRChartsObjcSandbox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRChartsObjcSandbox/TRChartsObjcSandbox-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TRChartsObjcSandboxTests/TRChartsObjcSandboxTests-Info.plist";
+				PRODUCT_NAME = TRChartsObjcSandboxTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D9E8D6F51816F10800FCD4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TRChartsObjcSandbox.app/TRChartsObjcSandbox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRChartsObjcSandbox/TRChartsObjcSandbox-Prefix.pch";
+				INFOPLIST_FILE = "TRChartsObjcSandboxTests/TRChartsObjcSandboxTests-Info.plist";
+				PRODUCT_NAME = TRChartsObjcSandboxTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9E8D6B61816F10800FCD4BF /* Build configuration list for PBXProject "TRChartsObjcSandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E8D6EE1816F10800FCD4BF /* Debug */,
+				D9E8D6EF1816F10800FCD4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E8D6F01816F10800FCD4BF /* Build configuration list for PBXNativeTarget "TRChartsObjcSandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E8D6F11816F10800FCD4BF /* Debug */,
+				D9E8D6F21816F10800FCD4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E8D6F31816F10800FCD4BF /* Build configuration list for PBXNativeTarget "TRChartsObjcSandboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E8D6F41816F10800FCD4BF /* Debug */,
+				D9E8D6F51816F10800FCD4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9E8D6B31816F10800FCD4BF /* Project object */;
+}

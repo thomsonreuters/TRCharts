@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRBasicDateFormatter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRBasicDateFormatter</TokenIdentifier>
+			<Abstract type="html">Format a date (see AbstractDateFormatter)</Abstract>
+			<DeclaredIn>BasicDateFormatter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRBasicDateFormatter/format</TokenIdentifier>
+			<Abstract type="html">Format string (in either platform format or c-standard library format,
+depending on syntax parameter)</Abstract>
+			<DeclaredIn>BasicDateFormatter.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRBasicDateFormatter/setFormat:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSString *)format</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current format.</Abstract></ReturnValue>
+			<Anchor>//api/name/format</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRBasicDateFormatter/setFormat:</TokenIdentifier>
+			<Abstract type="html">Format string (in either platform format or c-standard library format,
+depending on syntax parameter)</Abstract>
+			<DeclaredIn>BasicDateFormatter.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRBasicDateFormatter/format</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setFormat:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new format.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setFormat:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

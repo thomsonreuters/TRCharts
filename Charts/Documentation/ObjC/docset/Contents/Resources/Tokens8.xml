@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRAxis.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRAxis</TokenIdentifier>
+			<Abstract type="html">Base axis class, see concrete implementations for more details</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+            
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/edge</TokenIdentifier>
+			<Abstract type="html">Defines which edge of the chart the axis is placed on</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setEdge:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TREdge)edge</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current axis edge.</Abstract></ReturnValue>
+			<Anchor>//api/name/edge</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setEdge:</TokenIdentifier>
+			<Abstract type="html">Defines which edge of the chart the axis is placed on</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/edge</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setEdge:(TREdge)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new axis edge.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setEdge:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/title</TokenIdentifier>
+			<Abstract type="html">Text label displayed on the axis, the orientation and display of the label is
+based on the edge</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTitle:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRLabel *)title</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current axis title.</Abstract></ReturnValue>
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTitle:</TokenIdentifier>
+			<Abstract type="html">Text label displayed on the axis, the orientation and display of the label is
+based on the edge</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/title</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTitle:(TRLabel *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new axis title.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTitle:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/axisColor</TokenIdentifier>
+			<Abstract type="html">Color for the label and main line of the axis</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setAxisColor:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRColor *)axisColor</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current axis color.</Abstract></ReturnValue>
+			<Anchor>//api/name/axisColor</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setAxisColor:</TokenIdentifier>
+			<Abstract type="html">Color for the label and main line of the axis</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/axisColor</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setAxisColor:(TRColor *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new axis color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAxisColor:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/axisLineStyle</TokenIdentifier>
+			<Abstract type="html">The line style used for the main line of the axis</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setAxisLineStyle:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRLineStyle *)axisLineStyle</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current axis line style.</Abstract></ReturnValue>
+			<Anchor>//api/name/axisLineStyle</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setAxisLineStyle:</TokenIdentifier>
+			<Abstract type="html">The line style used for the main line of the axis</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/axisLineStyle</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setAxisLineStyle:(TRLineStyle *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new axis line style.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAxisLineStyle:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/gridVisible</TokenIdentifier>
+			<Abstract type="html">If true, a grid will be drawn perpendicular to the axis, at the tick
+frequency</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setGridVisible:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BOOL)gridVisible</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current grid visibility flag.</Abstract></ReturnValue>
+			<Anchor>//api/name/gridVisible</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setGridVisible:</TokenIdentifier>
+			<Abstract type="html">If true, a grid will be drawn perpendicular to the axis, at the tick
+frequency</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/gridVisible</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setGridVisible:(BOOL)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new grid visibility flag.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setGridVisible:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/gridColor</TokenIdentifier>
+			<Abstract type="html">Color for the grid lines (if enabled)</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setGridColor:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRColor *)gridColor</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current grid color.</Abstract></ReturnValue>
+			<Anchor>//api/name/gridColor</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setGridColor:</TokenIdentifier>
+			<Abstract type="html">Color for the grid lines (if enabled)</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/gridColor</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setGridColor:(TRColor *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new grid color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setGridColor:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/gridLineStyle</TokenIdentifier>
+			<Abstract type="html">Line style for the grid lines (if enabled)</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setGridLineStyle:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRLineStyle *)gridLineStyle</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current grid line style.</Abstract></ReturnValue>
+			<Anchor>//api/name/gridLineStyle</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setGridLineStyle:</TokenIdentifier>
+			<Abstract type="html">Line style for the grid lines (if enabled)</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/gridLineStyle</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setGridLineStyle:(TRLineStyle *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new grid line style.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setGridLineStyle:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/tickColor</TokenIdentifier>
+			<Abstract type="html">Color used for tick marks and labels</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTickColor:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRColor *)tickColor</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current tick color.</Abstract></ReturnValue>
+			<Anchor>//api/name/tickColor</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTickColor:</TokenIdentifier>
+			<Abstract type="html">Color used for tick marks and labels</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/tickColor</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTickColor:(TRColor *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new tick color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTickColor:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/tickLineStyle</TokenIdentifier>
+			<Abstract type="html">Line style used for the tick marks</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTickLineStyle:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRLineStyle *)tickLineStyle</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current tick line style.</Abstract></ReturnValue>
+			<Anchor>//api/name/tickLineStyle</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTickLineStyle:</TokenIdentifier>
+			<Abstract type="html">Line style used for the tick marks</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/tickLineStyle</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTickLineStyle:(TRLineStyle *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new tick line style.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTickLineStyle:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/tickOffset</TokenIdentifier>
+			<Abstract type="html">Point offset of the ticks relative to the edge (positive number moves the
+tick away from the edge</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTickOffset:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (double)tickOffset</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current tick offset.</Abstract></ReturnValue>
+			<Anchor>//api/name/tickOffset</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTickOffset:</TokenIdentifier>
+			<Abstract type="html">Point offset of the ticks relative to the edge (positive number moves the
+tick away from the edge</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/tickOffset</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTickOffset:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new tick offset.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTickOffset:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/tickSize</TokenIdentifier>
+			<Abstract type="html">The current tick size.</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTickSize:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (double)tickSize</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current tick size.</Abstract></ReturnValue>
+			<Anchor>//api/name/tickSize</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTickSize:</TokenIdentifier>
+			<Abstract type="html">The new tick size.</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/tickSize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTickSize:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new tick size.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTickSize:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/tickLabelColor</TokenIdentifier>
+			<Abstract type="html">Color used for the tick label</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTickLabelColor:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRColor *)tickLabelColor</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current tick label color.</Abstract></ReturnValue>
+			<Anchor>//api/name/tickLabelColor</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTickLabelColor:</TokenIdentifier>
+			<Abstract type="html">Color used for the tick label</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/tickLabelColor</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTickLabelColor:(TRColor *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new tick label color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTickLabelColor:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/tickLabelFont</TokenIdentifier>
+			<Abstract type="html">Font used for the tick label</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTickLabelFont:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRFont *)tickLabelFont</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current tick label font.</Abstract></ReturnValue>
+			<Anchor>//api/name/tickLabelFont</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTickLabelFont:</TokenIdentifier>
+			<Abstract type="html">Font used for the tick label</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/tickLabelFont</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTickLabelFont:(TRFont *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new tick label font.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTickLabelFont:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/tickLabelMaxSize</TokenIdentifier>
+			<Abstract type="html">Maximum size of the tick label (must be specified size it influences the
+chart layout)</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTickLabelMaxSize:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (double)tickLabelMaxSize</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current tick label maximum size.</Abstract></ReturnValue>
+			<Anchor>//api/name/tickLabelMaxSize</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTickLabelMaxSize:</TokenIdentifier>
+			<Abstract type="html">Maximum size of the tick label (must be specified size it influences the
+chart layout)</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/tickLabelMaxSize</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTickLabelMaxSize:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new tick label maximum size.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTickLabelMaxSize:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/tickLabelOffset</TokenIdentifier>
+			<Abstract type="html">Offset of the label from the tick mark (positive number moves the label away
+from the tick mark)</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTickLabelOffset:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (double)tickLabelOffset</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current tick label offset.</Abstract></ReturnValue>
+			<Anchor>//api/name/tickLabelOffset</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/setTickLabelOffset:</TokenIdentifier>
+			<Abstract type="html">Offset of the label from the tick mark (positive number moves the label away
+from the tick mark)</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAxis/tickLabelOffset</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTickLabelOffset:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new tick label offset.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTickLabelOffset:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/screenLength</TokenIdentifier>
+			<Abstract type="html">Read-only property that indicates the total calculated screen length of the
+axis (perpendicular to edge</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+			<Declaration>- (double)screenLength</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current current screen length.</Abstract></ReturnValue>
+			<Anchor>//api/name/screenLength</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAxis/relayout</TokenIdentifier>
+			<Abstract type="html">Call to cause the axis to be laid out again on the next update call</Abstract>
+			<DeclaredIn>Axis.h</DeclaredIn>
+			
+			<Declaration>- (void)relayout</Declaration>
+			
+			
+			<Anchor>//api/name/relayout</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

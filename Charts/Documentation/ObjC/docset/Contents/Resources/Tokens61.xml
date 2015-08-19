@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRSuffixNumberFormatter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRSuffixNumberFormatter</TokenIdentifier>
+			<Abstract type="html">Extends BasicNumberFormatter, to also display the relevant metric suffix (by
+default)</Abstract>
+			<DeclaredIn>SuffixNumberFormatter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="61"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRSuffixNumberFormatter/base</TokenIdentifier>
+			<Abstract type="html">Indicates the threshold base for selecting a suffix.</Abstract>
+			<DeclaredIn>SuffixNumberFormatter.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRSuffixNumberFormatter/setBase:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (long)base</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current base.</Abstract></ReturnValue>
+			<Anchor>//api/name/base</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRSuffixNumberFormatter/setBase:</TokenIdentifier>
+			<Abstract type="html">Indicates the threshold base for selecting a suffix.</Abstract>
+			<DeclaredIn>SuffixNumberFormatter.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRSuffixNumberFormatter/base</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setBase:(long)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new base.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setBase:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRSuffixNumberFormatter/suffixes</TokenIdentifier>
+			<Abstract type="html">Suffix for magnitudes that exceed each power of the base.</Abstract>
+			<DeclaredIn>SuffixNumberFormatter.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRSuffixNumberFormatter/setSuffixes:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSArray *)suffixes</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current suffixes.</Abstract></ReturnValue>
+			<Anchor>//api/name/suffixes</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRSuffixNumberFormatter/setSuffixes:</TokenIdentifier>
+			<Abstract type="html">Suffix for magnitudes that exceed each power of the base.</Abstract>
+			<DeclaredIn>SuffixNumberFormatter.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRSuffixNumberFormatter/suffixes</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setSuffixes:(NSArray *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new suffixes.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setSuffixes:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRSuffixNumberFormatter/formatNumber:</TokenIdentifier>
+			<Abstract type="html">Returns the formatted number</Abstract>
+			<DeclaredIn>SuffixNumberFormatter.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)formatNumber:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">Number to format</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/formatNumber:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

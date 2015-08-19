@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRSteppedAreaSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRSteppedAreaSeries</TokenIdentifier>
+			<Abstract type="html">A series that displays the stepped area under scalar datums.</Abstract>
+			<DeclaredIn>SteppedAreaSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="58"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

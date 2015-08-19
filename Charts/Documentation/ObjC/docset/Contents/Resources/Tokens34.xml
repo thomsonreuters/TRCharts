@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRFixedNumberTickCalculator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRFixedNumberTickCalculator</TokenIdentifier>
+			<Abstract type="html">Number tick calculator implementation that returns a constant pre-specified
+tick interval</Abstract>
+			<DeclaredIn>FixedNumberTickCalculator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFixedNumberTickCalculator/tickInterval</TokenIdentifier>
+			<Abstract type="html">This value is always returned by calculateTickInterval</Abstract>
+			<DeclaredIn>FixedNumberTickCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRFixedNumberTickCalculator/setTickInterval:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (double)tickInterval</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current tick interval.</Abstract></ReturnValue>
+			<Anchor>//api/name/tickInterval</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFixedNumberTickCalculator/setTickInterval:</TokenIdentifier>
+			<Abstract type="html">This value is always returned by calculateTickInterval</Abstract>
+			<DeclaredIn>FixedNumberTickCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRFixedNumberTickCalculator/tickInterval</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTickInterval:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new tick interval.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTickInterval:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFixedNumberTickCalculator/calculateTickInterval:visibleDataRange:screenLength:</TokenIdentifier>
+			<Abstract type="html">Returns the value of tickInterval</Abstract>
+			<DeclaredIn>FixedNumberTickCalculator.h</DeclaredIn>
+			
+			<Declaration>- (double)calculateTickInterval:(TRRange *)dataRange visibleDataRange:(TRRange *)visibleDataRange screenLength:(double)screenLength</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataRange</Name>
+					<Abstract type="html">Ignored</Abstract>
+				</Parameter><Parameter>
+					<Name>visibleDataRange</Name>
+					<Abstract type="html">Ignored</Abstract>
+				</Parameter><Parameter>
+					<Name>screenLength</Name>
+					<Abstract type="html">Ignored</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/calculateTickInterval:visibleDataRange:screenLength:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

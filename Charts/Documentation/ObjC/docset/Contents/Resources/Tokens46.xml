@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TROHLCDatum.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TROHLCDatum</TokenIdentifier>
+			<Abstract type="html">A continuous datum holding open/high/low/close values.</Abstract>
+			<DeclaredIn>OHLCDatum.h</DeclaredIn>
+            
+			
+			<NodeRef refid="46"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLCDatum/setOrdinate:</TokenIdentifier>
+			<Abstract type="html">The ordinate value.</Abstract>
+			<DeclaredIn>OHLCDatum.h</DeclaredIn>
+			
+			<Declaration>@property TROHLC *ordinate</Declaration>
+			
+			
+			<Anchor>//api/name/ordinate</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLCDatum/ordinate</TokenIdentifier>
+			<Abstract type="html">The ordinate value.</Abstract>
+			<DeclaredIn>OHLCDatum.h</DeclaredIn>
+			
+			<Declaration>@property TROHLC *ordinate</Declaration>
+			
+			
+			<Anchor>//api/name/ordinate</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TROHLCDatum/ordinate</TokenIdentifier>
+			<Abstract type="html">The ordinate value.</Abstract>
+			<DeclaredIn>OHLCDatum.h</DeclaredIn>
+			
+			<Declaration>@property TROHLC *ordinate</Declaration>
+			
+			
+			<Anchor>//api/name/ordinate</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLCDatum/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>OHLCDatum.h</DeclaredIn>
+			
+			<Declaration>- (TROHLCDatum *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TROHLCDatum/abscissa:ordinate:</TokenIdentifier>
+			<Abstract type="html">Create a OHLCDatum instance with provided values.</Abstract>
+			<DeclaredIn>OHLCDatum.h</DeclaredIn>
+			
+			<Declaration>+ (TROHLCDatum *)abscissa:(double)abscissa ordinate:(TROHLC *)ordinate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>abscissa</Name>
+					<Abstract type="html">The abscissa value.</Abstract>
+				</Parameter><Parameter>
+					<Name>ordinate</Name>
+					<Abstract type="html">The ordinate value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/abscissa:ordinate:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLCDatum/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>OHLCDatum.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLCDatum/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>OHLCDatum.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLCDatum/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>OHLCDatum.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLCDatum/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>OHLCDatum.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

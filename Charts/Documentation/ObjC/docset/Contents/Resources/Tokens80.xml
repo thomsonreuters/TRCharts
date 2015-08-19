@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TREdge.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TREdge</TokenIdentifier>
+			<Abstract type="html">Represents the chart edge where an axis is drawn.</Abstract>
+			<DeclaredIn>Edge.h</DeclaredIn>
+            
+			
+			<NodeRef refid="80"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_EDGE_LEFT</TokenIdentifier>
+            <Abstract type="html">Place axis on the left
+	 </Abstract>
+            <Declaration>TR_EDGE_LEFT</Declaration>
+            
+            <DeclaredIn>Edge.h</DeclaredIn>
+            
+            <NodeRef refid="80"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_EDGE_RIGHT</TokenIdentifier>
+            <Abstract type="html">Place axis on the right
+	 </Abstract>
+            <Declaration>TR_EDGE_RIGHT</Declaration>
+            
+            <DeclaredIn>Edge.h</DeclaredIn>
+            
+            <NodeRef refid="80"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_EDGE_BOTTOM</TokenIdentifier>
+            <Abstract type="html">Place axis on the bottom
+	 </Abstract>
+            <Declaration>TR_EDGE_BOTTOM</Declaration>
+            
+            <DeclaredIn>Edge.h</DeclaredIn>
+            
+            <NodeRef refid="80"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_EDGE_TOP</TokenIdentifier>
+            <Abstract type="html">Place axis on the top
+	 </Abstract>
+            <Declaration>TR_EDGE_TOP</Declaration>
+            
+            <DeclaredIn>Edge.h</DeclaredIn>
+            
+            <NodeRef refid="80"/>
+        </Token>
+        
+	</File>
+</Tokens>

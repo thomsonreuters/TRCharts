@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TRFontHint.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TRFontHint</TokenIdentifier>
+			<Abstract type="html">Font rendering hints.</Abstract>
+			<DeclaredIn>FontHint.h</DeclaredIn>
+            
+			
+			<NodeRef refid="81"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_FONTHINT_ACCURATE</TokenIdentifier>
+            <Abstract type="html">Draw the font as accurately as possible (potentially sacrifice speed)
+	 </Abstract>
+            <Declaration>TR_FONTHINT_ACCURATE</Declaration>
+            
+            <DeclaredIn>FontHint.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_FONTHINT_FAST</TokenIdentifier>
+            <Abstract type="html">Draw the font as quickly as possible (potentially sacrifice accuracy)
+	 </Abstract>
+            <Declaration>TR_FONTHINT_FAST</Declaration>
+            
+            <DeclaredIn>FontHint.h</DeclaredIn>
+            
+            <NodeRef refid="81"/>
+        </Token>
+        
+	</File>
+</Tokens>

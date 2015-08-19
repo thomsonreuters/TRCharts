@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRFadeInEffect.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRFadeInEffect</TokenIdentifier>
+			<Abstract type="html">Fade the targeted drawables into view (opacity from 0% to 100%)</Abstract>
+			<DeclaredIn>FadeInEffect.h</DeclaredIn>
+            
+			
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFadeInEffect/drawableList</TokenIdentifier>
+			<Abstract type="html">Targeted drawables</Abstract>
+			<DeclaredIn>FadeInEffect.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRFadeInEffect/setDrawableList:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSArray *)drawableList</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current drawableList.</Abstract></ReturnValue>
+			<Anchor>//api/name/drawableList</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFadeInEffect/setDrawableList:</TokenIdentifier>
+			<Abstract type="html">Targeted drawables</Abstract>
+			<DeclaredIn>FadeInEffect.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRFadeInEffect/drawableList</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setDrawableList:(NSArray *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new drawableList.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setDrawableList:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFadeInEffect/apply:duration:</TokenIdentifier>
+			<Abstract type="html">Apply the next step of the animation.</Abstract>
+			<DeclaredIn>FadeInEffect.h</DeclaredIn>
+			
+			<Declaration>- (void)apply:(double)position duration:(double)duration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>position</Name>
+					<Abstract type="html">Position of the animation (in seconds)</Abstract>
+				</Parameter><Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">Duration of the animation (in seconds)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/apply:duration:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

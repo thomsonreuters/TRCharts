@@ -1,0 +1,2616 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TRChart Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">TRCharts </a></h1>
+				<a id="developerHome" href="../index.html">Thomson Reuters</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TRChart Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/activeAnimationList">&nbsp;&nbsp;&nbsp;&nbsp;- activeAnimationList</option>
+	
+	<option value="//api/name/addAxis:">&nbsp;&nbsp;&nbsp;&nbsp;- addAxis:</option>
+	
+	<option value="//api/name/addConstraint:">&nbsp;&nbsp;&nbsp;&nbsp;- addConstraint:</option>
+	
+	<option value="//api/name/addDecoration:">&nbsp;&nbsp;&nbsp;&nbsp;- addDecoration:</option>
+	
+	<option value="//api/name/addSeries:">&nbsp;&nbsp;&nbsp;&nbsp;- addSeries:</option>
+	
+	<option value="//api/name/applyAnimation:">&nbsp;&nbsp;&nbsp;&nbsp;- applyAnimation:</option>
+	
+	<option value="//api/name/axisList">&nbsp;&nbsp;&nbsp;&nbsp;- axisList</option>
+	
+	<option value="//api/name/backgroundColor">&nbsp;&nbsp;&nbsp;&nbsp;- backgroundColor</option>
+	
+	<option value="//api/name/constraintList">&nbsp;&nbsp;&nbsp;&nbsp;- constraintList</option>
+	
+	<option value="//api/name/contentScaleFactor">&nbsp;&nbsp;&nbsp;&nbsp;- contentScaleFactor</option>
+	
+	<option value="//api/name/decorationList">&nbsp;&nbsp;&nbsp;&nbsp;- decorationList</option>
+	
+	<option value="//api/name/dispose">&nbsp;&nbsp;&nbsp;&nbsp;- dispose</option>
+	
+	<option value="//api/name/fillColor">&nbsp;&nbsp;&nbsp;&nbsp;- fillColor</option>
+	
+	<option value="//api/name/handleTouches:">&nbsp;&nbsp;&nbsp;&nbsp;- handleTouches:</option>
+	
+	<option value="//api/name/lastTouches">&nbsp;&nbsp;&nbsp;&nbsp;- lastTouches</option>
+	
+	<option value="//api/name/margin">&nbsp;&nbsp;&nbsp;&nbsp;- margin</option>
+	
+	<option value="//api/name/preRender">&nbsp;&nbsp;&nbsp;&nbsp;- preRender</option>
+	
+	<option value="//api/name/preUpdate">&nbsp;&nbsp;&nbsp;&nbsp;- preUpdate</option>
+	
+	<option value="//api/name/relayout">&nbsp;&nbsp;&nbsp;&nbsp;- relayout</option>
+	
+	<option value="//api/name/removeAxis:">&nbsp;&nbsp;&nbsp;&nbsp;- removeAxis:</option>
+	
+	<option value="//api/name/removeConstraint:">&nbsp;&nbsp;&nbsp;&nbsp;- removeConstraint:</option>
+	
+	<option value="//api/name/removeDecoration:">&nbsp;&nbsp;&nbsp;&nbsp;- removeDecoration:</option>
+	
+	<option value="//api/name/removeSeries:">&nbsp;&nbsp;&nbsp;&nbsp;- removeSeries:</option>
+	
+	<option value="//api/name/render">&nbsp;&nbsp;&nbsp;&nbsp;- render</option>
+	
+	<option value="//api/name/renderRegion:size:scale:">&nbsp;&nbsp;&nbsp;&nbsp;- renderRegion:size:scale:</option>
+	
+	<option value="//api/name/resize:contentScaleFactor:">&nbsp;&nbsp;&nbsp;&nbsp;- resize:contentScaleFactor:</option>
+	
+	<option value="//api/name/resizeMode">&nbsp;&nbsp;&nbsp;&nbsp;- resizeMode</option>
+	
+	<option value="//api/name/seriesList">&nbsp;&nbsp;&nbsp;&nbsp;- seriesList</option>
+	
+	<option value="//api/name/setBackgroundColor:">&nbsp;&nbsp;&nbsp;&nbsp;- setBackgroundColor:</option>
+	
+	<option value="//api/name/setFillColor:">&nbsp;&nbsp;&nbsp;&nbsp;- setFillColor:</option>
+	
+	<option value="//api/name/setMargin:">&nbsp;&nbsp;&nbsp;&nbsp;- setMargin:</option>
+	
+	<option value="//api/name/setResizeMode:">&nbsp;&nbsp;&nbsp;&nbsp;- setResizeMode:</option>
+	
+	<option value="//api/name/setTitle:">&nbsp;&nbsp;&nbsp;&nbsp;- setTitle:</option>
+	
+	<option value="//api/name/setTransform:">&nbsp;&nbsp;&nbsp;&nbsp;- setTransform:</option>
+	
+	<option value="//api/name/size">&nbsp;&nbsp;&nbsp;&nbsp;- size</option>
+	
+	<option value="//api/name/title">&nbsp;&nbsp;&nbsp;&nbsp;- title</option>
+	
+	<option value="//api/name/transform">&nbsp;&nbsp;&nbsp;&nbsp;- transform</option>
+	
+	<option value="//api/name/update">&nbsp;&nbsp;&nbsp;&nbsp;- update</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Fields">Fields</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Methods">Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/activeAnimationList">activeAnimationList</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addAxis:">addAxis:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addConstraint:">addConstraint:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addDecoration:">addDecoration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addSeries:">addSeries:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/applyAnimation:">applyAnimation:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/axisList">axisList</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/backgroundColor">backgroundColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/constraintList">constraintList</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/contentScaleFactor">contentScaleFactor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/decorationList">decorationList</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dispose">dispose</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fillColor">fillColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/handleTouches:">handleTouches:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lastTouches">lastTouches</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/margin">margin</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/preRender">preRender</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/preUpdate">preUpdate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/relayout">relayout</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeAxis:">removeAxis:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeConstraint:">removeConstraint:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeDecoration:">removeDecoration:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeSeries:">removeSeries:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/render">render</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/renderRegion:size:scale:">renderRegion:size:scale:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resize:contentScaleFactor:">resize:contentScaleFactor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resizeMode">resizeMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/seriesList">seriesList</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setBackgroundColor:">setBackgroundColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setFillColor:">setFillColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setMargin:">setMargin:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setResizeMode:">setResizeMode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setTitle:">setTitle:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setTransform:">setTransform:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/size">size</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/title">title</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transform">transform</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/update">update</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TRChart Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TRChart Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/TRDrawable.html">TRDrawable</a> : <a href="../Classes/TRAttachable.html">TRAttachable</a> : TRBaseObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/TRRenderable.html">TRRenderable</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">Chart.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Root container for all chart objects.</p><div class="warning"><p><strong>Warning:</strong> This is an automatically generated wrapper around a native object;
+overriding methods will not work as expected.</p></div>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Fields" name="task_Fields"></a>
+						<h3 class="subsubtitle task-title">Fields</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/title">&ndash;&nbsp;title</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setTitle:">&ndash;&nbsp;setTitle:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/backgroundColor">&ndash;&nbsp;backgroundColor</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setBackgroundColor:">&ndash;&nbsp;setBackgroundColor:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fillColor">&ndash;&nbsp;fillColor</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setFillColor:">&ndash;&nbsp;setFillColor:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/margin">&ndash;&nbsp;margin</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setMargin:">&ndash;&nbsp;setMargin:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/axisList">&ndash;&nbsp;axisList</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/seriesList">&ndash;&nbsp;seriesList</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/decorationList">&ndash;&nbsp;decorationList</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/constraintList">&ndash;&nbsp;constraintList</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/activeAnimationList">&ndash;&nbsp;activeAnimationList</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lastTouches">&ndash;&nbsp;lastTouches</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/size">&ndash;&nbsp;size</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/contentScaleFactor">&ndash;&nbsp;contentScaleFactor</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resizeMode">&ndash;&nbsp;resizeMode</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setResizeMode:">&ndash;&nbsp;setResizeMode:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transform">&ndash;&nbsp;transform</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setTransform:">&ndash;&nbsp;setTransform:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Methods" name="task_Methods"></a>
+						<h3 class="subsubtitle task-title">Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resize:contentScaleFactor:">&ndash;&nbsp;resize:contentScaleFactor:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/relayout">&ndash;&nbsp;relayout</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addAxis:">&ndash;&nbsp;addAxis:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addSeries:">&ndash;&nbsp;addSeries:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addDecoration:">&ndash;&nbsp;addDecoration:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addConstraint:">&ndash;&nbsp;addConstraint:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeAxis:">&ndash;&nbsp;removeAxis:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeSeries:">&ndash;&nbsp;removeSeries:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeDecoration:">&ndash;&nbsp;removeDecoration:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeConstraint:">&ndash;&nbsp;removeConstraint:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/applyAnimation:">&ndash;&nbsp;applyAnimation:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/preUpdate">&ndash;&nbsp;preUpdate</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/update">&ndash;&nbsp;update</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/preRender">&ndash;&nbsp;preRender</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/render">&ndash;&nbsp;render</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/renderRegion:size:scale:">&ndash;&nbsp;renderRegion:size:scale:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dispose">&ndash;&nbsp;dispose</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/handleTouches:">&ndash;&nbsp;handleTouches:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/activeAnimationList" title="activeAnimationList"></a>
+	<h3 class="subsubtitle method-title">activeAnimationList</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The active animation list contains all attached animations.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)activeAnimationList</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The current active animation list.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The active animation list contains all attached animations.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addAxis:" title="addAxis:"></a>
+	<h3 class="subsubtitle method-title">addAxis:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds an axis to the chart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addAxis:(TRAxis *)<em>axis</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>axis</em></dt>
+			<dd><p>The axis to add.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds an axis to the chart.</p>
+
+<p>The axis will be attached to this chart, until removeAxis is called or the
+chart is destroyed.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addConstraint:" title="addConstraint:"></a>
+	<h3 class="subsubtitle method-title">addConstraint:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a constraint to the chart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addConstraint:(TRConstraint *)<em>constraint</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>constraint</em></dt>
+			<dd><p>The constraint to add.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds a constraint to the chart.</p>
+
+<p>The constraint will be attached to this chart, until removeConstraint is
+called or the chart is destroyed.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addDecoration:" title="addDecoration:"></a>
+	<h3 class="subsubtitle method-title">addDecoration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a decoration to the chart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addDecoration:(TRDecoration *)<em>decoration</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>decoration</em></dt>
+			<dd><p>The decoration to add.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds a decoration to the chart.</p>
+
+<p>The decoration will be attached to this chart, until removeDecoration is
+called or the chart is destroyed.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addSeries:" title="addSeries:"></a>
+	<h3 class="subsubtitle method-title">addSeries:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a series to the chart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addSeries:(TRSeries *)<em>series</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The series to add.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adds a series to the chart.</p>
+
+<p>The series will be attached to this chart, until removeSeries is called or
+the chart is destroyed.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/applyAnimation:" title="applyAnimation:"></a>
+	<h3 class="subsubtitle method-title">applyAnimation:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Attaches an animation, it will be automatically unattached when it completes
+or is cancelled.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)applyAnimation:(TRAnimation *)<em>animation</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animation</em></dt>
+			<dd><p>The animation to add.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Attaches an animation, it will be automatically unattached when it completes
+or is cancelled.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/axisList" title="axisList"></a>
+	<h3 class="subsubtitle method-title">axisList</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The axis list contains all currently associated axes.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)axisList</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The current axis list.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The axis list contains all currently associated axes.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/backgroundColor" title="backgroundColor"></a>
+	<h3 class="subsubtitle method-title">backgroundColor</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The background color is used to paint the chart container.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TRColor *)backgroundColor</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The current background color.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The background color is used to paint the chart container.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/setBackgroundColor:">- setBackgroundColor:</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/constraintList" title="constraintList"></a>
+	<h3 class="subsubtitle method-title">constraintList</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The series list contains all currently associated constraints.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)constraintList</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The current constraint list.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The series list contains all currently associated constraints.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/contentScaleFactor" title="contentScaleFactor"></a>
+	<h3 class="subsubtitle method-title">contentScaleFactor</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Content scale factor (iOS specific)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (double)contentScaleFactor</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The current content scale factor.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Content scale factor (iOS specific)</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/decorationList" title="decorationList"></a>
+	<h3 class="subsubtitle method-title">decorationList</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The series list contains all currently associated decorations.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)decorationList</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The current decoration list.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The series list contains all currently associated decorations.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dispose" title="dispose"></a>
+	<h3 class="subsubtitle method-title">dispose</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Disposes of graphical memory associated with the chart (this will happen
+automatically when the chart is deallocated, but this method is provided for
+cases where deallocation is non-deterministic (eg Java).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)dispose</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Disposes of graphical memory associated with the chart (this will happen
+automatically when the chart is deallocated, but this method is provided for
+cases where deallocation is non-deterministic (eg Java).</p>
+
+<p>Must be called from a thread which has the correct OpenGL context.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fillColor" title="fillColor"></a>
+	<h3 class="subsubtitle method-title">fillColor</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The fill color is used to paint the area within the chart&rsquo;s axes.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TRColor *)fillColor</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The current area color.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The fill color is used to paint the area within the chart&rsquo;s axes.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/setFillColor:">- setFillColor:</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/handleTouches:" title="handleTouches:"></a>
+	<h3 class="subsubtitle method-title">handleTouches:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Handle interactions (touch movement).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)handleTouches:(NSArray *)<em>touches</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>touches</em></dt>
+			<dd><p>Input touches.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Handle interactions (touch movement).</p>
+
+<p>The next pan/zoom value are calculated from the position and previous
+position of all active touches.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lastTouches" title="lastTouches"></a>
+	<h3 class="subsubtitle method-title">lastTouches</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The current latest touch list.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)lastTouches</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The current latest touch list.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/margin" title="margin"></a>
+	<h3 class="subsubtitle method-title">margin</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The margin is the empty space around the chart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TRMargin *)margin</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The current margin.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The margin is the empty space around the chart.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/setMargin:">- setMargin:</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/preRender" title="preRender"></a>
+	<h3 class="subsubtitle method-title">preRender</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Prepare OpenGL context for rendering</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)preRender</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Prepare OpenGL context for rendering</p>
+
+<p>Must be called from a thread which has the correct OpenGL context.</p>
+
+<p>Calling this method is optional (it will be called by <a href="#//api/name/render">render</a>)</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/preUpdate" title="preUpdate"></a>
+	<h3 class="subsubtitle method-title">preUpdate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Load new data</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)preUpdate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Load new data</p>
+
+<p>Calling this method is optional (it will be called by <a href="#//api/name/update">update</a>)</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/relayout" title="relayout"></a>
+	<h3 class="subsubtitle method-title">relayout</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Mark the chart as needing layout recalculation. The recalculation happens
+during the next <a href="#//api/name/update">update</a> phase.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)relayout</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Mark the chart as needing layout recalculation. The recalculation happens
+during the next <a href="#//api/name/update">update</a> phase.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeAxis:" title="removeAxis:"></a>
+	<h3 class="subsubtitle method-title">removeAxis:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes a previously added axis.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeAxis:(TRAxis *)<em>axis</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>axis</em></dt>
+			<dd><p>The axis to remove.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Removes a previously added axis.</p>
+
+<p>The axis will also be detached from the chart</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeConstraint:" title="removeConstraint:"></a>
+	<h3 class="subsubtitle method-title">removeConstraint:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes a previously added constraint</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeConstraint:(TRConstraint *)<em>constraint</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>constraint</em></dt>
+			<dd><p>The constraint to remove.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Removes a previously added constraint</p>
+
+<p>The constraint will also be detached from the chart</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeDecoration:" title="removeDecoration:"></a>
+	<h3 class="subsubtitle method-title">removeDecoration:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes a previously added decoration</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeDecoration:(TRDecoration *)<em>decoration</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>decoration</em></dt>
+			<dd><p>The decoration to remove.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Removes a previously added decoration</p>
+
+<p>The decoration will also be detached from the chart</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeSeries:" title="removeSeries:"></a>
+	<h3 class="subsubtitle method-title">removeSeries:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes a previously added series.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeSeries:(TRSeries *)<em>series</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>series</em></dt>
+			<dd><p>The series to remove.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Removes a previously added series.</p>
+
+<p>The series will also be detached from the chart</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/render" title="render"></a>
+	<h3 class="subsubtitle method-title">render</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Must be called from a thread which has the correct OpenGL context.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)render</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Must be called from a thread which has the correct OpenGL context.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/renderRegion:size:scale:" title="renderRegion:size:scale:"></a>
+	<h3 class="subsubtitle method-title">renderRegion:size:scale:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Render a partial region, at a given scale.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)renderRegion:(TRPoint *)<em>position</em> size:(TRSize *)<em>size</em> scale:(double)<em>scale</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>position</em></dt>
+			<dd><p>Region top left corner</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>size</em></dt>
+			<dd><p>Region <a href="#//api/name/size">size</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>scale</em></dt>
+			<dd><p>Scale factor</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Render a partial region, at a given scale.</p>
+
+<p>Must be called from a thread which has the correct OpenGL context.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resize:contentScaleFactor:" title="resize:contentScaleFactor:"></a>
+	<h3 class="subsubtitle method-title">resize:contentScaleFactor:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Set the <a href="#//api/name/render">render</a> area <a href="#//api/name/size">size</a> (nothing will be drawn outside this area).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)resize:(TRSize *)<em>size</em> contentScaleFactor:(double)<em>contentScaleFactor</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>size</em></dt>
+			<dd><p>Size of the area in points</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>contentScaleFactor</em></dt>
+			<dd><p>Content scale factor (iOS specific)</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Set the <a href="#//api/name/render">render</a> area <a href="#//api/name/size">size</a> (nothing will be drawn outside this area).</p>
+
+<p>In iOS, a content scale factor is used to help with specifying
+Retina/non-Retina sizes. The content scale factor should be supplied to the
+chart (the <a href="#//api/name/size">size</a> value itself should not be pre-multiplied by the scale
+factor). On non-iOS platforms the default value of 1.0 can be used.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resizeMode" title="resizeMode"></a>
+	<h3 class="subsubtitle method-title">resizeMode</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The current re<a href="#//api/name/size">size</a> mode.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TRResizeMode)resizeMode</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The current re<a href="#//api/name/size">size</a> mode.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/setResizeMode:">- setResizeMode:</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/seriesList" title="seriesList"></a>
+	<h3 class="subsubtitle method-title">seriesList</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The series list contains all currently associated series.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)seriesList</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The current series list.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The series list contains all currently associated series.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setBackgroundColor:" title="setBackgroundColor:"></a>
+	<h3 class="subsubtitle method-title">setBackgroundColor:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The background color is used to paint the chart container.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setBackgroundColor:(TRColor *)<em>value</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The new background color.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The background color is used to paint the chart container.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/backgroundColor">- backgroundColor</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setFillColor:" title="setFillColor:"></a>
+	<h3 class="subsubtitle method-title">setFillColor:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The fill color is used to paint the area within the chart&rsquo;s axes.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setFillColor:(TRColor *)<em>value</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The new area color.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The fill color is used to paint the area within the chart&rsquo;s axes.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/fillColor">- fillColor</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setMargin:" title="setMargin:"></a>
+	<h3 class="subsubtitle method-title">setMargin:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The <a href="#//api/name/margin">margin</a> is the empty space around the chart.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setMargin:(TRMargin *)<em>value</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The new <a href="#//api/name/margin">margin</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The <a href="#//api/name/margin">margin</a> is the empty space around the chart.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/margin">- margin</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setResizeMode:" title="setResizeMode:"></a>
+	<h3 class="subsubtitle method-title">setResizeMode:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The new re<a href="#//api/name/size">size</a> mode.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setResizeMode:(TRResizeMode)<em>value</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The new re<a href="#//api/name/size">size</a> mode.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/resizeMode">- resizeMode</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setTitle:" title="setTitle:"></a>
+	<h3 class="subsubtitle method-title">setTitle:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The <a href="#//api/name/title">title</a> is displayed above the chart. It is optional.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setTitle:(TRLabel *)<em>value</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The new chart <a href="#//api/name/title">title</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The <a href="#//api/name/title">title</a> is displayed above the chart. It is optional.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/title">- title</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setTransform:" title="setTransform:"></a>
+	<h3 class="subsubtitle method-title">setTransform:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The new current <a href="#//api/name/transform">transform</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setTransform:(TRTransform *)<em>value</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>value</em></dt>
+			<dd><p>The new current <a href="#//api/name/transform">transform</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/transform">- transform</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/size" title="size"></a>
+	<h3 class="subsubtitle method-title">size</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Size of the <a href="#//api/name/render">render</a> area in points (actual pixel <a href="#//api/name/render">render</a> area is multiplied by
+the content scale factor)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TRSize *)size</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The current size.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Size of the <a href="#//api/name/render">render</a> area in points (actual pixel <a href="#//api/name/render">render</a> area is multiplied by
+the content scale factor)</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/title" title="title"></a>
+	<h3 class="subsubtitle method-title">title</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The title is displayed above the chart. It is optional.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TRLabel *)title</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The current chart title.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The title is displayed above the chart. It is optional.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/setTitle:">- setTitle:</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transform" title="transform"></a>
+	<h3 class="subsubtitle method-title">transform</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The current current transform.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (TRTransform *)transform</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The current current transform.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/setTransform:">- setTransform:</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/update" title="update"></a>
+	<h3 class="subsubtitle method-title">update</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Synchronize changed properties with internal state</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)update</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The result.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Synchronize changed properties with internal state</p>
+
+<p>A valid <a href="#//api/name/size">size</a> must be set before calling this method</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">Chart.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Thomson Reuters. All rights reserved. (Last updated: 2014-11-27)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

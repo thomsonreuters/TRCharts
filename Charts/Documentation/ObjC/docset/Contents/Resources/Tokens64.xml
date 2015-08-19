@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRTransform.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRTransform</TokenIdentifier>
+			<Abstract type="html">A screen-space transform</Abstract>
+			<DeclaredIn>Transform.h</DeclaredIn>
+            
+			
+			<NodeRef refid="64"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTransform/setOffset:</TokenIdentifier>
+			<Abstract type="html">The offset.</Abstract>
+			<DeclaredIn>Transform.h</DeclaredIn>
+			
+			<Declaration>@property TRPoint *offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTransform/offset</TokenIdentifier>
+			<Abstract type="html">The offset.</Abstract>
+			<DeclaredIn>Transform.h</DeclaredIn>
+			
+			<Declaration>@property TRPoint *offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRTransform/offset</TokenIdentifier>
+			<Abstract type="html">The offset.</Abstract>
+			<DeclaredIn>Transform.h</DeclaredIn>
+			
+			<Declaration>@property TRPoint *offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTransform/setScale:</TokenIdentifier>
+			<Abstract type="html">The scale.</Abstract>
+			<DeclaredIn>Transform.h</DeclaredIn>
+			
+			<Declaration>@property TRPoint *scale</Declaration>
+			
+			
+			<Anchor>//api/name/scale</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTransform/scale</TokenIdentifier>
+			<Abstract type="html">The scale.</Abstract>
+			<DeclaredIn>Transform.h</DeclaredIn>
+			
+			<Declaration>@property TRPoint *scale</Declaration>
+			
+			
+			<Anchor>//api/name/scale</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRTransform/scale</TokenIdentifier>
+			<Abstract type="html">The scale.</Abstract>
+			<DeclaredIn>Transform.h</DeclaredIn>
+			
+			<Declaration>@property TRPoint *scale</Declaration>
+			
+			
+			<Anchor>//api/name/scale</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTransform/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>Transform.h</DeclaredIn>
+			
+			<Declaration>- (TRTransform *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRTransform/offset:scale:</TokenIdentifier>
+			<Abstract type="html">Create a Transform instance with provided values.</Abstract>
+			<DeclaredIn>Transform.h</DeclaredIn>
+			
+			<Declaration>+ (TRTransform *)offset:(TRPoint *)offset scale:(TRPoint *)scale</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>offset</Name>
+					<Abstract type="html">The offset.</Abstract>
+				</Parameter><Parameter>
+					<Name>scale</Name>
+					<Abstract type="html">The scale.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/offset:scale:</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRTransform/concatenate:otherTransform:</TokenIdentifier>
+			<Abstract type="html">Concatenate (multiply) two transforms</Abstract>
+			<DeclaredIn>Transform.h</DeclaredIn>
+			
+			<Declaration>+ (TRTransform *)concatenate:(TRTransform *)transform otherTransform:(TRTransform *)otherTransform</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>transform</Name>
+					<Abstract type="html">First transform</Abstract>
+				</Parameter><Parameter>
+					<Name>otherTransform</Name>
+					<Abstract type="html">Second transform</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/concatenate:otherTransform:</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTransform/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>Transform.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTransform/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>Transform.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTransform/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>Transform.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTransform/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>Transform.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

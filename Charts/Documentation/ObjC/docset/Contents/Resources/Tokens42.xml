@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRLineStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRLineStyle</TokenIdentifier>
+			<Abstract type="html">Represents a line style</Abstract>
+			<DeclaredIn>LineStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="42"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineStyle/setThickness:</TokenIdentifier>
+			<Abstract type="html">The line thickness.</Abstract>
+			<DeclaredIn>LineStyle.h</DeclaredIn>
+			
+			<Declaration>@property double thickness</Declaration>
+			
+			
+			<Anchor>//api/name/thickness</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineStyle/thickness</TokenIdentifier>
+			<Abstract type="html">The line thickness.</Abstract>
+			<DeclaredIn>LineStyle.h</DeclaredIn>
+			
+			<Declaration>@property double thickness</Declaration>
+			
+			
+			<Anchor>//api/name/thickness</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRLineStyle/thickness</TokenIdentifier>
+			<Abstract type="html">The line thickness.</Abstract>
+			<DeclaredIn>LineStyle.h</DeclaredIn>
+			
+			<Declaration>@property double thickness</Declaration>
+			
+			
+			<Anchor>//api/name/thickness</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineStyle/setMode:</TokenIdentifier>
+			<Abstract type="html">The line mode.</Abstract>
+			<DeclaredIn>LineStyle.h</DeclaredIn>
+			
+			<Declaration>@property TRLineMode mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineStyle/mode</TokenIdentifier>
+			<Abstract type="html">The line mode.</Abstract>
+			<DeclaredIn>LineStyle.h</DeclaredIn>
+			
+			<Declaration>@property TRLineMode mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRLineStyle/mode</TokenIdentifier>
+			<Abstract type="html">The line mode.</Abstract>
+			<DeclaredIn>LineStyle.h</DeclaredIn>
+			
+			<Declaration>@property TRLineMode mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineStyle/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>LineStyle.h</DeclaredIn>
+			
+			<Declaration>- (TRLineStyle *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRLineStyle/thickness:mode:</TokenIdentifier>
+			<Abstract type="html">Create a LineStyle instance with provided values.</Abstract>
+			<DeclaredIn>LineStyle.h</DeclaredIn>
+			
+			<Declaration>+ (TRLineStyle *)thickness:(double)thickness mode:(TRLineMode)mode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>thickness</Name>
+					<Abstract type="html">The line thickness.</Abstract>
+				</Parameter><Parameter>
+					<Name>mode</Name>
+					<Abstract type="html">The line mode.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/thickness:mode:</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineStyle/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>LineStyle.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineStyle/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>LineStyle.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineStyle/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>LineStyle.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineStyle/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>LineStyle.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

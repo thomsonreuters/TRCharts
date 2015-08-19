@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRDataOffsetConstraintBehaviour.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRDataOffsetConstraintBehaviour</TokenIdentifier>
+			<Abstract type="html">Constrain the data scale for a given set of axes, such that the axis cannot
+be panned further than the total data range.</Abstract>
+			<DeclaredIn>DataOffsetConstraintBehaviour.h</DeclaredIn>
+            
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataOffsetConstraintBehaviour/axes</TokenIdentifier>
+			<Abstract type="html">Axes to target</Abstract>
+			<DeclaredIn>DataOffsetConstraintBehaviour.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDataOffsetConstraintBehaviour/setAxes:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSArray *)axes</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current axes.</Abstract></ReturnValue>
+			<Anchor>//api/name/axes</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataOffsetConstraintBehaviour/setAxes:</TokenIdentifier>
+			<Abstract type="html">Axes to target</Abstract>
+			<DeclaredIn>DataOffsetConstraintBehaviour.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDataOffsetConstraintBehaviour/axes</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setAxes:(NSArray *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new axes.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAxes:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataOffsetConstraintBehaviour/edges</TokenIdentifier>
+			<Abstract type="html">Edges to target</Abstract>
+			<DeclaredIn>DataOffsetConstraintBehaviour.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDataOffsetConstraintBehaviour/setEdges:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSArray *)edges</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current edges.</Abstract></ReturnValue>
+			<Anchor>//api/name/edges</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataOffsetConstraintBehaviour/setEdges:</TokenIdentifier>
+			<Abstract type="html">Edges to target</Abstract>
+			<DeclaredIn>DataOffsetConstraintBehaviour.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDataOffsetConstraintBehaviour/edges</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setEdges:(NSArray *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new edges.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setEdges:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataOffsetConstraintBehaviour/multiplier</TokenIdentifier>
+			<Abstract type="html">Mix factor between the current value and the fully constrained value (may be
+used to visually animate the constraint).</Abstract>
+			<DeclaredIn>DataOffsetConstraintBehaviour.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDataOffsetConstraintBehaviour/setMultiplier:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (double)multiplier</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current multiplier.</Abstract></ReturnValue>
+			<Anchor>//api/name/multiplier</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataOffsetConstraintBehaviour/setMultiplier:</TokenIdentifier>
+			<Abstract type="html">Mix factor between the current value and the fully constrained value (may be
+used to visually animate the constraint).</Abstract>
+			<DeclaredIn>DataOffsetConstraintBehaviour.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDataOffsetConstraintBehaviour/multiplier</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setMultiplier:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new multiplier.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setMultiplier:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataOffsetConstraintBehaviour/apply:size:transform:</TokenIdentifier>
+			<Abstract type="html">Current chart</Abstract>
+			<DeclaredIn>DataOffsetConstraintBehaviour.h</DeclaredIn>
+			
+			<Declaration>- (TRTransform *)apply:(TRChart *)chart size:(TRSize *)size transform:(TRTransform *)transform</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">Current chart</Abstract>
+				</Parameter><Parameter>
+					<Name>size</Name>
+					<Abstract type="html">Screen-space size of the chart</Abstract>
+				</Parameter><Parameter>
+					<Name>transform</Name>
+					<Abstract type="html">Screen-space transform</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/apply:size:transform:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

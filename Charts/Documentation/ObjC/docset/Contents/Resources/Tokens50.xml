@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRPointDecoration.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRPointDecoration</TokenIdentifier>
+			<Abstract type="html">Draws a point at a fixed data position on a given pair of axes</Abstract>
+			<DeclaredIn>PointDecoration.h</DeclaredIn>
+            
+			
+			<NodeRef refid="50"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPointDecoration/abscissaAxis</TokenIdentifier>
+			<Abstract type="html">The abscissa (traditionally X) axis</Abstract>
+			<DeclaredIn>PointDecoration.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRPointDecoration/setAbscissaAxis:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRContinuousAxis *)abscissaAxis</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current abscissa axis.</Abstract></ReturnValue>
+			<Anchor>//api/name/abscissaAxis</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPointDecoration/setAbscissaAxis:</TokenIdentifier>
+			<Abstract type="html">The abscissa (traditionally X) axis</Abstract>
+			<DeclaredIn>PointDecoration.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRPointDecoration/abscissaAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setAbscissaAxis:(TRContinuousAxis *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new abscissa axis.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAbscissaAxis:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPointDecoration/ordinateAxis</TokenIdentifier>
+			<Abstract type="html">The ordinate (traditionally Y) axis</Abstract>
+			<DeclaredIn>PointDecoration.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRPointDecoration/setOrdinateAxis:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRContinuousAxis *)ordinateAxis</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current ordinate axis.</Abstract></ReturnValue>
+			<Anchor>//api/name/ordinateAxis</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPointDecoration/setOrdinateAxis:</TokenIdentifier>
+			<Abstract type="html">The ordinate (traditionally Y) axis</Abstract>
+			<DeclaredIn>PointDecoration.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRPointDecoration/ordinateAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setOrdinateAxis:(TRContinuousAxis *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new ordinate axis.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setOrdinateAxis:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPointDecoration/value</TokenIdentifier>
+			<Abstract type="html">Position in data co-ordinates</Abstract>
+			<DeclaredIn>PointDecoration.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRPointDecoration/setValue:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRCoordinates *)value</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current value.</Abstract></ReturnValue>
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPointDecoration/setValue:</TokenIdentifier>
+			<Abstract type="html">Position in data co-ordinates</Abstract>
+			<DeclaredIn>PointDecoration.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRPointDecoration/value</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setValue:(TRCoordinates *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setValue:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPointDecoration/pointStyle</TokenIdentifier>
+			<Abstract type="html">Drawing style for the point</Abstract>
+			<DeclaredIn>PointDecoration.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRPointDecoration/setPointStyle:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRPointStyle *)pointStyle</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current pointStyle.</Abstract></ReturnValue>
+			<Anchor>//api/name/pointStyle</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPointDecoration/setPointStyle:</TokenIdentifier>
+			<Abstract type="html">Drawing style for the point</Abstract>
+			<DeclaredIn>PointDecoration.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRPointDecoration/pointStyle</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setPointStyle:(TRPointStyle *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new pointStyle.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setPointStyle:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRDataTransform.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRDataTransform</TokenIdentifier>
+			<Abstract type="html">A data-space transformation, could be visualized as a transform matrix (but
+without a rotation component)</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+            
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataTransform/setOffset:</TokenIdentifier>
+			<Abstract type="html">The offset (data space).</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>@property double offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataTransform/offset</TokenIdentifier>
+			<Abstract type="html">The offset (data space).</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>@property double offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRDataTransform/offset</TokenIdentifier>
+			<Abstract type="html">The offset (data space).</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>@property double offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataTransform/setScale:</TokenIdentifier>
+			<Abstract type="html">The scale (data space).</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>@property double scale</Declaration>
+			
+			
+			<Anchor>//api/name/scale</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataTransform/scale</TokenIdentifier>
+			<Abstract type="html">The scale (data space).</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>@property double scale</Declaration>
+			
+			
+			<Anchor>//api/name/scale</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRDataTransform/scale</TokenIdentifier>
+			<Abstract type="html">The scale (data space).</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>@property double scale</Declaration>
+			
+			
+			<Anchor>//api/name/scale</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataTransform/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>- (TRDataTransform *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRDataTransform/offset:scale:</TokenIdentifier>
+			<Abstract type="html">Create a DataTransform instance with provided values.</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>+ (TRDataTransform *)offset:(double)offset scale:(double)scale</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>offset</Name>
+					<Abstract type="html">The offset (data space).</Abstract>
+				</Parameter><Parameter>
+					<Name>scale</Name>
+					<Abstract type="html">The scale (data space).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/offset:scale:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRDataTransform/concatenate:otherDataTransform:</TokenIdentifier>
+			<Abstract type="html">Return the concatenated (multiplied) space transform</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>+ (TRDataTransform *)concatenate:(TRDataTransform *)dataTransform otherDataTransform:(TRDataTransform *)otherDataTransform</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataTransform</Name>
+					<Abstract type="html">Input transform</Abstract>
+				</Parameter><Parameter>
+					<Name>otherDataTransform</Name>
+					<Abstract type="html">Input transform</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/concatenate:otherDataTransform:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRDataTransform/invert:</TokenIdentifier>
+			<Abstract type="html">Return the transform that yields the identity when concatenated to the
+parameter transform</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>+ (TRDataTransform *)invert:(TRDataTransform *)dataTransform</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataTransform</Name>
+					<Abstract type="html">Input transform</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/invert:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRDataTransform/apply:value:</TokenIdentifier>
+			<Abstract type="html">Transform a scalar into the provided space</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>+ (double)apply:(TRDataTransform *)dataTransform value:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataTransform</Name>
+					<Abstract type="html">Input transform</Abstract>
+				</Parameter><Parameter>
+					<Name>value</Name>
+					<Abstract type="html">Input value</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/apply:value:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRDataTransform/apply:range:</TokenIdentifier>
+			<Abstract type="html">Transform a range into the provided space</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>+ (TRRange *)apply:(TRDataTransform *)dataTransform range:(TRRange *)range</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataTransform</Name>
+					<Abstract type="html">Input transform</Abstract>
+				</Parameter><Parameter>
+					<Name>range</Name>
+					<Abstract type="html">Input value</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/apply:range:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRDataTransform/unapply:value:</TokenIdentifier>
+			<Abstract type="html">Transform a scalar out of the provided space (i.e. into the inverse of the
+space)</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>+ (double)unapply:(TRDataTransform *)dataTransform value:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataTransform</Name>
+					<Abstract type="html">Input transform</Abstract>
+				</Parameter><Parameter>
+					<Name>value</Name>
+					<Abstract type="html">Input value</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/unapply:value:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRDataTransform/unapply:range:</TokenIdentifier>
+			<Abstract type="html">Transform a range out of the provided space (i.e. into the inverse of the
+space)</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>+ (TRRange *)unapply:(TRDataTransform *)dataTransform range:(TRRange *)range</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataTransform</Name>
+					<Abstract type="html">Input transform</Abstract>
+				</Parameter><Parameter>
+					<Name>range</Name>
+					<Abstract type="html">Input range</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/unapply:range:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataTransform/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataTransform/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataTransform/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataTransform/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>DataTransform.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

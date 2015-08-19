@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRAnimation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRAnimation</TokenIdentifier>
+			<Abstract type="html">An animation describes a series of effects that are applied over a duration.</Abstract>
+			<DeclaredIn>Animation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/duration</TokenIdentifier>
+			<Abstract type="html">Animation duration (in seconds)</Abstract>
+			<DeclaredIn>Animation.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/setDuration:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (double)duration</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current duration.</Abstract></ReturnValue>
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/setDuration:</TokenIdentifier>
+			<Abstract type="html">Animation duration (in seconds)</Abstract>
+			<DeclaredIn>Animation.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/duration</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setDuration:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new duration.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setDuration:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/position</TokenIdentifier>
+			<Abstract type="html">Current position of the animation (in seconds)</Abstract>
+			<DeclaredIn>Animation.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/setPosition:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (double)position</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current position.</Abstract></ReturnValue>
+			<Anchor>//api/name/position</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/setPosition:</TokenIdentifier>
+			<Abstract type="html">Current position of the animation (in seconds)</Abstract>
+			<DeclaredIn>Animation.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/position</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setPosition:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new position.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setPosition:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/effectList</TokenIdentifier>
+			<Abstract type="html">Effects applied by this animation</Abstract>
+			<DeclaredIn>Animation.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/setEffectList:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSArray *)effectList</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current effect list.</Abstract></ReturnValue>
+			<Anchor>//api/name/effectList</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/setEffectList:</TokenIdentifier>
+			<Abstract type="html">Effects applied by this animation</Abstract>
+			<DeclaredIn>Animation.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/effectList</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setEffectList:(NSArray *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new effect list.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setEffectList:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/delegate</TokenIdentifier>
+			<Abstract type="html">The delegate will be called back when the animation is completed (or
+cancelled)</Abstract>
+			<DeclaredIn>Animation.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/setDelegate:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id&lt;TRAnimationDelegate&gt;)delegate</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current delegate.</Abstract></ReturnValue>
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/setDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate will be called back when the animation is completed (or
+cancelled)</Abstract>
+			<DeclaredIn>Animation.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/delegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setDelegate:(id&lt;TRAnimationDelegate&gt;)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new delegate.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setDelegate:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/restart</TokenIdentifier>
+			<Abstract type="html">Set animation position to beginning and continue running.</Abstract>
+			<DeclaredIn>Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)restart</Declaration>
+			
+			
+			<Anchor>//api/name/restart</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/complete</TokenIdentifier>
+			<Abstract type="html">Set animation position to the end and stop running, flag the animation for
+removal.</Abstract>
+			<DeclaredIn>Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)complete</Declaration>
+			
+			
+			<Anchor>//api/name/complete</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAnimation/cancel</TokenIdentifier>
+			<Abstract type="html">Stop running, flag the animation for removal.</Abstract>
+			<DeclaredIn>Animation.h</DeclaredIn>
+			
+			<Declaration>- (void)cancel</Declaration>
+			
+			
+			<Anchor>//api/name/cancel</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

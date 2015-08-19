@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TRColorSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TRColorSource</TokenIdentifier>
+			<Abstract type="html">Provides a means to override the color source for each displayed datum.</Abstract>
+			<DeclaredIn>ColorSource.h</DeclaredIn>
+            
+			
+			<NodeRef refid="68"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRColorSource/getColors:range:defaultColor:</TokenIdentifier>
+			<Abstract type="html">Override to return the datum colors for the requested range</Abstract>
+			<DeclaredIn>ColorSource.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)getColors:(TRSeries *)series range:(TRIndexRange *)range defaultColor:(TRColor *)defaultColor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">Requesting series.</Abstract>
+				</Parameter><Parameter>
+					<Name>range</Name>
+					<Abstract type="html">Requested index range.</Abstract>
+				</Parameter><Parameter>
+					<Name>defaultColor</Name>
+					<Abstract type="html">Base color</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/getColors:range:defaultColor:</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

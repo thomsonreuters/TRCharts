@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRMargin.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRMargin</TokenIdentifier>
+			<Abstract type="html">Represents 4 edges (for margin/padding/etc)</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+            
+			
+			<NodeRef refid="43"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRMargin/setLeft:</TokenIdentifier>
+			<Abstract type="html">The left margin.</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>@property double left</Declaration>
+			
+			
+			<Anchor>//api/name/left</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRMargin/left</TokenIdentifier>
+			<Abstract type="html">The left margin.</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>@property double left</Declaration>
+			
+			
+			<Anchor>//api/name/left</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRMargin/left</TokenIdentifier>
+			<Abstract type="html">The left margin.</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>@property double left</Declaration>
+			
+			
+			<Anchor>//api/name/left</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRMargin/setRight:</TokenIdentifier>
+			<Abstract type="html">The right margin.</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>@property double right</Declaration>
+			
+			
+			<Anchor>//api/name/right</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRMargin/right</TokenIdentifier>
+			<Abstract type="html">The right margin.</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>@property double right</Declaration>
+			
+			
+			<Anchor>//api/name/right</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRMargin/right</TokenIdentifier>
+			<Abstract type="html">The right margin.</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>@property double right</Declaration>
+			
+			
+			<Anchor>//api/name/right</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRMargin/setBottom:</TokenIdentifier>
+			<Abstract type="html">The bottom margin.</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>@property double bottom</Declaration>
+			
+			
+			<Anchor>//api/name/bottom</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRMargin/bottom</TokenIdentifier>
+			<Abstract type="html">The bottom margin.</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>@property double bottom</Declaration>
+			
+			
+			<Anchor>//api/name/bottom</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRMargin/bottom</TokenIdentifier>
+			<Abstract type="html">The bottom margin.</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>@property double bottom</Declaration>
+			
+			
+			<Anchor>//api/name/bottom</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRMargin/setTop:</TokenIdentifier>
+			<Abstract type="html">The top margin.</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>@property double top</Declaration>
+			
+			
+			<Anchor>//api/name/top</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRMargin/top</TokenIdentifier>
+			<Abstract type="html">The top margin.</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>@property double top</Declaration>
+			
+			
+			<Anchor>//api/name/top</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRMargin/top</TokenIdentifier>
+			<Abstract type="html">The top margin.</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>@property double top</Declaration>
+			
+			
+			<Anchor>//api/name/top</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRMargin/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>- (TRMargin *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRMargin/left:right:bottom:top:</TokenIdentifier>
+			<Abstract type="html">Create a Margin instance with provided values.</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>+ (TRMargin *)left:(double)left right:(double)right bottom:(double)bottom top:(double)top</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>left</Name>
+					<Abstract type="html">The left margin.</Abstract>
+				</Parameter><Parameter>
+					<Name>right</Name>
+					<Abstract type="html">The right margin.</Abstract>
+				</Parameter><Parameter>
+					<Name>bottom</Name>
+					<Abstract type="html">The bottom margin.</Abstract>
+				</Parameter><Parameter>
+					<Name>top</Name>
+					<Abstract type="html">The top margin.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/left:right:bottom:top:</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRMargin/add:toMargin:</TokenIdentifier>
+			<Abstract type="html">Utility method to add two margins (edgewise)</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>+ (TRMargin *)add:(TRMargin *)margin toMargin:(TRMargin *)toMargin</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>margin</Name>
+					<Abstract type="html">First margin</Abstract>
+				</Parameter><Parameter>
+					<Name>toMargin</Name>
+					<Abstract type="html">Second margin</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/add:toMargin:</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRMargin/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRMargin/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRMargin/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRMargin/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>Margin.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

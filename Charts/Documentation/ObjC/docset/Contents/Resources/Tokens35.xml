@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRFixedRangeCalculator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRFixedRangeCalculator</TokenIdentifier>
+			<Abstract type="html">A range calculator that always returns a fixed range.</Abstract>
+			<DeclaredIn>FixedRangeCalculator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="35"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFixedRangeCalculator/range</TokenIdentifier>
+			<Abstract type="html">The current fixed range.</Abstract>
+			<DeclaredIn>FixedRangeCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRFixedRangeCalculator/setRange:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRRange *)range</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current fixed range.</Abstract></ReturnValue>
+			<Anchor>//api/name/range</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFixedRangeCalculator/setRange:</TokenIdentifier>
+			<Abstract type="html">The new fixed range.</Abstract>
+			<DeclaredIn>FixedRangeCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRFixedRangeCalculator/range</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setRange:(TRRange *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new fixed range.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setRange:</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFixedRangeCalculator/calculateRange:</TokenIdentifier>
+			<Abstract type="html">The output data range is always the same as the value supplied in the range
+field</Abstract>
+			<DeclaredIn>FixedRangeCalculator.h</DeclaredIn>
+			
+			<Declaration>- (TRRange *)calculateRange:(TRRange *)dataRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataRange</Name>
+					<Abstract type="html">Input data range</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/calculateRange:</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TRNumberFormatter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TRNumberFormatter</TokenIdentifier>
+			<Abstract type="html">Callback interface for number formatting</Abstract>
+			<DeclaredIn>NumberFormatter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="75"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRNumberFormatter/formatNumber:</TokenIdentifier>
+			<Abstract type="html">Should implement to return a formatted number</Abstract>
+			<DeclaredIn>NumberFormatter.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)formatNumber:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">Number to format</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/formatNumber:</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

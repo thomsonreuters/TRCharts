@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRRangeDatum.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRRangeDatum</TokenIdentifier>
+			<Abstract type="html">A continuous datum holding range values.</Abstract>
+			<DeclaredIn>RangeDatum.h</DeclaredIn>
+            
+			
+			<NodeRef refid="54"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRRangeDatum/setOrdinate:</TokenIdentifier>
+			<Abstract type="html">The ordinate value.</Abstract>
+			<DeclaredIn>RangeDatum.h</DeclaredIn>
+			
+			<Declaration>@property TRRange *ordinate</Declaration>
+			
+			
+			<Anchor>//api/name/ordinate</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRRangeDatum/ordinate</TokenIdentifier>
+			<Abstract type="html">The ordinate value.</Abstract>
+			<DeclaredIn>RangeDatum.h</DeclaredIn>
+			
+			<Declaration>@property TRRange *ordinate</Declaration>
+			
+			
+			<Anchor>//api/name/ordinate</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRRangeDatum/ordinate</TokenIdentifier>
+			<Abstract type="html">The ordinate value.</Abstract>
+			<DeclaredIn>RangeDatum.h</DeclaredIn>
+			
+			<Declaration>@property TRRange *ordinate</Declaration>
+			
+			
+			<Anchor>//api/name/ordinate</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRRangeDatum/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>RangeDatum.h</DeclaredIn>
+			
+			<Declaration>- (TRRangeDatum *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRRangeDatum/abscissa:ordinate:</TokenIdentifier>
+			<Abstract type="html">Create a RangeDatum instance with provided values.</Abstract>
+			<DeclaredIn>RangeDatum.h</DeclaredIn>
+			
+			<Declaration>+ (TRRangeDatum *)abscissa:(double)abscissa ordinate:(TRRange *)ordinate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>abscissa</Name>
+					<Abstract type="html">The abscissa value.</Abstract>
+				</Parameter><Parameter>
+					<Name>ordinate</Name>
+					<Abstract type="html">The ordinate value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/abscissa:ordinate:</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRRangeDatum/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>RangeDatum.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRRangeDatum/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>RangeDatum.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRRangeDatum/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>RangeDatum.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRRangeDatum/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>RangeDatum.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

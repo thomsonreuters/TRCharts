@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRIndexRange.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRIndexRange</TokenIdentifier>
+			<Abstract type="html">Represents an integer start and end index (start:inclusive, end:exclusive)</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+            
+			
+			<NodeRef refid="38"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRIndexRange/setBegin:</TokenIdentifier>
+			<Abstract type="html">The start of range.</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>@property long begin</Declaration>
+			
+			
+			<Anchor>//api/name/begin</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRIndexRange/begin</TokenIdentifier>
+			<Abstract type="html">The start of range.</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>@property long begin</Declaration>
+			
+			
+			<Anchor>//api/name/begin</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRIndexRange/begin</TokenIdentifier>
+			<Abstract type="html">The start of range.</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>@property long begin</Declaration>
+			
+			
+			<Anchor>//api/name/begin</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRIndexRange/setEnd:</TokenIdentifier>
+			<Abstract type="html">The end of range.</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>@property long end</Declaration>
+			
+			
+			<Anchor>//api/name/end</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRIndexRange/end</TokenIdentifier>
+			<Abstract type="html">The end of range.</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>@property long end</Declaration>
+			
+			
+			<Anchor>//api/name/end</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRIndexRange/end</TokenIdentifier>
+			<Abstract type="html">The end of range.</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>@property long end</Declaration>
+			
+			
+			<Anchor>//api/name/end</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRIndexRange/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>- (TRIndexRange *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRIndexRange/begin:end:</TokenIdentifier>
+			<Abstract type="html">Create a IndexRange instance with provided values.</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>+ (TRIndexRange *)begin:(long)begin end:(long)end</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>begin</Name>
+					<Abstract type="html">The start of range.</Abstract>
+				</Parameter><Parameter>
+					<Name>end</Name>
+					<Abstract type="html">The end of range.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/begin:end:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRIndexRange/length:</TokenIdentifier>
+			<Abstract type="html">Length of the range (in.end - in.begin</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>+ (long)length:(TRIndexRange *)indexRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexRange</Name>
+					<Abstract type="html">Input range (in)</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/length:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRIndexRange/valid:</TokenIdentifier>
+			<Abstract type="html">If true, the parameter index range is ordered such that in.begin &lt;= in.end
+(i.e. the length may be 0)</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)valid:(TRIndexRange *)indexRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexRange</Name>
+					<Abstract type="html">Input range (in)</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/valid:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRIndexRange/valid:withinIndexRange:</TokenIdentifier>
+			<Abstract type="html">If true, the parameter index range is valid, and it does not exceed the
+extents of the withinRange parameter (in.begin &gt;= within.begin &amp;amp;&amp;amp; in.end &lt;=
+within.end</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)valid:(TRIndexRange *)indexRange withinIndexRange:(TRIndexRange *)withinIndexRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexRange</Name>
+					<Abstract type="html">Input range (in)</Abstract>
+				</Parameter><Parameter>
+					<Name>withinIndexRange</Name>
+					<Abstract type="html">Within range (within)</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/valid:withinIndexRange:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRIndexRange/positive:</TokenIdentifier>
+			<Abstract type="html">If true, the parameter index range is ordered such that in.begin &lt; in.end</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)positive:(TRIndexRange *)indexRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexRange</Name>
+					<Abstract type="html">Input range (in)</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/positive:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRIndexRange/merge:otherIndexRange:</TokenIdentifier>
+			<Abstract type="html">Returns the smallest range enclosing both supplied ranges min(a.begin,
+b.begin, max(a.end, b.end</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>+ (TRIndexRange *)merge:(TRIndexRange *)indexRange otherIndexRange:(TRIndexRange *)otherIndexRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexRange</Name>
+					<Abstract type="html">Input range (a)</Abstract>
+				</Parameter><Parameter>
+					<Name>otherIndexRange</Name>
+					<Abstract type="html">Input range (b)</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/merge:otherIndexRange:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRIndexRange/clamp:withinIndexRange:</TokenIdentifier>
+			<Abstract type="html">Constrain the parameter index range such that it does not exceed the extents
+of the withinRange parameter (in.begin &gt;= within.begin &amp;amp;&amp;amp; in.end &lt;=
+within.end</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>+ (TRIndexRange *)clamp:(TRIndexRange *)indexRange withinIndexRange:(TRIndexRange *)withinIndexRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexRange</Name>
+					<Abstract type="html">Input range (in)</Abstract>
+				</Parameter><Parameter>
+					<Name>withinIndexRange</Name>
+					<Abstract type="html">Within range (within)</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/clamp:withinIndexRange:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRIndexRange/overlap:otherIndexRange:</TokenIdentifier>
+			<Abstract type="html">Returns true if the ranges intersect (but not if they touch) i.e returns true
+iff max(a.begin, b.begin &lt;= min(a.end, b.end</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)overlap:(TRIndexRange *)indexRange otherIndexRange:(TRIndexRange *)otherIndexRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>indexRange</Name>
+					<Abstract type="html">Input range (a)</Abstract>
+				</Parameter><Parameter>
+					<Name>otherIndexRange</Name>
+					<Abstract type="html">Input range (b)</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/overlap:otherIndexRange:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRIndexRange/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRIndexRange/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRIndexRange/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRIndexRange/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>IndexRange.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

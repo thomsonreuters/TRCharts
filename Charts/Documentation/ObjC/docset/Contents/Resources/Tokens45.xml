@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TROHLC.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TROHLC</TokenIdentifier>
+			<Abstract type="html">An open/high/low/close value.</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+            
+			
+			<NodeRef refid="45"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLC/setOpen:</TokenIdentifier>
+			<Abstract type="html">The open value.</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>@property double open</Declaration>
+			
+			
+			<Anchor>//api/name/open</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLC/open</TokenIdentifier>
+			<Abstract type="html">The open value.</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>@property double open</Declaration>
+			
+			
+			<Anchor>//api/name/open</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TROHLC/open</TokenIdentifier>
+			<Abstract type="html">The open value.</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>@property double open</Declaration>
+			
+			
+			<Anchor>//api/name/open</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLC/setHigh:</TokenIdentifier>
+			<Abstract type="html">The high value.</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>@property double high</Declaration>
+			
+			
+			<Anchor>//api/name/high</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLC/high</TokenIdentifier>
+			<Abstract type="html">The high value.</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>@property double high</Declaration>
+			
+			
+			<Anchor>//api/name/high</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TROHLC/high</TokenIdentifier>
+			<Abstract type="html">The high value.</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>@property double high</Declaration>
+			
+			
+			<Anchor>//api/name/high</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLC/setLow:</TokenIdentifier>
+			<Abstract type="html">The low value.</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>@property double low</Declaration>
+			
+			
+			<Anchor>//api/name/low</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLC/low</TokenIdentifier>
+			<Abstract type="html">The low value.</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>@property double low</Declaration>
+			
+			
+			<Anchor>//api/name/low</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TROHLC/low</TokenIdentifier>
+			<Abstract type="html">The low value.</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>@property double low</Declaration>
+			
+			
+			<Anchor>//api/name/low</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLC/setClose:</TokenIdentifier>
+			<Abstract type="html">The close value.</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>@property double close</Declaration>
+			
+			
+			<Anchor>//api/name/close</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLC/close</TokenIdentifier>
+			<Abstract type="html">The close value.</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>@property double close</Declaration>
+			
+			
+			<Anchor>//api/name/close</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TROHLC/close</TokenIdentifier>
+			<Abstract type="html">The close value.</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>@property double close</Declaration>
+			
+			
+			<Anchor>//api/name/close</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLC/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>- (TROHLC *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TROHLC/open:high:low:close:</TokenIdentifier>
+			<Abstract type="html">Create a OHLC instance with provided values.</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>+ (TROHLC *)open:(double)open high:(double)high low:(double)low close:(double)close</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>open</Name>
+					<Abstract type="html">The open value.</Abstract>
+				</Parameter><Parameter>
+					<Name>high</Name>
+					<Abstract type="html">The high value.</Abstract>
+				</Parameter><Parameter>
+					<Name>low</Name>
+					<Abstract type="html">The low value.</Abstract>
+				</Parameter><Parameter>
+					<Name>close</Name>
+					<Abstract type="html">The close value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/open:high:low:close:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLC/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLC/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLC/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TROHLC/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>OHLC.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

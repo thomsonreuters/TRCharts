@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRBasicNumberFormatter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRBasicNumberFormatter</TokenIdentifier>
+			<Abstract type="html">Format a number using a set number of decimal spaces (using the platform
+current locale)</Abstract>
+			<DeclaredIn>BasicNumberFormatter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRBasicNumberFormatter/decimalPlaces</TokenIdentifier>
+			<Abstract type="html">The current number of decimal places to display.</Abstract>
+			<DeclaredIn>BasicNumberFormatter.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRBasicNumberFormatter/setDecimalPlaces:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (long)decimalPlaces</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current number of decimal places to display.</Abstract></ReturnValue>
+			<Anchor>//api/name/decimalPlaces</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRBasicNumberFormatter/setDecimalPlaces:</TokenIdentifier>
+			<Abstract type="html">The new number of decimal places to display.</Abstract>
+			<DeclaredIn>BasicNumberFormatter.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRBasicNumberFormatter/decimalPlaces</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setDecimalPlaces:(long)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new number of decimal places to display.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setDecimalPlaces:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRBasicNumberFormatter/formatNumber:</TokenIdentifier>
+			<Abstract type="html">Returns the formatted number</Abstract>
+			<DeclaredIn>BasicNumberFormatter.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)formatNumber:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">Number to format</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/formatNumber:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

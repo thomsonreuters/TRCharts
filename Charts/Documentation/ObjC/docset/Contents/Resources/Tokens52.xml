@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRPointStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRPointStyle</TokenIdentifier>
+			<Abstract type="html">Represents a point style</Abstract>
+			<DeclaredIn>PointStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="52"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPointStyle/setDiameter:</TokenIdentifier>
+			<Abstract type="html">The point diameter.</Abstract>
+			<DeclaredIn>PointStyle.h</DeclaredIn>
+			
+			<Declaration>@property double diameter</Declaration>
+			
+			
+			<Anchor>//api/name/diameter</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPointStyle/diameter</TokenIdentifier>
+			<Abstract type="html">The point diameter.</Abstract>
+			<DeclaredIn>PointStyle.h</DeclaredIn>
+			
+			<Declaration>@property double diameter</Declaration>
+			
+			
+			<Anchor>//api/name/diameter</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRPointStyle/diameter</TokenIdentifier>
+			<Abstract type="html">The point diameter.</Abstract>
+			<DeclaredIn>PointStyle.h</DeclaredIn>
+			
+			<Declaration>@property double diameter</Declaration>
+			
+			
+			<Anchor>//api/name/diameter</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPointStyle/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>PointStyle.h</DeclaredIn>
+			
+			<Declaration>- (TRPointStyle *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRPointStyle/diameter:</TokenIdentifier>
+			<Abstract type="html">Create a PointStyle instance with provided values.</Abstract>
+			<DeclaredIn>PointStyle.h</DeclaredIn>
+			
+			<Declaration>+ (TRPointStyle *)diameter:(double)diameter</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>diameter</Name>
+					<Abstract type="html">The point diameter.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/diameter:</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPointStyle/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>PointStyle.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPointStyle/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>PointStyle.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPointStyle/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>PointStyle.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPointStyle/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>PointStyle.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

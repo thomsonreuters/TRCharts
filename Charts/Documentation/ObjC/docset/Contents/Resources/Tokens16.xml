@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRCharts.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRCharts</TokenIdentifier>
+			<Abstract type="html">Namespace/collection of top-level static methods.</Abstract>
+			<DeclaredIn>Charts.h</DeclaredIn>
+            
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRCharts/init</TokenIdentifier>
+			<Abstract type="html">Throws an exception (should not try to construct).</Abstract>
+			<DeclaredIn>Charts.h</DeclaredIn>
+			
+			<Declaration>- (TRCharts *)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRCharts/logLevel</TokenIdentifier>
+			<Abstract type="html">Library-wide log level setting</Abstract>
+			<DeclaredIn>Charts.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/clm/TRCharts/setLogLevel:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>+ (TRLogLevel)logLevel</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current log level.</Abstract></ReturnValue>
+			<Anchor>//api/name/logLevel</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRCharts/setLogLevel:</TokenIdentifier>
+			<Abstract type="html">Library-wide log level setting</Abstract>
+			<DeclaredIn>Charts.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/clm/TRCharts/logLevel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>+ (void)setLogLevel:(TRLogLevel)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new log level.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLogLevel:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRCharts/logHandler</TokenIdentifier>
+			<Abstract type="html">Library-wide log handler.</Abstract>
+			<DeclaredIn>Charts.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/clm/TRCharts/setLogHandler:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>+ (id&lt;TRLogHandler&gt;)logHandler</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current log target.</Abstract></ReturnValue>
+			<Anchor>//api/name/logHandler</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRCharts/setLogHandler:</TokenIdentifier>
+			<Abstract type="html">Library-wide log handler.</Abstract>
+			<DeclaredIn>Charts.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/clm/TRCharts/logHandler</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>+ (void)setLogHandler:(id&lt;TRLogHandler&gt;)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new log target.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLogHandler:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRCharts/debugGLValidationEnabled</TokenIdentifier>
+			<Abstract type="html">Library-wide debug OpenGL validation setting</Abstract>
+			<DeclaredIn>Charts.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/clm/TRCharts/setDebugGLValidationEnabled:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>+ (BOOL)debugGLValidationEnabled</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current OpenGL validation setting.</Abstract></ReturnValue>
+			<Anchor>//api/name/debugGLValidationEnabled</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRCharts/setDebugGLValidationEnabled:</TokenIdentifier>
+			<Abstract type="html">Library-wide debug OpenGL validation setting</Abstract>
+			<DeclaredIn>Charts.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/clm/TRCharts/debugGLValidationEnabled</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>+ (void)setDebugGLValidationEnabled:(BOOL)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new OpenGL validation setting.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setDebugGLValidationEnabled:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRCharts/markQueue:</TokenIdentifier>
+			<Abstract type="html">For debug purposes, marks the parameter queue as &apos;ok&apos; for calling library methods.</Abstract>
+			<DeclaredIn>Charts.h</DeclaredIn>
+			
+			<Declaration>+ (void)markQueue:(dispatch_queue_t)queue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>queue</Name>
+					<Abstract type="html">Queue to mark.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/markQueue:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRCharts/unmarkQueue:</TokenIdentifier>
+			<Abstract type="html">For debug purposes, undoes markQueue.</Abstract>
+			<DeclaredIn>Charts.h</DeclaredIn>
+			
+			<Declaration>+ (void)unmarkQueue:(dispatch_queue_t)queue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>queue</Name>
+					<Abstract type="html">Queue to unmark.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/unmarkQueue:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRCharts/isQueueMarked</TokenIdentifier>
+			<Abstract type="html">For debug purposes, check to see if the current queue is marked.</Abstract>
+			<DeclaredIn>Charts.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isQueueMarked</Declaration>
+			
+			<ReturnValue><Abstract type="html">True if the current is marked.</Abstract></ReturnValue>
+			<Anchor>//api/name/isQueueMarked</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRCharts/enableQueueVerification:</TokenIdentifier>
+			<Abstract type="html">For debug purposes, turns on queue verification (all library calls will verify that the current queue is marked).</Abstract>
+			<DeclaredIn>Charts.h</DeclaredIn>
+			
+			<Declaration>+ (void)enableQueueVerification:(BOOL)yes</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>yes</Name>
+					<Abstract type="html">True to enable verification, false to disable.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/enableQueueVerification:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

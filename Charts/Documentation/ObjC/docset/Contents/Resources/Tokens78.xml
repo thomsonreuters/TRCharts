@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TRRenderable.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TRRenderable</TokenIdentifier>
+			<Abstract type="html">Base interface/protocol for objects with a visual representation</Abstract>
+			<DeclaredIn>Renderable.h</DeclaredIn>
+            
+			
+			<NodeRef refid="78"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRRenderable/resize:contentScaleFactor:</TokenIdentifier>
+			<Abstract type="html">Set the render area size (nothing will be drawn outside this area).</Abstract>
+			<DeclaredIn>Renderable.h</DeclaredIn>
+			
+			<Declaration>- (void)resize:(TRSize *)size contentScaleFactor:(double)contentScaleFactor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>size</Name>
+					<Abstract type="html">Size of the area in points</Abstract>
+				</Parameter><Parameter>
+					<Name>contentScaleFactor</Name>
+					<Abstract type="html">Content scale factor (iOS specific)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/resize:contentScaleFactor:</Anchor>
+            <NodeRef refid="78"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRRenderable/preUpdate</TokenIdentifier>
+			<Abstract type="html">Load new data</Abstract>
+			<DeclaredIn>Renderable.h</DeclaredIn>
+			
+			<Declaration>- (void)preUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/preUpdate</Anchor>
+            <NodeRef refid="78"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRRenderable/update</TokenIdentifier>
+			<Abstract type="html">Synchronize changed properties with internal state</Abstract>
+			<DeclaredIn>Renderable.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)update</Declaration>
+			
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/update</Anchor>
+            <NodeRef refid="78"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRRenderable/preRender</TokenIdentifier>
+			<Abstract type="html">Prepare OpenGL context for rendering</Abstract>
+			<DeclaredIn>Renderable.h</DeclaredIn>
+			
+			<Declaration>- (void)preRender</Declaration>
+			
+			
+			<Anchor>//api/name/preRender</Anchor>
+            <NodeRef refid="78"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRRenderable/render</TokenIdentifier>
+			<Abstract type="html">Must be called from a thread which has the correct OpenGL context.</Abstract>
+			<DeclaredIn>Renderable.h</DeclaredIn>
+			
+			<Declaration>- (void)render</Declaration>
+			
+			
+			<Anchor>//api/name/render</Anchor>
+            <NodeRef refid="78"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRRenderable/dispose</TokenIdentifier>
+			<Abstract type="html">Must be called from a thread which has the correct OpenGL context.</Abstract>
+			<DeclaredIn>Renderable.h</DeclaredIn>
+			
+			<Declaration>- (void)dispose</Declaration>
+			
+			
+			<Anchor>//api/name/dispose</Anchor>
+            <NodeRef refid="78"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

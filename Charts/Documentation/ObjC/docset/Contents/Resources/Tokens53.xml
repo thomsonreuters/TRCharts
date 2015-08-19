@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRRange.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRRange</TokenIdentifier>
+			<Abstract type="html">An inclusive range in the real number domain.</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+            
+			
+			<NodeRef refid="53"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRRange/setMin:</TokenIdentifier>
+			<Abstract type="html">The min value.</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>@property double min</Declaration>
+			
+			
+			<Anchor>//api/name/min</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRRange/min</TokenIdentifier>
+			<Abstract type="html">The min value.</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>@property double min</Declaration>
+			
+			
+			<Anchor>//api/name/min</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRRange/min</TokenIdentifier>
+			<Abstract type="html">The min value.</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>@property double min</Declaration>
+			
+			
+			<Anchor>//api/name/min</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRRange/setMax:</TokenIdentifier>
+			<Abstract type="html">The max value.</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>@property double max</Declaration>
+			
+			
+			<Anchor>//api/name/max</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRRange/max</TokenIdentifier>
+			<Abstract type="html">The max value.</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>@property double max</Declaration>
+			
+			
+			<Anchor>//api/name/max</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRRange/max</TokenIdentifier>
+			<Abstract type="html">The max value.</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>@property double max</Declaration>
+			
+			
+			<Anchor>//api/name/max</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRRange/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>- (TRRange *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRRange/min:max:</TokenIdentifier>
+			<Abstract type="html">Create a Range instance with provided values.</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>+ (TRRange *)min:(double)min max:(double)max</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>min</Name>
+					<Abstract type="html">The min value.</Abstract>
+				</Parameter><Parameter>
+					<Name>max</Name>
+					<Abstract type="html">The max value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/min:max:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRRange/length:</TokenIdentifier>
+			<Abstract type="html">Return the length of the range (max - min</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>+ (double)length:(TRRange *)range</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>range</Name>
+					<Abstract type="html">Input range</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/length:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRRange/valid:</TokenIdentifier>
+			<Abstract type="html">Returns true if the min value is less than or equal to max value</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)valid:(TRRange *)range</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>range</Name>
+					<Abstract type="html">Input range</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/valid:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRRange/positive:</TokenIdentifier>
+			<Abstract type="html">Returns true if the min value is less than max value</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)positive:(TRRange *)range</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>range</Name>
+					<Abstract type="html">Input range</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/positive:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRRange/merge:otherRange:</TokenIdentifier>
+			<Abstract type="html">Returns the enclosing range of the arguments</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>+ (TRRange *)merge:(TRRange *)range otherRange:(TRRange *)otherRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>range</Name>
+					<Abstract type="html">Input range</Abstract>
+				</Parameter><Parameter>
+					<Name>otherRange</Name>
+					<Abstract type="html">Input range</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/merge:otherRange:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRRange/clamp:withinRange:</TokenIdentifier>
+			<Abstract type="html">Clamps the input range so that it&apos;s min and max values fall within the clamp
+range.</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>+ (TRRange *)clamp:(TRRange *)range withinRange:(TRRange *)withinRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>range</Name>
+					<Abstract type="html">Input range</Abstract>
+				</Parameter><Parameter>
+					<Name>withinRange</Name>
+					<Abstract type="html">Clamp range</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/clamp:withinRange:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRRange/overlap:otherRange:</TokenIdentifier>
+			<Abstract type="html">Returns true if the ranges overlap (intersect)</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)overlap:(TRRange *)range otherRange:(TRRange *)otherRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>range</Name>
+					<Abstract type="html">Input range</Abstract>
+				</Parameter><Parameter>
+					<Name>otherRange</Name>
+					<Abstract type="html">Input range</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/overlap:otherRange:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRRange/identity</TokenIdentifier>
+			<Abstract type="html">Returns the range [0,0]</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>+ (TRRange *)identity</Declaration>
+			
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/identity</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRRange/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRRange/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRRange/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRRange/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>Range.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

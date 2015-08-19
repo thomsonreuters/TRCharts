@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRTouch.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRTouch</TokenIdentifier>
+			<Abstract type="html">Representation of a single touch</Abstract>
+			<DeclaredIn>Touch.h</DeclaredIn>
+            
+			
+			<NodeRef refid="63"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTouch/setPosition:</TokenIdentifier>
+			<Abstract type="html">The current position.</Abstract>
+			<DeclaredIn>Touch.h</DeclaredIn>
+			
+			<Declaration>@property TRPoint *position</Declaration>
+			
+			
+			<Anchor>//api/name/position</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTouch/position</TokenIdentifier>
+			<Abstract type="html">The current position.</Abstract>
+			<DeclaredIn>Touch.h</DeclaredIn>
+			
+			<Declaration>@property TRPoint *position</Declaration>
+			
+			
+			<Anchor>//api/name/position</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRTouch/position</TokenIdentifier>
+			<Abstract type="html">The current position.</Abstract>
+			<DeclaredIn>Touch.h</DeclaredIn>
+			
+			<Declaration>@property TRPoint *position</Declaration>
+			
+			
+			<Anchor>//api/name/position</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTouch/setLastPosition:</TokenIdentifier>
+			<Abstract type="html">The previous position.</Abstract>
+			<DeclaredIn>Touch.h</DeclaredIn>
+			
+			<Declaration>@property TRPoint *lastPosition</Declaration>
+			
+			
+			<Anchor>//api/name/lastPosition</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTouch/lastPosition</TokenIdentifier>
+			<Abstract type="html">The previous position.</Abstract>
+			<DeclaredIn>Touch.h</DeclaredIn>
+			
+			<Declaration>@property TRPoint *lastPosition</Declaration>
+			
+			
+			<Anchor>//api/name/lastPosition</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRTouch/lastPosition</TokenIdentifier>
+			<Abstract type="html">The previous position.</Abstract>
+			<DeclaredIn>Touch.h</DeclaredIn>
+			
+			<Declaration>@property TRPoint *lastPosition</Declaration>
+			
+			
+			<Anchor>//api/name/lastPosition</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTouch/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>Touch.h</DeclaredIn>
+			
+			<Declaration>- (TRTouch *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRTouch/position:lastPosition:</TokenIdentifier>
+			<Abstract type="html">Create a Touch instance with provided values.</Abstract>
+			<DeclaredIn>Touch.h</DeclaredIn>
+			
+			<Declaration>+ (TRTouch *)position:(TRPoint *)position lastPosition:(TRPoint *)lastPosition</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>position</Name>
+					<Abstract type="html">The current position.</Abstract>
+				</Parameter><Parameter>
+					<Name>lastPosition</Name>
+					<Abstract type="html">The previous position.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/position:lastPosition:</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTouch/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>Touch.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTouch/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>Touch.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTouch/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>Touch.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTouch/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>Touch.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

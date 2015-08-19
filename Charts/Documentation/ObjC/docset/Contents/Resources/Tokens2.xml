@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRAbstractNumberAxis.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRAbstractNumberAxis</TokenIdentifier>
+			<Abstract type="html">Base class for axes that display numbers</Abstract>
+			<DeclaredIn>AbstractNumberAxis.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAbstractNumberAxis/tickFormatter</TokenIdentifier>
+			<Abstract type="html">The current tick formatter.</Abstract>
+			<DeclaredIn>AbstractNumberAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAbstractNumberAxis/setTickFormatter:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id&lt;TRNumberFormatter&gt;)tickFormatter</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current tick formatter.</Abstract></ReturnValue>
+			<Anchor>//api/name/tickFormatter</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAbstractNumberAxis/setTickFormatter:</TokenIdentifier>
+			<Abstract type="html">The new tick formatter.</Abstract>
+			<DeclaredIn>AbstractNumberAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAbstractNumberAxis/tickFormatter</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTickFormatter:(id&lt;TRNumberFormatter&gt;)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new tick formatter.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTickFormatter:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

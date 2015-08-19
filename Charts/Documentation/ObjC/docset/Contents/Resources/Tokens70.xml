@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TRContinuousDataSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TRContinuousDataSource</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ContinuousDataSource.h</DeclaredIn>
+            
+			
+			<NodeRef refid="70"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRContinuousDataSource/getDatumRange:</TokenIdentifier>
+			<Abstract type="html">Return the currently available range of datums</Abstract>
+			<DeclaredIn>ContinuousDataSource.h</DeclaredIn>
+			
+			<Declaration>- (TRIndexRange *)getDatumRange:(TRContinuousSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series instance currently using the datasource (the data source may be shared between series)</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/getDatumRange:</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRContinuousDataSource/getDatums:range:</TokenIdentifier>
+			<Abstract type="html">Get a range of datums</Abstract>
+			<DeclaredIn>ContinuousDataSource.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)getDatums:(TRContinuousSeries *)series range:(TRIndexRange *)range</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series instance currently using the datasource (the data source may be shared between series)</Abstract>
+				</Parameter><Parameter>
+					<Name>range</Name>
+					<Abstract type="html">Requested index range.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/getDatums:range:</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/mattevans/Library/Developer/Shared/Documentation/DocSets/com.thomsonreuters.TRCharts.docset
+Time: 2014-11-27 17:52:20 +0000

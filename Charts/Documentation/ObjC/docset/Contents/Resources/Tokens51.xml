@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRPointSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRPointSeries</TokenIdentifier>
+			<Abstract type="html">A series that displays scalar datums as disconnected points.</Abstract>
+			<DeclaredIn>PointSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="51"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPointSeries/pointStyle</TokenIdentifier>
+			<Abstract type="html">The point style</Abstract>
+			<DeclaredIn>PointSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRPointSeries/setPointStyle:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRPointStyle *)pointStyle</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current pointStyle.</Abstract></ReturnValue>
+			<Anchor>//api/name/pointStyle</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPointSeries/setPointStyle:</TokenIdentifier>
+			<Abstract type="html">The point style</Abstract>
+			<DeclaredIn>PointSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRPointSeries/pointStyle</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setPointStyle:(TRPointStyle *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new pointStyle.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setPointStyle:</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

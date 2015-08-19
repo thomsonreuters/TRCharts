@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRDataScaleConstraintBehaviour.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRDataScaleConstraintBehaviour</TokenIdentifier>
+			<Abstract type="html">Constrain the data scale for a given set of axes, such that the axis cannot
+be zoomed out further than the total data range.</Abstract>
+			<DeclaredIn>DataScaleConstraintBehaviour.h</DeclaredIn>
+            
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataScaleConstraintBehaviour/axes</TokenIdentifier>
+			<Abstract type="html">Axes to target</Abstract>
+			<DeclaredIn>DataScaleConstraintBehaviour.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDataScaleConstraintBehaviour/setAxes:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSArray *)axes</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current axes.</Abstract></ReturnValue>
+			<Anchor>//api/name/axes</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataScaleConstraintBehaviour/setAxes:</TokenIdentifier>
+			<Abstract type="html">Axes to target</Abstract>
+			<DeclaredIn>DataScaleConstraintBehaviour.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDataScaleConstraintBehaviour/axes</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setAxes:(NSArray *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new axes.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAxes:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataScaleConstraintBehaviour/apply:size:transform:</TokenIdentifier>
+			<Abstract type="html">Current chart</Abstract>
+			<DeclaredIn>DataScaleConstraintBehaviour.h</DeclaredIn>
+			
+			<Declaration>- (TRTransform *)apply:(TRChart *)chart size:(TRSize *)size transform:(TRTransform *)transform</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">Current chart</Abstract>
+				</Parameter><Parameter>
+					<Name>size</Name>
+					<Abstract type="html">Screen-space size of the chart</Abstract>
+				</Parameter><Parameter>
+					<Name>transform</Name>
+					<Abstract type="html">Screen-space transform</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/apply:size:transform:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

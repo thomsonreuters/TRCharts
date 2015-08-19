@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRContinuousAxis.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRContinuousAxis</TokenIdentifier>
+			<Abstract type="html">A continuous axis</Abstract>
+			<DeclaredIn>ContinuousAxis.h</DeclaredIn>
+            
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousAxis/layout</TokenIdentifier>
+			<Abstract type="html">The current axis layout.</Abstract>
+			<DeclaredIn>ContinuousAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRContinuousAxis/setLayout:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id&lt;TRAxisLayout&gt;)layout</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current axis layout.</Abstract></ReturnValue>
+			<Anchor>//api/name/layout</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousAxis/setLayout:</TokenIdentifier>
+			<Abstract type="html">The new axis layout.</Abstract>
+			<DeclaredIn>ContinuousAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRContinuousAxis/layout</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setLayout:(id&lt;TRAxisLayout&gt;)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new axis layout.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLayout:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousAxis/rangeCalculator</TokenIdentifier>
+			<Abstract type="html">The current range calculator.</Abstract>
+			<DeclaredIn>ContinuousAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRContinuousAxis/setRangeCalculator:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id&lt;TRRangeCalculator&gt;)rangeCalculator</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current range calculator.</Abstract></ReturnValue>
+			<Anchor>//api/name/rangeCalculator</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousAxis/setRangeCalculator:</TokenIdentifier>
+			<Abstract type="html">The new range calculator.</Abstract>
+			<DeclaredIn>ContinuousAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRContinuousAxis/rangeCalculator</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setRangeCalculator:(id&lt;TRRangeCalculator&gt;)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new range calculator.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setRangeCalculator:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousAxis/valueTransform</TokenIdentifier>
+			<Abstract type="html">The current value transform.</Abstract>
+			<DeclaredIn>ContinuousAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRContinuousAxis/setValueTransform:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRDataTransform *)valueTransform</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current value transform.</Abstract></ReturnValue>
+			<Anchor>//api/name/valueTransform</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousAxis/setValueTransform:</TokenIdentifier>
+			<Abstract type="html">The new value transform.</Abstract>
+			<DeclaredIn>ContinuousAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRContinuousAxis/valueTransform</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setValueTransform:(TRDataTransform *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new value transform.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setValueTransform:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousAxis/dataRange</TokenIdentifier>
+			<Abstract type="html">The current dataRange.</Abstract>
+			<DeclaredIn>ContinuousAxis.h</DeclaredIn>
+			
+			<Declaration>- (TRRange *)dataRange</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current dataRange.</Abstract></ReturnValue>
+			<Anchor>//api/name/dataRange</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousAxis/screenDataRange</TokenIdentifier>
+			<Abstract type="html">The current screenDataRange.</Abstract>
+			<DeclaredIn>ContinuousAxis.h</DeclaredIn>
+			
+			<Declaration>- (TRRange *)screenDataRange</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current screenDataRange.</Abstract></ReturnValue>
+			<Anchor>//api/name/screenDataRange</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

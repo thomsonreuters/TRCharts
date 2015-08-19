@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRLineSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRLineSeries</TokenIdentifier>
+			<Abstract type="html">A series that displays scalar datums as a line.</Abstract>
+			<DeclaredIn>LineSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="41"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineSeries/lineStyle</TokenIdentifier>
+			<Abstract type="html">The line style (may be overridden by values derived using the
+lineStyleSource</Abstract>
+			<DeclaredIn>LineSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLineSeries/setLineStyle:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRLineStyle *)lineStyle</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current line style.</Abstract></ReturnValue>
+			<Anchor>//api/name/lineStyle</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineSeries/setLineStyle:</TokenIdentifier>
+			<Abstract type="html">The line style (may be overridden by values derived using the
+lineStyleSource</Abstract>
+			<DeclaredIn>LineSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLineSeries/lineStyle</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setLineStyle:(TRLineStyle *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new line style.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLineStyle:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineSeries/lineStyleSource</TokenIdentifier>
+			<Abstract type="html">May optionally be provided, to control the per-datum line style.</Abstract>
+			<DeclaredIn>LineSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLineSeries/setLineStyleSource:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id&lt;TRLineStyleSource&gt;)lineStyleSource</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current line style source.</Abstract></ReturnValue>
+			<Anchor>//api/name/lineStyleSource</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLineSeries/setLineStyleSource:</TokenIdentifier>
+			<Abstract type="html">May optionally be provided, to control the per-datum line style.</Abstract>
+			<DeclaredIn>LineSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLineSeries/lineStyleSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setLineStyleSource:(id&lt;TRLineStyleSource&gt;)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new line style source.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setLineStyleSource:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

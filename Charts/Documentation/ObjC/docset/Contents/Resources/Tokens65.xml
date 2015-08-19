@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TRAnimationDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TRAnimationDelegate</TokenIdentifier>
+			<Abstract type="html">Delegate for animation events</Abstract>
+			<DeclaredIn>AnimationDelegate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="65"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRAnimationDelegate/animationCompleted:</TokenIdentifier>
+			<Abstract type="html">Called when the animation is completed.</Abstract>
+			<DeclaredIn>AnimationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)animationCompleted:(TRAnimation *)animation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animation</Name>
+					<Abstract type="html">The animation that has completed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/animationCompleted:</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRAnimationDelegate/animationCancelled:</TokenIdentifier>
+			<Abstract type="html">Called when the animation is cancelled.</Abstract>
+			<DeclaredIn>AnimationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)animationCancelled:(TRAnimation *)animation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animation</Name>
+					<Abstract type="html">The animation that has been cancelled.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/animationCancelled:</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

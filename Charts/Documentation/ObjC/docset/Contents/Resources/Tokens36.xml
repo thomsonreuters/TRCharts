@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRFont.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRFont</TokenIdentifier>
+			<Abstract type="html">Represents a font</Abstract>
+			<DeclaredIn>Font.h</DeclaredIn>
+            
+			
+			<NodeRef refid="36"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFont/setName:</TokenIdentifier>
+			<Abstract type="html">The font name.</Abstract>
+			<DeclaredIn>Font.h</DeclaredIn>
+			
+			<Declaration>@property NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFont/name</TokenIdentifier>
+			<Abstract type="html">The font name.</Abstract>
+			<DeclaredIn>Font.h</DeclaredIn>
+			
+			<Declaration>@property NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRFont/name</TokenIdentifier>
+			<Abstract type="html">The font name.</Abstract>
+			<DeclaredIn>Font.h</DeclaredIn>
+			
+			<Declaration>@property NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFont/setSize:</TokenIdentifier>
+			<Abstract type="html">The font size.</Abstract>
+			<DeclaredIn>Font.h</DeclaredIn>
+			
+			<Declaration>@property long size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFont/size</TokenIdentifier>
+			<Abstract type="html">The font size.</Abstract>
+			<DeclaredIn>Font.h</DeclaredIn>
+			
+			<Declaration>@property long size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRFont/size</TokenIdentifier>
+			<Abstract type="html">The font size.</Abstract>
+			<DeclaredIn>Font.h</DeclaredIn>
+			
+			<Declaration>@property long size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFont/setHint:</TokenIdentifier>
+			<Abstract type="html">The font rendering hint.</Abstract>
+			<DeclaredIn>Font.h</DeclaredIn>
+			
+			<Declaration>@property TRFontHint hint</Declaration>
+			
+			
+			<Anchor>//api/name/hint</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFont/hint</TokenIdentifier>
+			<Abstract type="html">The font rendering hint.</Abstract>
+			<DeclaredIn>Font.h</DeclaredIn>
+			
+			<Declaration>@property TRFontHint hint</Declaration>
+			
+			
+			<Anchor>//api/name/hint</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRFont/hint</TokenIdentifier>
+			<Abstract type="html">The font rendering hint.</Abstract>
+			<DeclaredIn>Font.h</DeclaredIn>
+			
+			<Declaration>@property TRFontHint hint</Declaration>
+			
+			
+			<Anchor>//api/name/hint</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFont/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>Font.h</DeclaredIn>
+			
+			<Declaration>- (TRFont *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRFont/name:size:hint:</TokenIdentifier>
+			<Abstract type="html">Create a Font instance with provided values.</Abstract>
+			<DeclaredIn>Font.h</DeclaredIn>
+			
+			<Declaration>+ (TRFont *)name:(NSString *)name size:(long)size hint:(TRFontHint)hint</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The font name.</Abstract>
+				</Parameter><Parameter>
+					<Name>size</Name>
+					<Abstract type="html">The font size.</Abstract>
+				</Parameter><Parameter>
+					<Name>hint</Name>
+					<Abstract type="html">The font rendering hint.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/name:size:hint:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFont/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>Font.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFont/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>Font.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFont/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>Font.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFont/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>Font.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRPaddingRangeCalculator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRPaddingRangeCalculator</TokenIdentifier>
+			<Abstract type="html">A range calculator that expands the supplied range in both directions by a
+padding value (must be specified in data coordinates).</Abstract>
+			<DeclaredIn>PaddingRangeCalculator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="47"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPaddingRangeCalculator/rangeCalculator</TokenIdentifier>
+			<Abstract type="html">Optional input range calculator (if specified, this is called first and the
+result used as the input to calculateRange)</Abstract>
+			<DeclaredIn>PaddingRangeCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRPaddingRangeCalculator/setRangeCalculator:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id&lt;TRRangeCalculator&gt;)rangeCalculator</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current rangeCalculator.</Abstract></ReturnValue>
+			<Anchor>//api/name/rangeCalculator</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPaddingRangeCalculator/setRangeCalculator:</TokenIdentifier>
+			<Abstract type="html">Optional input range calculator (if specified, this is called first and the
+result used as the input to calculateRange)</Abstract>
+			<DeclaredIn>PaddingRangeCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRPaddingRangeCalculator/rangeCalculator</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setRangeCalculator:(id&lt;TRRangeCalculator&gt;)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new rangeCalculator.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setRangeCalculator:</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPaddingRangeCalculator/padding</TokenIdentifier>
+			<Abstract type="html">Padding (expressed in data coordinates)</Abstract>
+			<DeclaredIn>PaddingRangeCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRPaddingRangeCalculator/setPadding:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRRange *)padding</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current padding.</Abstract></ReturnValue>
+			<Anchor>//api/name/padding</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPaddingRangeCalculator/setPadding:</TokenIdentifier>
+			<Abstract type="html">Padding (expressed in data coordinates)</Abstract>
+			<DeclaredIn>PaddingRangeCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRPaddingRangeCalculator/padding</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setPadding:(TRRange *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new padding.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setPadding:</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPaddingRangeCalculator/calculateRange:</TokenIdentifier>
+			<Abstract type="html">The output data range is in.min[padding...in.max+padding]</Abstract>
+			<DeclaredIn>PaddingRangeCalculator.h</DeclaredIn>
+			
+			<Declaration>- (TRRange *)calculateRange:(TRRange *)dataRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataRange</Name>
+					<Abstract type="html">Input data range</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/calculateRange:</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

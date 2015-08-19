@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRColor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRColor</TokenIdentifier>
+			<Abstract type="html">Represents an RGBA color (values range between 0-255)</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+            
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRColor/setRed:</TokenIdentifier>
+			<Abstract type="html">The red component.</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>@property double red</Declaration>
+			
+			
+			<Anchor>//api/name/red</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRColor/red</TokenIdentifier>
+			<Abstract type="html">The red component.</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>@property double red</Declaration>
+			
+			
+			<Anchor>//api/name/red</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRColor/red</TokenIdentifier>
+			<Abstract type="html">The red component.</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>@property double red</Declaration>
+			
+			
+			<Anchor>//api/name/red</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRColor/setGreen:</TokenIdentifier>
+			<Abstract type="html">The green component.</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>@property double green</Declaration>
+			
+			
+			<Anchor>//api/name/green</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRColor/green</TokenIdentifier>
+			<Abstract type="html">The green component.</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>@property double green</Declaration>
+			
+			
+			<Anchor>//api/name/green</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRColor/green</TokenIdentifier>
+			<Abstract type="html">The green component.</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>@property double green</Declaration>
+			
+			
+			<Anchor>//api/name/green</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRColor/setBlue:</TokenIdentifier>
+			<Abstract type="html">The blue component.</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>@property double blue</Declaration>
+			
+			
+			<Anchor>//api/name/blue</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRColor/blue</TokenIdentifier>
+			<Abstract type="html">The blue component.</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>@property double blue</Declaration>
+			
+			
+			<Anchor>//api/name/blue</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRColor/blue</TokenIdentifier>
+			<Abstract type="html">The blue component.</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>@property double blue</Declaration>
+			
+			
+			<Anchor>//api/name/blue</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRColor/setAlpha:</TokenIdentifier>
+			<Abstract type="html">The alpha component.</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>@property double alpha</Declaration>
+			
+			
+			<Anchor>//api/name/alpha</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRColor/alpha</TokenIdentifier>
+			<Abstract type="html">The alpha component.</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>@property double alpha</Declaration>
+			
+			
+			<Anchor>//api/name/alpha</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRColor/alpha</TokenIdentifier>
+			<Abstract type="html">The alpha component.</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>@property double alpha</Declaration>
+			
+			
+			<Anchor>//api/name/alpha</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRColor/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>- (TRColor *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRColor/red:green:blue:alpha:</TokenIdentifier>
+			<Abstract type="html">Create a Color instance with provided values.</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>+ (TRColor *)red:(double)red green:(double)green blue:(double)blue alpha:(double)alpha</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>red</Name>
+					<Abstract type="html">The red component.</Abstract>
+				</Parameter><Parameter>
+					<Name>green</Name>
+					<Abstract type="html">The green component.</Abstract>
+				</Parameter><Parameter>
+					<Name>blue</Name>
+					<Abstract type="html">The blue component.</Abstract>
+				</Parameter><Parameter>
+					<Name>alpha</Name>
+					<Abstract type="html">The alpha component.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/red:green:blue:alpha:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRColor/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRColor/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRColor/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRColor/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>Color.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

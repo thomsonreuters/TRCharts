@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRFixedDateTickCalculator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRFixedDateTickCalculator</TokenIdentifier>
+			<Abstract type="html">Date tick calculator implementation that returns a constant pre-specified
+tick interval</Abstract>
+			<DeclaredIn>FixedDateTickCalculator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="33"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFixedDateTickCalculator/tickInterval</TokenIdentifier>
+			<Abstract type="html">This value is always returned by calculateTickInterval</Abstract>
+			<DeclaredIn>FixedDateTickCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRFixedDateTickCalculator/setTickInterval:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRDateInterval *)tickInterval</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current tickInterval.</Abstract></ReturnValue>
+			<Anchor>//api/name/tickInterval</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFixedDateTickCalculator/setTickInterval:</TokenIdentifier>
+			<Abstract type="html">This value is always returned by calculateTickInterval</Abstract>
+			<DeclaredIn>FixedDateTickCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRFixedDateTickCalculator/tickInterval</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTickInterval:(TRDateInterval *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new tickInterval.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTickInterval:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRFixedDateTickCalculator/calculateTickInterval:visibleDataRange:screenLength:</TokenIdentifier>
+			<Abstract type="html">Returns the value of tickInterval</Abstract>
+			<DeclaredIn>FixedDateTickCalculator.h</DeclaredIn>
+			
+			<Declaration>- (TRDateInterval *)calculateTickInterval:(TRRange *)dataRange visibleDataRange:(TRRange *)visibleDataRange screenLength:(double)screenLength</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataRange</Name>
+					<Abstract type="html">Ignored</Abstract>
+				</Parameter><Parameter>
+					<Name>visibleDataRange</Name>
+					<Abstract type="html">Ignored</Abstract>
+				</Parameter><Parameter>
+					<Name>screenLength</Name>
+					<Abstract type="html">Ignored</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/calculateTickInterval:visibleDataRange:screenLength:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

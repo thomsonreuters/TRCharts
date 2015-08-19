@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TRAnimationEffect.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TRAnimationEffect</TokenIdentifier>
+			<Abstract type="html">Callback interface/protocol for an animation effect.</Abstract>
+			<DeclaredIn>AnimationEffect.h</DeclaredIn>
+            
+			
+			<NodeRef refid="66"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRAnimationEffect/apply:duration:</TokenIdentifier>
+			<Abstract type="html">Apply the next step of the animation.</Abstract>
+			<DeclaredIn>AnimationEffect.h</DeclaredIn>
+			
+			<Declaration>- (void)apply:(double)position duration:(double)duration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>position</Name>
+					<Abstract type="html">Position of the animation (in seconds)</Abstract>
+				</Parameter><Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">Duration of the animation (in seconds)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/apply:duration:</Anchor>
+            <NodeRef refid="66"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

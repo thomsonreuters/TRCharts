@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TRAxisLayout.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TRAxisLayout</TokenIdentifier>
+			<Abstract type="html">An axis layout is used to calcualte the default data transform for an axis.
+It is provided with the enclosing range (min, max) of all series in the axis
+(assuming that all series use the same units).</Abstract>
+			<DeclaredIn>AxisLayout.h</DeclaredIn>
+            
+			
+			<NodeRef refid="67"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRAxisLayout/calculateTransform:dataRange:screenLength:renderTransform:</TokenIdentifier>
+			<Abstract type="html">Calculate layout transform for the axis</Abstract>
+			<DeclaredIn>AxisLayout.h</DeclaredIn>
+			
+			<Declaration>- (TRDataTransform *)calculateTransform:(TRContinuousAxis *)axis dataRange:(TRRange *)dataRange screenLength:(double)screenLength renderTransform:(TRDataTransform *)renderTransform</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">Axis requiring layout</Abstract>
+				</Parameter><Parameter>
+					<Name>dataRange</Name>
+					<Abstract type="html">Data range for all series associated with the axis</Abstract>
+				</Parameter><Parameter>
+					<Name>screenLength</Name>
+					<Abstract type="html">Length of the axis, in screen co-ordinates</Abstract>
+				</Parameter><Parameter>
+					<Name>renderTransform</Name>
+					<Abstract type="html">Current offset transform (i.e. transform caused by panning and zooming).</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/calculateTransform:dataRange:screenLength:renderTransform:</Anchor>
+            <NodeRef refid="67"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

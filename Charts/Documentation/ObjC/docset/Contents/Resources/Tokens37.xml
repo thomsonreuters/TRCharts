@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRIncludeZeroRangeCalculator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRIncludeZeroRangeCalculator</TokenIdentifier>
+			<Abstract type="html">A range calculator that expands the supplied range such that it always
+includes the value 0.</Abstract>
+			<DeclaredIn>IncludeZeroRangeCalculator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="37"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRIncludeZeroRangeCalculator/rangeCalculator</TokenIdentifier>
+			<Abstract type="html">Optional input range calculator (if specified, this is called first and the
+result used as the input to calculateRange)</Abstract>
+			<DeclaredIn>IncludeZeroRangeCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRIncludeZeroRangeCalculator/setRangeCalculator:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id&lt;TRRangeCalculator&gt;)rangeCalculator</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current rangeCalculator.</Abstract></ReturnValue>
+			<Anchor>//api/name/rangeCalculator</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRIncludeZeroRangeCalculator/setRangeCalculator:</TokenIdentifier>
+			<Abstract type="html">Optional input range calculator (if specified, this is called first and the
+result used as the input to calculateRange)</Abstract>
+			<DeclaredIn>IncludeZeroRangeCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRIncludeZeroRangeCalculator/rangeCalculator</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setRangeCalculator:(id&lt;TRRangeCalculator&gt;)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new rangeCalculator.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setRangeCalculator:</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRIncludeZeroRangeCalculator/calculateRange:</TokenIdentifier>
+			<Abstract type="html">The output data range is the enclosing range of [in.min...in.max] and [0]</Abstract>
+			<DeclaredIn>IncludeZeroRangeCalculator.h</DeclaredIn>
+			
+			<Declaration>- (TRRange *)calculateRange:(TRRange *)dataRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataRange</Name>
+					<Abstract type="html">Input data range</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/calculateRange:</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

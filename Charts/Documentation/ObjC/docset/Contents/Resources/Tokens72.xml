@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TRDateTickCalculator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TRDateTickCalculator</TokenIdentifier>
+			<Abstract type="html">Callback interface for calculating the tick interval for a date axis</Abstract>
+			<DeclaredIn>DateTickCalculator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="72"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRDateTickCalculator/calculateTickInterval:visibleDataRange:screenLength:</TokenIdentifier>
+			<Abstract type="html">Should return the date interval between ticks</Abstract>
+			<DeclaredIn>DateTickCalculator.h</DeclaredIn>
+			
+			<Declaration>- (TRDateInterval *)calculateTickInterval:(TRRange *)dataRange visibleDataRange:(TRRange *)visibleDataRange screenLength:(double)screenLength</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataRange</Name>
+					<Abstract type="html">Total data range for the axis</Abstract>
+				</Parameter><Parameter>
+					<Name>visibleDataRange</Name>
+					<Abstract type="html">Data range that is visible under the current data transform</Abstract>
+				</Parameter><Parameter>
+					<Name>screenLength</Name>
+					<Abstract type="html">Visual length of the axis on the screen (in points)</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/calculateTickInterval:visibleDataRange:screenLength:</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

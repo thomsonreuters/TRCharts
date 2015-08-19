@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRContinuousDatum.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRContinuousDatum</TokenIdentifier>
+			<Abstract type="html">Continuous datums have two co-ordinates, an abscissa (usually X) and an
+ordinate (usually Y), although X and Y can be flipped using axis association.
+In a continuous datum the abscissa value is always a real number, and the
+ordinate type is defined by subclasses. Ordinate values may be complex
+(structured), or numbers. The interpretation of a datum is series-dependent,
+a given continuous series implementation will always require a specific datum
+type.</Abstract>
+			<DeclaredIn>ContinuousDatum.h</DeclaredIn>
+            
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousDatum/setAbscissa:</TokenIdentifier>
+			<Abstract type="html">The abscissa value.</Abstract>
+			<DeclaredIn>ContinuousDatum.h</DeclaredIn>
+			
+			<Declaration>@property double abscissa</Declaration>
+			
+			
+			<Anchor>//api/name/abscissa</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousDatum/abscissa</TokenIdentifier>
+			<Abstract type="html">The abscissa value.</Abstract>
+			<DeclaredIn>ContinuousDatum.h</DeclaredIn>
+			
+			<Declaration>@property double abscissa</Declaration>
+			
+			
+			<Anchor>//api/name/abscissa</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TRContinuousDatum/abscissa</TokenIdentifier>
+			<Abstract type="html">The abscissa value.</Abstract>
+			<DeclaredIn>ContinuousDatum.h</DeclaredIn>
+			
+			<Declaration>@property double abscissa</Declaration>
+			
+			
+			<Anchor>//api/name/abscissa</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousDatum/init</TokenIdentifier>
+			<Abstract type="html">Default init.</Abstract>
+			<DeclaredIn>ContinuousDatum.h</DeclaredIn>
+			
+			<Declaration>- (TRContinuousDatum *)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">Initialized object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TRContinuousDatum/abscissa:</TokenIdentifier>
+			<Abstract type="html">Create a ContinuousDatum instance with provided values.</Abstract>
+			<DeclaredIn>ContinuousDatum.h</DeclaredIn>
+			
+			<Declaration>+ (TRContinuousDatum *)abscissa:(double)abscissa</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>abscissa</Name>
+					<Abstract type="html">The abscissa value.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/abscissa:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousDatum/isEqual:</TokenIdentifier>
+			<Abstract type="html">Test for equality (uses all struct fields)</Abstract>
+			<DeclaredIn>ContinuousDatum.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isEqual:(id)anObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>anObject</Name>
+					<Abstract type="html">Object to compare to.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">True if the objects are equal.</Abstract></ReturnValue>
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousDatum/hash</TokenIdentifier>
+			<Abstract type="html">Calculate the hash code (uses all struct fields)</Abstract>
+			<DeclaredIn>ContinuousDatum.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)hash</Declaration>
+			
+			<ReturnValue><Abstract type="html">The hash code.</Abstract></ReturnValue>
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousDatum/copyWithZone:</TokenIdentifier>
+			<Abstract type="html">Create a copy (uses all struct fields)</Abstract>
+			<DeclaredIn>ContinuousDatum.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zone</Name>
+					<Abstract type="html">Memory zone.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A copy.</Abstract></ReturnValue>
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousDatum/description</TokenIdentifier>
+			<Abstract type="html">Create a string description (uses all struct fields)</Abstract>
+			<DeclaredIn>ContinuousDatum.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			<ReturnValue><Abstract type="html">The description.</Abstract></ReturnValue>
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

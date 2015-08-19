@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TRLogHandler.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TRLogHandler</TokenIdentifier>
+			<Abstract type="html">Callback interface for logging</Abstract>
+			<DeclaredIn>LogHandler.h</DeclaredIn>
+            
+			
+			<NodeRef refid="74"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRLogHandler/logMessage:message:</TokenIdentifier>
+			<Abstract type="html">Handle a log mesage</Abstract>
+			<DeclaredIn>LogHandler.h</DeclaredIn>
+			
+			<Declaration>- (void)logMessage:(TRLogLevel)level message:(NSString *)message</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>level</Name>
+					<Abstract type="html">The log level</Abstract>
+				</Parameter><Parameter>
+					<Name>message</Name>
+					<Abstract type="html">The log message</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/logMessage:message:</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

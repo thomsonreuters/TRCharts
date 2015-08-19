@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRTickAligningRangeCalculator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRTickAligningRangeCalculator</TokenIdentifier>
+			<Abstract type="html">If this range calculator is used with the AutomaticNumberTickCalculator, it
+will produce a range that can be automatically aligned (that is, it will be
+aligned to a power of 2 and 5)</Abstract>
+			<DeclaredIn>TickAligningRangeCalculator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="62"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTickAligningRangeCalculator/rangeCalculator</TokenIdentifier>
+			<Abstract type="html">Optional input range calculator (if specified, this is called first and the
+result used as the input to calculateRange)</Abstract>
+			<DeclaredIn>TickAligningRangeCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRTickAligningRangeCalculator/setRangeCalculator:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id&lt;TRRangeCalculator&gt;)rangeCalculator</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current rangeCalculator.</Abstract></ReturnValue>
+			<Anchor>//api/name/rangeCalculator</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTickAligningRangeCalculator/setRangeCalculator:</TokenIdentifier>
+			<Abstract type="html">Optional input range calculator (if specified, this is called first and the
+result used as the input to calculateRange)</Abstract>
+			<DeclaredIn>TickAligningRangeCalculator.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRTickAligningRangeCalculator/rangeCalculator</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setRangeCalculator:(id&lt;TRRangeCalculator&gt;)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new rangeCalculator.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setRangeCalculator:</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRTickAligningRangeCalculator/calculateRange:</TokenIdentifier>
+			<Abstract type="html">The output data range is [0...align(in.max)], where align(x) returns the next
+highest power of 2 or 5 to x</Abstract>
+			<DeclaredIn>TickAligningRangeCalculator.h</DeclaredIn>
+			
+			<Declaration>- (TRRange *)calculateRange:(TRRange *)dataRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataRange</Name>
+					<Abstract type="html">Input data range</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/calculateRange:</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

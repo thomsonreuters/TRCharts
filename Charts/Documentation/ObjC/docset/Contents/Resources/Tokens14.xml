@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRChart.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRChart</TokenIdentifier>
+			<Abstract type="html">Root container for all chart objects.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/title</TokenIdentifier>
+			<Abstract type="html">The title is displayed above the chart. It is optional.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRChart/setTitle:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRLabel *)title</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current chart title.</Abstract></ReturnValue>
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/setTitle:</TokenIdentifier>
+			<Abstract type="html">The title is displayed above the chart. It is optional.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRChart/title</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTitle:(TRLabel *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new chart title.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTitle:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/backgroundColor</TokenIdentifier>
+			<Abstract type="html">The background color is used to paint the chart container.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRChart/setBackgroundColor:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRColor *)backgroundColor</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current background color.</Abstract></ReturnValue>
+			<Anchor>//api/name/backgroundColor</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/setBackgroundColor:</TokenIdentifier>
+			<Abstract type="html">The background color is used to paint the chart container.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRChart/backgroundColor</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setBackgroundColor:(TRColor *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new background color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setBackgroundColor:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/fillColor</TokenIdentifier>
+			<Abstract type="html">The fill color is used to paint the area within the chart&apos;s axes.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRChart/setFillColor:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRColor *)fillColor</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current area color.</Abstract></ReturnValue>
+			<Anchor>//api/name/fillColor</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/setFillColor:</TokenIdentifier>
+			<Abstract type="html">The fill color is used to paint the area within the chart&apos;s axes.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRChart/fillColor</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setFillColor:(TRColor *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new area color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setFillColor:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/margin</TokenIdentifier>
+			<Abstract type="html">The margin is the empty space around the chart.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRChart/setMargin:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRMargin *)margin</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current margin.</Abstract></ReturnValue>
+			<Anchor>//api/name/margin</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/setMargin:</TokenIdentifier>
+			<Abstract type="html">The margin is the empty space around the chart.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRChart/margin</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setMargin:(TRMargin *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new margin.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setMargin:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/axisList</TokenIdentifier>
+			<Abstract type="html">The axis list contains all currently associated axes.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)axisList</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current axis list.</Abstract></ReturnValue>
+			<Anchor>//api/name/axisList</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/seriesList</TokenIdentifier>
+			<Abstract type="html">The series list contains all currently associated series.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)seriesList</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current series list.</Abstract></ReturnValue>
+			<Anchor>//api/name/seriesList</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/decorationList</TokenIdentifier>
+			<Abstract type="html">The series list contains all currently associated decorations.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)decorationList</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current decoration list.</Abstract></ReturnValue>
+			<Anchor>//api/name/decorationList</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/constraintList</TokenIdentifier>
+			<Abstract type="html">The series list contains all currently associated constraints.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)constraintList</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current constraint list.</Abstract></ReturnValue>
+			<Anchor>//api/name/constraintList</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/activeAnimationList</TokenIdentifier>
+			<Abstract type="html">The active animation list contains all attached animations.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)activeAnimationList</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current active animation list.</Abstract></ReturnValue>
+			<Anchor>//api/name/activeAnimationList</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/lastTouches</TokenIdentifier>
+			<Abstract type="html">The current latest touch list.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)lastTouches</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current latest touch list.</Abstract></ReturnValue>
+			<Anchor>//api/name/lastTouches</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/size</TokenIdentifier>
+			<Abstract type="html">Size of the render area in points (actual pixel render area is multiplied by
+the content scale factor)</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (TRSize *)size</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current size.</Abstract></ReturnValue>
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/contentScaleFactor</TokenIdentifier>
+			<Abstract type="html">Content scale factor (iOS specific)</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (double)contentScaleFactor</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current content scale factor.</Abstract></ReturnValue>
+			<Anchor>//api/name/contentScaleFactor</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/resizeMode</TokenIdentifier>
+			<Abstract type="html">The current resize mode.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRChart/setResizeMode:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRResizeMode)resizeMode</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current resize mode.</Abstract></ReturnValue>
+			<Anchor>//api/name/resizeMode</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/setResizeMode:</TokenIdentifier>
+			<Abstract type="html">The new resize mode.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRChart/resizeMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setResizeMode:(TRResizeMode)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new resize mode.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setResizeMode:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/transform</TokenIdentifier>
+			<Abstract type="html">The current current transform.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRChart/setTransform:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRTransform *)transform</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current current transform.</Abstract></ReturnValue>
+			<Anchor>//api/name/transform</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/setTransform:</TokenIdentifier>
+			<Abstract type="html">The new current transform.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRChart/transform</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTransform:(TRTransform *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new current transform.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTransform:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/resize:contentScaleFactor:</TokenIdentifier>
+			<Abstract type="html">Set the render area size (nothing will be drawn outside this area).</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (void)resize:(TRSize *)size contentScaleFactor:(double)contentScaleFactor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>size</Name>
+					<Abstract type="html">Size of the area in points</Abstract>
+				</Parameter><Parameter>
+					<Name>contentScaleFactor</Name>
+					<Abstract type="html">Content scale factor (iOS specific)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/resize:contentScaleFactor:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/relayout</TokenIdentifier>
+			<Abstract type="html">Mark the chart as needing layout recalculation. The recalculation happens
+during the next update phase.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (void)relayout</Declaration>
+			
+			
+			<Anchor>//api/name/relayout</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/addAxis:</TokenIdentifier>
+			<Abstract type="html">Adds an axis to the chart.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (void)addAxis:(TRAxis *)axis</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">The axis to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addAxis:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/addSeries:</TokenIdentifier>
+			<Abstract type="html">Adds a series to the chart.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (void)addSeries:(TRSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addSeries:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/addDecoration:</TokenIdentifier>
+			<Abstract type="html">Adds a decoration to the chart.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (void)addDecoration:(TRDecoration *)decoration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>decoration</Name>
+					<Abstract type="html">The decoration to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addDecoration:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/addConstraint:</TokenIdentifier>
+			<Abstract type="html">Adds a constraint to the chart.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (void)addConstraint:(TRConstraint *)constraint</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>constraint</Name>
+					<Abstract type="html">The constraint to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addConstraint:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/removeAxis:</TokenIdentifier>
+			<Abstract type="html">Removes a previously added axis.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAxis:(TRAxis *)axis</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">The axis to remove.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeAxis:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/removeSeries:</TokenIdentifier>
+			<Abstract type="html">Removes a previously added series.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (void)removeSeries:(TRSeries *)series</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">The series to remove.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeSeries:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/removeDecoration:</TokenIdentifier>
+			<Abstract type="html">Removes a previously added decoration</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (void)removeDecoration:(TRDecoration *)decoration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>decoration</Name>
+					<Abstract type="html">The decoration to remove.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeDecoration:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/removeConstraint:</TokenIdentifier>
+			<Abstract type="html">Removes a previously added constraint</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (void)removeConstraint:(TRConstraint *)constraint</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>constraint</Name>
+					<Abstract type="html">The constraint to remove.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeConstraint:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/applyAnimation:</TokenIdentifier>
+			<Abstract type="html">Attaches an animation, it will be automatically unattached when it completes
+or is cancelled.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (void)applyAnimation:(TRAnimation *)animation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animation</Name>
+					<Abstract type="html">The animation to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/applyAnimation:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/preUpdate</TokenIdentifier>
+			<Abstract type="html">Load new data</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (void)preUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/preUpdate</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/update</TokenIdentifier>
+			<Abstract type="html">Synchronize changed properties with internal state</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)update</Declaration>
+			
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/update</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/preRender</TokenIdentifier>
+			<Abstract type="html">Prepare OpenGL context for rendering</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (void)preRender</Declaration>
+			
+			
+			<Anchor>//api/name/preRender</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/render</TokenIdentifier>
+			<Abstract type="html">Must be called from a thread which has the correct OpenGL context.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (void)render</Declaration>
+			
+			
+			<Anchor>//api/name/render</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/renderRegion:size:scale:</TokenIdentifier>
+			<Abstract type="html">Render a partial region, at a given scale.</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (void)renderRegion:(TRPoint *)position size:(TRSize *)size scale:(double)scale</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>position</Name>
+					<Abstract type="html">Region top left corner</Abstract>
+				</Parameter><Parameter>
+					<Name>size</Name>
+					<Abstract type="html">Region size</Abstract>
+				</Parameter><Parameter>
+					<Name>scale</Name>
+					<Abstract type="html">Scale factor</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/renderRegion:size:scale:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/dispose</TokenIdentifier>
+			<Abstract type="html">Disposes of graphical memory associated with the chart (this will happen
+automatically when the chart is deallocated, but this method is provided for
+cases where deallocation is non-deterministic (eg Java).</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (void)dispose</Declaration>
+			
+			
+			<Anchor>//api/name/dispose</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRChart/handleTouches:</TokenIdentifier>
+			<Abstract type="html">Handle interactions (touch movement).</Abstract>
+			<DeclaredIn>Chart.h</DeclaredIn>
+			
+			<Declaration>- (void)handleTouches:(NSArray *)touches</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>touches</Name>
+					<Abstract type="html">Input touches.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/handleTouches:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

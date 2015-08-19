@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRContinuousSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRContinuousSeries</TokenIdentifier>
+			<Abstract type="html">This is an automatically generated wrapper around a native object;
+overriding methods will not work as expected.</Abstract>
+			<DeclaredIn>ContinuousSeries.h</DeclaredIn>
+            
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/abscissaAxis</TokenIdentifier>
+			<Abstract type="html">The abscissa axis is conventionally used to plot the independent variable.</Abstract>
+			<DeclaredIn>ContinuousSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/setAbscissaAxis:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRContinuousAxis *)abscissaAxis</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current abscissa axis.</Abstract></ReturnValue>
+			<Anchor>//api/name/abscissaAxis</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/setAbscissaAxis:</TokenIdentifier>
+			<Abstract type="html">The abscissa axis is conventionally used to plot the independent variable.</Abstract>
+			<DeclaredIn>ContinuousSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/abscissaAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setAbscissaAxis:(TRContinuousAxis *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new abscissa axis.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAbscissaAxis:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/dataSource</TokenIdentifier>
+			<Abstract type="html">The current data source.</Abstract>
+			<DeclaredIn>ContinuousSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/setDataSource:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id&lt;TRContinuousDataSource&gt;)dataSource</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current data source.</Abstract></ReturnValue>
+			<Anchor>//api/name/dataSource</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/setDataSource:</TokenIdentifier>
+			<Abstract type="html">The new data source.</Abstract>
+			<DeclaredIn>ContinuousSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/dataSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setDataSource:(id&lt;TRContinuousDataSource&gt;)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new data source.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setDataSource:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/colorSource</TokenIdentifier>
+			<Abstract type="html">The color source is used to provide a different color for each datum.</Abstract>
+			<DeclaredIn>ContinuousSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/setColorSource:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id&lt;TRColorSource&gt;)colorSource</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current color source.</Abstract></ReturnValue>
+			<Anchor>//api/name/colorSource</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/setColorSource:</TokenIdentifier>
+			<Abstract type="html">The color source is used to provide a different color for each datum.</Abstract>
+			<DeclaredIn>ContinuousSeries.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/colorSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setColorSource:(id&lt;TRColorSource&gt;)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new color source.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setColorSource:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/screenPositionToValue:</TokenIdentifier>
+			<Abstract type="html">Get the data value for the given screen position</Abstract>
+			<DeclaredIn>ContinuousSeries.h</DeclaredIn>
+			
+			<Declaration>- (TRCoordinates *)screenPositionToValue:(TRPoint *)screenPosition</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>screenPosition</Name>
+					<Abstract type="html">Screen position.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/screenPositionToValue:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/valueToScreenPosition:</TokenIdentifier>
+			<Abstract type="html">Get the screen position for the given data value</Abstract>
+			<DeclaredIn>ContinuousSeries.h</DeclaredIn>
+			
+			<Declaration>- (TRPoint *)valueToScreenPosition:(TRCoordinates *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">Data-space co-ordinates.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/valueToScreenPosition:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/getDatum:</TokenIdentifier>
+			<Abstract type="html">Get the datum with the provided index.</Abstract>
+			<DeclaredIn>ContinuousSeries.h</DeclaredIn>
+			
+			<Declaration>- (id)getDatum:(long)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Data source index</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/getDatum:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/interpolateDatum:</TokenIdentifier>
+			<Abstract type="html">Interpolate the datum value at the provided abscissa value.</Abstract>
+			<DeclaredIn>ContinuousSeries.h</DeclaredIn>
+			
+			<Declaration>- (id)interpolateDatum:(double)abscissa</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>abscissa</Name>
+					<Abstract type="html">Abscissa value</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/interpolateDatum:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/getIndexBeforeAbscissaValue:includeEqual:</TokenIdentifier>
+			<Abstract type="html">Get the datum index that appears before the provided abscissa value.</Abstract>
+			<DeclaredIn>ContinuousSeries.h</DeclaredIn>
+			
+			<Declaration>- (long)getIndexBeforeAbscissaValue:(double)abscissa includeEqual:(BOOL)includeEqual</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>abscissa</Name>
+					<Abstract type="html">Abscissa value</Abstract>
+				</Parameter><Parameter>
+					<Name>includeEqual</Name>
+					<Abstract type="html">If true, the last datum with an exactly equal abscissa value will be returned, if such a datum exists.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/getIndexBeforeAbscissaValue:includeEqual:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/getIndexAfterAbscissaValue:includeEqual:</TokenIdentifier>
+			<Abstract type="html">Get the datum index that appears after the provided abscissa value.</Abstract>
+			<DeclaredIn>ContinuousSeries.h</DeclaredIn>
+			
+			<Declaration>- (long)getIndexAfterAbscissaValue:(double)abscissa includeEqual:(BOOL)includeEqual</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>abscissa</Name>
+					<Abstract type="html">Abscissa value</Abstract>
+				</Parameter><Parameter>
+					<Name>includeEqual</Name>
+					<Abstract type="html">If true, the first datum with an exactly equal abscissa value will be returned, if such a datum exists.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/getIndexAfterAbscissaValue:includeEqual:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/getIndexNearestAbscissaValue:</TokenIdentifier>
+			<Abstract type="html">Get the datum index that appears nearest the provided abscissa value.</Abstract>
+			<DeclaredIn>ContinuousSeries.h</DeclaredIn>
+			
+			<Declaration>- (long)getIndexNearestAbscissaValue:(double)abscissa</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>abscissa</Name>
+					<Abstract type="html">Abscissa value</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/getIndexNearestAbscissaValue:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/getIndexNearestScreenPosition:</TokenIdentifier>
+			<Abstract type="html">Get the datum index that appears nearest the provided screen position.</Abstract>
+			<DeclaredIn>ContinuousSeries.h</DeclaredIn>
+			
+			<Declaration>- (long)getIndexNearestScreenPosition:(TRPoint *)screenPosition</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>screenPosition</Name>
+					<Abstract type="html">Screen position.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/getIndexNearestScreenPosition:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/getDatumSquaredDistanceToScreenPosition:screenPosition:</TokenIdentifier>
+			<Abstract type="html">Get the squared distance between the provided screen position and the datum
+at the provided index.</Abstract>
+			<DeclaredIn>ContinuousSeries.h</DeclaredIn>
+			
+			<Declaration>- (double)getDatumSquaredDistanceToScreenPosition:(long)index screenPosition:(TRPoint *)screenPosition</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Data source index</Abstract>
+				</Parameter><Parameter>
+					<Name>screenPosition</Name>
+					<Abstract type="html">Screen position.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/getDatumSquaredDistanceToScreenPosition:screenPosition:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRContinuousSeries/getOrdinateRangeWithinAbscissaRange:</TokenIdentifier>
+			<Abstract type="html">Return the range (min-max) of the ordinate (dependent) variable, in a given
+abscissa (independent) range.</Abstract>
+			<DeclaredIn>ContinuousSeries.h</DeclaredIn>
+			
+			<Declaration>- (TRRange *)getOrdinateRangeWithinAbscissaRange:(TRRange *)abscissaRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>abscissaRange</Name>
+					<Abstract type="html">Abscissa range (data co-ordinates).</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/getOrdinateRangeWithinAbscissaRange:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

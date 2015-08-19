@@ -1,0 +1,3 @@
+include ':app', ':TRChartsJava'
+
+project(':TRChartsJava').projectDir = new File('../TRChartsJava')

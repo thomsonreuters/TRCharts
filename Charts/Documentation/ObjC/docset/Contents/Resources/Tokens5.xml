@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRAttachable.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRAttachable</TokenIdentifier>
+			<Abstract type="html">Base class for all objects that can be attached to each other (eg a series
+can be attached to a chart)</Abstract>
+			<DeclaredIn>Attachable.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAttachable/attached</TokenIdentifier>
+			<Abstract type="html">True if this object is attached to a aprent</Abstract>
+			<DeclaredIn>Attachable.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)attached</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current attachment state.</Abstract></ReturnValue>
+			<Anchor>//api/name/attached</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAttachable/enabled</TokenIdentifier>
+			<Abstract type="html">If true, this object should have no effect on its parent (visual or
+otherwise)</Abstract>
+			<DeclaredIn>Attachable.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAttachable/setEnabled:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BOOL)enabled</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current enabled flag.</Abstract></ReturnValue>
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRAttachable/setEnabled:</TokenIdentifier>
+			<Abstract type="html">If true, this object should have no effect on its parent (visual or
+otherwise)</Abstract>
+			<DeclaredIn>Attachable.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRAttachable/enabled</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setEnabled:(BOOL)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new enabled flag.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setEnabled:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

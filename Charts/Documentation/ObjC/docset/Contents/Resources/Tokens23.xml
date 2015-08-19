@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRDataFittingAxisLayout.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRDataFittingAxisLayout</TokenIdentifier>
+			<Abstract type="html">An axis layout that tries to fit all available data into the visible area.</Abstract>
+			<DeclaredIn>DataFittingAxisLayout.h</DeclaredIn>
+            
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataFittingAxisLayout/rangeCalculator</TokenIdentifier>
+			<Abstract type="html">Assigning a range calculator is optional, if not supplied, the data range
+supplied by the axis will be used.</Abstract>
+			<DeclaredIn>DataFittingAxisLayout.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDataFittingAxisLayout/setRangeCalculator:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id&lt;TRRangeCalculator&gt;)rangeCalculator</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current rangeCalculator.</Abstract></ReturnValue>
+			<Anchor>//api/name/rangeCalculator</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataFittingAxisLayout/setRangeCalculator:</TokenIdentifier>
+			<Abstract type="html">Assigning a range calculator is optional, if not supplied, the data range
+supplied by the axis will be used.</Abstract>
+			<DeclaredIn>DataFittingAxisLayout.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDataFittingAxisLayout/rangeCalculator</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setRangeCalculator:(id&lt;TRRangeCalculator&gt;)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new rangeCalculator.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setRangeCalculator:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDataFittingAxisLayout/calculateTransform:dataRange:screenLength:renderTransform:</TokenIdentifier>
+			<Abstract type="html">Calculate layout transform for the axis</Abstract>
+			<DeclaredIn>DataFittingAxisLayout.h</DeclaredIn>
+			
+			<Declaration>- (TRDataTransform *)calculateTransform:(TRContinuousAxis *)axis dataRange:(TRRange *)dataRange screenLength:(double)screenLength renderTransform:(TRDataTransform *)renderTransform</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">Axis requiring layout</Abstract>
+				</Parameter><Parameter>
+					<Name>dataRange</Name>
+					<Abstract type="html">Data range for all series associated with the axis</Abstract>
+				</Parameter><Parameter>
+					<Name>screenLength</Name>
+					<Abstract type="html">Length of the axis, in screen co-ordinates</Abstract>
+				</Parameter><Parameter>
+					<Name>renderTransform</Name>
+					<Abstract type="html">Current offset transform (i.e. transform caused by panning and zooming).</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/calculateTransform:dataRange:screenLength:renderTransform:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRSeries.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRSeries</TokenIdentifier>
+			<Abstract type="html">This is an automatically generated wrapper around a native object;
+overriding methods will not work as expected.</Abstract>
+			<DeclaredIn>Series.h</DeclaredIn>
+            
+			
+			<NodeRef refid="56"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRSeries/ordinateAxis</TokenIdentifier>
+			<Abstract type="html">The ordinate axis is conventionally used to plot the dependent variable.</Abstract>
+			<DeclaredIn>Series.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRSeries/setOrdinateAxis:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRContinuousAxis *)ordinateAxis</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current ordinate axis.</Abstract></ReturnValue>
+			<Anchor>//api/name/ordinateAxis</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRSeries/setOrdinateAxis:</TokenIdentifier>
+			<Abstract type="html">The ordinate axis is conventionally used to plot the dependent variable.</Abstract>
+			<DeclaredIn>Series.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRSeries/ordinateAxis</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setOrdinateAxis:(TRContinuousAxis *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new ordinate axis.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setOrdinateAxis:</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRSeries/color</TokenIdentifier>
+			<Abstract type="html">Base color for the visual representation of the series.</Abstract>
+			<DeclaredIn>Series.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRSeries/setColor:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRColor *)color</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current color.</Abstract></ReturnValue>
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRSeries/setColor:</TokenIdentifier>
+			<Abstract type="html">Base color for the visual representation of the series.</Abstract>
+			<DeclaredIn>Series.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRSeries/color</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setColor:(TRColor *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setColor:</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRSeries/markDirty</TokenIdentifier>
+			<Abstract type="html">Mark the whole data range as dirty.</Abstract>
+			<DeclaredIn>Series.h</DeclaredIn>
+			
+			<Declaration>- (void)markDirty</Declaration>
+			
+			
+			<Anchor>//api/name/markDirty</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRSeries/markRangeDirty:</TokenIdentifier>
+			<Abstract type="html">Mark a range of datums as dirty (requiring reload in next update/draw).</Abstract>
+			<DeclaredIn>Series.h</DeclaredIn>
+			
+			<Declaration>- (void)markRangeDirty:(TRIndexRange *)range</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>range</Name>
+					<Abstract type="html">Data source range to mark</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/markRangeDirty:</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

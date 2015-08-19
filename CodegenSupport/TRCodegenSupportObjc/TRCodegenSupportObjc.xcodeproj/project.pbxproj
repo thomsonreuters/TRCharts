@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D94F112118CF652200F7D267 /* BaseObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = D94F111318CF591E00F7D267 /* BaseObject.mm */; };
+		D94F11A918CF7E5300F7D267 /* BaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D94F111218CF590F00F7D267 /* BaseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94F11AA18CF7E5300F7D267 /* BooleanMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D95F773C18CE14E40048CF22 /* BooleanMarshaller.hh */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94F11AB18CF7E5300F7D267 /* Common.hh in Headers */ = {isa = PBXBuildFile; fileRef = D95F773E18CE14E40048CF22 /* Common.hh */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94F11AC18CF7E5300F7D267 /* EnumMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D95F774018CE14E40048CF22 /* EnumMarshaller.hh */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94F11AD18CF7E5300F7D267 /* Handle.hh in Headers */ = {isa = PBXBuildFile; fileRef = D95F774118CE14E40048CF22 /* Handle.hh */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94F11AE18CF7E5300F7D267 /* IntegerMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D95F774318CE14E40048CF22 /* IntegerMarshaller.hh */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94F11AF18CF7E5300F7D267 /* ListMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D95F774518CE14E40048CF22 /* ListMarshaller.hh */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94F11B018CF7E5300F7D267 /* NumberMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D95F774718CE14E40048CF22 /* NumberMarshaller.hh */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94F11B118CF7E5300F7D267 /* ObjectMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D95F774918CE14E40048CF22 /* ObjectMarshaller.hh */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94F11B218CF7E5300F7D267 /* StringMarshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D95F774A18CE14E40048CF22 /* StringMarshaller.hh */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94F11B318CF7E6100F7D267 /* Marshaller.hh in Headers */ = {isa = PBXBuildFile; fileRef = D95F774618CE14E40048CF22 /* Marshaller.hh */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94F11CE18CF859A00F7D267 /* libTRCodegenSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D94F11CB18CF858F00F7D267 /* libTRCodegenSupport.a */; };
+		D95F771718CE14A40048CF22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95F771618CE14A40048CF22 /* Foundation.framework */; };
+		D95F772518CE14A40048CF22 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95F772418CE14A40048CF22 /* XCTest.framework */; };
+		D95F772618CE14A40048CF22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95F771618CE14A40048CF22 /* Foundation.framework */; };
+		D95F772818CE14A40048CF22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95F772718CE14A40048CF22 /* UIKit.framework */; };
+		D95F772B18CE14A40048CF22 /* libTRCodegenSupportObjc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D95F771318CE14A40048CF22 /* libTRCodegenSupportObjc.a */; };
+		D95F773118CE14A40048CF22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D95F772F18CE14A40048CF22 /* InfoPlist.strings */; };
+		D95F773318CE14A40048CF22 /* TRCodegenSupportObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D95F773218CE14A40048CF22 /* TRCodegenSupportObjcTests.m */; };
+		D95F774C18CE14E40048CF22 /* BooleanMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D95F773D18CE14E40048CF22 /* BooleanMarshaller.mm */; };
+		D95F774D18CE14E40048CF22 /* Common.mm in Sources */ = {isa = PBXBuildFile; fileRef = D95F773F18CE14E40048CF22 /* Common.mm */; };
+		D95F774E18CE14E40048CF22 /* Handle.mm in Sources */ = {isa = PBXBuildFile; fileRef = D95F774218CE14E40048CF22 /* Handle.mm */; };
+		D95F774F18CE14E40048CF22 /* IntegerMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D95F774418CE14E40048CF22 /* IntegerMarshaller.mm */; };
+		D95F775018CE14E40048CF22 /* NumberMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D95F774818CE14E40048CF22 /* NumberMarshaller.mm */; };
+		D95F775118CE14E40048CF22 /* StringMarshaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = D95F774B18CE14E40048CF22 /* StringMarshaller.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D94F11CA18CF858F00F7D267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D94F11C518CF858F00F7D267 /* TRCodegenSupport.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D95F76E118CE145D0048CF22;
+			remoteInfo = TRCodegenSupport;
+		};
+		D94F11CC18CF858F00F7D267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D94F11C518CF858F00F7D267 /* TRCodegenSupport.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D95F76F118CE145D0048CF22;
+			remoteInfo = TRCodegenSupportTests;
+		};
+		D94F11CF18CF859E00F7D267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D94F11C518CF858F00F7D267 /* TRCodegenSupport.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D95F76E018CE145D0048CF22;
+			remoteInfo = TRCodegenSupport;
+		};
+		D95F772918CE14A40048CF22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D95F770B18CE14A40048CF22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D95F771218CE14A40048CF22;
+			remoteInfo = TRCodegenSupportObjc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D95F771118CE14A40048CF22 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D94F111218CF590F00F7D267 /* BaseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseObject.h; sourceTree = "<group>"; };
+		D94F111318CF591E00F7D267 /* BaseObject.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseObject.mm; sourceTree = "<group>"; };
+		D94F11C518CF858F00F7D267 /* TRCodegenSupport.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TRCodegenSupport.xcodeproj; path = ../TRCodegenSupport/TRCodegenSupport.xcodeproj; sourceTree = "<group>"; };
+		D95F771318CE14A40048CF22 /* libTRCodegenSupportObjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTRCodegenSupportObjc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95F771618CE14A40048CF22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D95F771A18CE14A40048CF22 /* TRCodegenSupportObjc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TRCodegenSupportObjc-Prefix.pch"; sourceTree = "<group>"; };
+		D95F772318CE14A40048CF22 /* TRCodegenSupportObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRCodegenSupportObjcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95F772418CE14A40048CF22 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D95F772718CE14A40048CF22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D95F772E18CE14A40048CF22 /* TRCodegenSupportObjcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TRCodegenSupportObjcTests-Info.plist"; sourceTree = "<group>"; };
+		D95F773018CE14A40048CF22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D95F773218CE14A40048CF22 /* TRCodegenSupportObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRCodegenSupportObjcTests.m; sourceTree = "<group>"; };
+		D95F773C18CE14E40048CF22 /* BooleanMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BooleanMarshaller.hh; sourceTree = "<group>"; };
+		D95F773D18CE14E40048CF22 /* BooleanMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BooleanMarshaller.mm; sourceTree = "<group>"; };
+		D95F773E18CE14E40048CF22 /* Common.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Common.hh; sourceTree = "<group>"; };
+		D95F773F18CE14E40048CF22 /* Common.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Common.mm; sourceTree = "<group>"; };
+		D95F774018CE14E40048CF22 /* EnumMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EnumMarshaller.hh; sourceTree = "<group>"; };
+		D95F774118CE14E40048CF22 /* Handle.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Handle.hh; sourceTree = "<group>"; };
+		D95F774218CE14E40048CF22 /* Handle.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Handle.mm; sourceTree = "<group>"; };
+		D95F774318CE14E40048CF22 /* IntegerMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IntegerMarshaller.hh; sourceTree = "<group>"; };
+		D95F774418CE14E40048CF22 /* IntegerMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IntegerMarshaller.mm; sourceTree = "<group>"; };
+		D95F774518CE14E40048CF22 /* ListMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ListMarshaller.hh; sourceTree = "<group>"; };
+		D95F774618CE14E40048CF22 /* Marshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Marshaller.hh; sourceTree = "<group>"; };
+		D95F774718CE14E40048CF22 /* NumberMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NumberMarshaller.hh; sourceTree = "<group>"; };
+		D95F774818CE14E40048CF22 /* NumberMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NumberMarshaller.mm; sourceTree = "<group>"; };
+		D95F774918CE14E40048CF22 /* ObjectMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ObjectMarshaller.hh; sourceTree = "<group>"; };
+		D95F774A18CE14E40048CF22 /* StringMarshaller.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StringMarshaller.hh; sourceTree = "<group>"; };
+		D95F774B18CE14E40048CF22 /* StringMarshaller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StringMarshaller.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D95F771018CE14A40048CF22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94F11CE18CF859A00F7D267 /* libTRCodegenSupport.a in Frameworks */,
+				D95F771718CE14A40048CF22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95F772018CE14A40048CF22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95F772518CE14A40048CF22 /* XCTest.framework in Frameworks */,
+				D95F772B18CE14A40048CF22 /* libTRCodegenSupportObjc.a in Frameworks */,
+				D95F772818CE14A40048CF22 /* UIKit.framework in Frameworks */,
+				D95F772618CE14A40048CF22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D94F11C618CF858F00F7D267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D94F11CB18CF858F00F7D267 /* libTRCodegenSupport.a */,
+				D94F11CD18CF858F00F7D267 /* TRCodegenSupportTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D95F770A18CE14A40048CF22 = {
+			isa = PBXGroup;
+			children = (
+				D95F771818CE14A40048CF22 /* TRCodegenSupportObjc */,
+				D95F772C18CE14A40048CF22 /* TRCodegenSupportObjcTests */,
+				D95F771518CE14A40048CF22 /* Frameworks */,
+				D95F771418CE14A40048CF22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D95F771418CE14A40048CF22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D95F771318CE14A40048CF22 /* libTRCodegenSupportObjc.a */,
+				D95F772318CE14A40048CF22 /* TRCodegenSupportObjcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D95F771518CE14A40048CF22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D94F11C518CF858F00F7D267 /* TRCodegenSupport.xcodeproj */,
+				D95F771618CE14A40048CF22 /* Foundation.framework */,
+				D95F772418CE14A40048CF22 /* XCTest.framework */,
+				D95F772718CE14A40048CF22 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D95F771818CE14A40048CF22 /* TRCodegenSupportObjc */ = {
+			isa = PBXGroup;
+			children = (
+				D94F111218CF590F00F7D267 /* BaseObject.h */,
+				D94F111318CF591E00F7D267 /* BaseObject.mm */,
+				D95F773C18CE14E40048CF22 /* BooleanMarshaller.hh */,
+				D95F773D18CE14E40048CF22 /* BooleanMarshaller.mm */,
+				D95F773E18CE14E40048CF22 /* Common.hh */,
+				D95F773F18CE14E40048CF22 /* Common.mm */,
+				D95F774018CE14E40048CF22 /* EnumMarshaller.hh */,
+				D95F774118CE14E40048CF22 /* Handle.hh */,
+				D95F774218CE14E40048CF22 /* Handle.mm */,
+				D95F774318CE14E40048CF22 /* IntegerMarshaller.hh */,
+				D95F774418CE14E40048CF22 /* IntegerMarshaller.mm */,
+				D95F774518CE14E40048CF22 /* ListMarshaller.hh */,
+				D95F774618CE14E40048CF22 /* Marshaller.hh */,
+				D95F774718CE14E40048CF22 /* NumberMarshaller.hh */,
+				D95F774818CE14E40048CF22 /* NumberMarshaller.mm */,
+				D95F774918CE14E40048CF22 /* ObjectMarshaller.hh */,
+				D95F774A18CE14E40048CF22 /* StringMarshaller.hh */,
+				D95F774B18CE14E40048CF22 /* StringMarshaller.mm */,
+				D95F771918CE14A40048CF22 /* Supporting Files */,
+			);
+			path = TRCodegenSupportObjc;
+			sourceTree = "<group>";
+		};
+		D95F771918CE14A40048CF22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D95F771A18CE14A40048CF22 /* TRCodegenSupportObjc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D95F772C18CE14A40048CF22 /* TRCodegenSupportObjcTests */ = {
+			isa = PBXGroup;
+			children = (
+				D95F773218CE14A40048CF22 /* TRCodegenSupportObjcTests.m */,
+				D95F772D18CE14A40048CF22 /* Supporting Files */,
+			);
+			path = TRCodegenSupportObjcTests;
+			sourceTree = "<group>";
+		};
+		D95F772D18CE14A40048CF22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D95F772E18CE14A40048CF22 /* TRCodegenSupportObjcTests-Info.plist */,
+				D95F772F18CE14A40048CF22 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D94F11A818CF7E3F00F7D267 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94F11A918CF7E5300F7D267 /* BaseObject.h in Headers */,
+				D94F11AA18CF7E5300F7D267 /* BooleanMarshaller.hh in Headers */,
+				D94F11AB18CF7E5300F7D267 /* Common.hh in Headers */,
+				D94F11AC18CF7E5300F7D267 /* EnumMarshaller.hh in Headers */,
+				D94F11AD18CF7E5300F7D267 /* Handle.hh in Headers */,
+				D94F11AE18CF7E5300F7D267 /* IntegerMarshaller.hh in Headers */,
+				D94F11AF18CF7E5300F7D267 /* ListMarshaller.hh in Headers */,
+				D94F11B018CF7E5300F7D267 /* NumberMarshaller.hh in Headers */,
+				D94F11B118CF7E5300F7D267 /* ObjectMarshaller.hh in Headers */,
+				D94F11B218CF7E5300F7D267 /* StringMarshaller.hh in Headers */,
+				D94F11B318CF7E6100F7D267 /* Marshaller.hh in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D95F771218CE14A40048CF22 /* TRCodegenSupportObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95F773618CE14A40048CF22 /* Build configuration list for PBXNativeTarget "TRCodegenSupportObjc" */;
+			buildPhases = (
+				D95F770F18CE14A40048CF22 /* Sources */,
+				D95F771018CE14A40048CF22 /* Frameworks */,
+				D95F771118CE14A40048CF22 /* CopyFiles */,
+				D94F11A818CF7E3F00F7D267 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D94F11D018CF859E00F7D267 /* PBXTargetDependency */,
+			);
+			name = TRCodegenSupportObjc;
+			productName = TRCodegenSupportObjc;
+			productReference = D95F771318CE14A40048CF22 /* libTRCodegenSupportObjc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D95F772218CE14A40048CF22 /* TRCodegenSupportObjcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95F773918CE14A40048CF22 /* Build configuration list for PBXNativeTarget "TRCodegenSupportObjcTests" */;
+			buildPhases = (
+				D95F771F18CE14A40048CF22 /* Sources */,
+				D95F772018CE14A40048CF22 /* Frameworks */,
+				D95F772118CE14A40048CF22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D95F772A18CE14A40048CF22 /* PBXTargetDependency */,
+			);
+			name = TRCodegenSupportObjcTests;
+			productName = TRCodegenSupportObjcTests;
+			productReference = D95F772318CE14A40048CF22 /* TRCodegenSupportObjcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D95F770B18CE14A40048CF22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Thomson Reuters";
+			};
+			buildConfigurationList = D95F770E18CE14A40048CF22 /* Build configuration list for PBXProject "TRCodegenSupportObjc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D95F770A18CE14A40048CF22;
+			productRefGroup = D95F771418CE14A40048CF22 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D94F11C618CF858F00F7D267 /* Products */;
+					ProjectRef = D94F11C518CF858F00F7D267 /* TRCodegenSupport.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D95F771218CE14A40048CF22 /* TRCodegenSupportObjc */,
+				D95F772218CE14A40048CF22 /* TRCodegenSupportObjcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D94F11CB18CF858F00F7D267 /* libTRCodegenSupport.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTRCodegenSupport.a;
+			remoteRef = D94F11CA18CF858F00F7D267 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D94F11CD18CF858F00F7D267 /* TRCodegenSupportTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TRCodegenSupportTests.xctest;
+			remoteRef = D94F11CC18CF858F00F7D267 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D95F772118CE14A40048CF22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95F773118CE14A40048CF22 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D95F770F18CE14A40048CF22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94F112118CF652200F7D267 /* BaseObject.mm in Sources */,
+				D95F774E18CE14E40048CF22 /* Handle.mm in Sources */,
+				D95F775118CE14E40048CF22 /* StringMarshaller.mm in Sources */,
+				D95F774F18CE14E40048CF22 /* IntegerMarshaller.mm in Sources */,
+				D95F774D18CE14E40048CF22 /* Common.mm in Sources */,
+				D95F774C18CE14E40048CF22 /* BooleanMarshaller.mm in Sources */,
+				D95F775018CE14E40048CF22 /* NumberMarshaller.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95F771F18CE14A40048CF22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95F773318CE14A40048CF22 /* TRCodegenSupportObjcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D94F11D018CF859E00F7D267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRCodegenSupport;
+			targetProxy = D94F11CF18CF859E00F7D267 /* PBXContainerItemProxy */;
+		};
+		D95F772A18CE14A40048CF22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D95F771218CE14A40048CF22 /* TRCodegenSupportObjc */;
+			targetProxy = D95F772918CE14A40048CF22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D95F772F18CE14A40048CF22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D95F773018CE14A40048CF22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D95F773418CE14A40048CF22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					.,
+					../TRCodegenSupport,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D95F773518CE14A40048CF22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					.,
+					../TRCodegenSupport,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D95F773718CE14A40048CF22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TRCodegenSupportObjc.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRCodegenSupportObjc/TRCodegenSupportObjc-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D95F773818CE14A40048CF22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TRCodegenSupportObjc.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRCodegenSupportObjc/TRCodegenSupportObjc-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D95F773A18CE14A40048CF22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRCodegenSupportObjc/TRCodegenSupportObjc-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TRCodegenSupportObjcTests/TRCodegenSupportObjcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D95F773B18CE14A40048CF22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRCodegenSupportObjc/TRCodegenSupportObjc-Prefix.pch";
+				INFOPLIST_FILE = "TRCodegenSupportObjcTests/TRCodegenSupportObjcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D95F770E18CE14A40048CF22 /* Build configuration list for PBXProject "TRCodegenSupportObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95F773418CE14A40048CF22 /* Debug */,
+				D95F773518CE14A40048CF22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95F773618CE14A40048CF22 /* Build configuration list for PBXNativeTarget "TRCodegenSupportObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95F773718CE14A40048CF22 /* Debug */,
+				D95F773818CE14A40048CF22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95F773918CE14A40048CF22 /* Build configuration list for PBXNativeTarget "TRCodegenSupportObjcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95F773A18CE14A40048CF22 /* Debug */,
+				D95F773B18CE14A40048CF22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D95F770B18CE14A40048CF22 /* Project object */;
+}

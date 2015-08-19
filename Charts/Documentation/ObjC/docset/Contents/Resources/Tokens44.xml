@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRNumberAxis.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRNumberAxis</TokenIdentifier>
+			<Abstract type="html">An axis that displays uniformly spaced (linear) number ticks.</Abstract>
+			<DeclaredIn>NumberAxis.h</DeclaredIn>
+            
+			
+			<NodeRef refid="44"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRNumberAxis/tickCalculator</TokenIdentifier>
+			<Abstract type="html">The current tick calculator.</Abstract>
+			<DeclaredIn>NumberAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRNumberAxis/setTickCalculator:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id&lt;TRNumberTickCalculator&gt;)tickCalculator</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current tick calculator.</Abstract></ReturnValue>
+			<Anchor>//api/name/tickCalculator</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRNumberAxis/setTickCalculator:</TokenIdentifier>
+			<Abstract type="html">The new tick calculator.</Abstract>
+			<DeclaredIn>NumberAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRNumberAxis/tickCalculator</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTickCalculator:(id&lt;TRNumberTickCalculator&gt;)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new tick calculator.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTickCalculator:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRNumberAxis/tickInterval</TokenIdentifier>
+			<Abstract type="html">The current tick interval.</Abstract>
+			<DeclaredIn>NumberAxis.h</DeclaredIn>
+			
+			<Declaration>- (double)tickInterval</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current tick interval.</Abstract></ReturnValue>
+			<Anchor>//api/name/tickInterval</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

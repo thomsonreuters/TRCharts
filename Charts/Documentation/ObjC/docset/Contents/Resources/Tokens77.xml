@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TRRangeCalculator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TRRangeCalculator</TokenIdentifier>
+			<Abstract type="html">A range calculator is used to define the default range of a data series. It
+is axis-specific.</Abstract>
+			<DeclaredIn>RangeCalculator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="77"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRRangeCalculator/calculateRange:</TokenIdentifier>
+			<Abstract type="html">Calculate the output data range</Abstract>
+			<DeclaredIn>RangeCalculator.h</DeclaredIn>
+			
+			<Declaration>- (TRRange *)calculateRange:(TRRange *)dataRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataRange</Name>
+					<Abstract type="html">Input data range</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/calculateRange:</Anchor>
+            <NodeRef refid="77"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

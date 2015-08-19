@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TRLineStyleSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TRLineStyleSource</TokenIdentifier>
+			<Abstract type="html">Provides a means to override the line style for each displayed datum.</Abstract>
+			<DeclaredIn>LineStyleSource.h</DeclaredIn>
+            
+			
+			<NodeRef refid="73"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRLineStyleSource/getLineStyles:range:defaultLineStyle:</TokenIdentifier>
+			<Abstract type="html">Override to return the datum line styles for the requested range</Abstract>
+			<DeclaredIn>LineStyleSource.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)getLineStyles:(TRSeries *)series range:(TRIndexRange *)range defaultLineStyle:(TRLineStyle *)defaultLineStyle</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>series</Name>
+					<Abstract type="html">Requesting series.</Abstract>
+				</Parameter><Parameter>
+					<Name>range</Name>
+					<Abstract type="html">Requested index range.</Abstract>
+				</Parameter><Parameter>
+					<Name>defaultLineStyle</Name>
+					<Abstract type="html">Base line style</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/getLineStyles:range:defaultLineStyle:</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

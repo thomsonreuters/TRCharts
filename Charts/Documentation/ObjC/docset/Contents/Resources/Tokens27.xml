@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRDateAxis.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRDateAxis</TokenIdentifier>
+			<Abstract type="html">An axis that displays date ticks.</Abstract>
+			<DeclaredIn>DateAxis.h</DeclaredIn>
+            
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDateAxis/offsetSeconds</TokenIdentifier>
+			<Abstract type="html">The current offset from UTC.</Abstract>
+			<DeclaredIn>DateAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDateAxis/setOffsetSeconds:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (double)offsetSeconds</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current offset from UTC.</Abstract></ReturnValue>
+			<Anchor>//api/name/offsetSeconds</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDateAxis/setOffsetSeconds:</TokenIdentifier>
+			<Abstract type="html">The new offset from UTC.</Abstract>
+			<DeclaredIn>DateAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDateAxis/offsetSeconds</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setOffsetSeconds:(double)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new offset from UTC.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setOffsetSeconds:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDateAxis/tickFormatter</TokenIdentifier>
+			<Abstract type="html">The current tick formatter.</Abstract>
+			<DeclaredIn>DateAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDateAxis/setTickFormatter:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id&lt;TRDateFormatter&gt;)tickFormatter</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current tick formatter.</Abstract></ReturnValue>
+			<Anchor>//api/name/tickFormatter</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDateAxis/setTickFormatter:</TokenIdentifier>
+			<Abstract type="html">The new tick formatter.</Abstract>
+			<DeclaredIn>DateAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDateAxis/tickFormatter</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTickFormatter:(id&lt;TRDateFormatter&gt;)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new tick formatter.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTickFormatter:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDateAxis/tickCalculator</TokenIdentifier>
+			<Abstract type="html">The current tick calculator.</Abstract>
+			<DeclaredIn>DateAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDateAxis/setTickCalculator:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id&lt;TRDateTickCalculator&gt;)tickCalculator</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current tick calculator.</Abstract></ReturnValue>
+			<Anchor>//api/name/tickCalculator</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDateAxis/setTickCalculator:</TokenIdentifier>
+			<Abstract type="html">The new tick calculator.</Abstract>
+			<DeclaredIn>DateAxis.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRDateAxis/tickCalculator</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setTickCalculator:(id&lt;TRDateTickCalculator&gt;)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new tick calculator.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setTickCalculator:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRDateAxis/tickInterval</TokenIdentifier>
+			<Abstract type="html">The current tick interval.</Abstract>
+			<DeclaredIn>DateAxis.h</DeclaredIn>
+			
+			<Declaration>- (TRDateInterval *)tickInterval</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current tick interval.</Abstract></ReturnValue>
+			<Anchor>//api/name/tickInterval</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

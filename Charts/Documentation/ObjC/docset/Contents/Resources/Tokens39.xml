@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRLabel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRLabel</TokenIdentifier>
+			<Abstract type="html">Combines a text value and its visual style.</Abstract>
+			<DeclaredIn>Label.h</DeclaredIn>
+            
+			
+			<NodeRef refid="39"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLabel/text</TokenIdentifier>
+			<Abstract type="html">The current label text.</Abstract>
+			<DeclaredIn>Label.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLabel/setText:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (NSString *)text</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current label text.</Abstract></ReturnValue>
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLabel/setText:</TokenIdentifier>
+			<Abstract type="html">The new label text.</Abstract>
+			<DeclaredIn>Label.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLabel/text</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setText:(NSString *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new label text.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setText:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLabel/color</TokenIdentifier>
+			<Abstract type="html">The current label color.</Abstract>
+			<DeclaredIn>Label.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLabel/setColor:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRColor *)color</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current label color.</Abstract></ReturnValue>
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLabel/setColor:</TokenIdentifier>
+			<Abstract type="html">The new label color.</Abstract>
+			<DeclaredIn>Label.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLabel/color</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setColor:(TRColor *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new label color.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setColor:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLabel/font</TokenIdentifier>
+			<Abstract type="html">The current label font.</Abstract>
+			<DeclaredIn>Label.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLabel/setFont:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRFont *)font</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current label font.</Abstract></ReturnValue>
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLabel/setFont:</TokenIdentifier>
+			<Abstract type="html">The new label font.</Abstract>
+			<DeclaredIn>Label.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLabel/font</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setFont:(TRFont *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new label font.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setFont:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLabel/margin</TokenIdentifier>
+			<Abstract type="html">Per-edge margin (can be used to offset the label from its draw area)</Abstract>
+			<DeclaredIn>Label.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLabel/setMargin:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRMargin *)margin</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current label margin.</Abstract></ReturnValue>
+			<Anchor>//api/name/margin</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLabel/setMargin:</TokenIdentifier>
+			<Abstract type="html">Per-edge margin (can be used to offset the label from its draw area)</Abstract>
+			<DeclaredIn>Label.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLabel/margin</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setMargin:(TRMargin *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new label margin.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setMargin:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLabel/size</TokenIdentifier>
+			<Abstract type="html">Size of the label in points, must be specified explicitly for correct layout</Abstract>
+			<DeclaredIn>Label.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLabel/setSize:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (TRSize *)size</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current label size.</Abstract></ReturnValue>
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRLabel/setSize:</TokenIdentifier>
+			<Abstract type="html">Size of the label in points, must be specified explicitly for correct layout</Abstract>
+			<DeclaredIn>Label.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/TRLabel/size</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setSize:(TRSize *)value</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>value</Name>
+					<Abstract type="html">The new label size.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setSize:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

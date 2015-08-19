@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TRPerUnitDateFormatter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TRPerUnitDateFormatter</TokenIdentifier>
+			<Abstract type="html">Format a date differently for the closest unit.</Abstract>
+			<DeclaredIn>PerUnitDateFormatter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="48"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPerUnitDateFormatter/setUnitFormat:format:</TokenIdentifier>
+			<Abstract type="html">Set the per-unit format string</Abstract>
+			<DeclaredIn>PerUnitDateFormatter.h</DeclaredIn>
+			
+			<Declaration>- (void)setUnitFormat:(TRDateUnit)unit format:(NSString *)format</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>unit</Name>
+					<Abstract type="html">Relevant unit</Abstract>
+				</Parameter><Parameter>
+					<Name>format</Name>
+					<Abstract type="html">Format string (in either platform format or c-standard library format, depending on syntax parameter)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setUnitFormat:format:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPerUnitDateFormatter/getUnitFormat:</TokenIdentifier>
+			<Abstract type="html">Get the per-unit format string (returns the empty string if no format set for
+this unit)</Abstract>
+			<DeclaredIn>PerUnitDateFormatter.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)getUnitFormat:(TRDateUnit)unit</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>unit</Name>
+					<Abstract type="html">Relevant unit</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/getUnitFormat:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPerUnitDateFormatter/setZeroUnitFormat:format:</TokenIdentifier>
+			<Abstract type="html">Set the per-unit-zero format string (used when values below the unit are
+zero)</Abstract>
+			<DeclaredIn>PerUnitDateFormatter.h</DeclaredIn>
+			
+			<Declaration>- (void)setZeroUnitFormat:(TRDateUnit)unit format:(NSString *)format</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>unit</Name>
+					<Abstract type="html">Relevant unit</Abstract>
+				</Parameter><Parameter>
+					<Name>format</Name>
+					<Abstract type="html">Format string (in either platform format or c-standard library format, depending on syntax parameter)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setZeroUnitFormat:format:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TRPerUnitDateFormatter/getZeroUnitFormat:</TokenIdentifier>
+			<Abstract type="html">Get the per-unit-zero format string (returns the empty string if no format
+set for this unit)</Abstract>
+			<DeclaredIn>PerUnitDateFormatter.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)getZeroUnitFormat:(TRDateUnit)unit</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>unit</Name>
+					<Abstract type="html">Relevant unit</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/getZeroUnitFormat:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

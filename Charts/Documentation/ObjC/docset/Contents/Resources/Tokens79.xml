@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TRDateUnit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TRDateUnit</TokenIdentifier>
+			<Abstract type="html">Unit for date calcualations and display</Abstract>
+			<DeclaredIn>DateUnit.h</DeclaredIn>
+            
+			
+			<NodeRef refid="79"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_DATEUNIT_SECOND</TokenIdentifier>
+            <Abstract type="html">Seconds
+	 </Abstract>
+            <Declaration>TR_DATEUNIT_SECOND</Declaration>
+            
+            <DeclaredIn>DateUnit.h</DeclaredIn>
+            
+            <NodeRef refid="79"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_DATEUNIT_MINUTE</TokenIdentifier>
+            <Abstract type="html">Minutes
+	 </Abstract>
+            <Declaration>TR_DATEUNIT_MINUTE</Declaration>
+            
+            <DeclaredIn>DateUnit.h</DeclaredIn>
+            
+            <NodeRef refid="79"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_DATEUNIT_HOUR</TokenIdentifier>
+            <Abstract type="html">Hours
+	 </Abstract>
+            <Declaration>TR_DATEUNIT_HOUR</Declaration>
+            
+            <DeclaredIn>DateUnit.h</DeclaredIn>
+            
+            <NodeRef refid="79"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_DATEUNIT_DAY</TokenIdentifier>
+            <Abstract type="html">Days
+	 </Abstract>
+            <Declaration>TR_DATEUNIT_DAY</Declaration>
+            
+            <DeclaredIn>DateUnit.h</DeclaredIn>
+            
+            <NodeRef refid="79"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_DATEUNIT_MONTH</TokenIdentifier>
+            <Abstract type="html">Months
+	 </Abstract>
+            <Declaration>TR_DATEUNIT_MONTH</Declaration>
+            
+            <DeclaredIn>DateUnit.h</DeclaredIn>
+            
+            <NodeRef refid="79"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/TR_DATEUNIT_YEAR</TokenIdentifier>
+            <Abstract type="html">Years
+	 </Abstract>
+            <Declaration>TR_DATEUNIT_YEAR</Declaration>
+            
+            <DeclaredIn>DateUnit.h</DeclaredIn>
+            
+            <NodeRef refid="79"/>
+        </Token>
+        
+	</File>
+</Tokens>

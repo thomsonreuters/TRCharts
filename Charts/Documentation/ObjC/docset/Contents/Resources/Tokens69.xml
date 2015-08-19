@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TRConstraintBehaviour.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TRConstraintBehaviour</TokenIdentifier>
+			<Abstract type="html">Provides the ability to adjust the charts transform after any movement event.</Abstract>
+			<DeclaredIn>ConstraintBehaviour.h</DeclaredIn>
+            
+			
+			<NodeRef refid="69"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TRConstraintBehaviour/apply:size:transform:</TokenIdentifier>
+			<Abstract type="html">Called whenever the chart&apos;s transform is changed externally, the actual
+transform will be overwriten with the return value.</Abstract>
+			<DeclaredIn>ConstraintBehaviour.h</DeclaredIn>
+			
+			<Declaration>- (TRTransform *)apply:(TRChart *)chart size:(TRSize *)size transform:(TRTransform *)transform</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>chart</Name>
+					<Abstract type="html">Current chart</Abstract>
+				</Parameter><Parameter>
+					<Name>size</Name>
+					<Abstract type="html">Screen-space size of the chart</Abstract>
+				</Parameter><Parameter>
+					<Name>transform</Name>
+					<Abstract type="html">Screen-space transform</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The result.</Abstract></ReturnValue>
+			<Anchor>//api/name/apply:size:transform:</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>
