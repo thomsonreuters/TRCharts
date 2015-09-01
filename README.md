@@ -6,6 +6,15 @@ One of the project goals is that library development and use feels idiomatic to 
 
 Check the [Wiki](https://github.com/thomsonreuters/TRCharts/wiki) for information about configuration of the sample sandbox apps, and how you can contribute to the project.
 
+![Example](./screenshot1.jpeg)
+Copyright 2013 Thomson Reuters
+
+![Example](./screenshot2.jpeg)
+Copyright 2013 Thomson Reuters
+
+![Example](./screenshot3.jpeg)
+Copyright 2013 Thomson Reuters
+
 ##Chart components
 
 ###Chart
@@ -354,13 +363,17 @@ There is a small, hand-written C++ and Objective C support library that provides
 For the Java/JNI environment, there is no support library; this is an omission (more focus was put on the ObjC environment). In this case, the ‘common’ definitions are generated for every codegen project in a unique package.
 
 ##Contact
-Francisco Estevez - General, Android - francisco.estevezgarcia@thomsonreuters.com
+Matt Evans - General, OpenGL, Codegen - matt@arcneon.com
+
+Francisco Estevez - Gobernance, Android - francisco.estevezgarcia@thomsonreuters.com
 
 Martin Lloyd - iOS - martin.lloyd@thomsonreuters.com
 
 Francisco M. Pereira - iOS - francisco.pereira@thomsonreuters.com
 
 ##License
+Copyright 2015 Thomson Reuters
+
 The Apache Software License, Version 2.0
 
 See LICENSE.md
