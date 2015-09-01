@@ -362,7 +362,7 @@ For the Java/JNI environment, there is no support library; this is an omission (
 ##Contact
 Matt Evans - General, OpenGL, Codegen - matt@arcneon.com
 
-Francisco Estevez - Gobernance, Android - francisco.estevezgarcia@thomsonreuters.com
+Francisco Estevez - Governance, Android - francisco.estevezgarcia@thomsonreuters.com
 
 Martin Lloyd - iOS - martin.lloyd@thomsonreuters.com
 
