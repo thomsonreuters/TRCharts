@@ -10,7 +10,7 @@ Check the [Wiki](https://github.com/thomsonreuters/TRCharts/wiki) for informatio
 
 Copyright 2013 Thomson Reuters
 
-![Example](./screenshotAndroid.jpeg)
+![Example](./screenshotAndroid.png)
 
 ##Chart components
 
