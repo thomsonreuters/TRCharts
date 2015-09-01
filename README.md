@@ -7,12 +7,15 @@ One of the project goals is that library development and use feels idiomatic to 
 Check the [Wiki](https://github.com/thomsonreuters/TRCharts/wiki) for information about configuration of the sample sandbox apps, and how you can contribute to the project.
 
 ![Example](./screenshot1.jpeg)
+
 Copyright 2013 Thomson Reuters
 
 ![Example](./screenshot2.jpeg)
+
 Copyright 2013 Thomson Reuters
 
 ![Example](./screenshot3.jpeg)
+
 Copyright 2013 Thomson Reuters
 
 ##Chart components
